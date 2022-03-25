@@ -1,0 +1,22 @@
+{
+  "name": "@sensoro-design/icons-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "inline-svg",
+    "inline-namespaced-svg"
+  ],
+  "scripts": {
+    "generate": "esno ./scripts/generate.ts",
+    "build:clean": "esno ./scripts/buildClean.ts",
+    "build:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
+    "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
+    "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib"
+  },
+  "license": "MIT"
+}

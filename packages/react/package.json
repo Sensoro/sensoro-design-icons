@@ -1,0 +1,30 @@
+{
+  "name": "@sensoro-design/icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "generate": "esno ./scripts/generate.ts",
+    "build:clean": "esno ./scripts/buildClean.ts",
+    "build:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
+    "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
+    "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "dependencies": {
+    "@ant-design/colors": "^6.0.0",
+    "@sensoro-design/icons-svg": "^1.0.0",
+    "@pansy/classnames": "^1.0.1",
+    "rc-util": "^5.19.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
