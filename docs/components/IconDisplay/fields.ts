@@ -25,6 +25,12 @@ const operation = [
   'RotationClose'
 ];
 
+const device = [
+  'VideoCamera',
+  'AircircuitBreaker',
+  'Smoke',
+];
+
 const suggestion: string[] = [
   'Plus',
   'Check',
@@ -44,7 +50,7 @@ const data: string[] = [];
 
 const logo: string[] = [];
 
-const datum = [...direction, ...suggestion, ...data, ...logo, ...operation];
+const datum = [...direction, ...suggestion, ...data, ...logo, ...operation, ...device];
 
 const other = all.filter(n => !datum.includes(n));
 
@@ -53,6 +59,7 @@ export const categories = {
   suggestion,
   operation,
   data,
+  device,
   logo,
   other,
 };

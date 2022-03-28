@@ -17,6 +17,7 @@ const titleMap = {
   operation: '操作类图标',
   suggestion: '提示建议性图标',
   data: '数据类图标',
+  device: '设备类图标',
   other: '网站通用图标',
   logo: '品牌和标识',
 }
