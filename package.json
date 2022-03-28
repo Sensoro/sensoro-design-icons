@@ -1,5 +1,5 @@
 {
-  "name": "@sensoro-design/icons",
+  "name": "@sensoro-design/root",
   "private": true,
   "scripts": {
     "start": "dumi dev",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sensoro-design/sensoro-design-icons#readme",
   "devDependencies": {
+    "@pansy/classnames": "^1.0.1",
     "@rgrove/parse-xml": "^3.0.0",
     "@sensoro-design/icons": "workspace:*",
     "@sensoro-design/icons-svg": "workspace:*",
@@ -33,6 +34,7 @@
     "@walrus/cli": "^1.3.4",
     "@walrus/cli-utils": "^2.2.1",
     "@walrus/plugin-run": "^0.5.3",
+    "antd": "^4.19.3",
     "del": "^6.0.0",
     "dumi": "^1.1.40",
     "esno": "^0.14.1",

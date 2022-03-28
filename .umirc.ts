@@ -20,11 +20,6 @@ export default {
       "docs"
     ]
   },
-  alias: {
-    '@sensoro-design/icons': join(__dirname, 'packages/react/src'),
-    '@sensoro-design/icons-svg/es': join(__dirname, 'packages/core/src'),
-    '@sensoro-design/icons-svg/lib': join(__dirname, 'packages/core/src'),
-  },
   hash: true,
   extraBabelPlugins: [
     [
