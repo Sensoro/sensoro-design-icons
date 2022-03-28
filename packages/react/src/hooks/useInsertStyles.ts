@@ -4,7 +4,7 @@ import { updateCSS } from 'rc-util/lib/Dom/dynamicCSS';
 
 
 export const useInsertStyles = (styleStr?: string) => {
-  const { csp, prefixCls = 'sensoro-icon' } = useContext(IconContext);
+  const { csp, prefixCls = 'sen-icon' } = useContext(IconContext);
 
   useEffect(() => {
     updateCSS(styleStr ?? getIconStyles(prefixCls), 'sensoro-design-icons', {

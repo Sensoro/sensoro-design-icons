@@ -46,7 +46,7 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>(({
 
   useInsertStyles();
 
-  const { prefixCls = 'sensoro-icon' } = React.useContext(Context);
+  const { prefixCls = 'sen-icon' } = React.useContext(Context);
 
   const classString = classNames(
     prefixCls,
@@ -111,6 +111,6 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>(({
   );
 })
 
-Icon.displayName = 'AntdIcon';
+Icon.displayName = 'SenIcon';
 
 export default Icon;

@@ -46,7 +46,7 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>((props, ref) 
     ...restProps
   } = props;
 
-  const { prefixCls = 'sensoro-icon' } = React.useContext(Context);
+  const { prefixCls = 'sen-icon' } = React.useContext(Context);
 
   const classString = classNames(
     prefixCls,
