@@ -1,8 +1,4 @@
-import React from 'react';
-import { AccountBookFilled } from '@sensoro-design/icons';
+import { IconDisplay } from './IconDisplay';
+import './icons.less';
 
-export default () => {
-  return (
-    <AccountBookFilled />
-  )
-}
+export default IconDisplay;
