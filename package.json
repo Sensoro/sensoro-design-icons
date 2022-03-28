@@ -5,10 +5,10 @@
     "bootstrap": "pnpm generate:core && pnpm build:core",
     "start": "dumi dev",
     "site": "dumi build",
-    "generate:core": "pnpm -r --filter ./packages run generate",
     "generate": "pnpm -r --filter ./packages run generate",
+    "generate:core": "pnpm -r --filter @sensoro-design/icons-svg run generate",
     "build": "pnpm -r --filter ./packages run build",
-    "build:core": "pnpm -r --filter ./packages run build"
+    "build:core": "pnpm -r --filter @sensoro-design/icons-svg run build"
   },
   "repository": {
     "type": "git",
