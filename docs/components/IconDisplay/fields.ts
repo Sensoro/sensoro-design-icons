@@ -9,6 +9,8 @@ const direction: string[] = [
   'Down',
   'Left',
   'Right',
+  'MenuFold',
+  'MenuUnfold'
 ];
 
 /** 操作类 */
@@ -16,7 +18,11 @@ const operation = [
   'Delete',
   'Form',
   'Play',
-  'PlayCircle'
+  'PlayCircle',
+  'Pause',
+  'PauseCircle',
+  'Rotation',
+  'RotationClose'
 ];
 
 const suggestion: string[] = [
