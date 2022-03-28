@@ -6,10 +6,11 @@
     "start": "dumi dev",
     "site": "dumi build",
     "postbuild": "pnpm generate",
-    "generate": "pnpm -r --filter ./packages --stream run generate",
+    "generate": "pnpm -r --workspace-concurrency=1 run generate",
     "generate:core": "pnpm -r --filter @sensoro-design/icons-svg run generate",
-    "build": "pnpm -r --filter ./packages --stream run build",
+    "build": "pnpm -r --workspace-concurrency=1 run build",
     "build:core": "pnpm -r --filter @sensoro-design/icons-svg run build",
+    "build:react": "pnpm -r --filter @sensoro-design/icons run build",
     "release": "walrus release"
   },
   "repository": {
@@ -50,6 +51,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-header": "^2.0.9",
     "gulp-rename": "^2.0.0",
+    "lerna": "^4.0.0",
     "lodash": "^4.17.21",
     "prettier": "^2.6.1",
     "ramda": "^0.27.0",
