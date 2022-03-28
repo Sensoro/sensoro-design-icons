@@ -22,13 +22,30 @@ const operation = [
   'Pause',
   'PauseCircle',
   'Rotation',
-  'RotationClose'
+  'RotationClose',
 ];
 
 const device = [
-  'VideoCamera',
+  'Drone',
+  'Camera',
   'AircircuitBreaker',
   'Smoke',
+  'WaterFlow',
+  'FireHydrant',
+  'FireCamera',
+  'WaterLevel',
+  'ElectricalFire',
+  'Co',
+  'Co2',
+  'O2',
+  'Ch4',
+  'Pm',
+  'Nh3',
+  'Thermometer',
+  'SmartWatch',
+  'IntelligentAccess',
+  'AudibleAlarm',
+  'TemperaturePatch',
 ];
 
 const suggestion: string[] = [
