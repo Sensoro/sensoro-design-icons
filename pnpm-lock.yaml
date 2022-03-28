@@ -37,6 +37,7 @@ importers:
       svgo: ^2.8.0
       through2: ^4.0.2
       typescript: ^4.6.3
+      use-clipboard-hook: ^1.1.1
       vinyl: ^2.2.1
     devDependencies:
       '@pansy/classnames': 1.0.1
@@ -72,6 +73,7 @@ importers:
       svgo: 2.8.0
       through2: 4.0.2
       typescript: 4.6.3
+      use-clipboard-hook: 1.1.1_react@17.0.2
       vinyl: 2.2.1
 
   packages/core:
@@ -10493,6 +10495,16 @@ packages:
     dependencies:
       punycode: 1.3.2
       querystring: 0.2.0
+    dev: true
+
+  /use-clipboard-hook/1.1.1_react@17.0.2:
+    resolution: {integrity: sha512-LXaBI25G1qMlSZMOEI2TRwKbrpok2G/udC9SX+QfljWwL+/PcBPJWTbG1+/FoMerGNF7NBWH2HXzWHLv8C/XbQ==}
+    engines: {node: '>=8', npm: '>=5'}
+    peerDependencies:
+      react: ^16.9.0
+    dependencies:
+      react: 17.0.2
+      toggle-selection: 1.0.6
     dev: true
 
   /use-subscription/1.5.1_react@16.14.0:

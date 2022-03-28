@@ -1,5 +1,6 @@
 import React from 'react';
 import { Badge } from 'antd';
+import { useClipboard } from 'use-clipboard-hook';
 import classNames from '@pansy/classnames';
 import * as senIcons from '@sensoro-design/icons';
 
@@ -8,7 +9,6 @@ import { ThemeType } from './';
 export interface CopyableIconProps {
   name: string;
   isNew: boolean;
-  justCopied: string | null;
   theme: ThemeType;
   onCopied: (type: string, text: string) => any;
 }
@@ -16,17 +16,24 @@ export interface CopyableIconProps {
 export const CopyableIcon: React.FC<CopyableIconProps> = ({
   name,
   isNew,
-  justCopied,
   theme,
   onCopied,
 }) => {
-  const className = classNames({
-    copied: justCopied === name,
+  const { copy } = useClipboard();
+
+  const classes = classNames({
     [theme]: !!theme,
   });
 
+  const handleCopied = () => {
+    const copyText = `import ${name} from '@sensoro-design/icons/${name}'`;
+
+    copy(copyText);
+    onCopied(name, copyText);
+  }
+
   return (
-    <li className={className}>
+    <li className={classes} onClick={handleCopied}>
       {/* @ts-ignore */}
       {React.createElement(senIcons[name])}
       <span className="sen-icon-class">

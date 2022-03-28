@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { message } from 'antd';
 import { CopyableIcon } from './CopyableIcon';
 
 import type { CategoriesKeys } from './fields';
@@ -26,14 +27,16 @@ export const Category: React.FC<CategoriesProps> = ({
   newIcons = [],
   theme,
 }) => {
-  const  [justCopied, setJustCopied] = useState<string | null>(null);
-
-  const handleCopied = () => {
-
+  const handleCopied = (type: string, text: string) => {
+    message.success(
+      <span>
+        <code className="copied-code">{text}</code> copied 🎉
+      </span>
+    );
   }
 
   return (
-    <div>
+    <>
       <h3 style={{ margin: '1.6em 0px 0.6em' }}>{titleMap[title]}</h3>
       <ul className="sen-icons-list">
         {icons.map(name => (
@@ -42,11 +45,10 @@ export const Category: React.FC<CategoriesProps> = ({
             name={name}
             theme={theme}
             isNew={newIcons.indexOf(name) >= 0}
-            justCopied={justCopied}
             onCopied={handleCopied}
           />
         ))}
       </ul>
-    </div>
+    </>
   )
 }
