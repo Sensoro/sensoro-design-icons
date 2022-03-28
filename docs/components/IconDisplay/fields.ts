@@ -4,24 +4,48 @@ export const all = Object.keys(SenIcons)
   .map(n => n.replace(/(Outlined|Filled|TwoTone)$/, ''))
   .filter((n, i, arr) => arr.indexOf(n) === i);
 
-const direction: string[] = [];
+const direction: string[] = [
+  'Up',
+  'Down',
+  'Left',
+  'Right',
+];
 
-const suggestion: string[] = [];
+/** 操作类 */
+const operation = [
+  'Delete',
+  'Form',
+  'Play',
+  'PlayCircle'
+];
 
-const editor: string[] = [];
+const suggestion: string[] = [
+  'Plus',
+  'Check',
+  'CheckCircle',
+  'CheckSquare',
+  'Close',
+  'CloseCircle',
+  'CloseSquare',
+  'PlusCircle',
+  'Minus',
+  'MinusCircle',
+  'MinusSquare',
+  'Warning',
+];
 
 const data: string[] = [];
 
 const logo: string[] = [];
 
-const datum = [...direction, ...suggestion, ...editor, ...data, ...logo];
+const datum = [...direction, ...suggestion, ...data, ...logo, ...operation];
 
 const other = all.filter(n => !datum.includes(n));
 
 export const categories = {
   direction,
   suggestion,
-  editor,
+  operation,
   data,
   logo,
   other,

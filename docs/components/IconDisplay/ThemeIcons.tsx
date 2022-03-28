@@ -2,6 +2,11 @@ import React from 'react';
 
 import type { CustomIconComponentProps } from '@sensoro-design/icons/es/components/Icon'
 
+/**
+ * 线框
+ * @param props
+ * @returns
+ */
 export const FilledIcon: React.FC<CustomIconComponentProps> = props => {
   const path =
     'M864 64H160C107 64 64 107 64 160v' +
@@ -14,6 +19,11 @@ export const FilledIcon: React.FC<CustomIconComponentProps> = props => {
   );
 };
 
+/**
+ * 实底
+ * @param props
+ * @returns
+ */
 export const OutlinedIcon: React.FC<CustomIconComponentProps> = props => {
   const path =
     'M864 64H160C107 64 64 107 64 160v7' +
@@ -28,6 +38,11 @@ export const OutlinedIcon: React.FC<CustomIconComponentProps> = props => {
   );
 };
 
+/**
+ * 双色
+ * @param props
+ * @returns
+ */
 export const TwoToneIcon: React.FC<CustomIconComponentProps> = props => {
   const path =
     'M16 512c0 273.932 222.066 496 496 49' +
