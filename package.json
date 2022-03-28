@@ -25,6 +25,7 @@
     "@types/gulp-concat": "^0.0.33",
     "@types/gulp-header": "^2.0.1",
     "@types/gulp-rename": "^2.0.1",
+    "@types/lodash": "^4.14.180",
     "@types/ramda": "^0.26.43",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",

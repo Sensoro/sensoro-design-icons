@@ -1,6 +1,5 @@
 import { pipe } from 'ramda';
-import upperFirst from 'lodash/upperfirst';
-import camelCase from 'lodash/camelcase';
+import { upperFirst, camelCase } from 'lodash';
 
 import type { ThemeTypeUpperCase } from '../templates/types';
 
