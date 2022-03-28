@@ -29,14 +29,13 @@ series(
   }),
 
   generateEntries({
-    from: ['lib/icons/*.jsx'],
+    from: ['lib/icons/*.js'],
     toDir: 'icons',
     banner: '// This index.ts file is generated automatically.\n',
     template: iconTemplate,
     mapToInterpolate: ({ name: identifier }) => {
       return {
-        identifier,
-        path: `../lib/icons/${identifier}`
+        svgIdentifier: identifier,
       }
     }
   }),

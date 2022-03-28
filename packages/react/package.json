@@ -16,7 +16,7 @@
     "build:clean": "esno ./scripts/buildClean.ts",
     "build:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
     "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
-    "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib && esno ./scripts/build.ts"
+    "build": "pnpm run build:clean && father-build && esno ./scripts/build.ts"
   },
   "authors": [
     "wangxingkang <wang_xingkang@qq.com> (https://github.com/wangxingkang)"
@@ -28,6 +28,7 @@
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "@pansy/classnames": "^1.0.1",
+    "@babel/runtime": "^7.11.2",
     "@sensoro-design/icons-svg": "0.1.2",
     "rc-util": "^5.19.3"
   },

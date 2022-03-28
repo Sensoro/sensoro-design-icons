@@ -1,8 +1,14 @@
-var __importDefault = (this && this.__importDefault) || function (mod) {
-  return (mod && mod.__esModule) ? mod : { "default": mod };
-}
+'use strict';
 
-Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 
-var <%= identifier %> = __importDefault(require("<%= path %>"));
-exports.default = <%= identifier %>;
+var _<%= svgIdentifier %> = _interopRequireDefault(require('../lib/icons/<%= svgIdentifier %>'));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _default = _<%= svgIdentifier %>;
+exports.default = _default;
+module.exports = _default;
