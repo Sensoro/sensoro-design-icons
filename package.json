@@ -2,6 +2,7 @@
   "name": "@sensoro-design/root",
   "private": true,
   "scripts": {
+    "bootstrap": "pnpm -r --filter @sensoro-design/icons-svg run generate && pnpm -r --filter @sensoro-design/icons-svg run build",
     "start": "dumi dev",
     "generate": "pnpm -r --filter ./packages run generate",
     "build": "pnpm -r --filter ./packages run build"
