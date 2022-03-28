@@ -1,7 +1,7 @@
 {
   "name": "@sensoro-design/icons-svg",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
@@ -18,5 +18,9 @@
     "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
     "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
