@@ -9,6 +9,7 @@
     "generate:core": "pnpm -r --filter @sensoro-design/icons-svg run generate",
     "build": "pnpm -r --workspace-concurrency=1 run build",
     "build:core": "pnpm -r --filter @sensoro-design/icons-svg run build",
+    "build:react": "pnpm -r --filter @sensoro-design/icons run build",
     "release": "walrus release"
   },
   "repository": {

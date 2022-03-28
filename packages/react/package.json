@@ -4,6 +4,7 @@
   "description": "Abstract nodes for sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "es"
@@ -14,7 +15,7 @@
     "build:clean": "esno ./scripts/buildClean.ts",
     "build:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
     "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
-    "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib"
+    "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib && esno ./scripts/build.ts"
   },
   "authors": [
     "wangxingkang <wang_xingkang@qq.com> (https://github.com/wangxingkang)"
