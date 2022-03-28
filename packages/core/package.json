@@ -19,6 +19,9 @@
     "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib"
   },
   "license": "MIT",
+  "authors": [
+    "wangxingkang <wang_xingkang@qq.com> (https://github.com/wangxingkang)"
+  ],
   "publishConfig": {
     "access": "public"
   }

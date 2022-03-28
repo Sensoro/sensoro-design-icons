@@ -16,6 +16,9 @@
     "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
     "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib"
   },
+  "authors": [
+    "wangxingkang <wang_xingkang@qq.com> (https://github.com/wangxingkang)"
+  ],
   "peerDependencies": {
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"

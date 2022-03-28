@@ -5,19 +5,16 @@
     "bootstrap": "pnpm generate:core && pnpm build:core",
     "start": "dumi dev",
     "site": "dumi build",
-    "postbuild": "pnpm generate",
     "generate": "pnpm -r --workspace-concurrency=1 run generate",
     "generate:core": "pnpm -r --filter @sensoro-design/icons-svg run generate",
     "build": "pnpm -r --workspace-concurrency=1 run build",
     "build:core": "pnpm -r --filter @sensoro-design/icons-svg run build",
-    "build:react": "pnpm -r --filter @sensoro-design/icons run build",
     "release": "walrus release"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sensoro-design/sensoro-design-icons.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sensoro-design/sensoro-design-icons/issues"
