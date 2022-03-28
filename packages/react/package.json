@@ -7,7 +7,8 @@
   "types": "lib/index.d.ts",
   "files": [
     "lib",
-    "es"
+    "es",
+    "icons"
   ],
   "license": "MIT",
   "scripts": {
