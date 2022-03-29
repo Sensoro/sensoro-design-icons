@@ -10,7 +10,13 @@ const direction: string[] = [
   'Left',
   'Right',
   'MenuFold',
-  'MenuUnfold'
+  'MenuUnfold',
+  'DoubleLeft',
+  'DoubleRight',
+  'ArrowUp',
+  'ArrowDown',
+  'ArrowLeft',
+  'ArrowRight',
 ];
 
 /** 操作类 */
@@ -23,6 +29,27 @@ const operation = [
   'PauseCircle',
   'Rotation',
   'RotationClose',
+];
+
+const file = [
+  'FileAdd',
+  'FileDone',
+  'FileExcel',
+  'FileGif',
+  'File',
+  'FileZip',
+  'FileUnknown',
+  'FileExclamation',
+  'FileWord',
+  'FilePdf',
+  'FileText',
+  'FileSync',
+  'FileImage',
+  'FileJpg',
+  'FileMarkdown',
+  'FilePpt',
+  'FileProtect',
+  'FileSearch',
 ];
 
 const device = [
@@ -105,7 +132,8 @@ const datum = [
   ...data,
   ...logo,
   ...operation,
-  ...device
+  ...device,
+  ...file,
 ];
 
 const other = all.filter(n => !datum.includes(n));
@@ -114,6 +142,7 @@ export const categories = {
   direction,
   suggestion,
   operation,
+  file,
   data,
   device,
   logo,
