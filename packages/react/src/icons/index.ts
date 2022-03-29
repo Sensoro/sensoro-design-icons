@@ -74,6 +74,7 @@ export { default as IntelligentAccessOutlined } from './IntelligentAccessOutline
 export { default as KeyOutlined } from './KeyOutlined';
 export { default as LeakingOutlined } from './LeakingOutlined';
 export { default as LeftOutlined } from './LeftOutlined';
+export { default as LinkOutlined } from './LinkOutlined';
 export { default as LinsAccessOutlined } from './LinsAccessOutlined';
 export { default as LockFilled } from './LockFilled';
 export { default as LockOutlined } from './LockOutlined';
