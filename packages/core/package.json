@@ -11,6 +11,7 @@
     "inline-svg",
     "inline-namespaced-svg"
   ],
+
   "scripts": {
     "generate": "esno ./scripts/generate.ts",
     "build:clean": "esno ./scripts/buildClean.ts",
@@ -18,7 +19,15 @@
     "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
     "build": "pnpm run build:clean && pnpm run build:es && pnpm run build:lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensoro-design/sensoro-design-icons.git"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sensoro-design/sensoro-design-icons/issues"
+  },
+  "homepage": "https://sen-icons.xingkang.wang",
   "authors": [
     "wangxingkang <wang_xingkang@qq.com> (https://github.com/wangxingkang)"
   ],
