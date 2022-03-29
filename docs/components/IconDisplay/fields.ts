@@ -99,7 +99,14 @@ const data: string[] = [];
 
 const logo: string[] = [];
 
-const datum = [...direction, ...suggestion, ...data, ...logo, ...operation, ...device];
+const datum = [
+  ...direction,
+  ...suggestion,
+  ...data,
+  ...logo,
+  ...operation,
+  ...device
+];
 
 const other = all.filter(n => !datum.includes(n));
 

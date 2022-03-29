@@ -10,7 +10,7 @@ export interface CopyableIconProps {
   name: string;
   isNew: boolean;
   theme: ThemeType;
-  onCopied: (type: string, text: string) => any;
+  onCopied: (type: string, text: string) => void;
 }
 
 export const CopyableIcon: React.FC<CopyableIconProps> = ({
@@ -26,7 +26,7 @@ export const CopyableIcon: React.FC<CopyableIconProps> = ({
   });
 
   const handleCopied = () => {
-    const copyText = `import ${name} from '@sensoro-design/icons/${name}'`;
+    const copyText = `import ${name} from '@sensoro-design/icons/${name}';`;
 
     copy(copyText);
     onCopied(name, copyText);
