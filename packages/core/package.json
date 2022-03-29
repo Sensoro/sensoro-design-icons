@@ -1,6 +1,6 @@
 {
   "name": "@sensoro-design/icons-svg",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -11,7 +11,6 @@
     "inline-svg",
     "inline-namespaced-svg"
   ],
-
   "scripts": {
     "generate": "esno ./scripts/generate.ts",
     "build:clean": "esno ./scripts/buildClean.ts",
