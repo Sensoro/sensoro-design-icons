@@ -23,7 +23,7 @@ series(
     template: `export { default } from '<%= path %>';`,
     mapToInterpolate: ({ name: identifier }) => {
       return {
-        path: `../lib/icons/${identifier.split('.')[0]}`
+        path: `./lib/icons/${identifier.split('.')[0]}`
       }
     }
   }),
