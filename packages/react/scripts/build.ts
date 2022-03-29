@@ -18,7 +18,7 @@ series(
 
   generateEntries({
     from: ['lib/icons/*.d.ts'],
-    toDir: 'icons',
+    toDir: './',
     banner: '// This index.ts file is generated automatically.\n',
     template: `export { default } from '<%= path %>';`,
     mapToInterpolate: ({ name: identifier }) => {
@@ -30,7 +30,7 @@ series(
 
   generateEntries({
     from: ['lib/icons/*.js'],
-    toDir: 'icons',
+    toDir: './',
     banner: '// This index.ts file is generated automatically.\n',
     template: iconTemplate,
     mapToInterpolate: ({ name: identifier }) => {

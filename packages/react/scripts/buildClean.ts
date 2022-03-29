@@ -1,3 +1,3 @@
 import del from 'del';
 
-del(['es', 'lib']);
+del(['es', 'lib', '*.js', '*.d.ts']);

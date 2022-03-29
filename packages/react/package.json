@@ -5,11 +5,6 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "es",
-    "icons"
-  ],
   "license": "MIT",
   "scripts": {
     "generate": "esno ./scripts/generate.ts",
