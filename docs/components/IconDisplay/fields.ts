@@ -23,12 +23,16 @@ const direction: string[] = [
 const operation = [
   'Delete',
   'Form',
+  'Edit',
+  'Search',
   'Play',
   'PlayCircle',
   'Pause',
   'PauseCircle',
   'Rotation',
   'RotationClose',
+  'Copy',
+  'Download',
 ];
 
 const file = [
@@ -112,6 +116,10 @@ const suggestion: string[] = [
   'Check',
   'CheckCircle',
   'CheckSquare',
+  'Info',
+  'InfoCircle',
+  'Exclamation',
+  'ExclamationCircle',
   'Close',
   'CloseCircle',
   'CloseSquare',
