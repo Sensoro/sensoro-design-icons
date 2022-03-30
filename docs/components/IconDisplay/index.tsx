@@ -3,27 +3,26 @@ import Icon, * as SenIcons from '@sensoro-design/icons';
 import { Radio, Empty } from 'antd';
 
 import { Category } from './Category';
-import { all } from './fields';
 import { categories } from './fields';
-import { FilledIcon, OutlinedIcon, TwoToneIcon, } from './ThemeIcons';
+import { FilledIcon, OutlinedIcon, TwoToneIcon } from './ThemeIcons';
 
 import type { RadioGroupProps } from 'antd/es/radio';
-import type { Categories, CategoriesKeys } from './fields';
+import type { IconComponentProps } from '@sensoro-design/icons/es/components/Icon';
+import type { CategoriesKeys } from './fields';
 
 export enum ThemeType {
   Outlined = 'Outlined',
   Filled = 'Filled',
   TwoTone = 'TwoTone',
+  Purely = 'Purely',
 }
 
-const allIcons: {
-  [key: string]: any;
-} = SenIcons;
+const allIcons: Record<string, any> = SenIcons;
 
 
 export const IconDisplay: React.FC = () => {
   const [theme, setTheme] = useState<ThemeType>(ThemeType.Outlined);
-  const [searchKey, setSearchKey] = useState<string>()
+  const [searchKey, setSearchKey] = useState<string>();
 
   const renderCategories = () => {
     const categoriesResult = Object.keys(categories)
@@ -33,7 +32,7 @@ export const IconDisplay: React.FC = () => {
         if (searchKey) {
           const matchKey = searchKey
             .replace(new RegExp(`^<([a-zA-Z]*)\\s/>$`, 'gi'), (_, name) => name)
-            .replace(/(Filled|Outlined|TwoTone)$/, '')
+            .replace(/(Filled|Outlined|TwoTone|Purely)$/, '')
             .toLowerCase();
           iconList = iconList.filter(iconName => iconName.toLowerCase().includes(matchKey));
         }
@@ -70,13 +69,16 @@ export const IconDisplay: React.FC = () => {
         onChange={handleChangeTheme}
       >
         <Radio.Button value={ThemeType.Outlined}>
-          <Icon component={OutlinedIcon} /> 线框风格
+          <Icon component={OutlinedIcon as IconComponentProps['component']} /> 线框风格
         </Radio.Button>
         <Radio.Button value={ThemeType.Filled}>
-          <Icon component={FilledIcon} /> 实底风格
+          <Icon component={FilledIcon as IconComponentProps['component']} /> 实底风格
         </Radio.Button>
         <Radio.Button value={ThemeType.TwoTone}>
-          <Icon component={TwoToneIcon} /> 双色风格
+          <Icon component={TwoToneIcon as IconComponentProps['component']} /> 双色风格
+        </Radio.Button>
+        <Radio.Button value={ThemeType.Purely}>
+          <SenIcons.FileImageOutlined /> 图片风格
         </Radio.Button>
       </Radio.Group>
 

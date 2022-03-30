@@ -130,6 +130,7 @@ export { default as MinusSquareFilled } from './MinusSquareFilled';
 export { default as MinusSquareOutlined } from './MinusSquareOutlined';
 export { default as MoreOutlined } from './MoreOutlined';
 export { default as Nh3Outlined } from './Nh3Outlined';
+export { default as NoDataPurely } from './NoDataPurely';
 export { default as O2Outlined } from './O2Outlined';
 export { default as ParkingLotOutlined } from './ParkingLotOutlined';
 export { default as PauseCircleFilled } from './PauseCircleFilled';

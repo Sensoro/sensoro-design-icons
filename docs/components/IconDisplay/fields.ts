@@ -1,7 +1,7 @@
 import * as SenIcons from '@sensoro-design/icons/es/icons';
 
 export const all = Object.keys(SenIcons)
-  .map(n => n.replace(/(Outlined|Filled|TwoTone)$/, ''))
+  .map(n => n.replace(/(Outlined|Filled|TwoTone|Purely)$/, ''))
   .filter((n, i, arr) => arr.indexOf(n) === i);
 
 const direction: string[] = [

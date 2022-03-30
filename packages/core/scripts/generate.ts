@@ -11,7 +11,7 @@ import {
   setDefaultColorAtPathTag,
 } from './plugins/svg2Definition/transforms';
 import { twotoneStringify } from './plugins/svg2Definition/stringify';
-import { generalConfig, remainFillConfig } from './plugins/svgo/presets';
+import { generalConfig, remainFillConfig, remainPurelyConfig } from './plugins/svgo/presets';
 
 import { getIdentifier } from './utils';
 
@@ -75,7 +75,25 @@ series(
       filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Outlined' })
     }),
 
-    // 2.4 generate abstract node with the theme "twotone"
+    // 2.4 generate abstract node with the theme "purely"
+    generateIcons({
+      theme: 'purely',
+      from: ['svg/purely/*.svg'],
+      toDir: 'src/asn',
+      svgoConfig: remainPurelyConfig,
+      extraNodeTransformFactories: [
+        // assignAttrsAtTag('svg', { focusable: 'false' }),
+      ],
+      stringify: JSON.stringify,
+      template: iconTemplate,
+      mapToInterpolate: ({ name, content }) => ({
+        identifier: getIdentifier({ name, themeSuffix: 'Purely' }),
+        content
+      }),
+      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Purely' })
+    }),
+
+    // 2.5 generate abstract node with the theme "twotone"
     generateIcons({
       theme: 'twotone',
       from: ['svg/twotone/*.svg'],

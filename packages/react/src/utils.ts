@@ -8,7 +8,7 @@ export interface Attrs {
 }
 
 export const toHump = (name: string) => {
-  return name.replace((/-\w/g), function(v){
+  return name.replace((/(-|:)\w/g), function(v){
     return v.substring(1).toUpperCase()
   })
 }
