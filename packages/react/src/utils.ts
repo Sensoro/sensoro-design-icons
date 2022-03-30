@@ -7,19 +7,26 @@ export interface Attrs {
   [key: string]: string;
 }
 
+export const toHump = (name: string) => {
+  return name.replace((/-\w/g), function(v){
+    return v.substring(1).toUpperCase()
+  })
+}
+
 export function normalizeAttrs(attrs: Attrs = {}): Attrs {
-  return Object.keys(attrs).reduce((acc: Attrs, key) => {
-    const val = attrs[key];
-    switch (key) {
-      case 'class':
-        acc.className = val;
-        delete acc.class;
-        break;
-      default:
-        acc[key] = val;
-    }
-    return acc;
-  }, {});
+  return Object.keys(attrs)
+    .reduce((acc: Attrs, key: string) => {
+      const val = attrs[key];
+      switch (key) {
+        case 'class':
+          acc.className = val;
+          delete acc.class;
+          break;
+        default:
+          acc[toHump(key)] = val;
+      }
+      return acc;
+    }, {});
 }
 
 export function generate(
