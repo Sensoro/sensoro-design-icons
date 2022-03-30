@@ -21,27 +21,23 @@ const titleMap = {
   device: '设备类图标',
   other: '网站通用图标',
   logo: '品牌和标识',
-}
+  audioVideo: '音影类图标',
+};
 
-export const Category: React.FC<CategoriesProps> = ({
-  title,
-  icons = [],
-  newIcons = [],
-  theme,
-}) => {
+export const Category: React.FC<CategoriesProps> = ({ title, icons = [], newIcons = [], theme }) => {
   const handleCopied = (type: string, text: string) => {
     message.success(
       <span>
         <code className="copied-code">{text}</code> copied 🎉
-      </span>
+      </span>,
     );
-  }
+  };
 
   return (
     <>
       <h3 style={{ margin: '1.6em 0px 0.6em' }}>{titleMap[title]}</h3>
       <ul className="sen-icons-list">
-        {icons.map(name => (
+        {icons.map((name) => (
           <CopyableIcon
             key={name}
             name={name}
@@ -52,5 +48,5 @@ export const Category: React.FC<CategoriesProps> = ({
         ))}
       </ul>
     </>
-  )
-}
+  );
+};

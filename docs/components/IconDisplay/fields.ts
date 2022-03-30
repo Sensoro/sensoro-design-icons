@@ -1,7 +1,7 @@
 import * as SenIcons from '@sensoro-design/icons/es/icons';
 
 export const all = Object.keys(SenIcons)
-  .map(n => n.replace(/(Outlined|Filled|TwoTone|Purely)$/, ''))
+  .map((n) => n.replace(/(Outlined|Filled|TwoTone|Purely)$/, ''))
   .filter((n, i, arr) => arr.indexOf(n) === i);
 
 const direction: string[] = [
@@ -9,6 +9,10 @@ const direction: string[] = [
   'Down',
   'Left',
   'Right',
+  'CaretUp',
+  'CaretDown',
+  'CaretLeft',
+  'CaretRight',
   'MenuFold',
   'MenuUnfold',
   'DoubleLeft',
@@ -33,7 +37,13 @@ const operation = [
   'RotationClose',
   'Copy',
   'Download',
+  'AlignCenter',
+  'AlignLeft',
+  'AlignRight',
 ];
+
+/** 音影类 */
+const audioVideo = ['Pause', 'Sound'];
 
 const file = [
   'FileAdd',
@@ -134,17 +144,9 @@ const data: string[] = [];
 
 const logo: string[] = [];
 
-const datum = [
-  ...direction,
-  ...suggestion,
-  ...data,
-  ...logo,
-  ...operation,
-  ...device,
-  ...file,
-];
+const datum = [...direction, ...suggestion, ...audioVideo, ...data, ...logo, ...operation, ...device, ...file];
 
-const other = all.filter(n => !datum.includes(n));
+const other = all.filter((n) => !datum.includes(n));
 
 export const categories = {
   direction,
@@ -153,6 +155,7 @@ export const categories = {
   file,
   data,
   device,
+  audioVideo,
   logo,
   other,
 };
