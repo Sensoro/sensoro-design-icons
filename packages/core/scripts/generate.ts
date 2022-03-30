@@ -1,4 +1,3 @@
-
 import path from 'path';
 import { series, parallel } from 'gulp';
 import { logger, fsExtra } from '@walrus/cli-utils';
@@ -6,10 +5,7 @@ import { logger, fsExtra } from '@walrus/cli-utils';
 import { clean, copy, format, generateIcons, generateEntry, generateInline } from './tasks';
 import { ExtractRegExp } from './tasks/generateInline';
 
-import {
-  assignAttrsAtTag,
-  setDefaultColorAtPathTag,
-} from './plugins/svg2Definition/transforms';
+import { assignAttrsAtTag, setDefaultColorAtPathTag } from './plugins/svg2Definition/transforms';
 import { twotoneStringify } from './plugins/svg2Definition/stringify';
 import { generalConfig, remainFillConfig, remainPurelyConfig } from './plugins/svgo/presets';
 
@@ -21,10 +17,7 @@ const CORE_DIR = process.cwd();
 
 const cleanDirs = ['src', 'inline-svg', 'inline-namespaced-svg'];
 
-const iconTemplate = fsExtra.readFileSync(
-  path.resolve(CORE_DIR, 'templates/icon.ts.ejs'),
-  'utf8'
-);
+const iconTemplate = fsExtra.readFileSync(path.resolve(CORE_DIR, 'templates/icon.ts.ejs'), 'utf8');
 
 logger.info('start');
 
@@ -36,7 +29,7 @@ series(
     // 2.1 copy helpers.ts, types.ts
     copy({
       from: ['templates/*.ts'],
-      toDir: 'src'
+      toDir: 'src',
     }),
 
     // 2.2 generate abstract node with the theme "filled"
@@ -45,16 +38,14 @@ series(
       from: ['svg/filled/*.svg'],
       toDir: 'src/asn',
       svgoConfig: generalConfig,
-      extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
-      ],
+      extraNodeTransformFactories: [assignAttrsAtTag('svg', { focusable: 'false' })],
       stringify: JSON.stringify,
       template: iconTemplate,
       mapToInterpolate: ({ name, content }) => ({
         identifier: getIdentifier({ name, themeSuffix: 'Filled' }),
-        content
+        content,
       }),
-      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Filled' })
+      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Filled' }),
     }),
 
     // 2.3 generate abstract node with the theme "outlined"
@@ -63,16 +54,14 @@ series(
       from: ['svg/outlined/*.svg'],
       toDir: 'src/asn',
       svgoConfig: generalConfig,
-      extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
-      ],
+      extraNodeTransformFactories: [assignAttrsAtTag('svg', { focusable: 'false' })],
       stringify: JSON.stringify,
       template: iconTemplate,
       mapToInterpolate: ({ name, content }) => ({
         identifier: getIdentifier({ name, themeSuffix: 'Outlined' }),
-        content
+        content,
       }),
-      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Outlined' })
+      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Outlined' }),
     }),
 
     // 2.4 generate abstract node with the theme "purely"
@@ -81,16 +70,14 @@ series(
       from: ['svg/purely/*.svg'],
       toDir: 'src/asn',
       svgoConfig: remainPurelyConfig,
-      extraNodeTransformFactories: [
-        // assignAttrsAtTag('svg', { focusable: 'false' }),
-      ],
+      extraNodeTransformFactories: [assignAttrsAtTag('svg', { stroke: 'none' })],
       stringify: JSON.stringify,
       template: iconTemplate,
       mapToInterpolate: ({ name, content }) => ({
         identifier: getIdentifier({ name, themeSuffix: 'Purely' }),
-        content
+        content,
       }),
-      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Purely' })
+      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Purely' }),
     }),
 
     // 2.5 generate abstract node with the theme "twotone"
@@ -99,18 +86,15 @@ series(
       from: ['svg/twotone/*.svg'],
       toDir: 'src/asn',
       svgoConfig: remainFillConfig,
-      extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
-        setDefaultColorAtPathTag('#333')
-      ],
+      extraNodeTransformFactories: [assignAttrsAtTag('svg', { focusable: 'false' }), setDefaultColorAtPathTag('#333')],
       stringify: twotoneStringify,
       template: iconTemplate,
       mapToInterpolate: ({ name, content }) => ({
         identifier: getIdentifier({ name, themeSuffix: 'TwoTone' }),
-        content
+        content,
       }),
-      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'TwoTone' })
-    })
+      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'TwoTone' }),
+    }),
   ),
 
   parallel(
@@ -123,8 +107,8 @@ series(
       template: `export { default as <%= identifier %> } from '<%= path %>';`,
       mapToInterpolate: ({ name: identifier }) => ({
         identifier,
-        path: `./asn/${identifier}`
-      })
+        path: `./asn/${identifier}`,
+      }),
     }),
 
     // 3.2 generate inline SVG files
@@ -137,7 +121,7 @@ series(
           throw new Error('Failed to parse raw icon definition: ' + content);
         }
         return new Function(`return ${extract[1]}`)() as IconDefinition;
-      }
+      },
     }),
 
     // 3.3 generate inline SVG files with namespace
@@ -152,15 +136,15 @@ series(
         return new Function(`return ${extract[1]}`)() as IconDefinition;
       },
       renderOptions: {
-        extraSVGAttrs: { xmlns: 'http://www.w3.org/2000/svg' }
-      }
+        extraSVGAttrs: { xmlns: 'http://www.w3.org/2000/svg' },
+      },
     }),
   ),
 
   // 4. prettier code
   format({
     from: ['src/**/*.ts'],
-    toDir: 'src'
+    toDir: 'src',
   }),
 )(() => {
   logger.info('end');

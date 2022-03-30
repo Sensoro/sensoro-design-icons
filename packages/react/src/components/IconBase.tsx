@@ -2,14 +2,14 @@ import React from 'react';
 import { AbstractNode, IconDefinition } from '@sensoro-design/icons-svg/lib/types';
 
 import { useInsertStyles } from '../hooks/useInsertStyles';
-import { getSecondaryColor, isIconDefinition, generate, } from '../utils';
+import { getSecondaryColor, isIconDefinition, generate } from '../utils';
 
 export interface IconProps extends Partial<TwoToneColorPaletteSetter> {
   icon: IconDefinition;
   className?: string;
-  onClick?: React.MouseEventHandler<SVGSVGElement>;
   style?: React.CSSProperties;
   focusable?: string;
+  onClick?: React.MouseEventHandler<SVGSVGElement>;
 }
 
 export interface TwoToneColorPaletteSetter {
@@ -27,13 +27,9 @@ const twoToneColorPalette: TwoToneColorPalette = {
   calculated: false,
 };
 
-function setTwoToneColors({
-  primaryColor,
-  secondaryColor,
-}: TwoToneColorPaletteSetter) {
+function setTwoToneColors({ primaryColor, secondaryColor }: TwoToneColorPaletteSetter) {
   twoToneColorPalette.primaryColor = primaryColor;
-  twoToneColorPalette.secondaryColor =
-    secondaryColor || getSecondaryColor(primaryColor);
+  twoToneColorPalette.secondaryColor = secondaryColor || getSecondaryColor(primaryColor);
   twoToneColorPalette.calculated = !!secondaryColor;
 }
 
@@ -91,7 +87,7 @@ const IconBase: IconBaseComponent<IconProps> = ({
     'aria-hidden': 'true',
     ...restProps,
   });
-}
+};
 
 IconBase.displayName = 'IconReact';
 IconBase.getTwoToneColors = getTwoToneColors;
