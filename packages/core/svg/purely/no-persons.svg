@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-persons-b">
+      <stop stop-color="#2B6DE5" stop-opacity=".04" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".09" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="28.234%" x2="0%" y2="71.766%" id="no-persons-d">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="28.234%" x2="100%" y2="71.766%" id="no-persons-f">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-persons-i">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="17.572%" x2="50%" y2="100%" id="no-persons-j">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-persons-l">
+      <stop stop-color="#2B6DE5" stop-opacity=".2" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".3" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="20.817%" x2="100%" y2="79.183%" id="no-persons-n">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".55" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="3.057%" x2="100%" y2="96.943%" id="no-persons-p">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="19.202%" x2="100%" y2="80.798%" id="no-persons-r">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".55" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1=".46%" x2="100%" y2="99.54%" id="no-persons-t">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="17.572%" x2="50%" y2="100%" id="no-persons-u">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50.849%" x2="0%" y2="49.151%" id="no-persons-w">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".65" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="81.841%" x2="0%" y2="18.159%" id="no-persons-y">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="58.478%" y1="0%" x2="41.522%" y2="100%" id="no-persons-A">
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".6" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="34.929%" y1="0%" x2="64.968%" y2="99.659%" id="no-persons-C">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".35" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-persons-E">
+      <stop stop-color="#2B6DE5" stop-opacity=".2" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".3" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="65.432%" y1="100%" x2="34.568%" y2="0%" id="no-persons-G">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="60.569%" y1="100%" x2="39.431%" y2="0%" id="no-persons-I">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="68%" x2="0%" y2="32%" id="no-persons-L">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".65" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="64.222%" y1="0%" x2="35.778%" y2="100%" id="no-persons-N">
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".6" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="35.778%" y1="0%" x2="64.125%" y2="99.659%" id="no-persons-P">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".35" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-persons-R">
+      <stop stop-color="#2B6DE5" stop-opacity=".2" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".3" offset="100%"/>
+    </linearGradient>
+    <path d="M176.679 74 194 84l-97 56L0 84l17.321-10L97 120l79.679-46Z" id="no-persons-a"/>
+    <path d="m194 64-97 56v-8l97-56v8Z" id="no-persons-c"/>
+    <path d="M97 112v8L0 64v-8l97 56Z" id="no-persons-e"/>
+    <path d="m97 0 97 56-97 56L0 56 97 0Z" id="no-persons-h"/>
+    <path d="m128 118 65 38-65 38-65-38 65-38Z" id="no-persons-k"/>
+    <path d="M23 16.571c12.703 0 23 9.978 23 22.286 0 7.1-10.297 12.857-23 12.857S0 45.958 0 38.857l.003-.368C.206 26.35 10.424 16.57 23 16.57Z" id="no-persons-m"/>
+    <path d="M31 22.945c17.12 0 31 13.815 31 30.857 0 9.832-13.88 17.802-31 17.802-17.12 0-31-7.97-31-17.802l.004-.51C.278 36.485 14.05 22.945 31 22.945Z" id="no-persons-q"/>
+    <path id="no-persons-v" d="m78.97 33.5.06 1-69 8-.06-1z"/>
+    <path id="no-persons-x" d="m49.405 9.707 30 24-.81.586-30-24z"/>
+    <path d="m7 0 7 4.25v8.5L7 17V8.5l6.999-4.25L7 0Z" id="no-persons-z"/>
+    <path d="M7 8.5V17l-7-4.25v-8.5L7 8.5Z" id="no-persons-B"/>
+    <path d="m7 0 6.999 4.25L7 8.5 0 4.25 7 0Z" id="no-persons-D"/>
+    <path d="m20 18-10 6V12l10-6v12Z" id="no-persons-F"/>
+    <path d="M10 12v12L0 18V6l10 6Z" id="no-persons-H"/>
+    <path d="m10 0 10 6-10 6L0 6l10-6Z" id="no-persons-K"/>
+    <path d="m16 15-8 5V10l8-5v10Z" id="no-persons-M"/>
+    <path d="M8 10v10l-8-5V5l8 5Z" id="no-persons-O"/>
+    <path d="m8 0 8 5-8 5-8-5 8-5Z" id="no-persons-Q"/>
+    <ellipse id="no-persons-o" cx="23" cy="10.857" rx="11.205" ry="10.857"/>
+    <ellipse id="no-persons-s" cx="31" cy="15.033" rx="15.103" ry="15.033"/>
+    <filter x="-.5%" y="-.8%" width="101%" height="101.6%" filterUnits="objectBoundingBox" id="no-persons-g">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+    <filter x="-5%" y="14.9%" width="110%" height="87.4%" filterUnits="objectBoundingBox" id="no-persons-J">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-persons-a"/>
+      <use fill="url(#no-persons-b)" xlink:href="#no-persons-a"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-persons-c"/>
+      <use fill="url(#no-persons-d)" xlink:href="#no-persons-c"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-persons-e"/>
+      <use fill="url(#no-persons-f)" xlink:href="#no-persons-e"/>
+      <use fill="#000" filter="url(#no-persons-g)" xlink:href="#no-persons-e"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-persons-h"/>
+      <use fill="url(#no-persons-i)" xlink:href="#no-persons-h"/>
+    </g>
+    <g transform="translate(31 72)" fill="url(#no-persons-j)">
+      <path d="M194 0v84l-97 56V0h97ZM97 0v140L0 84V0h97Z"/>
+    </g>
+    <use fill="#FFF" xlink:href="#no-persons-k"/>
+    <use fill="url(#no-persons-l)" xlink:href="#no-persons-k"/>
+    <g transform="translate(130 88)">
+      <use fill="#FFF" xlink:href="#no-persons-m"/>
+      <use fill="url(#no-persons-n)" xlink:href="#no-persons-m"/>
+    </g>
+    <g transform="translate(130 88)">
+      <use fill="#FFF" xlink:href="#no-persons-o"/>
+      <use fill="url(#no-persons-p)" xlink:href="#no-persons-o"/>
+    </g>
+    <g transform="translate(88 97)">
+      <use fill="#FFF" xlink:href="#no-persons-q"/>
+      <use fill="url(#no-persons-r)" xlink:href="#no-persons-q"/>
+    </g>
+    <g transform="translate(88 97)">
+      <use fill="#FFF" xlink:href="#no-persons-s"/>
+      <use fill="url(#no-persons-t)" xlink:href="#no-persons-s"/>
+    </g>
+    <path fill="url(#no-persons-u)" d="m128 42 65 38v76l-65 38-65-38V80z"/>
+    <g transform="translate(84 36)">
+      <use fill="#FFF" xlink:href="#no-persons-v"/>
+      <use fill="url(#no-persons-w)" xlink:href="#no-persons-v"/>
+    </g>
+    <g transform="translate(84 36)">
+      <use fill="#FFF" xlink:href="#no-persons-x"/>
+      <use fill="url(#no-persons-y)" xlink:href="#no-persons-x"/>
+    </g>
+    <g transform="translate(156 61)">
+      <use fill="#FFF" xlink:href="#no-persons-z"/>
+      <use fill="url(#no-persons-A)" xlink:href="#no-persons-z"/>
+    </g>
+    <g transform="translate(156 61)">
+      <use fill="#FFF" xlink:href="#no-persons-B"/>
+      <use fill="url(#no-persons-C)" xlink:href="#no-persons-B"/>
+    </g>
+    <g transform="translate(156 61)">
+      <use fill="#FFF" xlink:href="#no-persons-D"/>
+      <use fill="url(#no-persons-E)" xlink:href="#no-persons-D"/>
+    </g>
+    <g transform="translate(84 66)">
+      <use fill="#FFF" xlink:href="#no-persons-F"/>
+      <use fill="url(#no-persons-G)" xlink:href="#no-persons-F"/>
+    </g>
+    <g transform="translate(84 66)">
+      <use fill="#FFF" xlink:href="#no-persons-H"/>
+      <use fill="url(#no-persons-I)" xlink:href="#no-persons-H"/>
+      <use fill="#000" filter="url(#no-persons-J)" xlink:href="#no-persons-H"/>
+    </g>
+    <g transform="translate(84 66)">
+      <use fill="#FFF" xlink:href="#no-persons-K"/>
+      <use fill="url(#no-persons-L)" xlink:href="#no-persons-K"/>
+    </g>
+    <g transform="translate(125 36)">
+      <use fill="#FFF" xlink:href="#no-persons-M"/>
+      <use fill="url(#no-persons-N)" xlink:href="#no-persons-M"/>
+    </g>
+    <g transform="translate(125 36)">
+      <use fill="#FFF" xlink:href="#no-persons-O"/>
+      <use fill="url(#no-persons-P)" xlink:href="#no-persons-O"/>
+    </g>
+    <g transform="translate(125 36)">
+      <use fill="#FFF" xlink:href="#no-persons-Q"/>
+      <use fill="url(#no-persons-R)" xlink:href="#no-persons-Q"/>
+    </g>
+  </g>
+</svg>

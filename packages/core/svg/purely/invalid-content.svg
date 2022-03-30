@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="invalid-content-b">
+      <stop stop-color="#2B6DE5" stop-opacity=".04" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".09" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="28.234%" x2="0%" y2="71.766%" id="invalid-content-d">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="28.234%" x2="100%" y2="71.766%" id="invalid-content-f">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="invalid-content-i">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="invalid-content-j">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="70.202%" y1="91.356%" x2="0%" y2="8.644%" id="invalid-content-l">
+      <stop stop-color="#2B6DE5" stop-opacity=".75" offset="0%"/>
+      <stop stop-color="#2B6DE5" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="60.354%" y1="100%" x2="24.374%" y2="0%" id="invalid-content-n">
+      <stop stop-color="#2B6DE5" stop-opacity=".75" offset="0%"/>
+      <stop stop-color="#2B6DE5" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="74.845%" x2="0%" y2="25.155%" id="invalid-content-p">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="61.241%" y1="100%" x2="38.759%" y2="0%" id="invalid-content-r">
+      <stop stop-color="#2B6DE5" stop-opacity=".65" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="79.851%" id="invalid-content-s">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="50%" x2="0%" y2="50%" id="invalid-content-u">
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".55" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="41.484%" x2="100%" y2="58.516%" id="invalid-content-w">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".55" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="invalid-content-y">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="75.51%" y1="0%" x2="24.49%" y2="100%" id="invalid-content-A">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".65" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="75.51%" y1="0%" x2="24.49%" y2="100%" id="invalid-content-C">
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="75.51%" y1="100%" x2="24.49%" y2="0%" id="invalid-content-E">
+      <stop stop-color="#2B6DE5" stop-opacity=".65" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".85" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="24.49%" y1="0%" x2="75.51%" y2="100%" id="invalid-content-G">
+      <stop stop-color="#2B6DE5" stop-opacity=".65" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="41.782%" x2="93.485%" y2="54.026%" id="invalid-content-I">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="invalid-content-J">
+      <stop stop-color="#FFF" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="50%" x2="100%" y2="75.648%" id="invalid-content-L">
+      <stop stop-color="#FFF" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#FFF" stop-opacity=".455" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="17.572%" x2="50%" y2="100%" id="invalid-content-M">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="invalid-content-O">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <path d="M176.679 74 194 84l-97 56L0 84l17.321-10L97 120l79.679-46Z" id="invalid-content-a"/>
+    <path d="m194 64-97 56v-8l97-56v8Z" id="invalid-content-c"/>
+    <path d="M97 112v8L0 64v-8l97 56Z" id="invalid-content-e"/>
+    <path d="m97 0 97 56-97 56L0 56 97 0Z" id="invalid-content-h"/>
+    <path d="M9.283 24.63c.546-.11 1.198.083 1.957.576a6.716 6.716 0 0 1 1.993 1.993c.522.826.783 1.593.783 2.3 0 .603-.175.999-.525 1.189l.009.012-3.7 2.1L5 27.1l4-2.4.021.03c.079-.044.166-.077.262-.1Z" id="invalid-content-k"/>
+    <path d="M11.608 1.919c2.12 1.507 3.812 3.345 5.075 5.513 1.285 2.159 1.927 4.34 1.927 6.542 0 1.772-.396 2.963-1.188 3.573L13.5 19.6l-.276-.03c-.191.394-.3.878-.325 1.451l-.006.273v.494l.007.012L9 23.9l-2-4.3 2.425-.269-.225-.161v-.503c0-.914.508-1.664.983-2.25l.478-.575c.07-.084.13-.164.18-.238l.192-.318.103-.156c.34-.494.869-.966 2.464-1.415l-.847-1.21-.968-1.361-.533-.736-.654-.886-.45-.594-.413-.532-.377-.472-.232-.28-.317-.371-.192-.213-.175-.186-.16-.16-.144-.131a2.534 2.534 0 0 0-.127-.105L7.899 6.4c-.208-.129-.32-.095-.336.1l-.002.053L3.9 4.949c0-.337.011-.657.033-.96L1.5 2.6 6.087.15c1.38-.457 3.221.133 5.521 1.769Z" id="invalid-content-m"/>
+    <path d="m7.699 6.77-.006.272.007.358-4.032 2.248-2.068-4.3c4.088.474 6.12.948 6.099 1.421Z" id="invalid-content-o"/>
+    <path d="M5.38 26.927c.546-.11 1.198.083 1.957.576a6.716 6.716 0 0 1 1.993 1.993c.522.826.783 1.593.783 2.3 0 .752-.273 1.183-.818 1.292-.522.125-1.175-.068-1.958-.577-.735-.478-1.388-1.146-1.957-2.003-.522-.803-.783-1.57-.783-2.3 0-.73.26-1.156.783-1.281ZM2.088 2.284c1.391-.519 3.265.06 5.62 1.735 2.12 1.507 3.812 3.345 5.075 5.513 1.285 2.159 1.927 4.34 1.927 6.542 0 1.772-.396 2.963-1.188 3.573-.343.187-1.264.478-2.762.873-.557.107-.985.401-1.285.882-.321.49-.482 1.154-.482 1.992v.503L5.3 21.27v-.503c0-1.413.214-2.434.642-3.063.407-.668 1.66-1.298 3.758-1.889l.385-.228c.578-.38.867-1.024.867-1.934 0-1.15-.3-2.296-.899-3.441-.6-1.097-1.456-2.041-2.57-2.833-1.413-1.005-2.419-1.23-3.019-.675-.535.434-.803 1.416-.803 2.949L0 7.049c0-2.682.696-4.27 2.088-4.765Z" id="invalid-content-q"/>
+    <path d="M63 0c34.794 0 63 11.64 63 26 0 17.673-28.206 32-63 32C28.554 58 .565 43.958.008 26.53L0 26l.008-.43C.565 11.409 28.554 0 63 0Z" id="invalid-content-t"/>
+    <path d="M37 .5c20.435 0 37 16.638 37 37.162 0 .205-.007.408-.022.609.015.17.022.341.022.513C74 46.912 57.435 53.5 37 53.5S0 46.912 0 38.784c0-.172.007-.343.022-.513L0 37.662C0 17.138 16.565.5 37 .5Z" id="invalid-content-K"/>
+    <ellipse id="invalid-content-v" cx="63" cy="26" rx="63" ry="26"/>
+    <ellipse id="invalid-content-z" cx="28.5" cy="35.5" rx="2.5" ry="3.5"/>
+    <ellipse id="invalid-content-B" cx="12.5" cy="19.5" rx="2.5" ry="3.5"/>
+    <ellipse id="invalid-content-D" cx="96.5" cy="35.5" rx="2.5" ry="3.5"/>
+    <ellipse id="invalid-content-F" cx="112.5" cy="19.5" rx="2.5" ry="3.5"/>
+    <ellipse id="invalid-content-H" cx="37" cy="38.5" rx="37" ry="15"/>
+    <circle id="invalid-content-x" cx="63" cy="42" r="3"/>
+    <circle id="invalid-content-N" cx="50" cy="66" r="6"/>
+    <circle id="invalid-content-P" cx="205" cy="127" r="5"/>
+    <circle id="invalid-content-Q" cx="192" cy="56" r="4"/>
+    <filter x="-.5%" y="-.8%" width="101%" height="101.6%" filterUnits="objectBoundingBox" id="invalid-content-g">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#invalid-content-a"/>
+      <use fill="url(#invalid-content-b)" xlink:href="#invalid-content-a"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#invalid-content-c"/>
+      <use fill="url(#invalid-content-d)" xlink:href="#invalid-content-c"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#invalid-content-e"/>
+      <use fill="url(#invalid-content-f)" xlink:href="#invalid-content-e"/>
+      <use fill="#000" filter="url(#invalid-content-g)" xlink:href="#invalid-content-e"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#invalid-content-h"/>
+      <use fill="url(#invalid-content-i)" xlink:href="#invalid-content-h"/>
+    </g>
+    <ellipse fill="url(#invalid-content-j)" cx="128" cy="156" rx="37" ry="15"/>
+    <g transform="translate(118 127.9)">
+      <use fill="#FFF" xlink:href="#invalid-content-k"/>
+      <use fill="url(#invalid-content-l)" xlink:href="#invalid-content-k"/>
+    </g>
+    <g transform="translate(118 127.9)">
+      <use fill="#FFF" xlink:href="#invalid-content-m"/>
+      <use fill="url(#invalid-content-n)" xlink:href="#invalid-content-m"/>
+    </g>
+    <g transform="translate(118 127.9)">
+      <use fill="#FFF" xlink:href="#invalid-content-o"/>
+      <use fill="url(#invalid-content-p)" xlink:href="#invalid-content-o"/>
+    </g>
+    <g transform="translate(118 127.9)">
+      <use fill="#FFF" xlink:href="#invalid-content-q"/>
+      <use fill="url(#invalid-content-r)" xlink:href="#invalid-content-q"/>
+    </g>
+    <path d="M140.333 110 164 152c.667 1.743 1 3.077 1 4 0 4.556-5.011 8.638-12.92 11.39l-.875.294a58.564 58.564 0 0 1-5.695 1.533l-1.018.214a74.52 74.52 0 0 1-4.797.804l-1.11.142A88.517 88.517 0 0 1 128 171c-3.678 0-7.231-.218-10.585-.623l-1.11-.142a74.52 74.52 0 0 1-4.797-.804l-1.018-.214a58.564 58.564 0 0 1-5.695-1.533l-.874-.295C96.01 164.64 91 160.556 91 156c0-.923.333-2.257 1-4l23.667-42h24.666Z" fill="url(#invalid-content-s)"/>
+    <g transform="translate(64 67)">
+      <use fill="#FFF" xlink:href="#invalid-content-t"/>
+      <use fill="url(#invalid-content-u)" xlink:href="#invalid-content-t"/>
+    </g>
+    <g transform="translate(64 67)">
+      <use fill="#FFF" xlink:href="#invalid-content-v"/>
+      <use fill="url(#invalid-content-w)" xlink:href="#invalid-content-v"/>
+    </g>
+    <g transform="translate(64 67)">
+      <use fill="#FFF" xlink:href="#invalid-content-x"/>
+      <use fill="url(#invalid-content-y)" xlink:href="#invalid-content-x"/>
+    </g>
+    <g transform="rotate(30 -64.524 188.426)">
+      <use fill="#FFF" xlink:href="#invalid-content-z"/>
+      <use fill="url(#invalid-content-A)" xlink:href="#invalid-content-z"/>
+    </g>
+    <g transform="rotate(60 -13.524 108.426)">
+      <use fill="#FFF" xlink:href="#invalid-content-B"/>
+      <use fill="url(#invalid-content-C)" xlink:href="#invalid-content-B"/>
+    </g>
+    <g transform="rotate(-30 253.524 -50.426)">
+      <use fill="#FFF" xlink:href="#invalid-content-D"/>
+      <use fill="url(#invalid-content-E)" xlink:href="#invalid-content-D"/>
+    </g>
+    <g transform="rotate(-60 202.524 -2.426)">
+      <use fill="#FFF" xlink:href="#invalid-content-F"/>
+      <use fill="url(#invalid-content-G)" xlink:href="#invalid-content-F"/>
+    </g>
+    <g transform="translate(89 43.5)">
+      <use fill="#FFF" xlink:href="#invalid-content-H"/>
+      <use fill="url(#invalid-content-I)" xlink:href="#invalid-content-H"/>
+    </g>
+    <g transform="translate(89 43.5)">
+      <use fill="url(#invalid-content-J)" xlink:href="#invalid-content-K"/>
+      <use fill="url(#invalid-content-L)" xlink:href="#invalid-content-K"/>
+    </g>
+    <g transform="translate(31 72)" fill="url(#invalid-content-M)">
+      <path d="M194 0v84l-97 56V0h97ZM97 0v140L0 84V0h97Z"/>
+    </g>
+    <use fill="#FFF" xlink:href="#invalid-content-N"/>
+    <use fill="url(#invalid-content-O)" xlink:href="#invalid-content-N"/>
+    <use fill="#FFF" xlink:href="#invalid-content-P"/>
+    <use fill="url(#invalid-content-O)" xlink:href="#invalid-content-P"/>
+    <use fill="#FFF" xlink:href="#invalid-content-Q"/>
+    <use fill="url(#invalid-content-O)" xlink:href="#invalid-content-Q"/>
+  </g>
+</svg>

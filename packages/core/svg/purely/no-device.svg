@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <defs>
+    <path d="M176.679 74 194 84l-97 56L0 84l17.321-10L97 120l79.679-46Z" id="no-device-a"/>
+    <path d="m194 64-97 56v-8l97-56v8Z" id="no-device-c"/>
+    <path d="M97 112v8L0 64v-8l97 56Z" id="no-device-e"/>
+    <path d="m97 0 97 56-97 56L0 56 97 0Z" id="no-device-h"/>
+    <path d="M110 56 55 88V64l55-32v24Z" id="no-device-j"/>
+    <path d="M102 46.655v4l-16 9.309v-4l16-9.309Z" id="no-device-l"/>
+    <path d="M55 64v24L0 56V32l55 32Z" id="no-device-n"/>
+    <path d="m55 0 55 32-55 32L0 32 55 0Z" id="no-device-q"/>
+    <path d="m16 50.309 4 2.327v6l-4-2.327v-6Z" id="no-device-s"/>
+    <path d="m25 55.545 4 2.327v6l-4-2.327v-6Z" id="no-device-u"/>
+    <path d="m34 60.781 4 2.327v6l-4-2.327v-6Z" id="no-device-v"/>
+    <path d="M110 56 55 88V64l55-32v24Z" id="no-device-w"/>
+    <path d="M102 46.655v4l-16 9.309v-4l16-9.309Z" id="no-device-x"/>
+    <path d="M55 64v24L0 56V32l55 32Z" id="no-device-y"/>
+    <path d="m55 0 55 32-55 32L0 32 55 0Z" id="no-device-A"/>
+    <path d="m16 50.309 4 2.327v6l-4-2.327v-6Z" id="no-device-B"/>
+    <path d="m25 55.545 4 2.327v6l-4-2.327v-6Z" id="no-device-C"/>
+    <path d="m34 60.781 4 2.327v6l-4-2.327v-6Z" id="no-device-D"/>
+    <path d="M110 56 55 88V64l55-32v24Z" id="no-device-E"/>
+    <path d="M102 46.655v4l-16 9.309v-4l16-9.309Z" id="no-device-F"/>
+    <path d="M55 64v24L0 56V32l55 32Z" id="no-device-G"/>
+    <path d="m55 0 55 32-55 32L0 32 55 0Z" id="no-device-I"/>
+    <path d="m16 50.309 4 2.327v6l-4-2.327v-6Z" id="no-device-J"/>
+    <path d="m25 55.545 4 2.327v6l-4-2.327v-6Z" id="no-device-K"/>
+    <path d="m34 60.781 4 2.327v6l-4-2.327v-6Z" id="no-device-L"/>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-device-b">
+      <stop stop-color="#2B6DE5" stop-opacity=".04" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".09" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="28.234%" x2="0%" y2="71.766%" id="no-device-d">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="28.234%" x2="100%" y2="71.766%" id="no-device-f">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-device-i">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="98.23%" y1="0%" x2="1.77%" y2="100%" id="no-device-k">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="84.596%" x2="100%" y2="15.404%" id="no-device-m">
+      <stop stop-color="#2B6DE5" stop-opacity=".09" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="1.77%" y1="0%" x2="50%" y2="79.854%" id="no-device-o">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-device-r">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="61.538%" y1="100%" x2="38.462%" y2="0%" id="no-device-t">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="17.572%" x2="50%" y2="100%" id="no-device-M">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <filter x="-.5%" y="-.8%" width="101%" height="101.6%" filterUnits="objectBoundingBox" id="no-device-g">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+    <filter x="-.9%" y="-.9%" width="101.8%" height="101.8%" filterUnits="objectBoundingBox" id="no-device-p">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+    <filter x="-.9%" y="-.9%" width="101.8%" height="101.8%" filterUnits="objectBoundingBox" id="no-device-z">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+    <filter x="-.9%" y="-.9%" width="101.8%" height="101.8%" filterUnits="objectBoundingBox" id="no-device-H">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-device-a"/>
+      <use fill="url(#no-device-b)" xlink:href="#no-device-a"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-device-c"/>
+      <use fill="url(#no-device-d)" xlink:href="#no-device-c"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-device-e"/>
+      <use fill="url(#no-device-f)" xlink:href="#no-device-e"/>
+      <use fill="#000" filter="url(#no-device-g)" xlink:href="#no-device-e"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-device-h"/>
+      <use fill="url(#no-device-i)" xlink:href="#no-device-h"/>
+    </g>
+    <g transform="translate(73 100)">
+      <use fill="#FFF" xlink:href="#no-device-j"/>
+      <use fill="url(#no-device-k)" xlink:href="#no-device-j"/>
+    </g>
+    <g transform="translate(73 100)">
+      <use fill="#FFF" xlink:href="#no-device-l"/>
+      <use fill="url(#no-device-m)" xlink:href="#no-device-l"/>
+    </g>
+    <g transform="translate(73 100)">
+      <use fill="#FFF" xlink:href="#no-device-n"/>
+      <use fill="url(#no-device-o)" xlink:href="#no-device-n"/>
+      <use fill="#000" filter="url(#no-device-p)" xlink:href="#no-device-n"/>
+    </g>
+    <g transform="translate(73 100)">
+      <use fill="#FFF" xlink:href="#no-device-q"/>
+      <use fill="url(#no-device-r)" xlink:href="#no-device-q"/>
+    </g>
+    <g transform="translate(73 100)">
+      <use fill="#FFF" xlink:href="#no-device-s"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-s"/>
+    </g>
+    <g transform="translate(73 100)">
+      <use fill="#FFF" xlink:href="#no-device-u"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-u"/>
+    </g>
+    <g transform="translate(73 100)">
+      <use fill="#FFF" xlink:href="#no-device-v"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-v"/>
+    </g>
+    <g transform="translate(73 72)">
+      <use fill="#FFF" xlink:href="#no-device-w"/>
+      <use fill="url(#no-device-k)" xlink:href="#no-device-w"/>
+    </g>
+    <g transform="translate(73 72)">
+      <use fill="#FFF" xlink:href="#no-device-x"/>
+      <use fill="url(#no-device-m)" xlink:href="#no-device-x"/>
+    </g>
+    <g transform="translate(73 72)">
+      <use fill="#FFF" xlink:href="#no-device-y"/>
+      <use fill="url(#no-device-o)" xlink:href="#no-device-y"/>
+      <use fill="#000" filter="url(#no-device-z)" xlink:href="#no-device-y"/>
+    </g>
+    <g transform="translate(73 72)">
+      <use fill="#FFF" xlink:href="#no-device-A"/>
+      <use fill="url(#no-device-r)" xlink:href="#no-device-A"/>
+    </g>
+    <g transform="translate(73 72)">
+      <use fill="#FFF" xlink:href="#no-device-B"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-B"/>
+    </g>
+    <g transform="translate(73 72)">
+      <use fill="#FFF" xlink:href="#no-device-C"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-C"/>
+    </g>
+    <g transform="translate(73 72)">
+      <use fill="#FFF" xlink:href="#no-device-D"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-D"/>
+    </g>
+    <g transform="translate(73 44)">
+      <use fill="#FFF" xlink:href="#no-device-E"/>
+      <use fill="url(#no-device-k)" xlink:href="#no-device-E"/>
+    </g>
+    <g transform="translate(73 44)">
+      <use fill="#FFF" xlink:href="#no-device-F"/>
+      <use fill="url(#no-device-m)" xlink:href="#no-device-F"/>
+    </g>
+    <g transform="translate(73 44)">
+      <use fill="#FFF" xlink:href="#no-device-G"/>
+      <use fill="url(#no-device-o)" xlink:href="#no-device-G"/>
+      <use fill="#000" filter="url(#no-device-H)" xlink:href="#no-device-G"/>
+    </g>
+    <g transform="translate(73 44)">
+      <use fill="#FFF" xlink:href="#no-device-I"/>
+      <use fill="url(#no-device-r)" xlink:href="#no-device-I"/>
+    </g>
+    <g transform="translate(73 44)">
+      <use fill="#FFF" xlink:href="#no-device-J"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-J"/>
+    </g>
+    <g transform="translate(73 44)">
+      <use fill="#FFF" xlink:href="#no-device-K"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-K"/>
+    </g>
+    <g transform="translate(73 44)">
+      <use fill="#FFF" xlink:href="#no-device-L"/>
+      <use fill="url(#no-device-t)" xlink:href="#no-device-L"/>
+    </g>
+    <g transform="translate(31 72)" fill="url(#no-device-M)">
+      <path d="M194 0v84l-97 56V0h97ZM97 0v140L0 84V0h97Z"/>
+    </g>
+  </g>
+</svg>

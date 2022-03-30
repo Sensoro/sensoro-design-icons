@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-video-b">
+      <stop stop-color="#2B6DE5" stop-opacity=".04" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".09" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="28.234%" x2="0%" y2="71.766%" id="no-video-d">
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="28.234%" x2="100%" y2="71.766%" id="no-video-f">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-video-i">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".25" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="no-video-k">
+      <stop stop-color="#2B6DE5" stop-opacity=".2" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".3" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="60.455%" y1="101.385%" x2="29.388%" y2="0%" id="no-video-m">
+      <stop stop-color="#2B6DE5" stop-opacity=".1" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".35" offset="49.916%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".3" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="32.529%" y1="0%" x2="50%" y2="79.854%" id="no-video-o">
+      <stop stop-color="#2B6DE5" stop-opacity=".04" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".09" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="60.455%" y1="101.385%" x2="29.388%" y2="0%" id="no-video-r">
+      <stop stop-color="#2B6DE5" stop-opacity=".1" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="49.916%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".4" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="62.5%" y1="100%" x2="37.5%" y2="0%" id="no-video-v">
+      <stop stop-color="#2B6DE5" stop-opacity=".45" offset="0%"/>
+      <stop stop-color="#2B6DE5" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="17.572%" x2="50%" y2="100%" id="no-video-w">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="17.572%" x2="50%" y2="100%" id="no-video-x">
+      <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2B6DE5" stop-opacity=".15" offset="100%"/>
+    </linearGradient>
+    <path d="M176.679 74 194 84l-97 56L0 84l17.321-10L97 120l79.679-46Z" id="no-video-a"/>
+    <path d="m194 64-97 56v-8l97-56v8Z" id="no-video-c"/>
+    <path d="M97 112v8L0 64v-8l97 56Z" id="no-video-e"/>
+    <path d="m97 0 97 56-97 56L0 56 97 0Z" id="no-video-h"/>
+    <path d="m128 118 65 38-65 38-65-38 65-38Z" id="no-video-j"/>
+    <path d="M64 34.474v57.572a2 2 0 0 1-1.065 1.769c-.186.098-3.164 1.735-8.935 4.909L11.983 65.259A6 6 0 0 1 9 60.073L1 6.324l8.983-5.4A2.237 2.237 0 0 1 11 .604c.352-.016.7.092 1.006.27l49.011 28.41A6.006 6.006 0 0 1 64 34.474Z" id="no-video-l"/>
+    <path d="M55 39.975v57.071a2 2 0 0 1-3.006 1.73L2.983 70.258A6 6 0 0 1 0 65.073V8.002a2 2 0 0 1 3.006-1.73L52.017 34.79A6 6 0 0 1 55 39.975Z" id="no-video-n"/>
+    <path d="M64 34.474v57.572a2 2 0 0 1-1.065 1.769c-.186.098-3.164 1.735-8.935 4.909L11.983 65.259A6 6 0 0 1 9 60.073L1 6.324l8.983-5.4A2.237 2.237 0 0 1 11 .604c.352-.016.7.092 1.006.27l49.011 28.41A6.006 6.006 0 0 1 64 34.474Z" id="no-video-q"/>
+    <path d="M55 39.975v57.071a2 2 0 0 1-3.006 1.73L2.983 70.258A6 6 0 0 1 0 65.073V8.002a2 2 0 0 1 3.006-1.73L52.017 34.79A6 6 0 0 1 55 39.975Z" id="no-video-s"/>
+    <path d="M21.5 41.947v18.052a1 1 0 0 0 1.399.917l9.026-3.925a1 1 0 0 0 .444-1.455l-9.026-14.128a1 1 0 0 0-1.843.539Z" id="no-video-u"/>
+    <filter x="-.5%" y="-.8%" width="101%" height="101.6%" filterUnits="objectBoundingBox" id="no-video-g">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+    <filter x="-.9%" y="-.5%" width="101.8%" height="101.1%" filterUnits="objectBoundingBox" id="no-video-p">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+    <filter x="-.9%" y="-.5%" width="101.8%" height="101.1%" filterUnits="objectBoundingBox" id="no-video-t">
+      <feOffset dx="-1" dy=".5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" in="shadowInnerInner1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-video-a"/>
+      <use fill="url(#no-video-b)" xlink:href="#no-video-a"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-video-c"/>
+      <use fill="url(#no-video-d)" xlink:href="#no-video-c"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-video-e"/>
+      <use fill="url(#no-video-f)" xlink:href="#no-video-e"/>
+      <use fill="#000" filter="url(#no-video-g)" xlink:href="#no-video-e"/>
+    </g>
+    <g transform="translate(31 100)">
+      <use fill="#FFF" xlink:href="#no-video-h"/>
+      <use fill="url(#no-video-i)" xlink:href="#no-video-h"/>
+    </g>
+    <use fill="#FFF" xlink:href="#no-video-j"/>
+    <use fill="url(#no-video-k)" xlink:href="#no-video-j"/>
+    <g transform="translate(111 48.476)">
+      <use fill="#FFF" xlink:href="#no-video-l"/>
+      <use fill="url(#no-video-m)" xlink:href="#no-video-l"/>
+    </g>
+    <g transform="translate(111 48.476)">
+      <use fill="#FFF" xlink:href="#no-video-n"/>
+      <use fill="url(#no-video-o)" xlink:href="#no-video-n"/>
+      <use fill="#000" filter="url(#no-video-p)" xlink:href="#no-video-n"/>
+    </g>
+    <g transform="translate(78 68.476)">
+      <use fill="#FFF" xlink:href="#no-video-q"/>
+      <use fill="url(#no-video-r)" xlink:href="#no-video-q"/>
+    </g>
+    <g transform="translate(78 68.476)">
+      <use fill="#FFF" xlink:href="#no-video-s"/>
+      <use fill="url(#no-video-o)" xlink:href="#no-video-s"/>
+      <use fill="#000" filter="url(#no-video-t)" xlink:href="#no-video-s"/>
+    </g>
+    <g transform="translate(78 68.476)">
+      <use fill="#FFF" xlink:href="#no-video-u"/>
+      <use fill="url(#no-video-v)" xlink:href="#no-video-u"/>
+    </g>
+    <path fill="url(#no-video-w)" d="m128 42 65 38v76l-65 38-65-38V80z"/>
+    <g transform="translate(31 72)" fill="url(#no-video-x)">
+      <path d="M194 0v84l-97 56V0h97ZM97 0v140L0 84V0h97Z"/>
+    </g>
+  </g>
+</svg>
