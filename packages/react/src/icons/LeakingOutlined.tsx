@@ -1,11 +1,11 @@
 // This icon file is generated automatically.
-import * as React from 'react'
+import * as React from 'react';
 import LeakingOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/LeakingOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LeakingOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>(
-  (props, ref) => <SensoroIcon {...props} ref={ref} icon={LeakingOutlinedSvg} />
-);
+const LeakingOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+  <SensoroIcon {...props} ref={ref} icon={LeakingOutlinedSvg} />
+));
 
 LeakingOutlined.displayName = 'LeakingOutlined';
 
