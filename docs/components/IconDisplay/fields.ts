@@ -43,7 +43,7 @@ const operation = [
 ];
 
 /** 音影类 */
-const audioVideo = ['Pause', 'Sound'];
+const audioVideo = ['Pause', 'PauseCircle', 'Sound', 'Play', 'PlayCircle'];
 
 const file = [
   'FileAdd',
