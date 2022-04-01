@@ -108,13 +108,13 @@ importers:
       '@ant-design/colors': ^6.0.0
       '@babel/runtime': ^7.11.2
       '@pansy/classnames': ^1.0.1
-      '@sensoro-design/icons-svg': 1.0.0
+      '@sensoro-design/icons-svg': 1.0.1
       rc-util: ^5.19.3
     dependencies:
       '@ant-design/colors': 6.0.0
       '@babel/runtime': 7.17.8
       '@pansy/classnames': 1.0.1
-      '@sensoro-design/icons-svg': 1.0.0
+      '@sensoro-design/icons-svg': link:../core
       rc-util: 5.19.3_react-dom@17.0.2+react@17.0.2
 
 packages:
@@ -4616,10 +4616,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /@sensoro-design/icons-svg/1.0.0:
-    resolution: {integrity: sha512-7IqxrLrIhds/w+bPUaJmIpv/vpZGyrEFh9cDUd3WH1vavzaXm7sQZ2JreOfOnJHavfbvY49IQjsp+Gve3Omibw==}
-    dev: false
 
   /@sideway/address/4.1.4:
     resolution: {integrity: sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==}
