@@ -11,7 +11,10 @@ module.exports = {
       '@semantic-release/commit-analyzer',
       {
         config: 'conventional-changelog-gitmoji-config',
-        releaseRules: [{ type: 'build', release: 'patch' }],
+        releaseRules: [{
+          type: 'build',
+          release: 'patch'
+        }],
       },
     ],
     '@semantic-release/release-notes-generator',
@@ -19,7 +22,7 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        message: 'chore(release): 🤖 ${nextRelease.gitTag} [skip ci]',
+        message: '🔖 chore(release): ${nextRelease.gitTag} 🤖 [skip ci]',
       },
     ],
     '@semantic-release/npm',
