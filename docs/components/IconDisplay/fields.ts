@@ -9,6 +9,10 @@ const direction: string[] = [
   'Down',
   'Left',
   'Right',
+  'UpCircle',
+  'DownCircle',
+  'LeftCircle',
+  'RightCircle',
   'CaretUp',
   'CaretDown',
   'CaretLeft',
@@ -21,6 +25,9 @@ const direction: string[] = [
   'ArrowDown',
   'ArrowLeft',
   'ArrowRight',
+  'Swap',
+  'SwapLeft',
+  'SwapRight',
 ];
 
 /** 操作类 */
@@ -64,6 +71,10 @@ const file = [
   'FilePpt',
   'FileProtect',
   'FileSearch',
+  'FileTime',
+  'FilePen',
+  'FileCheck',
+  'FileSeal',
 ];
 
 const device = [
