@@ -55,7 +55,7 @@ const operation = [
 ];
 
 /** 音影类 */
-const audioVideo = ['Pause', 'PauseCircle', 'Sound', 'Play', 'PlayCircle'];
+const audioVideo = ['Pause', 'PauseCircle', 'Sound', 'Mute', 'Play', 'PlayCircle'];
 
 const file = [
   'FileAdd',
