@@ -37,6 +37,7 @@ const direction: string[] = [
 /** 操作类 */
 const operation = [
   'Delete',
+  'Pen',
   'Form',
   'Edit',
   'Search',
@@ -79,6 +80,8 @@ const file = [
   'FilePen',
   'FileCheck',
   'FileSeal',
+  'FileVideo',
+  'FileAudio',
 ];
 
 const device = [
