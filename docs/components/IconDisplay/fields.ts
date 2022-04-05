@@ -28,6 +28,10 @@ const direction: string[] = [
   'Swap',
   'SwapLeft',
   'SwapRight',
+  'LeftUp',
+  'LeftDown',
+  'RightUp',
+  'RightDown',
 ];
 
 /** 操作类 */
