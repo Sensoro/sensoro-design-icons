@@ -1,3 +1,5 @@
+# [@sensoro-design/icons-svg-v1.2.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg-v1.1.0...@sensoro-design/icons-svg-v1.2.0) (2022-04-05)
+
 # [@sensoro-design/icons-svg-v1.1.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg-v1.0.0...@sensoro-design/icons-svg-v1.1.0) (2022-04-05)
 
 # @sensoro-design/icons-svg-v1.0.0 (2022-04-01)
