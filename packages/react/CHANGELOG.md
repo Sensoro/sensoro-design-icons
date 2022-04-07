@@ -1,15 +1,15 @@
-# [@sensoro-design/icons-v1.3.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-v1.2.0...@sensoro-design/icons-v1.3.0) (2022-04-07)
-
-# [@sensoro-design/icons-v1.2.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-v1.1.0...@sensoro-design/icons-v1.2.0) (2022-04-05)
-
-# [@sensoro-design/icons-v1.1.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-v1.0.0...@sensoro-design/icons-v1.1.0) (2022-04-05)
-
-# @sensoro-design/icons-v1.0.0 (2022-04-01)
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.3.1](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@0.1.9...@sensoro-design/icons@1.3.1) (2022-04-07)
+
+**Note:** Version bump only for package @sensoro-design/icons
+
+
+
+
 
 ## [0.1.9](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@0.1.8...@sensoro-design/icons@0.1.9) (2022-03-31)
 
