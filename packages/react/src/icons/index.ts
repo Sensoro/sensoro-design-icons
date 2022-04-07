@@ -216,6 +216,7 @@ export { default as QuestionCircleOutlined } from './QuestionCircleOutlined';
 export { default as QuestionOutlined } from './QuestionOutlined';
 export { default as RedoOutlined } from './RedoOutlined';
 export { default as ReloadOutlined } from './ReloadOutlined';
+export { default as ResourceOutlined } from './ResourceOutlined';
 export { default as RestOutlined } from './RestOutlined';
 export { default as RightCircleOutlined } from './RightCircleOutlined';
 export { default as RightDownOutlined } from './RightDownOutlined';
