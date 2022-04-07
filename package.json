@@ -44,7 +44,7 @@
     "@walrus/cli-utils": "^2.2.1",
     "@walrus/plugin-release": "^1.14.3",
     "@walrus/plugin-run": "^0.5.3",
-    "antd": "^4.19.3",
+    "antd": "^4.19.5",
     "conventional-changelog-gitmoji-config": "^1.4.3",
     "del": "^6.0.0",
     "dumi": "^1.1.40",
