@@ -4,6 +4,10 @@
 
 语义化矢量图形库，提供了描述图标的抽象节点来满足对各种框架的适配。
 
+<br />
+
+[![NPM version][npm-image]][npm-url] 
+[![NPM downloads][download-image]][download-url]
 </div>
 
 ## ✨ 特性
@@ -50,3 +54,8 @@ $ pnpm generate
 $ pnpm build
 $ pnpm start
 ```
+
+[npm-image]: https://img.shields.io/npm/v/@sensoro-design/icons.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@sensoro-design/icons
+[download-image]: https://img.shields.io/npm/dm/@sensoro-design/icons.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@sensoro-design/icons
