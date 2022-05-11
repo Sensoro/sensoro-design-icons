@@ -37,7 +37,7 @@ importers:
       gulp-rename: ^2.0.0
       husky: ^7.0.4
       lerna: ^4.0.0
-      lint-staged: ^12.3.7
+      lint-staged: ^12.4.1
       lodash: ^4.17.21
       prettier: ^2.6.2
       ramda: ^0.27.0
@@ -85,7 +85,7 @@ importers:
       gulp-rename: 2.0.0
       husky: 7.0.4
       lerna: 4.0.0
-      lint-staged: 12.3.7
+      lint-staged: 12.4.1
       lodash: 4.17.21
       prettier: 2.6.2
       ramda: 0.27.2
@@ -11562,8 +11562,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/12.3.7:
-    resolution: {integrity: sha512-/S4D726e2GIsDVWIk1XGvheCaDm1SJRQp8efamZFWJxQMVEbOwSysp7xb49Oo73KYCdy97mIWinhlxcoNqIfIQ==}
+  /lint-staged/12.4.1:
+    resolution: {integrity: sha512-PTXgzpflrQ+pODQTG116QNB+Q6uUTDg5B5HqGvNhoQSGt8Qy+MA/6zSnR8n38+sxP5TapzeQGTvoKni0KRS8Vg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -17953,7 +17953,7 @@ packages:
   /wide-align/1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: true
 
   /widest-line/2.0.1:
