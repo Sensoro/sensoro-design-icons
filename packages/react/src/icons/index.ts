@@ -155,6 +155,7 @@ export { default as LinkOutlined } from './LinkOutlined';
 export { default as LinsAccessOutlined } from './LinsAccessOutlined';
 export { default as LoadingOutlined } from './LoadingOutlined';
 export { default as LocationFilled } from './LocationFilled';
+export { default as LocationPurely } from './LocationPurely';
 export { default as LockFilled } from './LockFilled';
 export { default as LockOutlined } from './LockOutlined';
 export { default as LpgOutlined } from './LpgOutlined';
