@@ -53,6 +53,7 @@ export { default as CloseSquareOutlined } from './CloseSquareOutlined';
 export { default as Co2Outlined } from './Co2Outlined';
 export { default as CoOutlined } from './CoOutlined';
 export { default as CodeOutlined } from './CodeOutlined';
+export { default as CollectOutlined } from './CollectOutlined';
 export { default as CompressOutlined } from './CompressOutlined';
 export { default as ControllerOutlined } from './ControllerOutlined';
 export { default as CopyOutlined } from './CopyOutlined';
