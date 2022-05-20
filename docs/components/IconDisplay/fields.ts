@@ -58,6 +58,19 @@ const operation = [
   'Filter',
 ];
 
+const empty = [
+  'NoAlarm',
+  'NoApp',
+  'NoCar',
+  'NoCars',
+  'NoData',
+  'NoDevice',
+  'NoImage',
+  'NoPerson',
+  'NoPersons',
+  'NoVideo',
+];
+
 /** 音影类 */
 const audioVideo = [
   'Pause',
@@ -176,7 +189,17 @@ const data: string[] = [];
 
 const logo: string[] = [];
 
-const datum = [...direction, ...suggestion, ...audioVideo, ...data, ...logo, ...operation, ...device, ...file];
+const datum = [
+  ...direction,
+  ...suggestion,
+  ...audioVideo,
+  ...data,
+  ...logo,
+  ...operation,
+  ...device,
+  ...file,
+  ...empty,
+];
 
 const other = all.filter((n) => !datum.includes(n));
 
@@ -190,6 +213,7 @@ export const categories = {
   audioVideo,
   logo,
   other,
+  empty,
 };
 
 export default categories;

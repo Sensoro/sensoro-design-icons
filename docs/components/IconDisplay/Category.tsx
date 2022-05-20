@@ -22,6 +22,7 @@ const titleMap = {
   other: '网站通用图标',
   logo: '品牌和标识',
   audioVideo: '音影类图标',
+  empty: '空状态',
 };
 
 export const Category: React.FC<CategoriesProps> = ({ title, icons = [], newIcons = [], theme }) => {
