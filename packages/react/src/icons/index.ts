@@ -256,6 +256,7 @@ export { default as SoundOutlined } from './SoundOutlined';
 export { default as StarCheckOutlined } from './StarCheckOutlined';
 export { default as StarFilled } from './StarFilled';
 export { default as StarOutlined } from './StarOutlined';
+export { default as StatisticsFilled } from './StatisticsFilled';
 export { default as StepBackwardOutlined } from './StepBackwardOutlined';
 export { default as StepForwardOutlined } from './StepForwardOutlined';
 export { default as StopOutlined } from './StopOutlined';
