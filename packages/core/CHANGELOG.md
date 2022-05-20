@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.4.1...@sensoro-design/icons-svg@1.4.2) (2022-05-20)
+
+**Note:** Version bump only for package @sensoro-design/icons-svg
+
+
+
+
+
 ## [1.4.1](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.4.0...@sensoro-design/icons-svg@1.4.1) (2022-05-20)
 
 **Note:** Version bump only for package @sensoro-design/icons-svg
