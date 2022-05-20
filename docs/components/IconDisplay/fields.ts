@@ -52,10 +52,24 @@ const operation = [
   'AlignCenter',
   'AlignLeft',
   'AlignRight',
+  'Fullscreen',
+  'FullscreenExit',
+  'Upload',
+  'Filter',
 ];
 
 /** 音影类 */
-const audioVideo = ['Pause', 'PauseCircle', 'Sound', 'Mute', 'Play', 'PlayCircle'];
+const audioVideo = [
+  'Pause',
+  'PauseCircle',
+  'Sound',
+  'SoundSmall',
+  'Mute',
+  'Play',
+  'PlayCircle',
+  'StepBackward',
+  'StepForward',
+];
 
 const file = [
   'FileAdd',
