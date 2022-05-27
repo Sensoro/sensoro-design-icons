@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.4.4...@sensoro-design/icons-svg@1.5.0) (2022-05-27)
+
+
+### Features
+
+* 优化图片主题SVG处理流程，id 由 svgo 处理 ([711fef1](https://github.com/sensoro-design/sensoro-design-icons/commit/711fef1e15eafe9894fac062e44812e4e2cc8ce3))
+
+
+
+
+
 ## [1.4.4](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.4.3...@sensoro-design/icons-svg@1.4.4) (2022-05-24)
 
 **Note:** Version bump only for package @sensoro-design/icons-svg
