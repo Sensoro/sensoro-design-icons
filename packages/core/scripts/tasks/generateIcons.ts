@@ -7,16 +7,13 @@ import type { OptimizeOptions } from 'svgo';
 import type { SVG2DefinitionOptions } from '../plugins/svg2Definition';
 import type { UseTemplatePluginOptions } from '../plugins/useTemplate';
 
-export interface GenerateIconsOptions extends
-  SVG2DefinitionOptions,
-  UseTemplatePluginOptions
-{
+export interface GenerateIconsOptions extends SVG2DefinitionOptions, UseTemplatePluginOptions {
   /** 图标来源 */
   from: string[];
   /** 输出目录 */
   toDir: string;
   /** 图标压缩插件 svgo 的配置 */
-  svgoConfig: OptimizeOptions;
+  svgoConfig: OptimizeOptions | (() => OptimizeOptions);
   /** 最后输出文件命名 */
   filename: (option: { name: string }) => string;
 }
@@ -30,7 +27,7 @@ export const generateIcons = ({
   stringify,
   template,
   mapToInterpolate,
-  filename
+  filename,
 }: GenerateIconsOptions) =>
   function GenerateIcons() {
     return src(from)
@@ -39,8 +36,8 @@ export const generateIcons = ({
         svg2Definition({
           theme,
           extraNodeTransformFactories,
-          stringify
-        })
+          stringify,
+        }),
       )
       .pipe(useTemplate({ template, mapToInterpolate }))
       .pipe(
@@ -49,7 +46,7 @@ export const generateIcons = ({
             file.basename = filename({ name: file.basename });
             file.extname = '.ts';
           }
-        })
+        }),
       )
       .pipe(dest(toDir));
   };
