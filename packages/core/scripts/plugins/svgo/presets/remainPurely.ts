@@ -5,7 +5,7 @@ import { base } from './base';
 import type { OptimizeOptions } from 'svgo';
 
 export const remainPurelyConfig = (): OptimizeOptions => {
-  const prefix = uniqueId('prefix__');
+  const prefix = uniqueId('sen__');
 
   return mergeRight(base, {
     plugins: [
