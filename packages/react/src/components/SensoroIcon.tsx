@@ -46,7 +46,7 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>((props, ref) 
     ...restProps
   } = props;
 
-  const { prefixCls = 'sen-icon' } = React.useContext(Context);
+  const { prefixCls = 's-icon' } = React.useContext(Context);
 
   const classString = classNames(
     prefixCls,
@@ -81,12 +81,7 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>((props, ref) 
       onClick={onClick}
       className={classString}
     >
-      <IconBase
-        icon={icon}
-        primaryColor={primaryColor}
-        secondaryColor={secondaryColor}
-        style={svgStyle}
-      />
+      <IconBase icon={icon} primaryColor={primaryColor} secondaryColor={secondaryColor} style={svgStyle} />
     </span>
   );
 }) as IconBaseComponent<IconComponentProps>;

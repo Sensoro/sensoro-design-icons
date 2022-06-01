@@ -22,94 +22,90 @@ export interface CustomIconComponentProps {
 
 export interface IconComponentProps extends IconBaseProps {
   viewBox?: string;
-  component?: React.ComponentType<CustomIconComponentProps | React.SVGProps<SVGSVGElement>> | React.ForwardRefExoticComponent<CustomIconComponentProps>;
+  component?:
+    | React.ComponentType<CustomIconComponentProps | React.SVGProps<SVGSVGElement>>
+    | React.ForwardRefExoticComponent<CustomIconComponentProps>;
   ariaLabel?: React.AriaAttributes['aria-label'];
 }
 
-const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>(({
-  // affect outter <i>...</i>
-  className,
+const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>(
+  (
+    {
+      // affect outter <i>...</i>
+      className,
 
-  // affect inner <svg>...</svg>
-  component: Component,
-  viewBox,
-  spin,
-  rotate,
+      // affect inner <svg>...</svg>
+      component: Component,
+      viewBox,
+      spin,
+      rotate,
 
-  tabIndex,
-  onClick,
+      tabIndex,
+      onClick,
 
-  // children
-  children,
-  ...restProps
-}, ref) => {
+      // children
+      children,
+      ...restProps
+    },
+    ref,
+  ) => {
+    useInsertStyles();
 
-  useInsertStyles();
+    const { prefixCls = 's-icon' } = React.useContext(Context);
 
-  const { prefixCls = 'sen-icon' } = React.useContext(Context);
+    const classString = classNames(prefixCls, className);
 
-  const classString = classNames(
-    prefixCls,
-    className,
-  );
+    const svgClassString = classNames({
+      [`${prefixCls}-spin`]: !!spin,
+    });
 
-  const svgClassString = classNames({
-    [`${prefixCls}-spin`]: !!spin,
-  });
+    const svgStyle = rotate
+      ? {
+          msTransform: `rotate(${rotate}deg)`,
+          transform: `rotate(${rotate}deg)`,
+        }
+      : undefined;
 
-  const svgStyle = rotate
-    ? {
-        msTransform: `rotate(${rotate}deg)`,
-        transform: `rotate(${rotate}deg)`,
+    const innerSvgProps: CustomIconComponentProps = {
+      ...svgBaseProps,
+      className: svgClassString,
+      style: svgStyle,
+      viewBox,
+    };
+
+    if (!viewBox) {
+      delete innerSvgProps.viewBox;
+    }
+
+    // component > children
+    const renderInnerNode = () => {
+      if (Component) {
+        return <Component {...innerSvgProps}>{children}</Component>;
       }
-    : undefined;
 
-  const innerSvgProps: CustomIconComponentProps = {
-    ...svgBaseProps,
-    className: svgClassString,
-    style: svgStyle,
-    viewBox,
-  };
+      if (children) {
+        return (
+          <svg {...innerSvgProps} viewBox={viewBox}>
+            {children}
+          </svg>
+        );
+      }
 
-  if (!viewBox) {
-    delete innerSvgProps.viewBox;
-  }
+      return null;
+    };
 
-  // component > children
-  const renderInnerNode = () => {
-    if (Component) {
-      return <Component {...innerSvgProps}>{children}</Component>;
+    let iconTabIndex = tabIndex;
+    if (iconTabIndex === undefined && onClick) {
+      iconTabIndex = -1;
     }
 
-    if (children) {
-      return (
-        <svg {...innerSvgProps} viewBox={viewBox}>
-          {children}
-        </svg>
-      );
-    }
-
-    return null;
-  };
-
-  let iconTabIndex = tabIndex;
-  if (iconTabIndex === undefined && onClick) {
-    iconTabIndex = -1;
-  }
-
-  return (
-    <span
-      role="img"
-      {...restProps}
-      ref={ref}
-      tabIndex={iconTabIndex}
-      onClick={onClick}
-      className={classString}
-    >
-      {renderInnerNode()}
-    </span>
-  );
-})
+    return (
+      <span role="img" {...restProps} ref={ref} tabIndex={iconTabIndex} onClick={onClick} className={classString}>
+        {renderInnerNode()}
+      </span>
+    );
+  },
+);
 
 Icon.displayName = 'SenIcon';
 

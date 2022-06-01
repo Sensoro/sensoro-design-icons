@@ -37,7 +37,7 @@ export const Category: React.FC<CategoriesProps> = ({ title, icons = [], newIcon
   return (
     <>
       <h3 style={{ margin: '1.6em 0px 0.6em' }}>{titleMap[title]}</h3>
-      <ul className="sen-icons-list">
+      <ul className="s-icons-list">
         {icons.map((name) => (
           <CopyableIcon
             key={name}

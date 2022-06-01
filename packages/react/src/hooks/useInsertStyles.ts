@@ -2,9 +2,8 @@ import { useContext, useEffect } from 'react';
 import IconContext from '../components/Context';
 import { updateCSS } from 'rc-util/lib/Dom/dynamicCSS';
 
-
 export const useInsertStyles = (styleStr?: string) => {
-  const { csp, prefixCls = 'sen-icon' } = useContext(IconContext);
+  const { csp, prefixCls = 's-icon' } = useContext(IconContext);
 
   useEffect(() => {
     updateCSS(styleStr ?? getIconStyles(prefixCls), 'sensoro-design-icons', {
@@ -14,7 +13,7 @@ export const useInsertStyles = (styleStr?: string) => {
   }, []);
 };
 
-function getIconStyles (prefixCls: string) {
+function getIconStyles(prefixCls: string) {
   return `
     .${prefixCls} {
       display: inline-block;
@@ -65,5 +64,5 @@ function getIconStyles (prefixCls: string) {
         transform: rotate(360deg);
       }
     }
-  `
+  `;
 }

@@ -13,12 +13,7 @@ export interface CopyableIconProps {
   onCopied: (type: string, text: string) => void;
 }
 
-export const CopyableIcon: React.FC<CopyableIconProps> = ({
-  name,
-  isNew,
-  theme,
-  onCopied,
-}) => {
+export const CopyableIcon: React.FC<CopyableIconProps> = ({ name, isNew, theme, onCopied }) => {
   const { copy } = useClipboard();
 
   const classes = classNames({
@@ -30,15 +25,15 @@ export const CopyableIcon: React.FC<CopyableIconProps> = ({
 
     copy(copyText);
     onCopied(name, copyText);
-  }
+  };
 
   return (
     <li className={classes} onClick={handleCopied}>
       {/* @ts-ignore */}
       {React.createElement(senIcons[name])}
-      <span className="sen-icon-class">
+      <span className="s-icon-class">
         <Badge dot={isNew}>{name}</Badge>
       </span>
     </li>
-  )
-}
+  );
+};
