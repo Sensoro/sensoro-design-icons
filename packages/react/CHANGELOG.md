@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.4.6...@sensoro-design/icons@1.5.0) (2022-06-01)
+
+
+### Features
+
+* replace sen to s ([65eeff7](https://github.com/sensoro-design/sensoro-design-icons/commit/65eeff76216646af35eb99a4d03756a150500d5c))
+
+
+
+
+
 ## [1.4.6](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.4.5...@sensoro-design/icons@1.4.6) (2022-05-30)
 
 **Note:** Version bump only for package @sensoro-design/icons
