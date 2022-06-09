@@ -30,11 +30,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-
 
-      - name: Pnpm action
-        uses: pnpm/action-setup@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.2.1
         with:
-          version: latest
           run_install: true
+
 
       - name: Bootstrap
         run: pnpm bootstrap
