@@ -161,6 +161,7 @@ export { default as LocationFilled } from './LocationFilled';
 export { default as LocationPurely } from './LocationPurely';
 export { default as LockFilled } from './LockFilled';
 export { default as LockOutlined } from './LockOutlined';
+export { default as LogoutOutlined } from './LogoutOutlined';
 export { default as LpgOutlined } from './LpgOutlined';
 export { default as ManholeCoverOutlined } from './ManholeCoverOutlined';
 export { default as ManualAlarmCircleOutlined } from './ManualAlarmCircleOutlined';
