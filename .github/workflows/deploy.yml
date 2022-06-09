@@ -34,8 +34,7 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: latest
-          run_install: |
-            - args: [--frozen-lockfile]
+          run_install: true
 
       - name: Bootstrap
         run: pnpm bootstrap
