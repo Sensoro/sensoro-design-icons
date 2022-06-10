@@ -62,6 +62,7 @@ export { default as DashOutlined } from './DashOutlined';
 export { default as DeleteOutlined } from './DeleteOutlined';
 export { default as DeviceFilled } from './DeviceFilled';
 export { default as DeviceOutlined } from './DeviceOutlined';
+export { default as DistanceOutlined } from './DistanceOutlined';
 export { default as DomeCameraOutlined } from './DomeCameraOutlined';
 export { default as DoorLockOutlined } from './DoorLockOutlined';
 export { default as DoorSettingOutlined } from './DoorSettingOutlined';
