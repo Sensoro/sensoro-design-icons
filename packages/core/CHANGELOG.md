@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.7.0...@sensoro-design/icons-svg@1.8.0) (2022-06-13)
+
+
+### Features
+
+* 添加一批图标 ([36af18d](https://github.com/sensoro-design/sensoro-design-icons/commit/36af18d238d1759dac0dc903e2fe512732068f09))
+
+
+
+
+
 # [1.7.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.6.0...@sensoro-design/icons-svg@1.7.0) (2022-06-10)
 
 
