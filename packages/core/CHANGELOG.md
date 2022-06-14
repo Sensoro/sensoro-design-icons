@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.10.0...@sensoro-design/icons-svg@1.11.0) (2022-06-14)
+
+
+### Features
+
+* 替换 fire 图标 ([c3f7358](https://github.com/sensoro-design/sensoro-design-icons/commit/c3f73581aa43ec92414055d9097665c35312cccd))
+
+
+
+
+
 # [1.10.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.9.0...@sensoro-design/icons-svg@1.10.0) (2022-06-14)
 
 
