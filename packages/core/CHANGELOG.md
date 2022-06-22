@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.11.0...@sensoro-design/icons-svg@1.12.0) (2022-06-22)
+
+
+### Features
+
+* replace car icon ([7b952e1](https://github.com/sensoro-design/sensoro-design-icons/commit/7b952e11fd07eeaefe7981732251c46f6e1994bd))
+
+
+
+
+
 # [1.11.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.10.0...@sensoro-design/icons-svg@1.11.0) (2022-06-14)
 
 
