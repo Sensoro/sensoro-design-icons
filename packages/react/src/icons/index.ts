@@ -105,6 +105,7 @@ export { default as FileExcelOutlined } from './FileExcelOutlined';
 export { default as FileExclamationOutlined } from './FileExclamationOutlined';
 export { default as FileGifOutlined } from './FileGifOutlined';
 export { default as FileImageOutlined } from './FileImageOutlined';
+export { default as FileInfoOutlined } from './FileInfoOutlined';
 export { default as FileJpgOutlined } from './FileJpgOutlined';
 export { default as FileMarkdownOutlined } from './FileMarkdownOutlined';
 export { default as FileOutlined } from './FileOutlined';
