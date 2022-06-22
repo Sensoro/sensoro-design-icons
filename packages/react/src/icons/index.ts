@@ -328,6 +328,7 @@ export { default as VideoCameraFilled } from './VideoCameraFilled';
 export { default as VideoCameraOutlined } from './VideoCameraOutlined';
 export { default as VideoFilled } from './VideoFilled';
 export { default as VideoOutlined } from './VideoOutlined';
+export { default as VideoStopOutlined } from './VideoStopOutlined';
 export { default as VirtualCameraOutlined } from './VirtualCameraOutlined';
 export { default as WarningFilled } from './WarningFilled';
 export { default as WarningOutlined } from './WarningOutlined';
