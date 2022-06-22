@@ -35,7 +35,7 @@ export { default as BulbOutlined } from './BulbOutlined';
 export { default as CalendarCheckOutlined } from './CalendarCheckOutlined';
 export { default as CalendarClockOutlined } from './CalendarClockOutlined';
 export { default as CalendarOutlined } from './CalendarOutlined';
-export { default as CameraBarrelOutlined } from './CameraBarrelOutlined';
+export { default as CameraBarrelFilled } from './CameraBarrelFilled';
 export { default as CameraFilled } from './CameraFilled';
 export { default as CameraOutlined } from './CameraOutlined';
 export { default as CarCameraOutlined } from './CarCameraOutlined';
