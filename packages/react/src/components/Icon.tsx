@@ -53,7 +53,7 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>(
 
     const { prefixCls = 's-icon' } = React.useContext(Context);
 
-    const classString = classNames(prefixCls, className);
+    const classString = classNames(prefixCls, 'anticon', className);
 
     const svgClassString = classNames({
       [`${prefixCls}-spin`]: !!spin,
