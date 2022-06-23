@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.12.0...@sensoro-design/icons@1.13.0) (2022-06-23)
+
+
+### Features
+
+* add anticon classname ([c353fce](https://github.com/sensoro-design/sensoro-design-icons/commit/c353fce958af1d823cca7388d09b808ee5792377))
+
+
+
+
+
 # [1.12.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.11.0...@sensoro-design/icons@1.12.0) (2022-06-22)
 
 
