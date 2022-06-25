@@ -19,6 +19,7 @@ const titleMap = {
   data: '数据类图标',
   file: '文件类图标',
   device: '设备类图标',
+  menu: '菜单类图标',
   other: '网站通用图标',
   logo: '品牌和标识',
   audioVideo: '音影类图标',

@@ -71,6 +71,20 @@ const empty = [
   'NoVideo',
 ];
 
+const menu = [
+  'MoneyWatch',
+  'BaseStation',
+  'Atlas',
+  'VideoCamera',
+  'DataAssets',
+  'DigitalMedia',
+  'Alert',
+  'GeoLocation',
+  'Global',
+  'Iot',
+  'HashrateCenter',
+];
+
 /** 音影类 */
 const audioVideo = [
   'Pause',
@@ -195,6 +209,7 @@ const datum = [
   ...audioVideo,
   ...data,
   ...logo,
+  ...menu,
   ...operation,
   ...device,
   ...file,
@@ -209,6 +224,7 @@ export const categories = {
   operation,
   file,
   data,
+  menu,
   device,
   audioVideo,
   logo,
