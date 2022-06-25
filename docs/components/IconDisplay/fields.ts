@@ -201,7 +201,7 @@ const suggestion: string[] = [
 
 const data: string[] = [];
 
-const logo: string[] = [];
+const logo: string[] = ['Github'];
 
 const datum = [
   ...direction,
