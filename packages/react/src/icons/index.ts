@@ -14,6 +14,7 @@ export { default as AlignRightOutlined } from './AlignRightOutlined';
 export { default as AppstoreAddOutlined } from './AppstoreAddOutlined';
 export { default as AppstoreFilled } from './AppstoreFilled';
 export { default as AppstoreOutlined } from './AppstoreOutlined';
+export { default as AreaOutlined } from './AreaOutlined';
 export { default as ArrowDownOutlined } from './ArrowDownOutlined';
 export { default as ArrowLeftOutlined } from './ArrowLeftOutlined';
 export { default as ArrowRightOutlined } from './ArrowRightOutlined';
