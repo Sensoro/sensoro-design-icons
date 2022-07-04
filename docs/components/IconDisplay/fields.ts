@@ -53,7 +53,9 @@ const operation = [
   'AlignLeft',
   'AlignRight',
   'Fullscreen',
+  'FullscreenPro',
   'FullscreenExit',
+  'FullscreenExitPro',
   'Upload',
   'Filter',
 ];
