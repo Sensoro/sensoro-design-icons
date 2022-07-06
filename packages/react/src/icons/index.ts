@@ -339,6 +339,7 @@ export { default as TemperaturePatchOutlined } from './TemperaturePatchOutlined'
 export { default as TemplateFilled } from './TemplateFilled';
 export { default as TetrisOutlined } from './TetrisOutlined';
 export { default as ThermometerOutlined } from './ThermometerOutlined';
+export { default as TimeCircleFilled } from './TimeCircleFilled';
 export { default as ToTopOutlined } from './ToTopOutlined';
 export { default as ToolOutlined } from './ToolOutlined';
 export { default as TrophyOutlined } from './TrophyOutlined';
