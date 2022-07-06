@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.20.0...@sensoro-design/icons-svg@1.21.0) (2022-07-06)
+
+
+### Features
+
+* 添加单位图标 ([787ddf7](https://github.com/sensoro-design/sensoro-design-icons/commit/787ddf794b70eeba4d63eead623e5cdf9a501c2e))
+* add TimeCircle icon ([959670e](https://github.com/sensoro-design/sensoro-design-icons/commit/959670e3900bd5473f532a181ec617221e428744))
+
+
+
+
+
 # [1.20.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.19.0...@sensoro-design/icons-svg@1.20.0) (2022-07-06)
 
 
