@@ -94,6 +94,8 @@ export { default as DroneOutlined } from './DroneOutlined';
 export { default as EditOutlined } from './EditOutlined';
 export { default as ElectricalFireOutlined } from './ElectricalFireOutlined';
 export { default as EllipsisOutlined } from './EllipsisOutlined';
+export { default as EmployerFilled } from './EmployerFilled';
+export { default as EmployerOutlined } from './EmployerOutlined';
 export { default as ExclamationCircleFilled } from './ExclamationCircleFilled';
 export { default as ExclamationCircleOutlined } from './ExclamationCircleOutlined';
 export { default as ExclamationOutlined } from './ExclamationOutlined';
