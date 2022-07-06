@@ -349,6 +349,7 @@ export { default as UploadOutlined } from './UploadOutlined';
 export { default as UsbOutlined } from './UsbOutlined';
 export { default as UserFilled } from './UserFilled';
 export { default as UserOutlined } from './UserOutlined';
+export { default as UserReportFilled } from './UserReportFilled';
 export { default as VehicleFileOutlined } from './VehicleFileOutlined';
 export { default as VideoCameraFilled } from './VideoCameraFilled';
 export { default as VideoCameraOutlined } from './VideoCameraOutlined';
