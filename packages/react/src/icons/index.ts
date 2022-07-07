@@ -236,6 +236,7 @@ export { default as NoCarPurely } from './NoCarPurely';
 export { default as NoCarsPurely } from './NoCarsPurely';
 export { default as NoDataPurely } from './NoDataPurely';
 export { default as NoDevicePurely } from './NoDevicePurely';
+export { default as NoFishingOutlined } from './NoFishingOutlined';
 export { default as NoImagePurely } from './NoImagePurely';
 export { default as NoPersonPurely } from './NoPersonPurely';
 export { default as NoPersonsPurely } from './NoPersonsPurely';
