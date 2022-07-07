@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.21.0...@sensoro-design/icons-svg@1.22.0) (2022-07-07)
+
+
+### Features
+
+* 添加禁渔图标 ([cd321b7](https://github.com/sensoro-design/sensoro-design-icons/commit/cd321b77b42a18b1fd7656b4e9415458316371e3))
+
+
+
+
+
 # [1.21.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.20.0...@sensoro-design/icons-svg@1.21.0) (2022-07-06)
 
 
