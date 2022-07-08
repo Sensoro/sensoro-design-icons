@@ -96,6 +96,8 @@ const audioVideo = [
   'Mute',
   'Play',
   'PlayCircle',
+  'PlayCirclePro',
+
   'StepBackward',
   'StepForward',
 ];
