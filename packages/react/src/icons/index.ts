@@ -246,6 +246,7 @@ export { default as NoFishingOutlined } from './NoFishingOutlined';
 export { default as NoImagePurely } from './NoImagePurely';
 export { default as NoPersonPurely } from './NoPersonPurely';
 export { default as NoPersonsPurely } from './NoPersonsPurely';
+export { default as NoSwimPurely } from './NoSwimPurely';
 export { default as NoVideoPurely } from './NoVideoPurely';
 export { default as NonMotorVehicleFilled } from './NonMotorVehicleFilled';
 export { default as NonMotorVehicleOutlined } from './NonMotorVehicleOutlined';
