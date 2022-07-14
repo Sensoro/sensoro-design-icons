@@ -182,6 +182,7 @@ export { default as HumanoidRightFilled } from './HumanoidRightFilled';
 export { default as HydrolabOutlined } from './HydrolabOutlined';
 export { default as IdcardFilled } from './IdcardFilled';
 export { default as IdcardOutlined } from './IdcardOutlined';
+export { default as IllegallyBuiltFilled } from './IllegallyBuiltFilled';
 export { default as ImageFilled } from './ImageFilled';
 export { default as ImageOutlined } from './ImageOutlined';
 export { default as InfoCircleFilled } from './InfoCircleFilled';
