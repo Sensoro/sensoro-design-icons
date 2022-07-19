@@ -152,6 +152,7 @@ export { default as FireHydraulicsOutlined } from './FireHydraulicsOutlined';
 export { default as FireOutlined } from './FireOutlined';
 export { default as FireStationFilled } from './FireStationFilled';
 export { default as FireWarningFilled } from './FireWarningFilled';
+export { default as FloorOutlined } from './FloorOutlined';
 export { default as FormOutlined } from './FormOutlined';
 export { default as FrameSelectionOutlined } from './FrameSelectionOutlined';
 export { default as FrownFilled } from './FrownFilled';
