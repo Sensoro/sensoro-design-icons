@@ -59,3 +59,13 @@ $ pnpm start
 [npm-url]: https://npmjs.org/package/@sensoro-design/icons
 [download-image]: https://img.shields.io/npm/dm/@sensoro-design/icons.svg?style=flat-square
 [download-url]: https://npmjs.org/package/@sensoro-design/icons
+
+
+import SmokePurely from '@sensoro-design/icons/SmokePurely';
+import FireFilled from '@sensoro-design/icons/FireFilled';
+
+import SafetyPreventionPurely from '@sensoro-design/icons/SafetyPreventionPurely';
+import SafetyPreventionFilled from '@sensoro-design/icons/SafetyPreventionFilled';
+
+
+import SinglePhasePurely from '@sensoro-design/icons/SinglePhasePurely';
