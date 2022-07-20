@@ -197,6 +197,7 @@ export { default as HydrolabOutlined } from './HydrolabOutlined';
 export { default as IdcardFilled } from './IdcardFilled';
 export { default as IdcardOutlined } from './IdcardOutlined';
 export { default as IllegalBuiltFilled } from './IllegalBuiltFilled';
+export { default as IllegalBuiltOutlined } from './IllegalBuiltOutlined';
 export { default as IllegalBuiltPurely } from './IllegalBuiltPurely';
 export { default as IllegalFishingFilled } from './IllegalFishingFilled';
 export { default as IllegalFishingPurely } from './IllegalFishingPurely';
