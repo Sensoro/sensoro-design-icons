@@ -36,6 +36,8 @@ const direction: string[] = [
 
 const car = ['Car', 'CarCamera', 'CarRecord', 'CarUnknown'];
 
+const built = ['Building', 'Employer', 'IllegalBuilt'];
+
 /** 操作类 */
 const operation = [
   'Delete',
@@ -216,6 +218,7 @@ const datum = [
   ...data,
   ...logo,
   ...car,
+  ...built,
   ...menu,
   ...operation,
   ...device,
@@ -232,6 +235,7 @@ export const categories = {
   file,
   data,
   car,
+  built,
   menu,
   device,
   audioVideo,
