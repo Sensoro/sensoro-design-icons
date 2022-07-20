@@ -36,7 +36,7 @@ const direction: string[] = [
 
 const car = ['Car', 'CarCamera', 'CarRecord', 'CarUnknown'];
 
-const built = ['Building', 'Employer', 'IllegalBuilt'];
+const built = ['Building', 'Employer', 'IllegalBuilding'];
 
 /** 操作类 */
 const operation = [
