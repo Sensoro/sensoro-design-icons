@@ -34,7 +34,7 @@ const direction: string[] = [
   'RightDown',
 ];
 
-const car = ['Car', 'CarCamera', 'CarRecord', 'CarUnknown', 'CarExclamationCircle'];
+const car = ['Car', 'CarCamera', 'CarRecord', 'CarUnknown', 'CarExclamationCircle', 'CarPen', 'CarQuestionCircle'];
 
 const built = ['Building', 'Employer', 'IllegalBuilding'];
 
