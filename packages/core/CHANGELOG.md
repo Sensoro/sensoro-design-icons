@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.30.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.29.0...@sensoro-design/icons-svg@1.30.0) (2022-07-22)
+
+
+### Features
+
+* 替换气象站图标 ([5830265](https://github.com/sensoro-design/sensoro-design-icons/commit/5830265802a97847bda4411d36696682ce22dd68))
+
+
+
+
+
 # [1.29.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.28.0...@sensoro-design/icons-svg@1.29.0) (2022-07-20)
 
 
