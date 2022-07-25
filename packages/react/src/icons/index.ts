@@ -207,6 +207,7 @@ export { default as HashrateCenterOutlined } from './HashrateCenterOutlined';
 export { default as HealthMonitoringPurely } from './HealthMonitoringPurely';
 export { default as HeartFilled } from './HeartFilled';
 export { default as HeartOutlined } from './HeartOutlined';
+export { default as HeatmapFilled } from './HeatmapFilled';
 export { default as HelmetFilled } from './HelmetFilled';
 export { default as HiddenDangerFilled } from './HiddenDangerFilled';
 export { default as HolderOutlined } from './HolderOutlined';
