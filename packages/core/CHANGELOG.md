@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.30.0...@sensoro-design/icons-svg@1.31.0) (2022-07-25)
+
+
+### Features
+
+* 添加热力图图标 ([fab568d](https://github.com/sensoro-design/sensoro-design-icons/commit/fab568dbebcb7cab96d1be0a192b744b4d1b68f7))
+
+
+
+
+
 # [1.30.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.29.0...@sensoro-design/icons-svg@1.30.0) (2022-07-22)
 
 
