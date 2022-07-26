@@ -416,6 +416,8 @@ export { default as StatisticsFilled } from './StatisticsFilled';
 export { default as StepBackwardOutlined } from './StepBackwardOutlined';
 export { default as StepForwardOutlined } from './StepForwardOutlined';
 export { default as StopOutlined } from './StopOutlined';
+export { default as SunriseOutlined } from './SunriseOutlined';
+export { default as SunsetOutlined } from './SunsetOutlined';
 export { default as SurroundingsPurely } from './SurroundingsPurely';
 export { default as SwapLeftOutlined } from './SwapLeftOutlined';
 export { default as SwapOutlined } from './SwapOutlined';
