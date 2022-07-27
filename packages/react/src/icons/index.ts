@@ -451,6 +451,8 @@ export { default as ToolPurely } from './ToolPurely';
 export { default as TrafficLightFilled } from './TrafficLightFilled';
 export { default as TrophyOutlined } from './TrophyOutlined';
 export { default as TunnelFilled } from './TunnelFilled';
+export { default as UnitFilled } from './UnitFilled';
+export { default as UnitOutlined } from './UnitOutlined';
 export { default as UnlockOutlined } from './UnlockOutlined';
 export { default as UnorderedListOutlined } from './UnorderedListOutlined';
 export { default as UpCircleOutlined } from './UpCircleOutlined';
