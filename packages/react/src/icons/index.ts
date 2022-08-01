@@ -86,6 +86,7 @@ export { default as CompressOutlined } from './CompressOutlined';
 export { default as ControllerOutlined } from './ControllerOutlined';
 export { default as CopyOutlined } from './CopyOutlined';
 export { default as DangerFilled } from './DangerFilled';
+export { default as DangerZoneFilled } from './DangerZoneFilled';
 export { default as DashOutlined } from './DashOutlined';
 export { default as DashboardFilled } from './DashboardFilled';
 export { default as DataAssetsFilled } from './DataAssetsFilled';
