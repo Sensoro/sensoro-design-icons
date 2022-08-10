@@ -117,6 +117,7 @@ const file = [
   'FileExcel',
   'FileGif',
   'File',
+  'FilePro',
   'FileZip',
   'FileUnknown',
   'FileExclamation',
@@ -136,6 +137,10 @@ const file = [
   'FileSeal',
   'FileVideo',
   'FileAudio',
+  'FileWarning',
+  'FileTemp',
+  'FileInfoCircle',
+  'FileInfo',
 ];
 
 const device = [
