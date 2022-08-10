@@ -163,6 +163,7 @@ export { default as FileSearchOutlined } from './FileSearchOutlined';
 export { default as FileSyncOutlined } from './FileSyncOutlined';
 export { default as FileTempOutlined } from './FileTempOutlined';
 export { default as FileTextOutlined } from './FileTextOutlined';
+export { default as FileTextProOutlined } from './FileTextProOutlined';
 export { default as FileTimeOutlined } from './FileTimeOutlined';
 export { default as FileUnknownOutlined } from './FileUnknownOutlined';
 export { default as FileVideoOutlined } from './FileVideoOutlined';
