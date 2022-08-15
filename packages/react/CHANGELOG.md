@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.37.0...@sensoro-design/icons@1.38.0) (2022-08-15)
+
+
+### Features
+
+* 添加车辆档案图标 ([ed95088](https://github.com/sensoro-design/sensoro-design-icons/commit/ed95088e186e563c07239fd30e2811949f29bb7a))
+
+
+
+
+
 # [1.37.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.36.0...@sensoro-design/icons@1.37.0) (2022-08-10)
 
 
