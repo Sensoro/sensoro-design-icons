@@ -485,6 +485,7 @@ export { default as UserReportPurely } from './UserReportPurely';
 export { default as UserTimeFilled } from './UserTimeFilled';
 export { default as UserTimePurely } from './UserTimePurely';
 export { default as UsersGovernancePurely } from './UsersGovernancePurely';
+export { default as VehicleFileFilled } from './VehicleFileFilled';
 export { default as VehicleFileOutlined } from './VehicleFileOutlined';
 export { default as VideoCameraFilled } from './VideoCameraFilled';
 export { default as VideoCameraOutlined } from './VideoCameraOutlined';
