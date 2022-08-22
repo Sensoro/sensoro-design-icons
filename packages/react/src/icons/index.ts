@@ -330,6 +330,7 @@ export { default as O2Outlined } from './O2Outlined';
 export { default as O3Outlined } from './O3Outlined';
 export { default as ObliqueLineOutlined } from './ObliqueLineOutlined';
 export { default as OfflineOutlined } from './OfflineOutlined';
+export { default as OfflineProOutlined } from './OfflineProOutlined';
 export { default as OneToOneOutlined } from './OneToOneOutlined';
 export { default as OrderListFilled } from './OrderListFilled';
 export { default as OrderReaultFilled } from './OrderReaultFilled';
