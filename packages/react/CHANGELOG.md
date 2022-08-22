@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.40.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.39.0...@sensoro-design/icons@1.40.0) (2022-08-22)
+
+
+### Features
+
+* add offine icon ([bbf3602](https://github.com/sensoro-design/sensoro-design-icons/commit/bbf3602da6f1198e6fca10fe4c76834d8141f04b))
+
+
+
+
+
 # [1.39.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.38.0...@sensoro-design/icons@1.39.0) (2022-08-20)
 
 
