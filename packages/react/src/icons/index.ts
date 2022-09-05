@@ -130,6 +130,7 @@ export { default as ElectricalFireFilled } from './ElectricalFireFilled';
 export { default as ElectricalFireOutlined } from './ElectricalFireOutlined';
 export { default as ElectricalFirePurely } from './ElectricalFirePurely';
 export { default as ElevatorOutlined } from './ElevatorOutlined';
+export { default as ElevatorPurely } from './ElevatorPurely';
 export { default as EllipsisOutlined } from './EllipsisOutlined';
 export { default as EmployerFilled } from './EmployerFilled';
 export { default as EmployerOutlined } from './EmployerOutlined';
