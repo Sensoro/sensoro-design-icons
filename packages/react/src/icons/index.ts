@@ -247,6 +247,7 @@ export { default as IllegalFireExitsPurely } from './IllegalFireExitsPurely';
 export { default as IllegalFishingFilled } from './IllegalFishingFilled';
 export { default as IllegalFishingPurely } from './IllegalFishingPurely';
 export { default as IllegalHelmetPurely } from './IllegalHelmetPurely';
+export { default as ImageErrorFilled } from './ImageErrorFilled';
 export { default as ImageFilled } from './ImageFilled';
 export { default as ImageOutlined } from './ImageOutlined';
 export { default as InfoCircleFilled } from './InfoCircleFilled';
