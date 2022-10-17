@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.47.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.46.0...@sensoro-design/icons@1.47.0) (2022-10-17)
+
+
+### Features
+
+* 添加电梯类图标 ([40893f0](https://github.com/sensoro-design/sensoro-design-icons/commit/40893f0310581ab6a1f3e8703e106d6b124e11d4))
+
+
+
+
+
 # [1.46.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.45.0...@sensoro-design/icons@1.46.0) (2022-10-10)
 
 
