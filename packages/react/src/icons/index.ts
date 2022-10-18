@@ -425,6 +425,7 @@ export { default as SafetyOutlined } from './SafetyOutlined';
 export { default as SafetyPreventionFilled } from './SafetyPreventionFilled';
 export { default as SafetyPreventionPurely } from './SafetyPreventionPurely';
 export { default as SatelliteOutlined } from './SatelliteOutlined';
+export { default as SaveOutlined } from './SaveOutlined';
 export { default as ScanOutlined } from './ScanOutlined';
 export { default as ScheduleOutlined } from './ScheduleOutlined';
 export { default as ScissorOutlined } from './ScissorOutlined';
