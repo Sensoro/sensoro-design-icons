@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.52.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.51.0...@sensoro-design/icons@1.52.0) (2022-10-30)
+
+
+### Features
+
+* add UserMange、UserSetting ([1297ab9](https://github.com/sensoro-design/sensoro-design-icons/commit/1297ab9799f91e7ef6d7241ea0430334ae2c310b))
+
+
+
+
+
 # [1.51.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.50.0...@sensoro-design/icons@1.51.0) (2022-10-27)
 
 
