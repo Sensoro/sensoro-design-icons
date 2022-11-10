@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "generate": "esno ./scripts/generate.ts",
     "build:clean": "esno ./scripts/buildClean.ts",
