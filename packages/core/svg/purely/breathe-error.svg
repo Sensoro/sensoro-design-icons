@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>呼吸异常</title>
+    <defs>
+        <path d="M20.6875,16.625 C22.9311568,16.625 24.75,18.4438432 24.75,20.6875 C24.75,22.9311568 22.9311568,24.75 20.6875,24.75 C18.4438432,24.75 16.625,22.9311568 16.625,20.6875 C16.625,18.4438432 18.4438432,16.625 20.6875,16.625 Z M20.7098993,17.8749458 L20.6875147,17.8749458 C19.9410549,17.8726567 19.2246731,18.169017 18.6980405,18.6980405 C18.169017,19.2246731 17.8726567,19.9410549 17.8749458,20.6875147 C17.8749458,21.4383044 18.167514,22.1452783 18.6980405,22.676989 C19.1720099,23.1531102 19.799676,23.4407741 20.4646388,23.4918725 L20.6875147,23.5000837 C21.42651,23.5023494 22.1360257,23.2119098 22.6611332,22.6927898 L22.676989,22.676989 C23.1531101,22.2030196 23.4407741,21.5753534 23.4918724,20.9103907 L23.5000837,20.6875147 C23.5023728,19.9410549 23.2060125,19.2246731 22.676989,18.6980405 C22.1556226,18.1743072 21.4482832,17.8786071 20.7098993,17.8749458 Z M16.7031241,7.95312412 L16.7031154,14.8719727 L17.4185636,15.5874219 L17.2908252,12.061385 C17.2631673,11.2980274 17.8169869,10.6484502 18.5554318,10.539344 L18.7204804,10.5242369 C18.8316042,10.5202107 18.9426313,10.5286903 19.0514916,10.5493884 L19.2299341,10.5949461 L20.5908613,11.0339549 C22.2395867,11.5658018 23.4724167,12.9333342 23.8399457,14.6120292 L23.8918601,14.8867119 L24.2588631,17.1881598 L24.194011,17.1236907 L24.0308041,16.9728982 L23.813182,16.7902658 C23.1328455,16.2469274 21.9231073,15.5221968 20.5,15.6 C19.1281664,15.675 18.2137974,16.2323359 17.6435401,16.7016191 L17.4335212,16.8832842 L17.1837885,17.1204258 L16.0166701,15.9532813 L14.5015519,17.4683789 L14.3896361,20.5579368 C14.353188,21.5639051 13.6573726,22.4251882 12.6815306,22.6722368 L10.5202517,23.219396 C10.1705262,23.3079341 9.80643048,23.3243048 9.45017037,23.2675097 C8.00145789,23.0365556 7.01426973,21.6749167 7.24522389,20.2262042 L8.09644731,14.8867119 C8.38391321,13.0835167 9.6596591,11.5945313 11.3974461,11.0339549 L12.7583733,10.5949461 C12.9227828,10.5419108 13.0951883,10.5179819 13.2678269,10.5242369 C14.0870871,10.5539203 14.7271655,11.2421249 14.6974822,12.061385 L14.5680168,15.6341602 L15.2968654,14.9053125 L15.2968741,7.953125 C15.2968746,7.56479964 15.6116746,7.25 16,7.25 C16.3883247,7.25 16.7031241,7.56479939 16.7031241,7.95312412 Z M20.6875,21.234375 C21.032678,21.234375 21.3125,21.514197 21.3125,21.859375 C21.3125,22.204553 21.032678,22.484375 20.6875,22.484375 C20.342322,22.484375 20.0625,22.204553 20.0625,21.859375 C20.0625,21.514197 20.342322,21.234375 20.6875,21.234375 Z M21.15625,19.359375 L21.15625,20.296875 C21.15625,20.5557585 20.9463835,20.765625 20.6875,20.765625 C20.4286165,20.765625 20.21875,20.5557585 20.21875,20.296875 L20.21875,19.359375 C20.21875,19.1004915 20.4286165,18.890625 20.6875,18.890625 C20.9463835,18.890625 21.15625,19.1004915 21.15625,19.359375 Z" id="path-1"></path>
+        <filter x="-59.9%" y="-42.9%" width="219.7%" height="220.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.631372549   0 0 0 0 0.250980392   0 0 0 0 0.905882353  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-74.1%" y="-57.1%" width="248.2%" height="248.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-6" dy="-6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.631372549   0 0 0 0 0.250980392   0 0 0 0 0.905882353  0 0 0 0.4 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="2" dy="2" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.249289773 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner3"></feGaussianBlur>
+            <feOffset dx="-1" dy="-1" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.25 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-老人管理-老人档案-空状态" transform="translate(-746.000000, -2025.000000)">
+            <g id="形状" transform="translate(746.000000, 2025.000000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.6" fill="#A140E7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

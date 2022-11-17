@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>翻身次数</title>
+    <defs>
+        <path d="M24.125,14.28125 C24.470178,14.28125 24.75,14.561072 24.75,14.90625 L24.75,22.25 C24.75,22.595178 24.470178,22.875 24.125,22.875 L12.875,22.875 C12.529822,22.875 12.25,22.595178 12.25,22.25 L12.25,14.90625 C12.25,14.561072 12.529822,14.28125 12.875,14.28125 L24.125,14.28125 Z M15.0234375,7.94623281 C15.0234375,7.85993832 15.093393,7.78998281 15.1796875,7.78998281 C15.2100455,7.78998281 15.239746,7.79882641 15.2651593,7.81543281 L18.204854,9.7363875 C18.2770929,9.78359225 18.297387,9.88042041 18.2501823,9.95265926 C18.238368,9.97073903 18.2229338,9.98617321 18.204854,9.9979875 L15.2651593,11.9189422 C15.1929204,11.9661469 15.0960922,11.9458528 15.0488875,11.8736139 C15.0322811,11.8482007 15.0234375,11.8185002 15.0234375,11.7881422 L15.0234375,10.609375 C11.5848177,10.609375 8.79075495,13.3690516 8.73521755,16.7944364 L8.734375,17.71875 C8.734375,18.1286488 8.40208634,18.4609375 7.9921875,18.4609375 C7.58228866,18.4609375 7.25,18.1286488 7.25,17.71875 L7.25,16.8984375 C7.25,12.648218 10.6610288,9.19468702 14.8948895,9.12604142 L15.0234375,9.125 L15.0234375,7.94623281 Z" id="path-1"></path>
+        <filter x="-60.0%" y="-49.7%" width="220.0%" height="239.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.290196078   0 0 0 0 0.258823529   0 0 0 0 0.941176471  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-74.3%" y="-66.3%" width="248.6%" height="272.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-6" dy="-6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.290196078   0 0 0 0 0.258823529   0 0 0 0 0.941176471  0 0 0 0.7 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="2" dy="2" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.15 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner3"></feGaussianBlur>
+            <feOffset dx="-1" dy="-1" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.25 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-老人管理-老人档案-空状态" transform="translate(-914.000000, -2025.000000)">
+            <g id="形状" transform="translate(914.000000, 2025.000000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.6" fill="#4A42F0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

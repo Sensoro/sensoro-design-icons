@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>睡眠效率</title>
+    <defs>
+        <path d="M8.65625,8.890625 L8.65625,21.4687305 L24.046875,21.4687491 C24.4352004,21.4687496 24.75,21.7835496 24.75,22.171875 C24.75,22.5602002 24.4352002,22.875 24.046875,22.875 L8.25,22.875 C7.69771525,22.875 7.25,22.4272847 7.25,21.875 L7.25,8.890625 C7.25,8.50229979 7.56479979,8.1875 7.953125,8.1875 C8.34145021,8.1875 8.65625,8.50229979 8.65625,8.890625 Z M23.4979626,11.3744518 L23.4979626,11.4089617 L23.4979626,11.4089617 L23.1648073,14.4073595 C23.1552776,14.4931262 23.0780247,14.5549285 22.992258,14.5453989 C22.9569951,14.5414808 22.9241156,14.5256781 22.8990275,14.50059 L22.0912109,13.6927734 L18.573195,17.1561452 C18.1849952,17.5383153 17.5623214,17.5394602 17.1727188,17.1587202 L15.0625,15.0965039 L11.7694736,18.3895158 C11.4796304,18.6793577 11.0097031,18.6793572 10.7198606,18.3895147 C10.4578868,18.1275409 10.434071,17.7175948 10.6484132,17.428717 L10.7228865,17.3429463 L10.7228865,17.3429463 L14.3556446,13.7519604 C14.7431286,13.368932 15.3659283,13.3665882 15.7562841,13.7466893 L17.875,15.8097461 L21.041582,12.6431445 L20.233785,11.8353475 C20.1727656,11.7743281 20.1727656,11.675396 20.233785,11.6143766 C20.2588731,11.5892885 20.2917526,11.5734858 20.3270155,11.5695677 L23.3254133,11.2364124 C23.41118,11.2268828 23.488433,11.2886851 23.4979626,11.3744518 Z" id="path-1"></path>
+        <filter x="-60.0%" y="-51.1%" width="220.0%" height="243.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.42745098   0 0 0 0 0.898039216  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-40.0%" y="-27.2%" width="180.0%" height="195.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.42745098   0 0 0 0 0.898039216  0 0 0 0.8 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="0.25" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0.5" dy="0.5" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.249289773 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feGaussianBlur stdDeviation="0.25" in="SourceAlpha" result="shadowBlurInner3"></feGaussianBlur>
+            <feOffset dx="-0.5" dy="-0.5" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.25 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-老人管理-老人档案-空状态" transform="translate(-494.000000, -2025.000000)">
+            <g id="形状" transform="translate(494.000000, 2025.000000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.6" fill="#2B6DE5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
