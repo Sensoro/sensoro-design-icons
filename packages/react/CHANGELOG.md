@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.54.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.53.1...@sensoro-design/icons@1.54.0) (2022-11-17)
+
+
+### Features
+
+* 添加老人关爱图标 ([45faa95](https://github.com/sensoro-design/sensoro-design-icons/commit/45faa95ad17bb913f9d523223e344dc7545272ce))
+
+
+
+
+
 ## [1.53.1](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.53.0...@sensoro-design/icons@1.53.1) (2022-11-04)
 
 **Note:** Version bump only for package @sensoro-design/icons
