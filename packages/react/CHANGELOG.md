@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.56.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.55.0...@sensoro-design/icons@1.56.0) (2022-11-21)
+
+
+### Features
+
+* add EnterOutlined icon ([2dfb9bb](https://github.com/sensoro-design/sensoro-design-icons/commit/2dfb9bb3f085abc61300765257069ade2d244130))
+
+
+
+
+
 # [1.55.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.54.0...@sensoro-design/icons@1.55.0) (2022-11-18)
 
 

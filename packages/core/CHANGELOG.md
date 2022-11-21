@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.58.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.57.0...@sensoro-design/icons-svg@1.58.0) (2022-11-21)
+
+
+### Features
+
+* add EnterOutlined icon ([2dfb9bb](https://github.com/sensoro-design/sensoro-design-icons/commit/2dfb9bb3f085abc61300765257069ade2d244130))
+
+
+
+
+
 # [1.57.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.56.0...@sensoro-design/icons-svg@1.57.0) (2022-11-18)
 
 
