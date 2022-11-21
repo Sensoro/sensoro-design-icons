@@ -11,7 +11,7 @@
     "build": "pnpm -r --workspace-concurrency=1 run build",
     "build:clean": "pnpm -r --workspace-concurrency=1 run build:clean",
     "build:core": "pnpm -r --filter @sensoro-design/icons-svg run build",
-    "release": "pnpm -r --workspace-concurrency=1 exec npx --no-install semantic-release",
+    "release": "walrus release",
     "prepare": "husky install"
   },
   "repository": {
