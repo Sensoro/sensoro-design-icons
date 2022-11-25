@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>休息日无打卡记录</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#2B6DE5" stop-opacity="0.04" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.09" offset="100%"></stop>
+        </linearGradient>
+        <path d="M176.679,74 L194,84 L97,140 L0,84 L17.321,74 L97,120 L176.679,74 Z" id="path-2"></path>
+        <linearGradient x1="100%" y1="28.2336061%" x2="0%" y2="71.7663939%" id="linearGradient-3">
+            <stop stop-color="#2B6DE5" stop-opacity="0.15" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.45" offset="100%"></stop>
+        </linearGradient>
+        <path d="M194,64 L97,120 L97,112 L194,56 L194,64 Z" id="path-4"></path>
+        <linearGradient x1="0%" y1="28.2336061%" x2="100%" y2="71.7663939%" id="linearGradient-5">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.25" offset="100%"></stop>
+        </linearGradient>
+        <path d="M97,112 L97,120 L0,64 L0,56 L97,112 Z" id="path-6"></path>
+        <filter x="-0.5%" y="-0.8%" width="101.0%" height="101.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="-1" dy="0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.25" offset="100%"></stop>
+        </linearGradient>
+        <path d="M97,0 L194,56 L97,112 L0,56 L97,0 Z" id="path-9"></path>
+        <linearGradient x1="50%" y1="17.5719636%" x2="50%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-11">
+            <stop stop-color="#2B6DE5" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+        <path d="M97,76 L162,114 L97,152 L32,114 L97,76 Z" id="path-12"></path>
+        <linearGradient x1="50%" y1="17.5719636%" x2="50%" y2="100%" id="linearGradient-13">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-14">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.45" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-15" cx="39" cy="23" r="7"></circle>
+        <circle id="path-16" cx="171" cy="94" r="5"></circle>
+        <circle id="path-17" cx="127" cy="34" r="4"></circle>
+        <linearGradient x1="-54.8148302%" y1="-9.01981289%" x2="89.7433492%" y2="81.9999652%" id="linearGradient-18">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.55" offset="100%"></stop>
+        </linearGradient>
+        <path d="M69.5385836,55.1537167 L51.9424998,55.1537167 C48.9902085,55.1537167 46.594146,52.8406078 46.594146,49.9905272 L46.594146,33.5922375 C46.594146,30.7421569 48.9902085,28.429048 51.9424998,28.429048 L69.5385836,28.429048 C75.304109,28.429048 79.9999818,32.9623284 79.9999818,38.5282466 L79.9999818,45.0441917 C80.0106603,50.6204363 75.3148057,55.1537167 69.5385836,55.1537167 Z M53.2753132,48.4725495 L69.3789064,48.4725495 C71.5573213,48.4725495 73.3188147,46.7177883 73.3188147,44.5707864 L73.3188147,38.0575258 C73.3188147,35.9002018 71.5468983,34.1557627 69.3789064,34.1557627 L53.2753132,34.1557627 L53.2753132,48.4725495 Z" id="path-19"></path>
+        <linearGradient x1="-22.6338883%" y1="50%" x2="100%" y2="50%" id="linearGradient-20">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.45" offset="100%"></stop>
+        </linearGradient>
+        <path d="M32.789369,78.2651011 C50.8984375,78.2651011 65.578738,69.8763579 65.578738,59.5283188 C65.578738,58.0128506 65.578738,42.3988654 65.578738,12.686363 L32.789369,12.686363 L0,12.686363 C0,41.4602375 0,57.0742227 0,59.5283188 C0,69.8763579 14.6803006,78.2651011 32.789369,78.2651011 Z" id="path-21"></path>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-22">
+            <stop stop-color="#2B6DE5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.458250246" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="0%" cy="55.4115124%" fx="0%" fy="55.4115124%" r="224.21898%" gradientTransform="translate(0.000000,0.554115),scale(0.437500,1.000000),rotate(-4.948202),translate(-0.000000,-0.554115)" id="radialGradient-23">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <ellipse id="path-24" cx="32.789369" cy="14.3453489" rx="32.789369" ry="14.3453489"></ellipse>
+        <linearGradient x1="100%" y1="84.120983%" x2="0%" y2="15.879017%" id="linearGradient-25">
+            <stop stop-color="#2B6DE5" stop-opacity="0.45" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M31.7888072,43.30698 C29.7700389,41.3345626 26.4895405,41.3499721 24.4944296,43.3532086 C22.5308621,45.3256261 22.6018344,48.4922807 24.5969452,50.4415839 L29.683295,55.4111514 C30.8503954,56.5514552 32.7351048,56.5514552 33.9022052,55.4111514 L38.988555,50.4415839 C40.9836658,48.4922807 41.0546381,45.3256261 39.0910706,43.3532086 C37.0880739,41.3499721 33.8075755,41.3345626 31.7888072,43.30698 L31.7888072,43.30698 Z" id="path-26"></path>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="休息日无打卡记录" transform="translate(31.000000, 42.000000)">
+            <g id="形状结合" transform="translate(0.000000, 58.000000)">
+                <g>
+                    <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g>
+                    <use fill="#FFFFFF" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+                <g>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                </g>
+                <g>
+                    <use fill="#FFFFFF" xlink:href="#path-9"></use>
+                    <use fill="url(#linearGradient-8)" xlink:href="#path-9"></use>
+                </g>
+            </g>
+            <g id="形状结合" transform="translate(0.000000, 30.000000)" fill="url(#linearGradient-10)">
+                <path d="M194,0 L194,84 L97,140 L97,0 L194,0 Z"></path>
+                <path d="M97,0 L97,140 L0,84 L0,0 L97,0 Z"></path>
+            </g>
+            <g id="形状结合">
+                <use fill="#FFFFFF" xlink:href="#path-12"></use>
+                <use fill="url(#linearGradient-11)" xlink:href="#path-12"></use>
+            </g>
+            <polygon id="多边形" fill="url(#linearGradient-13)" points="97 0 162 38 162 114 97 152 32 114 32 38"></polygon>
+            <g id="椭圆形">
+                <use fill="#FFFFFF" xlink:href="#path-15"></use>
+                <use fill="url(#linearGradient-14)" xlink:href="#path-15"></use>
+            </g>
+            <g id="椭圆形备份-2">
+                <use fill="#FFFFFF" xlink:href="#path-16"></use>
+                <use fill="url(#linearGradient-14)" xlink:href="#path-16"></use>
+            </g>
+            <g id="椭圆形备份-3">
+                <use fill="#FFFFFF" xlink:href="#path-17"></use>
+                <use fill="url(#linearGradient-14)" xlink:href="#path-17"></use>
+            </g>
+            <g id="编组-2" transform="translate(63.000000, 46.000000)">
+                <g id="形状">
+                    <use fill="#FFFFFF" xlink:href="#path-19"></use>
+                    <use fill="url(#linearGradient-18)" xlink:href="#path-19"></use>
+                </g>
+                <g id="椭圆形备份-4">
+                    <use fill="#FFFFFF" xlink:href="#path-21"></use>
+                    <use fill="url(#linearGradient-20)" xlink:href="#path-21"></use>
+                </g>
+                <g id="椭圆形备份-4">
+                    <use fill="#FFFFFF" xlink:href="#path-24"></use>
+                    <use stroke="url(#radialGradient-23)" stroke-width="0.4" fill="url(#linearGradient-22)" xlink:href="#path-24"></use>
+                </g>
+                <g id="路径">
+                    <use fill="#FFFFFF" xlink:href="#path-26"></use>
+                    <use fill="url(#linearGradient-25)" xlink:href="#path-26"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
