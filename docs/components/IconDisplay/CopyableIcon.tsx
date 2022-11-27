@@ -1,7 +1,7 @@
 import React from 'react';
 import { Badge } from 'antd';
 import { useClipboard } from 'use-clipboard-hook';
-import classNames from '@pansy/classnames';
+import { classNames } from '@pansy/shared';
 import * as senIcons from '@sensoro-design/icons';
 
 import { ThemeType } from './';
