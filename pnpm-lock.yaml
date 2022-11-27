@@ -10,14 +10,14 @@ importers:
       '@semantic-release/git': ^10.0.1
       '@sensoro-design/icons': workspace:*
       '@sensoro-design/icons-svg': workspace:*
-      '@types/gulp': ^4.0.9
+      '@types/gulp': ^4.0.10
       '@types/gulp-concat': ^0.0.33
       '@types/gulp-header': ^2.0.1
       '@types/gulp-rename': ^2.0.1
-      '@types/lodash': ^4.14.184
+      '@types/lodash': ^4.14.190
       '@types/ramda': ^0.26.43
-      '@types/react': ^18.0.18
-      '@types/react-dom': ^18.0.6
+      '@types/react': ^18.0.25
+      '@types/react-dom': ^18.0.9
       '@types/svgo': ^2.6.3
       '@types/through2': ^2.0.36
       '@umijs/utils': ^3.5.23
