@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.61.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.60.0...@sensoro-design/icons-svg@1.61.0) (2022-11-27)
+
+
+### Features
+
+* add qrcode icon ([efc7173](https://github.com/sensoro-design/sensoro-design-icons/commit/efc71733dcbc1050c1c755ad36d43f8eace97b83))
+
+
+
+
+
 # [1.60.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.59.0...@sensoro-design/icons-svg@1.60.0) (2022-11-27)
 
 
