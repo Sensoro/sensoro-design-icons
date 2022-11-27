@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.59.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.58.0...@sensoro-design/icons@1.59.0) (2022-11-27)
+
+
+### Features
+
+* replace @pansy/classname ([aecb637](https://github.com/sensoro-design/sensoro-design-icons/commit/aecb637f5d64f48aca85b8fade5c9268b2ea594f))
+
+
+
+
+
 # [1.58.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.57.0...@sensoro-design/icons@1.58.0) (2022-11-27)
 
 
