@@ -109,13 +109,13 @@ importers:
     specifiers:
       '@ant-design/colors': ^6.0.0
       '@babel/runtime': ^7.11.2
-      '@pansy/shared': ^1.5.0
+      '@pansy/classnames': ^1.0.1
       '@sensoro-design/icons-svg': 1.62.0
       rc-util: ^5.19.3
     dependencies:
       '@ant-design/colors': 6.0.0
       '@babel/runtime': 7.20.1
-      '@pansy/shared': 1.5.0
+      '@pansy/classnames': 1.0.1
       '@sensoro-design/icons-svg': link:../core
       rc-util: 5.24.6
 
@@ -4697,10 +4697,15 @@ packages:
       '@octokit/openapi-types': 14.0.0
     dev: true
 
+  /@pansy/classnames/1.0.1:
+    resolution: {integrity: sha512-L+8EGUhuqlZhWz1ojVnTcRk8U958QhHvzCy3KHvmAGm+cRiHaX/CyJd5mEEGSKZhAOa/EpPjqTjafPX6TZNvtw==}
+    dev: false
+
   /@pansy/shared/1.5.0:
     resolution: {integrity: sha512-TTDv30O8VW/KoUCczyJx2ekym9b+AHSvU++pdDCWJt+oAEJ8m5LkEYi4NGbnNXy8jS0hexzvKTFUH4IcTDRhRQ==}
     dependencies:
       lodash: 4.17.21
+    dev: true
 
   /@pansy/types/0.2.0:
     resolution: {integrity: sha512-p4Ii7nIICkFh51th3LHfooEQg8OEeC57raRNZ57UAm1Bmt+Z1EC1qVenznXmrIs1Qmup4LA6dxva7XQ5zVfb9Q==}
@@ -13478,6 +13483,7 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
 
   /log-symbols/2.2.0:
     resolution: {integrity: sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==}

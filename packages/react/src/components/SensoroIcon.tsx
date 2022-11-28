@@ -1,5 +1,5 @@
 import React from 'react';
-import { classNames } from '@pansy/shared/utils';
+import classNames from '@pansy/classnames';
 
 import IconBase from './IconBase';
 import { getTwoToneColor, TwoToneColor, setTwoToneColor } from './twoTonePrimaryColor';

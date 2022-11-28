@@ -1,5 +1,5 @@
 import React from 'react';
-import { classNames } from '@pansy/shared/utils';
+import classNames from '@pansy/classnames';
 
 import Context from './Context';
 import { svgBaseProps } from '../utils';
