@@ -295,6 +295,7 @@ export { default as LeftUpOutlined } from './LeftUpOutlined';
 export { default as LegendOutlined } from './LegendOutlined';
 export { default as LessElectricityFilled } from './LessElectricityFilled';
 export { default as LikeOutlined } from './LikeOutlined';
+export { default as LineChartOutlined } from './LineChartOutlined';
 export { default as LineChartPurely } from './LineChartPurely';
 export { default as LineOutlined } from './LineOutlined';
 export { default as LinkOutlined } from './LinkOutlined';
