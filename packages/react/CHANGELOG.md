@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.63.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.62.0...@sensoro-design/icons@1.63.0) (2022-11-28)
+
+
+### Features
+
+* replace @pansy/shared ([a6e3e05](https://github.com/sensoro-design/sensoro-design-icons/commit/a6e3e05ba27276332d5605271e8c73e6e8a17965))
+
+
+
+
+
 # [1.62.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.61.0...@sensoro-design/icons@1.62.0) (2022-11-28)
 
 
