@@ -44,7 +44,7 @@
     "@walrus/plugin-release": "^1.14.3",
     "antd": "^4.23.6",
     "conventional-changelog-gitmoji-config": "^1.4.3",
-    "del": "^6.0.0",
+    "del": "^7.0.0",
     "dumi": "^1.1.49",
     "esno": "^0.14.1",
     "father-build": "^1.22.5",

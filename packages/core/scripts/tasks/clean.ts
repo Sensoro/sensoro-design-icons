@@ -1,6 +1,6 @@
-import del from 'del';
+import { deleteAsync } from 'del';
 
 export const clean = (dirs: string[]) =>
   function CleanDirectories() {
-    return del(dirs);
+    return deleteAsync(dirs);
   };

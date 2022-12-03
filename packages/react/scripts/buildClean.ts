@@ -1,3 +1,3 @@
-import del from 'del';
+import { deleteAsync } from 'del';
 
-del(['es', 'lib', '*.js', '*.d.ts']);
+deleteAsync(['es', 'lib', '*.js', '*.d.ts']);
