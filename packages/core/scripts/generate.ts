@@ -1,6 +1,6 @@
 import path from 'path';
 import { series, parallel } from 'gulp';
-import { logger, fsExtra } from '@walrus/cli-utils';
+import { logger, fsExtra } from '@umijs/utils';
 
 import { clean, copy, format, generateIcons, generateEntry, generateInline } from './tasks';
 import { ExtractRegExp } from './tasks/generateInline';

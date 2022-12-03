@@ -1,17 +1,14 @@
 import path from 'path';
-import { logger, fsExtra } from '@walrus/cli-utils';
+import { logger, fsExtra } from '@umijs/utils';
 import { series } from 'gulp';
 import * as allIconDefs from '@sensoro-design/icons-svg';
 
-import { generateIcons, } from './tasks';
+import { generateIcons } from './tasks';
 import { clean, generateEntry } from '../../core/scripts/tasks';
 
 const ICON_DIR = path.join(__dirname, '../src/icons');
 
-const iconTemplate = fsExtra.readFileSync(
-  path.join(__dirname, '../templates/icon.ts.ejs'),
-  'utf8'
-);
+const iconTemplate = fsExtra.readFileSync(path.join(__dirname, '../templates/icon.ts.ejs'), 'utf8');
 
 logger.info('start');
 
@@ -38,10 +35,9 @@ series(
     template: `export { default as <%= identifier %> } from '<%= path %>';`,
     mapToInterpolate: ({ name: identifier }) => ({
       identifier,
-      path: `./${identifier}`
-    })
+      path: `./${identifier}`,
+    }),
   }),
-
 )(() => {
   logger.info('end');
 });
