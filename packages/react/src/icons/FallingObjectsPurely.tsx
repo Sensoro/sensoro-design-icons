@@ -3,7 +3,7 @@ import * as React from 'react';
 import FallingObjectsPurelySvg from '@sensoro-design/icons-svg/lib/asn/FallingObjectsPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FallingObjectsPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FallingObjectsPurely = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={FallingObjectsPurelySvg} />
 ));
 

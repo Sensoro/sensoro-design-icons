@@ -3,7 +3,7 @@ import * as React from 'react';
 import AlarmClockOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/AlarmClockOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AlarmClockOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AlarmClockOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={AlarmClockOutlinedSvg} />
 ));
 

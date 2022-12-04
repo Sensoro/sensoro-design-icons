@@ -3,7 +3,7 @@ import * as React from 'react';
 import SmokeOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/SmokeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SmokeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SmokeOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={SmokeOutlinedSvg} />
 ));
 

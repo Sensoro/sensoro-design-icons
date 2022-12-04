@@ -3,7 +3,7 @@ import * as React from 'react';
 import UserPlusCircleFilledSvg from '@sensoro-design/icons-svg/lib/asn/UserPlusCircleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const UserPlusCircleFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const UserPlusCircleFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={UserPlusCircleFilledSvg} />
 ));
 

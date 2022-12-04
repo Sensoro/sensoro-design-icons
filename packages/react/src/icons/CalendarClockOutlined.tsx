@@ -3,7 +3,7 @@ import * as React from 'react';
 import CalendarClockOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/CalendarClockOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CalendarClockOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CalendarClockOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={CalendarClockOutlinedSvg} />
 ));
 

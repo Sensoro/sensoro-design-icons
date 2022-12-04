@@ -3,7 +3,7 @@ import * as React from 'react';
 import HydrolabOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/HydrolabOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HydrolabOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HydrolabOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={HydrolabOutlinedSvg} />
 ));
 

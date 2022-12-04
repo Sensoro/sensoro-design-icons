@@ -3,7 +3,7 @@ import * as React from 'react';
 import AircircuitBreakerFilledSvg from '@sensoro-design/icons-svg/lib/asn/AircircuitBreakerFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AircircuitBreakerFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AircircuitBreakerFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={AircircuitBreakerFilledSvg} />
 ));
 

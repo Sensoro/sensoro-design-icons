@@ -3,7 +3,7 @@ import * as React from 'react';
 import GroupFilledSvg from '@sensoro-design/icons-svg/lib/asn/GroupFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GroupFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GroupFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={GroupFilledSvg} />
 ));
 

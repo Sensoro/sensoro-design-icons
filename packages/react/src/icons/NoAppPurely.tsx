@@ -3,7 +3,7 @@ import * as React from 'react';
 import NoAppPurelySvg from '@sensoro-design/icons-svg/lib/asn/NoAppPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NoAppPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NoAppPurely = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={NoAppPurelySvg} />
 ));
 

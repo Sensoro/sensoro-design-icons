@@ -3,7 +3,7 @@ import * as React from 'react';
 import PlusSquareFilledSvg from '@sensoro-design/icons-svg/lib/asn/PlusSquareFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PlusSquareFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PlusSquareFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={PlusSquareFilledSvg} />
 ));
 

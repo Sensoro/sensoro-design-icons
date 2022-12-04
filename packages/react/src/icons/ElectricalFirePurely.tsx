@@ -3,7 +3,7 @@ import * as React from 'react';
 import ElectricalFirePurelySvg from '@sensoro-design/icons-svg/lib/asn/ElectricalFirePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ElectricalFirePurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ElectricalFirePurely = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={ElectricalFirePurelySvg} />
 ));
 

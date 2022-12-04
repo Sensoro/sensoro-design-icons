@@ -3,7 +3,7 @@ import * as React from 'react';
 import PercentageOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/PercentageOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PercentageOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PercentageOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={PercentageOutlinedSvg} />
 ));
 
