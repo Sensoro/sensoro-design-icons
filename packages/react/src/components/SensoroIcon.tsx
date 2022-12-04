@@ -9,7 +9,7 @@ import Context from './Context';
 import type { IconBaseProps } from './Icon';
 import type { IconDefinition } from '@sensoro-design/icons-svg/lib/types';
 
-export interface SensoroIconProps extends IconBaseProps {
+export interface SensoroIconProps extends Partial<IconBaseProps> {
   twoToneColor?: TwoToneColor;
 }
 
