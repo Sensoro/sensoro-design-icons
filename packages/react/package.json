@@ -1,6 +1,6 @@
 {
   "name": "@sensoro-design/icons",
-  "version": "1.63.1",
+  "version": "1.63.2",
   "description": "Abstract nodes for sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
