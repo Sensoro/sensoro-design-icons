@@ -3,7 +3,7 @@ import * as React from 'react';
 import GeoLocationOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/GeoLocationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GeoLocationOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const GeoLocationOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={GeoLocationOutlinedSvg} />
 ));
 

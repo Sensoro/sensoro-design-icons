@@ -3,7 +3,7 @@ import * as React from 'react';
 import RainfallIntensityOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/RainfallIntensityOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RainfallIntensityOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const RainfallIntensityOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={RainfallIntensityOutlinedSvg} />
 ));
 

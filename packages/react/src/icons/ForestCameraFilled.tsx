@@ -3,7 +3,7 @@ import * as React from 'react';
 import ForestCameraFilledSvg from '@sensoro-design/icons-svg/lib/asn/ForestCameraFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ForestCameraFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const ForestCameraFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={ForestCameraFilledSvg} />
 ));
 

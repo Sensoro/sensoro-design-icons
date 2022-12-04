@@ -3,7 +3,7 @@ import * as React from 'react';
 import GlobalFilledSvg from '@sensoro-design/icons-svg/lib/asn/GlobalFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GlobalFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const GlobalFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={GlobalFilledSvg} />
 ));
 

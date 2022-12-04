@@ -3,7 +3,7 @@ import * as React from 'react';
 import DigitalMediaFilledSvg from '@sensoro-design/icons-svg/lib/asn/DigitalMediaFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DigitalMediaFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const DigitalMediaFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={DigitalMediaFilledSvg} />
 ));
 

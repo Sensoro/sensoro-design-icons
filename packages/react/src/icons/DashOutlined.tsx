@@ -3,7 +3,7 @@ import * as React from 'react';
 import DashOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/DashOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DashOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const DashOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={DashOutlinedSvg} />
 ));
 

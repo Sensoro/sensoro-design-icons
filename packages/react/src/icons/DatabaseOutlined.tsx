@@ -3,7 +3,7 @@ import * as React from 'react';
 import DatabaseOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/DatabaseOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DatabaseOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const DatabaseOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={DatabaseOutlinedSvg} />
 ));
 

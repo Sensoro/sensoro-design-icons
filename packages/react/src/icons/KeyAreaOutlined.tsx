@@ -3,7 +3,7 @@ import * as React from 'react';
 import KeyAreaOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/KeyAreaOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const KeyAreaOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const KeyAreaOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={KeyAreaOutlinedSvg} />
 ));
 

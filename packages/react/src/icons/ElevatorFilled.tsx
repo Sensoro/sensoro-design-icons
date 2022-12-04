@@ -3,7 +3,7 @@ import * as React from 'react';
 import ElevatorFilledSvg from '@sensoro-design/icons-svg/lib/asn/ElevatorFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ElevatorFilled = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const ElevatorFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={ElevatorFilledSvg} />
 ));
 

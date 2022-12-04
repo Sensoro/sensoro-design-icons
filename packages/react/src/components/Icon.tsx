@@ -6,7 +6,7 @@ import { svgBaseProps } from '../utils';
 
 import { useInsertStyles } from '../hooks/useInsertStyles';
 
-export interface IconBaseProps extends Partial<React.HTMLProps<HTMLSpanElement>> {
+export interface IconBaseProps extends React.HTMLProps<HTMLSpanElement> {
   spin?: boolean;
   rotate?: number;
 }

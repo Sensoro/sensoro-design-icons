@@ -3,7 +3,7 @@ import * as React from 'react';
 import LogoutOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/LogoutOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LogoutOutlined = React.forwardRef<HTMLSpanElement, Partial<SensoroIconProps>>((props, ref) => (
+const LogoutOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
   <SensoroIcon {...props} ref={ref} icon={LogoutOutlinedSvg} />
 ));
 
