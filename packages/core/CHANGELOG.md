@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.64.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.63.0...@sensoro-design/icons-svg@1.64.0) (2022-12-08)
+
+
+### Features
+
+* replace phone icon ([88f1431](https://github.com/sensoro-design/sensoro-design-icons/commit/88f14314139a62a8703777cd83aab0eca1c9924a))
+
+
+
+
+
 # [1.63.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.62.1...@sensoro-design/icons-svg@1.63.0) (2022-12-07)
 
 
