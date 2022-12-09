@@ -3,6 +3,7 @@
     "strict": true,
     "target": "esnext",
     "module": "commonjs",
+    "declaration": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

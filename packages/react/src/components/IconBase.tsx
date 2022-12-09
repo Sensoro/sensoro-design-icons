@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbstractNode, IconDefinition } from '@sensoro-design/icons-svg/lib/types';
+import { AbstractNode, IconDefinition } from '@sensoro-design/icons-svg/es/types';
 
 import { useInsertStyles } from '../hooks/useInsertStyles';
 import { getSecondaryColor, isIconDefinition, generate } from '../utils';
