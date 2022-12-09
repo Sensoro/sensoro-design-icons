@@ -9,7 +9,7 @@
   "scripts": {
     "generate": "esno ./scripts/generate.ts",
     "build:clean": "esno ./scripts/buildClean.ts",
-    "build": "pnpm run build:clean && father-build && esno ./scripts/build.ts"
+    "build": "pnpm run build:clean && redbud build && esno ./scripts/build.ts"
   },
   "repository": {
     "type": "git",
