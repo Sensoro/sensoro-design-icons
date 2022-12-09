@@ -4,7 +4,7 @@
   "description": "Abstract nodes for sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "types": "lib/index.d.ts",
+  "types": "es/index.d.ts",
   "sideEffects": false,
   "scripts": {
     "generate": "esno ./scripts/generate.ts",
