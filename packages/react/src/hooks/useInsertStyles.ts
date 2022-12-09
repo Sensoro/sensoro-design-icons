@@ -1,6 +1,6 @@
 import { useContext, useEffect } from 'react';
 import IconContext from '../components/Context';
-import { updateCSS } from 'rc-util/lib/Dom/dynamicCSS';
+import { updateCSS } from 'rc-util/es/Dom/dynamicCSS';
 
 export const useInsertStyles = (styleStr?: string) => {
   const { csp, prefixCls = 's-icon' } = useContext(IconContext);
