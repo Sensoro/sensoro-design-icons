@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.69.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.68.0...@sensoro-design/icons@1.69.0) (2022-12-13)
+
+
+### Features
+
+* 添加彩色指南针图标 ([cac2fed](https://github.com/sensoro-design/sensoro-design-icons/commit/cac2fede0073530908d98f39aea7d6ea235d10f4))
+
+
+
+
+
 # [1.68.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.67.0...@sensoro-design/icons@1.68.0) (2022-12-13)
 
 
