@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ManholeCoverOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/ManholeCoverOutlined';
+import ManholeCoverOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ManholeCoverOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ManholeCoverOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

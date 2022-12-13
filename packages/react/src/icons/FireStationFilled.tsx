@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FireStationFilledSvg from '@sensoro-design/icons-svg/lib/asn/FireStationFilled';
+import FireStationFilledSvg from '@sensoro-design/icons-svg/es/asn/FireStationFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FireStationFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

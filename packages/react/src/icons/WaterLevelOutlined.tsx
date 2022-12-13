@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import WaterLevelOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/WaterLevelOutlined';
+import WaterLevelOutlinedSvg from '@sensoro-design/icons-svg/es/asn/WaterLevelOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const WaterLevelOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

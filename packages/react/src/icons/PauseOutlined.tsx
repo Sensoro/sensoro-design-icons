@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PauseOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/PauseOutlined';
+import PauseOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PauseOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PauseOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

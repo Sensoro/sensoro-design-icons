@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FrameSelectionOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/FrameSelectionOutlined';
+import FrameSelectionOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FrameSelectionOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FrameSelectionOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import NoCarPurelySvg from '@sensoro-design/icons-svg/lib/asn/NoCarPurely';
+import NoCarPurelySvg from '@sensoro-design/icons-svg/es/asn/NoCarPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const NoCarPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

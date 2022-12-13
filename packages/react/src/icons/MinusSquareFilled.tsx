@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MinusSquareFilledSvg from '@sensoro-design/icons-svg/lib/asn/MinusSquareFilled';
+import MinusSquareFilledSvg from '@sensoro-design/icons-svg/es/asn/MinusSquareFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MinusSquareFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CalendarOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/CalendarOutlined';
+import CalendarOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CalendarOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CalendarOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

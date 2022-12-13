@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FaceCameraOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/FaceCameraOutlined';
+import FaceCameraOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FaceCameraOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FaceCameraOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

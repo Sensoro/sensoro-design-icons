@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ParkingLotOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/ParkingLotOutlined';
+import ParkingLotOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ParkingLotOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ParkingLotOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

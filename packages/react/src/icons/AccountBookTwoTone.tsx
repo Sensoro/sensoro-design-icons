@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AccountBookTwoToneSvg from '@sensoro-design/icons-svg/lib/asn/AccountBookTwoTone';
+import AccountBookTwoToneSvg from '@sensoro-design/icons-svg/es/asn/AccountBookTwoTone';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AccountBookTwoTone = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

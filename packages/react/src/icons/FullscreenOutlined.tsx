@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FullscreenOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/FullscreenOutlined';
+import FullscreenOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FullscreenOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FullscreenOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SwapRightOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/SwapRightOutlined';
+import SwapRightOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SwapRightOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SwapRightOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

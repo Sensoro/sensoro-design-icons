@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DigitalMediaOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/DigitalMediaOutlined';
+import DigitalMediaOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DigitalMediaOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DigitalMediaOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

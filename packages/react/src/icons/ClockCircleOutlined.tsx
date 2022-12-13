@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ClockCircleOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/ClockCircleOutlined';
+import ClockCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ClockCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ClockCircleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ShoppingCartOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/ShoppingCartOutlined';
+import ShoppingCartOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ShoppingCartOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ShoppingCartOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

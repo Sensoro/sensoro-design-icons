@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AuthOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/AuthOutlined';
+import AuthOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AuthOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AuthOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

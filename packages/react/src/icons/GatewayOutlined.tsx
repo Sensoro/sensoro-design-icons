@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GatewayOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/GatewayOutlined';
+import GatewayOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GatewayOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GatewayOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

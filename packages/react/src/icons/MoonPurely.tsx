@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MoonPurelySvg from '@sensoro-design/icons-svg/lib/asn/MoonPurely';
+import MoonPurelySvg from '@sensoro-design/icons-svg/es/asn/MoonPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MoonPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

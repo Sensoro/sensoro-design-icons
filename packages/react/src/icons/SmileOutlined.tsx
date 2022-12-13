@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmileOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/SmileOutlined';
+import SmileOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SmileOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmileOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

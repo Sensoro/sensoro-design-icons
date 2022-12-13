@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LocationFilledSvg from '@sensoro-design/icons-svg/lib/asn/LocationFilled';
+import LocationFilledSvg from '@sensoro-design/icons-svg/es/asn/LocationFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LocationFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

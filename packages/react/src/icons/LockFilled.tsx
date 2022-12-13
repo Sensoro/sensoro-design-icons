@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LockFilledSvg from '@sensoro-design/icons-svg/lib/asn/LockFilled';
+import LockFilledSvg from '@sensoro-design/icons-svg/es/asn/LockFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LockFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

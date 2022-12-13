@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ElderPurelySvg from '@sensoro-design/icons-svg/lib/asn/ElderPurely';
+import ElderPurelySvg from '@sensoro-design/icons-svg/es/asn/ElderPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ElderPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

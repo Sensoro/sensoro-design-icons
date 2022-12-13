@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BarCardFilledSvg from '@sensoro-design/icons-svg/lib/asn/BarCardFilled';
+import BarCardFilledSvg from '@sensoro-design/icons-svg/es/asn/BarCardFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BarCardFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

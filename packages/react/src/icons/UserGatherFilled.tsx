@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import UserGatherFilledSvg from '@sensoro-design/icons-svg/lib/asn/UserGatherFilled';
+import UserGatherFilledSvg from '@sensoro-design/icons-svg/es/asn/UserGatherFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const UserGatherFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

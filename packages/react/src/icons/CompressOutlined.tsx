@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CompressOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/CompressOutlined';
+import CompressOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CompressOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CompressOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GlobalOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/GlobalOutlined';
+import GlobalOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GlobalOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GlobalOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

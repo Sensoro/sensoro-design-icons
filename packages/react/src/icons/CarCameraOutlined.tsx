@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CarCameraOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/CarCameraOutlined';
+import CarCameraOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CarCameraOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CarCameraOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

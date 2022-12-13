@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmartWaterMeterFilledSvg from '@sensoro-design/icons-svg/lib/asn/SmartWaterMeterFilled';
+import SmartWaterMeterFilledSvg from '@sensoro-design/icons-svg/es/asn/SmartWaterMeterFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmartWaterMeterFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

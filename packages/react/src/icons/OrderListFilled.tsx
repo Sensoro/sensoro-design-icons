@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import OrderListFilledSvg from '@sensoro-design/icons-svg/lib/asn/OrderListFilled';
+import OrderListFilledSvg from '@sensoro-design/icons-svg/es/asn/OrderListFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const OrderListFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

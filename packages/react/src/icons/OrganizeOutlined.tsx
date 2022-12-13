@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import OrganizeOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/OrganizeOutlined';
+import OrganizeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/OrganizeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const OrganizeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CloseCircleOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/CloseCircleOutlined';
+import CloseCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CloseCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CloseCircleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CheckSquareOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/CheckSquareOutlined';
+import CheckSquareOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CheckSquareOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CheckSquareOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FileSealFilledSvg from '@sensoro-design/icons-svg/lib/asn/FileSealFilled';
+import FileSealFilledSvg from '@sensoro-design/icons-svg/es/asn/FileSealFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FileSealFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

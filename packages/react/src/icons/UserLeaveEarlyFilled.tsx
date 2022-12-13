@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import UserLeaveEarlyFilledSvg from '@sensoro-design/icons-svg/lib/asn/UserLeaveEarlyFilled';
+import UserLeaveEarlyFilledSvg from '@sensoro-design/icons-svg/es/asn/UserLeaveEarlyFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const UserLeaveEarlyFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

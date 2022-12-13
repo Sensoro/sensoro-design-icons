@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ReloadOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/ReloadOutlined';
+import ReloadOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ReloadOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ReloadOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

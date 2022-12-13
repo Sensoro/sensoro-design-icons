@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RightDownOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/RightDownOutlined';
+import RightDownOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RightDownOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RightDownOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

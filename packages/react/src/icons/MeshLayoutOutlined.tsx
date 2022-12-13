@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MeshLayoutOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/MeshLayoutOutlined';
+import MeshLayoutOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MeshLayoutOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MeshLayoutOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

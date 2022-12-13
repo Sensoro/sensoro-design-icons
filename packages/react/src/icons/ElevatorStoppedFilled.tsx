@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ElevatorStoppedFilledSvg from '@sensoro-design/icons-svg/lib/asn/ElevatorStoppedFilled';
+import ElevatorStoppedFilledSvg from '@sensoro-design/icons-svg/es/asn/ElevatorStoppedFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ElevatorStoppedFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

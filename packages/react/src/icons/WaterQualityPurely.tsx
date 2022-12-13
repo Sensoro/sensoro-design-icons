@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import WaterQualityPurelySvg from '@sensoro-design/icons-svg/lib/asn/WaterQualityPurely';
+import WaterQualityPurelySvg from '@sensoro-design/icons-svg/es/asn/WaterQualityPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const WaterQualityPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

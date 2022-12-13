@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RainfallOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/RainfallOutlined';
+import RainfallOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RainfallOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RainfallOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

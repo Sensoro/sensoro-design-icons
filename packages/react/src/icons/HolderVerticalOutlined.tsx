@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HolderVerticalOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/HolderVerticalOutlined';
+import HolderVerticalOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HolderVerticalOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HolderVerticalOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

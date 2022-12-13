@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MehFilledSvg from '@sensoro-design/icons-svg/lib/asn/MehFilled';
+import MehFilledSvg from '@sensoro-design/icons-svg/es/asn/MehFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MehFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

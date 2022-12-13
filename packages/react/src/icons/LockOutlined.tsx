@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LockOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/LockOutlined';
+import LockOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LockOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LockOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

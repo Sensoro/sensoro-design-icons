@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DownCircleOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/DownCircleOutlined';
+import DownCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DownCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DownCircleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

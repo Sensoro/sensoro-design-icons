@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import WindSpeedOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/WindSpeedOutlined';
+import WindSpeedOutlinedSvg from '@sensoro-design/icons-svg/es/asn/WindSpeedOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const WindSpeedOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import QrcodeFilledSvg from '@sensoro-design/icons-svg/lib/asn/QrcodeFilled';
+import QrcodeFilledSvg from '@sensoro-design/icons-svg/es/asn/QrcodeFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const QrcodeFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

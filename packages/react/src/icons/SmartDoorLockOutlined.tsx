@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmartDoorLockOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/SmartDoorLockOutlined';
+import SmartDoorLockOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SmartDoorLockOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmartDoorLockOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

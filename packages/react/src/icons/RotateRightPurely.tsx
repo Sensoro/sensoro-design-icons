@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RotateRightPurelySvg from '@sensoro-design/icons-svg/lib/asn/RotateRightPurely';
+import RotateRightPurelySvg from '@sensoro-design/icons-svg/es/asn/RotateRightPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RotateRightPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

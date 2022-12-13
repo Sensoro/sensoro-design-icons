@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AlarmClockOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/AlarmClockOutlined';
+import AlarmClockOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AlarmClockOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AlarmClockOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

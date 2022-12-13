@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmartLightPoleOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/SmartLightPoleOutlined';
+import SmartLightPoleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SmartLightPoleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmartLightPoleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

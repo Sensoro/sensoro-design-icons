@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CaretUpOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/CaretUpOutlined';
+import CaretUpOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CaretUpOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CaretUpOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

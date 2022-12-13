@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ArrowUpOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/ArrowUpOutlined';
+import ArrowUpOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ArrowUpOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ArrowUpOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

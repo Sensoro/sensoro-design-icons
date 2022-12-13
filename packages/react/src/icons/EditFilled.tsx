@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import EditFilledSvg from '@sensoro-design/icons-svg/lib/asn/EditFilled';
+import EditFilledSvg from '@sensoro-design/icons-svg/es/asn/EditFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const EditFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

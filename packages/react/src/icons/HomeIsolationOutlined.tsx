@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HomeIsolationOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/HomeIsolationOutlined';
+import HomeIsolationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HomeIsolationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HomeIsolationOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

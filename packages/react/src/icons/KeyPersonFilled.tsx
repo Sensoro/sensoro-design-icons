@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import KeyPersonFilledSvg from '@sensoro-design/icons-svg/lib/asn/KeyPersonFilled';
+import KeyPersonFilledSvg from '@sensoro-design/icons-svg/es/asn/KeyPersonFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const KeyPersonFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

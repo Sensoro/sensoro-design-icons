@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmileFilledSvg from '@sensoro-design/icons-svg/lib/asn/SmileFilled';
+import SmileFilledSvg from '@sensoro-design/icons-svg/es/asn/SmileFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmileFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

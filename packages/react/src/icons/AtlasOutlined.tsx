@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AtlasOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/AtlasOutlined';
+import AtlasOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AtlasOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AtlasOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DoubleRightOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/DoubleRightOutlined';
+import DoubleRightOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DoubleRightOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DoubleRightOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (

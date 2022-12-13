@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FloorOutlinedSvg from '@sensoro-design/icons-svg/lib/asn/FloorOutlined';
+import FloorOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FloorOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FloorOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
