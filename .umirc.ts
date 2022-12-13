@@ -14,19 +14,7 @@ export default {
     },
   ],
   resolve: {
-    includes: [
-      "docs"
-    ]
+    includes: ['docs'],
   },
   hash: true,
-  extraBabelPlugins: [
-    [
-      'import',
-      {
-        libraryName: 'antd',
-        libraryDirectory: 'es',
-        style: 'css',
-      },
-    ],
-  ],
-}
+};
