@@ -97,6 +97,7 @@ export { default as CoOutlined } from './CoOutlined';
 export { default as CodeOutlined } from './CodeOutlined';
 export { default as CollectOutlined } from './CollectOutlined';
 export { default as CompassOutlined } from './CompassOutlined';
+export { default as CompassPurely } from './CompassPurely';
 export { default as CompressOutlined } from './CompressOutlined';
 export { default as ControllerOutlined } from './ControllerOutlined';
 export { default as CopyOutlined } from './CopyOutlined';
