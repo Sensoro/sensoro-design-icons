@@ -375,6 +375,7 @@ export { default as OrderedListOutlined } from './OrderedListOutlined';
 export { default as OrganizeFilled } from './OrganizeFilled';
 export { default as OrganizeOutlined } from './OrganizeOutlined';
 export { default as OrganizeProOutlined } from './OrganizeProOutlined';
+export { default as OriginalRatioFilled } from './OriginalRatioFilled';
 export { default as OriginalSizeOutlined } from './OriginalSizeOutlined';
 export { default as PanoramicOutlined } from './PanoramicOutlined';
 export { default as PaperClipOutlined } from './PaperClipOutlined';
