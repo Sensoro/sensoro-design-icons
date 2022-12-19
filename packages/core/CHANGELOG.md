@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.68.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.67.0...@sensoro-design/icons-svg@1.68.0) (2022-12-19)
+
+
+### Features
+
+* add OriginalRatio icon ([afc479d](https://github.com/sensoro-design/sensoro-design-icons/commit/afc479dd10c29d6913566f8e9023ff9b424d6e87))
+
+
+
+
+
 # [1.67.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.66.0...@sensoro-design/icons-svg@1.67.0) (2022-12-13)
 
 
