@@ -1,11 +1,9 @@
 ---
 title: 贡献指南
 order: 10
-group:
-  path: /
 nav:
   title: 文档
-  path: /docs
+  order: -1
 ---
 
 ## 生成流程

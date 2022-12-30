@@ -30,6 +30,10 @@ dist
 
 .umi
 
+.dumi/tmp
+.dumi/tmp-test
+.dumi/tmp-production
+
 # IDE
 .idea
 .vscode
