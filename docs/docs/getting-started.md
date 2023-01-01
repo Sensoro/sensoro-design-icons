@@ -16,6 +16,6 @@ pnpm i @sensoro-design/icons
 
 ### 在项目中使用
 
-以React为例，使用示例如下 ：
+以 React 为例，使用示例如下 ：
 
-<code src="./components/example.tsx" />
+<code src="../components/example.tsx"></code>
