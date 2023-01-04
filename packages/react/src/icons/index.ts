@@ -290,6 +290,8 @@ export { default as KeyOutlined } from './KeyOutlined';
 export { default as KeyPersonFilled } from './KeyPersonFilled';
 export { default as KeyPersonPurely } from './KeyPersonPurely';
 export { default as KeyVehiclePurely } from './KeyVehiclePurely';
+export { default as KinescopeOutlined } from './KinescopeOutlined';
+export { default as KinescopeStopOutlined } from './KinescopeStopOutlined';
 export { default as LakeOutlined } from './LakeOutlined';
 export { default as LayoutOutlined } from './LayoutOutlined';
 export { default as LeakingOutlined } from './LeakingOutlined';
