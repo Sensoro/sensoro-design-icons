@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.71.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.70.0...@sensoro-design/icons-svg@1.71.0) (2023-01-04)
+
+
+### Features
+
+* replace IdCardFilled ([9598903](https://github.com/sensoro-design/sensoro-design-icons/commit/959890317ca4ada917d2077483d4088569e91f85))
+
+
+
+
+
 # [1.70.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.69.0...@sensoro-design/icons-svg@1.70.0) (2023-01-04)
 
 
