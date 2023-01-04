@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.70.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.69.0...@sensoro-design/icons-svg@1.70.0) (2023-01-04)
+
+
+### Features
+
+* add ProfileOutlined icon ([7e7b6c6](https://github.com/sensoro-design/sensoro-design-icons/commit/7e7b6c6bf7eb50bb098c609cfe1b57af35d30c16))
+
+
+
+
+
 # [1.69.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.68.0...@sensoro-design/icons-svg@1.69.0) (2022-12-19)
 
 
