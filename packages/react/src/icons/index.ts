@@ -409,6 +409,7 @@ export { default as PositionMapFilled } from './PositionMapFilled';
 export { default as PowerPerceptionFilled } from './PowerPerceptionFilled';
 export { default as PoweroffOutlined } from './PoweroffOutlined';
 export { default as PrinterOutlined } from './PrinterOutlined';
+export { default as ProfileOutlined } from './ProfileOutlined';
 export { default as PushpinOutlined } from './PushpinOutlined';
 export { default as QrcodeFilled } from './QrcodeFilled';
 export { default as QrcodeOutlined } from './QrcodeOutlined';
