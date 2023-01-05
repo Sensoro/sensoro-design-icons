@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.73.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.72.0...@sensoro-design/icons-svg@1.73.0) (2023-01-05)
+
+
+### Features
+
+* replace IdcardOutlined ([a188147](https://github.com/sensoro-design/sensoro-design-icons/commit/a1881471acbf4909326ec5c35545724be9e45432))
+
+
+
+
+
 # [1.72.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.71.0...@sensoro-design/icons-svg@1.72.0) (2023-01-04)
 
 
