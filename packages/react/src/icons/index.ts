@@ -180,6 +180,7 @@ export { default as FilePenOutlined } from './FilePenOutlined';
 export { default as FilePptOutlined } from './FilePptOutlined';
 export { default as FileProOutlined } from './FileProOutlined';
 export { default as FileProtectOutlined } from './FileProtectOutlined';
+export { default as FileReportFilled } from './FileReportFilled';
 export { default as FileSealFilled } from './FileSealFilled';
 export { default as FileSealOutlined } from './FileSealOutlined';
 export { default as FileSearchFilled } from './FileSearchFilled';
