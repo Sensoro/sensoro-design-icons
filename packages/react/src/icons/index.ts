@@ -399,7 +399,6 @@ export { default as PhoneOutlined } from './PhoneOutlined';
 export { default as PieChartOutlined } from './PieChartOutlined';
 export { default as PlayCircleFilled } from './PlayCircleFilled';
 export { default as PlayCircleOutlined } from './PlayCircleOutlined';
-export { default as PlayCircleProOutlined } from './PlayCircleProOutlined';
 export { default as PlayFilled } from './PlayFilled';
 export { default as PlayOutlined } from './PlayOutlined';
 export { default as PlusCircleFilled } from './PlusCircleFilled';
