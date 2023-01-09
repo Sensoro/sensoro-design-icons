@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.74.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.73.0...@sensoro-design/icons-svg@1.74.0) (2023-01-09)
+
+
+### Features
+
+* 播放图标修改 ([82812e9](https://github.com/sensoro-design/sensoro-design-icons/commit/82812e9588755151c1939862c2d2351f7adeeacc))
+* 替换播放图标 ([5d0c28f](https://github.com/sensoro-design/sensoro-design-icons/commit/5d0c28fd5086d74610f72501ae4f225915b27198))
+* 添加上报图标 ([20bdcc9](https://github.com/sensoro-design/sensoro-design-icons/commit/20bdcc9407f4947ade9228957e0291b2a9f8ef17))
+* replace icons ([bd6d360](https://github.com/sensoro-design/sensoro-design-icons/commit/bd6d360d8d8f8d3bb2a270a8efd066a636e75441))
+
+
+
+
+
 # [1.73.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.72.0...@sensoro-design/icons-svg@1.73.0) (2023-01-05)
 
 
