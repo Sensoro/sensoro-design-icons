@@ -39,6 +39,7 @@ export { default as AtlasFilled } from './AtlasFilled';
 export { default as AtlasOutlined } from './AtlasOutlined';
 export { default as AudibleAlarmHostOutlined } from './AudibleAlarmHostOutlined';
 export { default as AudibleAlarmOutlined } from './AudibleAlarmOutlined';
+export { default as AudioFilled } from './AudioFilled';
 export { default as AudioMutedOutlined } from './AudioMutedOutlined';
 export { default as AudioOutlined } from './AudioOutlined';
 export { default as AuthOutlined } from './AuthOutlined';
