@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.76.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.75.0...@sensoro-design/icons@1.76.0) (2023-02-02)
+
+
+### Features
+
+* add AudioFilled ([3e96f66](https://github.com/sensoro-design/sensoro-design-icons/commit/3e96f66f67aa99bbb2c00442cd82f829532d3d22))
+
+
+
+
+
 # [1.75.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.74.0...@sensoro-design/icons@1.75.0) (2023-02-01)
 
 
