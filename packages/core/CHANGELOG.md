@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.77.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.76.0...@sensoro-design/icons-svg@1.77.0) (2023-02-10)
+
+
+### Features
+
+* add RetrieveCarOutlined RetrieveHumanoidOutlined ([259d369](https://github.com/sensoro-design/sensoro-design-icons/commit/259d3692ec956ec845c9b4b29a771db16e947bc8))
+
+
+
+
+
 # [1.76.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.75.0...@sensoro-design/icons-svg@1.76.0) (2023-02-02)
 
 
