@@ -6,6 +6,9 @@ export default defineConfig({
   themeConfig: {
     name: 'Icons',
     logo,
+    socialLinks: {
+      github: 'https://github.com/sensoro-design/sensoro-design-icons',
+    },
   },
   favicons: [logo],
   hash: true,
