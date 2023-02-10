@@ -9,5 +9,6 @@
     "esModuleInterop": true,
     "jsx": "react",
     "skipLibCheck": true
-  }
+  },
+  "include": [".dumi/**/*", ".dumirc.ts"]
 }
