@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.78.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.77.0...@sensoro-design/icons-svg@1.78.0) (2023-02-15)
+
+
+### Features
+
+* add LoadingPurely ([ad1118a](https://github.com/sensoro-design/sensoro-design-icons/commit/ad1118af1c826ab8f8d81290b26aa7f75c39455d))
+
+
+
+
+
 # [1.77.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.76.0...@sensoro-design/icons-svg@1.77.0) (2023-02-10)
 
 
