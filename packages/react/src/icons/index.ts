@@ -314,6 +314,7 @@ export { default as LinkOutlined } from './LinkOutlined';
 export { default as LinsAccessOutlined } from './LinsAccessOutlined';
 export { default as ListFilled } from './ListFilled';
 export { default as LoadingOutlined } from './LoadingOutlined';
+export { default as LoadingPurely } from './LoadingPurely';
 export { default as LocationFilled } from './LocationFilled';
 export { default as LocationOutlined } from './LocationOutlined';
 export { default as LocationPurely } from './LocationPurely';
