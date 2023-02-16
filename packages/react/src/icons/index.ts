@@ -193,6 +193,7 @@ export { default as FileTextFilled } from './FileTextFilled';
 export { default as FileTextOutlined } from './FileTextOutlined';
 export { default as FileTimeOutlined } from './FileTimeOutlined';
 export { default as FileUnknownOutlined } from './FileUnknownOutlined';
+export { default as FileUserOutlined } from './FileUserOutlined';
 export { default as FileVideoOutlined } from './FileVideoOutlined';
 export { default as FileWarningOutlined } from './FileWarningOutlined';
 export { default as FileWordOutlined } from './FileWordOutlined';
