@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.79.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.78.0...@sensoro-design/icons@1.79.0) (2023-02-16)
+
+
+### Features
+
+* add FileUserOutlined ([1556d3a](https://github.com/sensoro-design/sensoro-design-icons/commit/1556d3a1ca0585664e160d2b3de1fd01c85392cc))
+
+
+
+
+
 # [1.78.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@1.77.0...@sensoro-design/icons@1.78.0) (2023-02-15)
 
 
