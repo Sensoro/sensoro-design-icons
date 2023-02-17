@@ -526,6 +526,7 @@ export { default as ThermometerOutlined } from './ThermometerOutlined';
 export { default as ThirdPurely } from './ThirdPurely';
 export { default as ThumbnailOutlined } from './ThumbnailOutlined';
 export { default as TimeCircleFilled } from './TimeCircleFilled';
+export { default as ToTopFilled } from './ToTopFilled';
 export { default as ToTopOutlined } from './ToTopOutlined';
 export { default as ToolOutlined } from './ToolOutlined';
 export { default as ToolPurely } from './ToolPurely';
