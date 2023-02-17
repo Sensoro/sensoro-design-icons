@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.80.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.79.0...@sensoro-design/icons-svg@1.80.0) (2023-02-17)
+
+
+### Features
+
+* add ToTopFilled ([318b0b3](https://github.com/sensoro-design/sensoro-design-icons/commit/318b0b373fd338b0121f50d70f6177acf4f13839))
+
+
+
+
+
 # [1.79.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.78.0...@sensoro-design/icons-svg@1.79.0) (2023-02-16)
 
 
