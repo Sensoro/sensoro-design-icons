@@ -13,8 +13,8 @@ export interface CategoriesProps {
 }
 
 const titleMap = {
-  direction: '方向性图标',
-  operation: '操作类图标',
+  direction: '方向与提示',
+  operation: '界面操作',
   suggestion: '提示建议性图标',
   data: '数据类图标',
   file: '文件类图标',
