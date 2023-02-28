@@ -18,6 +18,7 @@ const titleMap = {
   suggestion: '提示建议性图标',
   data: '数据类图标',
   file: '文件类图标',
+  user: '人员',
   car: '车辆类图标',
   built: '建筑类图标',
   device: '设备类图标',
