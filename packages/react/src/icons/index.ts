@@ -500,7 +500,6 @@ export { default as SmileOutlined } from './SmileOutlined';
 export { default as SmokeFilled } from './SmokeFilled';
 export { default as SmokeOutlined } from './SmokeOutlined';
 export { default as SmokePurely } from './SmokePurely';
-export { default as SortFilled } from './SortFilled';
 export { default as SortOutlined } from './SortOutlined';
 export { default as SoundOutlined } from './SoundOutlined';
 export { default as SoundSmallOutlined } from './SoundSmallOutlined';
