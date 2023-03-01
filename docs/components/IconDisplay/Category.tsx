@@ -22,6 +22,7 @@ const titleMap = {
   car: '车辆类图标',
   built: '建筑类图标',
   device: '设备类图标',
+  deviceStatus: '设备状态&操作',
   menu: '菜单类图标',
   other: '网站通用图标',
   logo: '品牌和标识',
