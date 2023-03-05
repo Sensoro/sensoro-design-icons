@@ -166,6 +166,7 @@ const gallery = [
   'Smile',
   'RetrieveCar',
   'ImageOptimization',
+  'RetrievePeople',
 ];
 
 const file = [
@@ -275,6 +276,8 @@ const device = [
   'WalkieTalkie',
   'GasMonitoring',
   'DronePro',
+  'Play',
+  'Pause',
 ];
 
 const deviceStatus = [
@@ -396,7 +399,7 @@ const universal = [
   'Address',
   'Collect',
   'Calendar',
-  'ClockCircle',
+  'TimeCircle',
   'Qrcode',
   'Organize',
   'Link',
