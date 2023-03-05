@@ -1,12 +1,12 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HeatMapOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HeatMapOutlined';
+import HeatmapOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HeatmapOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HeatMapOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
-  <SensoroIcon {...props} ref={ref} icon={HeatMapOutlinedSvg} />
+const HeatmapOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+  <SensoroIcon {...props} ref={ref} icon={HeatmapOutlinedSvg} />
 ));
 
-HeatMapOutlined.displayName = 'HeatMapOutlined';
+HeatmapOutlined.displayName = 'HeatmapOutlined';
 
-export default HeatMapOutlined;
+export default HeatmapOutlined;

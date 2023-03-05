@@ -20,6 +20,10 @@ const direction = [
   'InfoCircle',
   'ExclamationCircle',
   'CheckCircle',
+  'CaretDown',
+  'CaretLeft',
+  'CaretRight',
+  'CaretUp',
 ];
 
 /** 界面操作 */
@@ -440,6 +444,7 @@ const otherBusiness = [
   'Tetris',
   'Auth',
   'Service24Hour',
+  'Insurance',
   'SafetyKey',
   'NotificationTemplate',
   'Engine',
@@ -447,6 +452,7 @@ const otherBusiness = [
   'ServiceCard',
   'Shopping',
   'Lins',
+  'WordOrder',
   'LineChart',
   'Key',
   'BrainMap',
