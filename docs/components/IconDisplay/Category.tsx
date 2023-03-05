@@ -19,7 +19,7 @@ const titleMap = {
   data: '数据类图标',
   file: '文件类图标',
   user: '人员',
-  car: '车辆类图标',
+  gallery: '图库',
   built: '建筑类图标',
   device: '设备类图标',
   deviceStatus: '设备状态&操作',

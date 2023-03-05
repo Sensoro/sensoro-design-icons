@@ -21,8 +21,6 @@ const direction: string[] = [
   'CheckCircle',
 ];
 
-const car = ['Car', 'CarCamera', 'CarRecord', 'CarUnknown', 'CarExclamationCircle', 'CarPen', 'CarQuestionCircle'];
-
 const built = ['Building', 'Employer', 'IllegalBuilding'];
 
 /** 界面操作 */
@@ -89,18 +87,57 @@ const menu = [
 
 /** 音影类 */
 const audioVideo = [
-  'Pause',
-  'PauseCircle',
-  'Sound',
-  'SoundSmall',
+  'Camera',
+  'NoPhoto',
+  'FastForward30S',
+  'Rewind30S',
+  'Compress',
+  'Expand',
+  'FullscreenPro',
+  'FullscreenExitPro',
+  'ZoomIn',
+  'ZoomOut',
   'Mute',
-  'Play',
-  'PlayCircle',
+  'SoundSmall',
+  'Sound',
+  'ApertureMinus',
+  'AperturePlus',
+  'ZoomMinus',
+  'ZoomPlus',
+  'Audio',
+  'AudioMuted',
+  'FocusOneKey',
+  'View',
+  'OriginalRatio',
+  'Yuntai',
+  'SplitScreen',
+  'Screencast',
+  'MinusCircle',
   'PlayCirclePro',
+  'Kinescope',
+  'KinescopeStop',
+  'OfflinePro',
+  'RotationClose',
+  'Screenshot',
+  'Rotation',
+  'PauseCircle',
+  'PlayCircle',
   'Video',
   'VideoStop',
-  'StepBackward',
-  'StepForward',
+  'Play',
+  'Pause',
+  'FastBackward',
+  'FastForward',
+];
+
+const gallery = [
+  'RetrieveCar',
+  'RetrieveHumanoid',
+  'RetrieveSmile',
+  'RetrieveNonMotorVehicle',
+  'Car',
+  'Smile',
+  'NonMotorVehicle',
 ];
 
 const file = [
@@ -269,7 +306,6 @@ const datum = [
   ...audioVideo,
   ...data,
   ...logo,
-  ...car,
   ...built,
   ...menu,
   ...operation,
@@ -278,6 +314,7 @@ const datum = [
   ...file,
   ...user,
   ...empty,
+  ...gallery,
 ];
 
 const other = all.filter((n) => !datum.includes(n));
@@ -289,7 +326,7 @@ export const categories = {
   file,
   user,
   data,
-  car,
+  gallery,
   built,
   menu,
   device,
