@@ -338,7 +338,7 @@ const map = [
   'HighSpeedBayonet',
   'Waters',
   'Hospital',
-  'Rubbish',
+  'Rest',
   'Forest',
   'Heatmap',
 ];
