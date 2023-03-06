@@ -302,6 +302,7 @@ const deviceStatus = [
   'Sync',
   'Square',
   'NormallyOpenCancel',
+  'Battery',
   'Wifi',
   'Muffling',
   'LowBatteryMuted',
@@ -341,6 +342,24 @@ const map = [
   'Rest',
   'Forest',
   'Heatmap',
+  'ScenicArea',
+  'ScienceEducation',
+  'Government',
+  'SportsFacilities',
+  'CellularDiagram',
+  'BuildingMaterials',
+  'Bus',
+  'FireBreaker',
+  'MufflingDevice',
+  'GasStation',
+  'RefillStation',
+  'Dashboard',
+  'PowerPerception',
+  'ChemicalPlant',
+  'BatteryGroup',
+  'GeologicalDisaster',
+  'Fireworks',
+  'Application',
 ];
 
 const firefighting = [
@@ -419,7 +438,18 @@ const universal = [
   'Image',
 ];
 
-const dataAssets = ['Garage', 'IndoorTrack', 'Users', 'VehicleFile', 'Idcard', 'UserPen'];
+const dataAssets = [
+  'Garage',
+  'IndoorTrack',
+  'Users',
+  'VehicleFile',
+  'Idcard',
+  'UserPen',
+  'CarPen',
+  'CarFocus',
+  'CarForeign',
+  'CarSpecial',
+];
 
 const otherBusiness = [
   'Layout',
@@ -473,11 +503,25 @@ const otherBusiness = [
   'Operate',
   'Tenant',
   'DataInsights',
-  'SleepPro',
+  'Sleep',
   'AlarmClock',
   'CalendarCheck',
   'Helmet',
   'MolecularChain',
+  'PetDog',
+  'AreaInvasion',
+  'UseMolecularChain',
+  'WearingMask',
+  'RoadNetwork',
+  'NotSleep',
+  'ElevatorStopped',
+  'ElevatorUser',
+  'AuxiliaryPoliceOfficer',
+  'Fight',
+  'CarStop',
+  'SalesCall',
+  'VolunteerService',
+  'Statistics',
 ];
 
 const datum = [
