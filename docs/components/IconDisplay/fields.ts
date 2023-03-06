@@ -154,6 +154,8 @@ const audioVideo = [
   'VideoStop',
   'FastBackward',
   'FastForward',
+  'Play',
+  'Pause',
 ];
 
 const gallery = [
@@ -167,6 +169,10 @@ const gallery = [
   'RetrieveCar',
   'ImageOptimization',
   'RetrievePeople',
+  'MultiplePictures',
+  'ImageError',
+  'HumanoidLeft',
+  'HumanoidRight',
 ];
 
 const file = [
@@ -276,8 +282,6 @@ const device = [
   'WalkieTalkie',
   'GasMonitoring',
   'DronePro',
-  'Play',
-  'Pause',
 ];
 
 const deviceStatus = [
@@ -415,7 +419,7 @@ const universal = [
   'Image',
 ];
 
-const dataAssets = ['Garage', 'IndoorTrack', 'PersonnelDatabase', 'VehicleFile', 'Idcard'];
+const dataAssets = ['Garage', 'IndoorTrack', 'Users', 'VehicleFile', 'Idcard', 'UserPen'];
 
 const otherBusiness = [
   'Layout',
