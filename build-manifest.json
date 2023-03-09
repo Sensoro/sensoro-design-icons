@@ -1,7 +1,7 @@
 {
   "assets": {
     "umi.css": "/umi.96cf2cf3.css",
-    "umi.js": "/umi.216466d2.js",
+    "umi.js": "/umi.446ab982.js",
     "nm__.pnpm__dumi_2.1.14_nquqbln33uzghdmfuarktzl6de__node_modules__dumi__dist__client__pages__404.js": "/nm__.pnpm__dumi_2.1.14_nquqbln33uzghdmfuarktzl6de__node_modules__dumi__dist__client__pages__404.a8111be0.async.js",
     "dumi__tmp-production__dumi__theme__ContextWrapper.js": "/dumi__tmp-production__dumi__theme__ContextWrapper.9dca1e52.async.js",
     "nm__.pnpm__dumi_2.1.14_nquqbln33uzghdmfuarktzl6de__node_modules__dumi__theme-default__layouts__DocLayout__index.js": "/nm__.pnpm__dumi_2.1.14_nquqbln33uzghdmfuarktzl6de__node_modules__dumi__theme-default__layouts__DocLayout__index.c8ca8d9a.async.js",
@@ -10,6 +10,6 @@
     "docs__icons.md.js": "/docs__icons.md.fdac2e1b.async.js",
     "docs__index.md.js": "/docs__index.md.69a48bc1.async.js",
     "nm__.pnpm__dumi_2.1.14_nquqbln33uzghdmfuarktzl6de__node_modules__dumi__dist__client__pages__Demo__index.js": "/nm__.pnpm__dumi_2.1.14_nquqbln33uzghdmfuarktzl6de__node_modules__dumi__dist__client__pages__Demo__index.d6ae4ac5.async.js",
-    "demos.js": "/demos.0d7643f3.async.js"
+    "demos.js": "/demos.aec9d987.async.js"
   }
 }
