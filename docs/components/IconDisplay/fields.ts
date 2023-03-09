@@ -519,6 +519,7 @@ const otherBusiness = [
   'SalesCall',
   'VolunteerService',
   'Statistics',
+  'GroupRule',
 ];
 
 const datum = [

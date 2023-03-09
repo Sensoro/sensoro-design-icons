@@ -366,7 +366,6 @@ export { default as IndoorTrackOutlined } from './IndoorTrackOutlined';
 export { default as InfoCircleFilled } from './InfoCircleFilled';
 export { default as InfoCircleOutlined } from './InfoCircleOutlined';
 export { default as InfoOutlined } from './InfoOutlined';
-export { default as InfraredHostOutlined } from './InfraredHostOutlined';
 export { default as InfraredOutlined } from './InfraredOutlined';
 export { default as InsuranceOutlined } from './InsuranceOutlined';
 export { default as IntelligentAccessFilled } from './IntelligentAccessFilled';
