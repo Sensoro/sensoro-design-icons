@@ -171,8 +171,7 @@ const gallery = [
   'RetrievePeople',
   'MultiplePictures',
   'ImageError',
-  'HumanoidLeft',
-  'HumanoidRight',
+  'Humanoid',
 ];
 
 const file = [
