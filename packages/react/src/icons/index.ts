@@ -581,7 +581,6 @@ export { default as QrcodeOutlined } from './QrcodeOutlined';
 export { default as QuestionCircleOutlined } from './QuestionCircleOutlined';
 export { default as QuestionOutlined } from './QuestionOutlined';
 export { default as RadiationLayoutOutlined } from './RadiationLayoutOutlined';
-export { default as RainfallIntensityOutlined } from './RainfallIntensityOutlined';
 export { default as RainfallOutlined } from './RainfallOutlined';
 export { default as RainstormOutlined } from './RainstormOutlined';
 export { default as RedoOutlined } from './RedoOutlined';
