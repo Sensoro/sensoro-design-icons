@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.80.0...@sensoro-design/icons-svg@2.1.0) (2023-03-10)
+
+
+### Features
+
+* remove SortFilled ([010730e](https://github.com/sensoro-design/sensoro-design-icons/commit/010730e074ee778116fe05b6a8ee44ec4c95ca5a))
+* replace icon ([dcd0aea](https://github.com/sensoro-design/sensoro-design-icons/commit/dcd0aea6fdf407fc4c70259feae5840258269842))
+* replace icon ([ac8b8ce](https://github.com/sensoro-design/sensoro-design-icons/commit/ac8b8ce2603dd037781268d9625d8646fbd42cad))
+* 去除无用图标 ([dd6665f](https://github.com/sensoro-design/sensoro-design-icons/commit/dd6665f4e4fd46a20d0ff06e67fc30637a820f54))
+* 地图&位置类图标整理 ([cf9b595](https://github.com/sensoro-design/sensoro-design-icons/commit/cf9b59535ace40d486705b6dc1377834e3bf5ed5))
+* 实底风格图标整理 ([50f8ab7](https://github.com/sensoro-design/sensoro-design-icons/commit/50f8ab72cbb0231593ae9be789b9c4d0510a47f1))
+* 整理人员&文件图标 ([7d72c6e](https://github.com/sensoro-design/sensoro-design-icons/commit/7d72c6ee765216885fe5b8522524ed256cdfc4c9))
+* 整理实底风格图标 ([e323329](https://github.com/sensoro-design/sensoro-design-icons/commit/e3233296edc81a220e1d0f772aa7133f44f770c5))
+* 整理方向与提示&界面操作分类图标 ([33bb719](https://github.com/sensoro-design/sensoro-design-icons/commit/33bb719e080579fa8ebd39a30bc1cf4666416001))
+* 整理线框风格图标 ([62662ad](https://github.com/sensoro-design/sensoro-design-icons/commit/62662ad285e745a9990eccee23637721b8d12eb2))
+* 替换图标 ([3e164f2](https://github.com/sensoro-design/sensoro-design-icons/commit/3e164f29aa6b5a0ae5682d2f926480ef17664854))
+* 替换图标 ([8b7e037](https://github.com/sensoro-design/sensoro-design-icons/commit/8b7e0371fadbdce60f277f9540c16521e014c3b3))
+* 替换部分图标 ([5f10bd4](https://github.com/sensoro-design/sensoro-design-icons/commit/5f10bd45a82619deb24e742a499af6caed5cfb91))
+* 清理无用图标 ([8263c79](https://github.com/sensoro-design/sensoro-design-icons/commit/8263c79d92ab1953aa845d985e81126b3ad3ab99))
+* 视频类图标整理 ([bbe6706](https://github.com/sensoro-design/sensoro-design-icons/commit/bbe67065375fbc25f901d6ca2b78a79d973025d6))
+* 移除部分图标 ([6fbcf69](https://github.com/sensoro-design/sensoro-design-icons/commit/6fbcf694167f31681156cd87600debb4004bc76d))
+* 补充提交 ([e0f9ea7](https://github.com/sensoro-design/sensoro-design-icons/commit/e0f9ea7f34983828032c1960ea9a9c0b4982f13c))
+* 设备状态&操作类图标整理 ([596149d](https://github.com/sensoro-design/sensoro-design-icons/commit/596149df3d311ed41aca6abdb4c18999e234b334))
+* 设备类图标整理 ([4fc718f](https://github.com/sensoro-design/sensoro-design-icons/commit/4fc718fcc7d339dbd635f7e92913f574414e4259))
+
+
+
+
+
 # [1.80.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@1.79.0...@sensoro-design/icons-svg@1.80.0) (2023-02-17)
 
 
