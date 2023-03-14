@@ -338,6 +338,7 @@ export { default as HighSpeedBayonetFilled } from './HighSpeedBayonetFilled';
 export { default as HighSpeedBayonetOutlined } from './HighSpeedBayonetOutlined';
 export { default as HolderOutlined } from './HolderOutlined';
 export { default as HolderVerticalOutlined } from './HolderVerticalOutlined';
+export { default as HomeFilled } from './HomeFilled';
 export { default as HomeIsolationOutlined } from './HomeIsolationOutlined';
 export { default as HomeOutlined } from './HomeOutlined';
 export { default as HospitalFilled } from './HospitalFilled';
