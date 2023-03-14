@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.1.1...@sensoro-design/icons@2.2.0) (2023-03-14)
+
+
+### Features
+
+* add HomeFilled ([0afe5ff](https://github.com/sensoro-design/sensoro-design-icons/commit/0afe5ffbbfa58a816de8286dddc41c402a7d7fc1))
+
+
+
+
+
 ## [2.1.1](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.1.0...@sensoro-design/icons@2.1.1) (2023-03-13)
 
 **Note:** Version bump only for package @sensoro-design/icons
