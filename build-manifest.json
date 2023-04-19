@@ -1,7 +1,7 @@
 {
   "assets": {
     "umi.css": "/umi.96cf2cf3.css",
-    "umi.js": "/umi.a7b1de0d.js",
+    "umi.js": "/umi.5e11b09e.js",
     "nm__.pnpm__dumi_2.1.14__babel+core_7.20.12__types+react_18.0.26_eslint_8.38.0_postcss_8.4.21_prettier_2._wkszdumhi6x6ibhkqxbnwipxgy__node_modules__dumi__dist__client__pages__404.js": "/nm__.pnpm__dumi_2.1.14__babel+core_7.20.12__types+react_18.0.26_eslint_8.38.0_postcss_8.4.21_prettier_2._wkszdumhi6x6ibhkqxbnwipxgy__node_modules__dumi__dist__client__pages__404.9193c92a.async.js",
     "dumi__tmp-production__dumi__theme__ContextWrapper.js": "/dumi__tmp-production__dumi__theme__ContextWrapper.c21891d3.async.js",
     "nm__.pnpm__dumi_2.1.14__babel+core_7.20.12__types+react_18.0.26_eslint_8.38.0_postcss_8.4.21_prettier_2._wkszdumhi6x6ibhkqxbnwipxgy__node_modules__dumi__theme-default__layouts__DocLayout__index.js": "/nm__.pnpm__dumi_2.1.14__babel+core_7.20.12__types+react_18.0.26_eslint_8.38.0_postcss_8.4.21_prettier_2._wkszdumhi6x6ibhkqxbnwipxgy__node_modules__dumi__theme-default__layouts__DocLayout__index.c6ac397c.async.js",
@@ -10,6 +10,6 @@
     "docs__icons.md.js": "/docs__icons.md.9e5fe208.async.js",
     "docs__index.md.js": "/docs__index.md.2a85c7e9.async.js",
     "nm__.pnpm__dumi_2.1.14__babel+core_7.20.12__types+react_18.0.26_eslint_8.38.0_postcss_8.4.21_prettier_2._wkszdumhi6x6ibhkqxbnwipxgy__node_modules__dumi__dist__client__pages__Demo__index.js": "/nm__.pnpm__dumi_2.1.14__babel+core_7.20.12__types+react_18.0.26_eslint_8.38.0_postcss_8.4.21_prettier_2._wkszdumhi6x6ibhkqxbnwipxgy__node_modules__dumi__dist__client__pages__Demo__index.cc3725f8.async.js",
-    "demos.js": "/demos.42fc3256.async.js"
+    "demos.js": "/demos.f16748b8.async.js"
   }
 }
