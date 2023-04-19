@@ -732,6 +732,7 @@ export { default as UsersOutlined } from './UsersOutlined';
 export { default as VehicleFileFilled } from './VehicleFileFilled';
 export { default as VehicleFileOutlined } from './VehicleFileOutlined';
 export { default as VentilationFanOutlined } from './VentilationFanOutlined';
+export { default as VesselFilled } from './VesselFilled';
 export { default as VesselIllegalWorkFilled } from './VesselIllegalWorkFilled';
 export { default as VesselIllegalWorkOutlined } from './VesselIllegalWorkOutlined';
 export { default as VesselOutlined } from './VesselOutlined';
