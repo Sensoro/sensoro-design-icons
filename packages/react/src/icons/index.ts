@@ -734,6 +734,7 @@ export { default as VehicleFileOutlined } from './VehicleFileOutlined';
 export { default as VentilationFanOutlined } from './VentilationFanOutlined';
 export { default as VesselIllegalWorkFilled } from './VesselIllegalWorkFilled';
 export { default as VesselIllegalWorkOutlined } from './VesselIllegalWorkOutlined';
+export { default as VesselOutlined } from './VesselOutlined';
 export { default as VideoCameraFilled } from './VideoCameraFilled';
 export { default as VideoCameraOutlined } from './VideoCameraOutlined';
 export { default as VideoFilled } from './VideoFilled';

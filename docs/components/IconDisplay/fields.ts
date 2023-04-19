@@ -172,6 +172,8 @@ const gallery = [
   'MultiplePictures',
   'ImageError',
   'Humanoid',
+  'Vessel',
+  'RetrieveVessel',
 ];
 
 const file = [
