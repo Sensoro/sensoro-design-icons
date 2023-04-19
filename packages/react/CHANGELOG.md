@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.2.2...@sensoro-design/icons@2.3.0) (2023-04-19)
+
+
+### Features
+
+* add VesselFilled ([7198106](https://github.com/sensoro-design/sensoro-design-icons/commit/719810613c305d800f7b37c2142241d3a9b91ec4))
+* add VesselOutlined ([03e02e6](https://github.com/sensoro-design/sensoro-design-icons/commit/03e02e6120293f3d5c879dd11b212fecd47880e0))
+
+
+
+
+
 ## [2.2.2](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.2.1...@sensoro-design/icons@2.2.2) (2023-04-06)
 
 **Note:** Version bump only for package @sensoro-design/icons
