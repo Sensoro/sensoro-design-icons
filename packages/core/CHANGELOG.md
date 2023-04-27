@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.5.0...@sensoro-design/icons-svg@2.6.0) (2023-04-27)
+
+
+### Features
+
+* replace RetrieveVessel svg ([d6948e6](https://github.com/sensoro-design/sensoro-design-icons/commit/d6948e62de7df78aca0faf587b6b3c8f766d1d73))
+
+
+
+
+
 # [2.5.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.4.0...@sensoro-design/icons-svg@2.5.0) (2023-04-19)
 
 
