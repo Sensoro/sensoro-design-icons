@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.3.1...@sensoro-design/icons@2.4.0) (2023-04-28)
+
+
+### Features
+
+* add TaskOutlined ([9137c16](https://github.com/sensoro-design/sensoro-design-icons/commit/9137c16acb039d68e092a665f3dba86684ad45b5))
+* add TaskOutlined ([adf35ce](https://github.com/sensoro-design/sensoro-design-icons/commit/adf35ce5114f7fcaf42237e13db380b0fb961663))
+
+
+
+
+
 ## [2.3.1](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.3.0...@sensoro-design/icons@2.3.1) (2023-04-27)
 
 **Note:** Version bump only for package @sensoro-design/icons
