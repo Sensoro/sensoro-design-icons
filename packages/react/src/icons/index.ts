@@ -673,6 +673,7 @@ export { default as SyncOutlined } from './SyncOutlined';
 export { default as TagFilled } from './TagFilled';
 export { default as TagOutlined } from './TagOutlined';
 export { default as TakeOffOutlined } from './TakeOffOutlined';
+export { default as TaskOutlined } from './TaskOutlined';
 export { default as TemperaturePatchOutlined } from './TemperaturePatchOutlined';
 export { default as TemplateFilled } from './TemplateFilled';
 export { default as TenantFilled } from './TenantFilled';
