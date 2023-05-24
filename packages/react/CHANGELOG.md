@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.4.0...@sensoro-design/icons@2.5.0) (2023-05-24)
+
+
+### Features
+
+* add DroneAirportOutlined ([9268699](https://github.com/sensoro-design/sensoro-design-icons/commit/926869929d7451196aaceb08789bdbe9c2c522b1))
+
+
+
+
+
 # [2.4.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.3.1...@sensoro-design/icons@2.4.0) (2023-04-28)
 
 
