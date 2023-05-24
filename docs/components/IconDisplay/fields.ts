@@ -207,6 +207,7 @@ const user = [
 ];
 
 const device = [
+  'DroneAirport',
   'GasSensor',
   'SmartBox',
   'LinsAccess',

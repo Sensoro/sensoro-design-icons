@@ -155,6 +155,7 @@ export { default as DrawPolygonOutlined } from './DrawPolygonOutlined';
 export { default as DrawRectangleOutlined } from './DrawRectangleOutlined';
 export { default as DrawRoundOutlined } from './DrawRoundOutlined';
 export { default as DriveRecorderOutlined } from './DriveRecorderOutlined';
+export { default as DroneAirportOutlined } from './DroneAirportOutlined';
 export { default as DroneFilled } from './DroneFilled';
 export { default as DroneOutlined } from './DroneOutlined';
 export { default as DroneProFilled } from './DroneProFilled';
