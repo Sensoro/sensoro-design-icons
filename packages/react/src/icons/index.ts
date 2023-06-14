@@ -614,6 +614,7 @@ export { default as ScissorOutlined } from './ScissorOutlined';
 export { default as ScreencastOutlined } from './ScreencastOutlined';
 export { default as ScreenshotOutlined } from './ScreenshotOutlined';
 export { default as SearchOutlined } from './SearchOutlined';
+export { default as SecurityCenterOutlined } from './SecurityCenterOutlined';
 export { default as SerialNumberOutlined } from './SerialNumberOutlined';
 export { default as Service24HourOutlined } from './Service24HourOutlined';
 export { default as ServiceCardFilled } from './ServiceCardFilled';
