@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.5.0...@sensoro-design/icons@2.6.0) (2023-06-14)
+
+
+### Features
+
+* add SecurityCenterOutlined ([2916c11](https://github.com/sensoro-design/sensoro-design-icons/commit/2916c1184e8fb79ce158f0ee23ecadd74e5fa270))
+
+
+
+
+
 # [2.5.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.4.0...@sensoro-design/icons@2.5.0) (2023-05-24)
 
 
