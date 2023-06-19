@@ -12,6 +12,7 @@ const prodConfig = isProd
   : defineConfig({});
 
 export default defineConfig({
+  base: '/sensoro-design-icons/',
   themeConfig: {
     name: 'Icons',
     logo,
