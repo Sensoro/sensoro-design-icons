@@ -13,6 +13,8 @@ const prodConfig = isProd
 
 export default defineConfig({
   base: '/sensoro-design-icons/',
+  publicPath: '/sensoro-design-icons/',
+  runtimePublicPath: {},
   themeConfig: {
     name: 'Icons',
     logo,

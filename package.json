@@ -4,6 +4,7 @@
     "bootstrap": "pnpm generate:core && pnpm build:core",
     "start": "dumi dev",
     "site": "dumi build",
+    "preview": "dumi preview",
     "clean": "rimraf ./**/node_modules",
     "generate": "pnpm -r --workspace-concurrency=1 run generate",
     "generate:core": "pnpm -r --filter @sensoro-design/icons-svg run generate",

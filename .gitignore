@@ -27,6 +27,7 @@ yarn-error.log*
 es
 lib
 dist
+server
 
 .umi
 
