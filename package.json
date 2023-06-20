@@ -46,7 +46,7 @@
     "antd": "^5.2.3",
     "conventional-changelog-gitmoji-config": "^1.4.7",
     "del": "^7.0.0",
-    "dumi": "^2.1.14",
+    "dumi": "^2.2.1",
     "esno": "^0.16.3",
     "redbud": "^1.6.0",
     "gulp": "^4.0.2",
