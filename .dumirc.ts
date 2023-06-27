@@ -21,7 +21,7 @@ export default defineConfig({
     name: 'Icons',
     logo,
     socialLinks: {
-      github: 'https://github.com/sensoro-design/sensoro-design-icons',
+      github: 'https://github.com/sensoro/sensoro-design-icons',
     },
   },
   alias: {
