@@ -8,13 +8,15 @@ const isProd = process.env.NODE_ENV === 'production';
 const prodConfig = isProd
   ? defineConfig({
       ssr: {},
+      mfsu: false,
     })
   : defineConfig({});
 
+const base = '/sensoro-design-icons/';
+
 export default defineConfig({
-  base: '/sensoro-design-icons/',
-  publicPath: '/sensoro-design-icons/',
-  runtimePublicPath: {},
+  base,
+  publicPath: base,
   themeConfig: {
     name: 'Icons',
     logo,
