@@ -1,6 +1,6 @@
 {
   "name": "@sensoro-design/icons",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "Abstract nodes for sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -31,7 +31,7 @@
     "@ant-design/colors": "^6.0.0",
     "@babel/runtime": "^7.11.2",
     "@pansy/classnames": "^1.0.1",
-    "@sensoro-design/icons-svg": "2.9.0",
+    "@sensoro-design/icons-svg": "2.10.0",
     "rc-util": "^5.19.3"
   },
   "publishConfig": {

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.6.0...@sensoro-design/icons@2.7.0) (2023-06-29)
+
+
+### Features
+
+* add BackwardOutlined、ForwardOutlined ([99c2391](https://github.com/sensoro-design/sensoro-design-icons/commit/99c2391441a0321799c9c67deffef5a2a25f59f0))
+
+
+
+
+
 # [2.6.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.5.0...@sensoro-design/icons@2.6.0) (2023-06-14)
 
 
