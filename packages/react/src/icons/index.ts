@@ -48,6 +48,7 @@ export { default as AudioMutedOutlined } from './AudioMutedOutlined';
 export { default as AudioOutlined } from './AudioOutlined';
 export { default as AuthOutlined } from './AuthOutlined';
 export { default as AuxiliaryPoliceOfficerFilled } from './AuxiliaryPoliceOfficerFilled';
+export { default as BackwardOutlined } from './BackwardOutlined';
 export { default as BannerOutlined } from './BannerOutlined';
 export { default as BaseStationOutlined } from './BaseStationOutlined';
 export { default as BatchOutlined } from './BatchOutlined';
@@ -284,6 +285,7 @@ export { default as ForestFireCameraOutlined } from './ForestFireCameraOutlined'
 export { default as ForestFirePurely } from './ForestFirePurely';
 export { default as ForestOutlined } from './ForestOutlined';
 export { default as FormOutlined } from './FormOutlined';
+export { default as ForwardOutlined } from './ForwardOutlined';
 export { default as FrostOutlined } from './FrostOutlined';
 export { default as FrownFilled } from './FrownFilled';
 export { default as FrownOutlined } from './FrownOutlined';
