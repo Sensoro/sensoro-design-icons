@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.11.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.10.0...@sensoro-design/icons-svg@2.11.0) (2023-06-29)
+
+
+### Features
+
+* replace PlayFilled ([da6bab8](https://github.com/sensoro-design/sensoro-design-icons/commit/da6bab8e8da39e958e32680568ac3b0bf9faddf2))
+
+
+
+
+
 # [2.10.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.9.0...@sensoro-design/icons-svg@2.10.0) (2023-06-29)
 
 
