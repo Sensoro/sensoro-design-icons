@@ -7,8 +7,8 @@
   "types": "es/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "generate": "esno ./scripts/generate.ts",
-    "build:clean": "esno ./scripts/buildClean.ts",
+    "generate": "tsx ./scripts/generate.ts",
+    "build:clean": "tsx ./scripts/buildClean.ts",
     "build": "pnpm run build:clean && redbud build && esno ./scripts/build.ts"
   },
   "repository": {

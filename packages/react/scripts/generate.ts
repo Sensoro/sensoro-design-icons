@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'node:path';
 import { logger, fsExtra } from '@umijs/utils';
 import { series } from 'gulp';
 import * as allIconDefs from '@sensoro-design/icons-svg';

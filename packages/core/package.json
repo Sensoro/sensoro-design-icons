@@ -12,7 +12,7 @@
     "inline-namespaced-svg"
   ],
   "scripts": {
-    "generate": "esno ./scripts/generate.ts",
+    "generate": "tsx ./scripts/generate.ts",
     "build": "redbud build"
   },
   "repository": {
