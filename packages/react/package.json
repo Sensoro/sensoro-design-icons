@@ -9,7 +9,7 @@
   "scripts": {
     "generate": "tsx ./scripts/generate.ts",
     "build:clean": "tsx ./scripts/buildClean.ts",
-    "build": "pnpm run build:clean && redbud build && esno ./scripts/build.ts"
+    "build": "pnpm run build:clean && redbud build && tsx ./scripts/build.ts"
   },
   "repository": {
     "type": "git",
