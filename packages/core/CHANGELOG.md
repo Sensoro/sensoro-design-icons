@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.13.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.12.0...@sensoro-design/icons-svg@2.13.0) (2023-07-14)
+
+
+### Features
+
+* add CloudFilled、CloudOutlined ([ed0fb76](https://github.com/sensoro-design/sensoro-design-icons/commit/ed0fb767f480f7445a1905551e83928e8c806c61))
+
+
+
+
+
 # [2.12.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.11.0...@sensoro-design/icons-svg@2.12.0) (2023-07-07)
 
 
