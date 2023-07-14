@@ -106,6 +106,8 @@ export { default as CloseCircleOutlined } from './CloseCircleOutlined';
 export { default as CloseOutlined } from './CloseOutlined';
 export { default as CloseSquareFilled } from './CloseSquareFilled';
 export { default as CloseSquareOutlined } from './CloseSquareOutlined';
+export { default as CloudFilled } from './CloudFilled';
+export { default as CloudOutlined } from './CloudOutlined';
 export { default as Co2Outlined } from './Co2Outlined';
 export { default as CoOutlined } from './CoOutlined';
 export { default as CodeOutlined } from './CodeOutlined';
