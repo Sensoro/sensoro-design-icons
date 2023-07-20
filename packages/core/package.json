@@ -8,6 +8,7 @@
   "files": [
     "lib",
     "es",
+    "src",
     "inline-svg",
     "inline-namespaced-svg"
   ],
