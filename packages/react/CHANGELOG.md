@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.8.2...@sensoro-design/icons@2.9.0) (2023-08-02)
+
+
+### Features
+
+* add CompareOutlined、TimeMachineOutlined ([9e55001](https://github.com/sensoro-design/sensoro-design-icons/commit/9e55001aeec07c2dfda6488ee0add362c0de3048))
+
+
+
+
+
 ## [2.8.2](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.8.1...@sensoro-design/icons@2.8.2) (2023-07-20)
 
 **Note:** Version bump only for package @sensoro-design/icons

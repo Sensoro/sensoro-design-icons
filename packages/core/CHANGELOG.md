@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.15.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.14.1...@sensoro-design/icons-svg@2.15.0) (2023-08-02)
+
+
+### Features
+
+* add CompareOutlined、TimeMachineOutlined ([9e55001](https://github.com/sensoro-design/sensoro-design-icons/commit/9e55001aeec07c2dfda6488ee0add362c0de3048))
+
+
+
+
+
 ## [2.14.1](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.14.0...@sensoro-design/icons-svg@2.14.1) (2023-07-20)
 
 **Note:** Version bump only for package @sensoro-design/icons-svg
