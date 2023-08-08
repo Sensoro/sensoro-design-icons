@@ -774,6 +774,8 @@ export { default as WindSpeedOutlined } from './WindSpeedOutlined';
 export { default as WithoutMaskPurely } from './WithoutMaskPurely';
 export { default as WomanOutlined } from './WomanOutlined';
 export { default as WordOrderOutlined } from './WordOrderOutlined';
+export { default as WorkOrderCheckOutlined } from './WorkOrderCheckOutlined';
+export { default as WorkOrderTimeOutlined } from './WorkOrderTimeOutlined';
 export { default as YuntaiOutlined } from './YuntaiOutlined';
 export { default as ZoomInOutlined } from './ZoomInOutlined';
 export { default as ZoomMinusOutlined } from './ZoomMinusOutlined';
