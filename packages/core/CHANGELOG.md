@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.16.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.15.0...@sensoro-design/icons-svg@2.16.0) (2023-08-08)
+
+
+### Features
+
+* add WorkOrderCheckOutlined、WorkOrderTimeOutlined ([307ec4b](https://github.com/sensoro-design/sensoro-design-icons/commit/307ec4b6184bac12e422c256cdf6bea3ef3b43f1))
+
+
+
+
+
 # [2.15.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.14.1...@sensoro-design/icons-svg@2.15.0) (2023-08-02)
 
 
