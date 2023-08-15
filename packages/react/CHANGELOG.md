@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.11.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.10.0...@sensoro-design/icons@2.11.0) (2023-08-15)
+
+
+### Features
+
+* add Map2DOutlined Map3DOutlined ([ef1b338](https://github.com/sensoro-design/sensoro-design-icons/commit/ef1b338d36340ee2fe4e63b1aec31be138567df8))
+
+
+
+
+
 # [2.10.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.9.0...@sensoro-design/icons@2.10.0) (2023-08-08)
 
 
