@@ -429,6 +429,8 @@ export { default as MaleOutlined } from './MaleOutlined';
 export { default as ManholeCoverOutlined } from './ManholeCoverOutlined';
 export { default as ManholeCoverPurely } from './ManholeCoverPurely';
 export { default as ManualAlarmCircleOutlined } from './ManualAlarmCircleOutlined';
+export { default as Map2DOutlined } from './Map2DOutlined';
+export { default as Map3DOutlined } from './Map3DOutlined';
 export { default as MeansAccessOutlined } from './MeansAccessOutlined';
 export { default as MedicalFilled } from './MedicalFilled';
 export { default as MedicalKitOutlined } from './MedicalKitOutlined';
