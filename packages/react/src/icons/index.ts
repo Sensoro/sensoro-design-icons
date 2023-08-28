@@ -622,6 +622,7 @@ export { default as ScreencastOutlined } from './ScreencastOutlined';
 export { default as ScreenshotFilled } from './ScreenshotFilled';
 export { default as ScreenshotOutlined } from './ScreenshotOutlined';
 export { default as SearchOutlined } from './SearchOutlined';
+export { default as SearchProOutlined } from './SearchProOutlined';
 export { default as SecurityCenterOutlined } from './SecurityCenterOutlined';
 export { default as SerialNumberOutlined } from './SerialNumberOutlined';
 export { default as Service24HourOutlined } from './Service24HourOutlined';
