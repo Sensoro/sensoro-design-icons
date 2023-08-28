@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.12.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.11.0...@sensoro-design/icons@2.12.0) (2023-08-28)
+
+
+### Features
+
+* add SearchProOutlined ([f83780f](https://github.com/sensoro-design/sensoro-design-icons/commit/f83780f73855603d0ef9c9e31e024fdf0da64e29))
+
+
+
+
+
 # [2.11.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.10.0...@sensoro-design/icons@2.11.0) (2023-08-15)
 
 
