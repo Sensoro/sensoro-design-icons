@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.14.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.13.0...@sensoro-design/icons@2.14.0) (2023-09-18)
+
+
+### Features
+
+* add CaseAssistanceOutlined、VolunteerServiceOutlined ([ac4bc1b](https://github.com/sensoro-design/sensoro-design-icons/commit/ac4bc1b4de38fe8c58901561bc95361e51a3cb9c))
+
+
+
+
+
 # [2.13.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.12.0...@sensoro-design/icons@2.13.0) (2023-09-11)
 
 
