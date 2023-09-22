@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.21.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.20.0...@sensoro-design/icons-svg@2.21.0) (2023-09-22)
+
+
+### Features
+
+* add AttendanceRateFilled UserCloseCircleFilled ([989955e](https://github.com/sensoro-design/sensoro-design-icons/commit/989955e2bbf2667acb94a3fc93577a0509dab29e))
+
+
+
+
+
 # [2.20.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.19.0...@sensoro-design/icons-svg@2.20.0) (2023-09-18)
 
 
