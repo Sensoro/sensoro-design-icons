@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.23.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.22.0...@sensoro-design/icons-svg@2.23.0) (2023-10-30)
+
+
+### Features
+
+* add MiniatureFireStationAddOutlined ([4c82057](https://github.com/sensoro-design/sensoro-design-icons/commit/4c820578c4cee3ee7d26ca90791f0ff486b3bbab))
+
+
+
+
+
 # [2.22.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.21.0...@sensoro-design/icons-svg@2.22.0) (2023-10-25)
 
 
