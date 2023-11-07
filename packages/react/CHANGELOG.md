@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.18.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.17.0...@sensoro-design/icons@2.18.0) (2023-11-07)
+
+
+### Features
+
+* add WalkieTalkieOutlined ([d747f00](https://github.com/sensoro-design/sensoro-design-icons/commit/d747f00acfb5158566511abdfb29062baae02147))
+
+
+
+
+
 # [2.17.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.16.0...@sensoro-design/icons@2.17.0) (2023-10-30)
 
 

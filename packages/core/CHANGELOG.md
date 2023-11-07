@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.24.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.23.0...@sensoro-design/icons-svg@2.24.0) (2023-11-07)
+
+
+### Features
+
+* add WalkieTalkieOutlined ([d747f00](https://github.com/sensoro-design/sensoro-design-icons/commit/d747f00acfb5158566511abdfb29062baae02147))
+
+
+
+
+
 # [2.23.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.22.0...@sensoro-design/icons-svg@2.23.0) (2023-10-30)
 
 
