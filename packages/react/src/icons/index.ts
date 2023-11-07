@@ -779,6 +779,7 @@ export { default as VolunteerServiceFilled } from './VolunteerServiceFilled';
 export { default as VolunteerServiceOutlined } from './VolunteerServiceOutlined';
 export { default as VrOutlined } from './VrOutlined';
 export { default as WalkieTalkieFilled } from './WalkieTalkieFilled';
+export { default as WalkieTalkieOutlined } from './WalkieTalkieOutlined';
 export { default as WarningFilled } from './WarningFilled';
 export { default as WarningOutlined } from './WarningOutlined';
 export { default as WaterAreaOutlined } from './WaterAreaOutlined';
