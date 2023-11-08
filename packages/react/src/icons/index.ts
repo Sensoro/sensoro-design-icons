@@ -103,6 +103,7 @@ export { default as CheckSquareOutlined } from './CheckSquareOutlined';
 export { default as ChemicalPlantFilled } from './ChemicalPlantFilled';
 export { default as ChipOutlined } from './ChipOutlined';
 export { default as ClearOutlined } from './ClearOutlined';
+export { default as ClientInstallOutlined } from './ClientInstallOutlined';
 export { default as CloseCircleFilled } from './CloseCircleFilled';
 export { default as CloseCircleOutlined } from './CloseCircleOutlined';
 export { default as CloseOutlined } from './CloseOutlined';
