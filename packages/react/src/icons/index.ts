@@ -511,7 +511,6 @@ export { default as OneToOneOutlined } from './OneToOneOutlined';
 export { default as OperateFilled } from './OperateFilled';
 export { default as OperateOutlined } from './OperateOutlined';
 export { default as OrderListFilled } from './OrderListFilled';
-export { default as OrderReaultFilled } from './OrderReaultFilled';
 export { default as OrderedListOutlined } from './OrderedListOutlined';
 export { default as OrganizeFilled } from './OrganizeFilled';
 export { default as OrganizeOutlined } from './OrganizeOutlined';
