@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.19.0...@sensoro-design/icons@2.20.0) (2023-11-09)
+
+
+### Features
+
+* add TaskFilled ([9f15844](https://github.com/sensoro-design/sensoro-design-icons/commit/9f158445c56fa1119adcf75483f4d903a1c4f044))
+* remove OrderReaultFilled ([ffd39eb](https://github.com/sensoro-design/sensoro-design-icons/commit/ffd39eb8ef4efe8a13186ea8aafdd531c65bf85f))
+
+
+
+
+
 # [2.19.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.18.0...@sensoro-design/icons@2.19.0) (2023-11-08)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.26.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.25.0...@sensoro-design/icons-svg@2.26.0) (2023-11-09)
+
+
+### Features
+
+* add TaskFilled ([9f15844](https://github.com/sensoro-design/sensoro-design-icons/commit/9f158445c56fa1119adcf75483f4d903a1c4f044))
+* replace icon ([90088c5](https://github.com/sensoro-design/sensoro-design-icons/commit/90088c5c101072c424d8fbf4c5dff83e73342dfb))
+
+
+
+
+
 # [2.25.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.24.0...@sensoro-design/icons-svg@2.25.0) (2023-11-08)
 
 
