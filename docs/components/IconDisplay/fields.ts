@@ -203,7 +203,9 @@ const user = [
   'UserLeaveEarly',
   'UserVip',
   'UserTime',
+  'UserCloseCircle',
   'UserExclamationCircle',
+  'UserRemote',
 ];
 
 const device = [
