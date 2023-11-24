@@ -79,6 +79,8 @@ export { default as CalendarCheckOutlined } from './CalendarCheckOutlined';
 export { default as CalendarClockOutlined } from './CalendarClockOutlined';
 export { default as CalendarOutlined } from './CalendarOutlined';
 export { default as CameraFilled } from './CameraFilled';
+export { default as CameraFlipFilled } from './CameraFlipFilled';
+export { default as CameraFlipOutlined } from './CameraFlipOutlined';
 export { default as CameraOutlined } from './CameraOutlined';
 export { default as CarFilled } from './CarFilled';
 export { default as CarFocusFilled } from './CarFocusFilled';
@@ -771,6 +773,7 @@ export { default as VesselIllegalWorkOutlined } from './VesselIllegalWorkOutline
 export { default as VesselOutlined } from './VesselOutlined';
 export { default as VideoCameraFilled } from './VideoCameraFilled';
 export { default as VideoCameraOutlined } from './VideoCameraOutlined';
+export { default as VideoFailFilled } from './VideoFailFilled';
 export { default as VideoFilled } from './VideoFilled';
 export { default as VideoOutlined } from './VideoOutlined';
 export { default as ViewOutlined } from './ViewOutlined';
