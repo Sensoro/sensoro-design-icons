@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.30.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.29.0...@sensoro-design/icons-svg@2.30.0) (2023-12-15)
+
+
+### Features
+
+* replace CallVideoFilled icon ([03285a2](https://github.com/sensoro-design/sensoro-design-icons/commit/03285a2e40c51a667d4272ac0e1ca20a9cf619ca))
+
+
+
+
+
 # [2.29.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.28.0...@sensoro-design/icons-svg@2.29.0) (2023-12-13)
 
 
