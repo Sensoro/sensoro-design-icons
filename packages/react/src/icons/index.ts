@@ -58,6 +58,7 @@ export { default as AudibleAlarmCloseOutlined } from './AudibleAlarmCloseOutline
 export { default as AudibleAlarmHostOutlined } from './AudibleAlarmHostOutlined';
 export { default as AudibleAlarmOpenOutlined } from './AudibleAlarmOpenOutlined';
 export { default as AudioFilled } from './AudioFilled';
+export { default as AudioMuteFilled } from './AudioMuteFilled';
 export { default as AudioMutedOutlined } from './AudioMutedOutlined';
 export { default as AudioOutlined } from './AudioOutlined';
 export { default as AuthOutlined } from './AuthOutlined';
