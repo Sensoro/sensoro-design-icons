@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.24.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.23.0...@sensoro-design/icons@2.24.0) (2023-12-29)
+
+
+### Features
+
+* rename AudioMuteFilled ([a366dc7](https://github.com/sensoro-design/sensoro-design-icons/commit/a366dc765476b2ba5cc0c583cbba487729b859b0))
+
+
+
+
+
 # [2.23.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.22.1...@sensoro-design/icons@2.23.0) (2023-12-29)
 
 
