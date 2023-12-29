@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.23.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.22.1...@sensoro-design/icons@2.23.0) (2023-12-29)
+
+
+### Features
+
+* add AudioMuteFilled ([2702049](https://github.com/sensoro-design/sensoro-design-icons/commit/27020499c8f99c4d0dcac09356451ee8b3aaab99))
+* add icons ([6bd42ce](https://github.com/sensoro-design/sensoro-design-icons/commit/6bd42ce5ad634bf00c2dcfa05cbb5fd49fc4e070))
+
+
+
+
+
 ## [2.22.1](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.22.0...@sensoro-design/icons@2.22.1) (2023-12-15)
 
 **Note:** Version bump only for package @sensoro-design/icons

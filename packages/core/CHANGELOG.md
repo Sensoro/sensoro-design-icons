@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.31.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.30.0...@sensoro-design/icons-svg@2.31.0) (2023-12-29)
+
+
+### Features
+
+* 替换一批图标 ([d7ba056](https://github.com/sensoro-design/sensoro-design-icons/commit/d7ba0566ccf97ec1feee2617f6b99663757ad78c))
+* add AudioMuteFilled ([2702049](https://github.com/sensoro-design/sensoro-design-icons/commit/27020499c8f99c4d0dcac09356451ee8b3aaab99))
+* add icons ([6bd42ce](https://github.com/sensoro-design/sensoro-design-icons/commit/6bd42ce5ad634bf00c2dcfa05cbb5fd49fc4e070))
+
+
+
+
+
 # [2.30.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.29.0...@sensoro-design/icons-svg@2.30.0) (2023-12-15)
 
 
