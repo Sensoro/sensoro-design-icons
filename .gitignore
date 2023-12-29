@@ -24,6 +24,8 @@ yarn-error.log*
 /packages/react/*.js
 /packages/react/*.d.ts
 
+stats.html
+
 es
 lib
 dist
