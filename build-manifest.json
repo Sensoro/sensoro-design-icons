@@ -1,15 +1,15 @@
 {
   "assets": {
     "umi.css": "/sensoro-design-icons/umi.4413dd2a.css",
-    "umi.js": "/sensoro-design-icons/umi.a6479b32.js",
-    "demos.js": "/sensoro-design-icons/demos.ef83f59a.async.js",
-    "dumi__pages__404.js": "/sensoro-design-icons/dumi__pages__404.c2828d4c.async.js",
-    "dumi__theme__ContextWrapper.js": "/sensoro-design-icons/dumi__theme__ContextWrapper.e7c66192.async.js",
-    "dumi__theme__layouts__DocLayout.js": "/sensoro-design-icons/dumi__theme__layouts__DocLayout.65cda1ff.async.js",
-    "docs__docs__contribution-guide.md.js": "/sensoro-design-icons/docs__docs__contribution-guide.md.0c6ed02f.async.js",
-    "docs__docs__getting-started.md.js": "/sensoro-design-icons/docs__docs__getting-started.md.e47c6b86.async.js",
-    "docs__icons.md.js": "/sensoro-design-icons/docs__icons.md.22a4797e.async.js",
-    "docs__index.md.js": "/sensoro-design-icons/docs__index.md.4e2f0d55.async.js",
-    "dumi__pages__Demo.js": "/sensoro-design-icons/dumi__pages__Demo.499c3b70.async.js"
+    "umi.js": "/sensoro-design-icons/umi.6aabfc4b.js",
+    "demos.js": "/sensoro-design-icons/demos.c84ab608.async.js",
+    "dumi__pages__404.js": "/sensoro-design-icons/dumi__pages__404.52128c85.async.js",
+    "dumi__theme__ContextWrapper.js": "/sensoro-design-icons/dumi__theme__ContextWrapper.e22c570d.async.js",
+    "dumi__theme__layouts__DocLayout.js": "/sensoro-design-icons/dumi__theme__layouts__DocLayout.2050d6b6.async.js",
+    "docs__docs__contribution-guide.md.js": "/sensoro-design-icons/docs__docs__contribution-guide.md.7ca9b42d.async.js",
+    "docs__docs__getting-started.md.js": "/sensoro-design-icons/docs__docs__getting-started.md.a6790d49.async.js",
+    "docs__icons.md.js": "/sensoro-design-icons/docs__icons.md.de70d3cc.async.js",
+    "docs__index.md.js": "/sensoro-design-icons/docs__index.md.85b9b746.async.js",
+    "dumi__pages__Demo.js": "/sensoro-design-icons/dumi__pages__Demo.09f804f3.async.js"
   }
 }
