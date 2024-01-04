@@ -89,6 +89,7 @@ export { default as BuildingPlusCircleOutlined } from './BuildingPlusCircleOutli
 export { default as BulbOutlined } from './BulbOutlined';
 export { default as BurningPointOutlined } from './BurningPointOutlined';
 export { default as BusFilled } from './BusFilled';
+export { default as BusOutlined } from './BusOutlined';
 export { default as BusinessAreaOutlined } from './BusinessAreaOutlined';
 export { default as CakeOutlined } from './CakeOutlined';
 export { default as CalendarCheckFilled } from './CalendarCheckFilled';
@@ -415,6 +416,7 @@ export { default as IntelligentAccessOutlined } from './IntelligentAccessOutline
 export { default as InvalidContentPurely } from './InvalidContentPurely';
 export { default as IotFilled } from './IotFilled';
 export { default as IotOutlined } from './IotOutlined';
+export { default as ItineraryOutlined } from './ItineraryOutlined';
 export { default as JackOutlined } from './JackOutlined';
 export { default as KeyAreaOutlined } from './KeyAreaOutlined';
 export { default as KeyOutlined } from './KeyOutlined';
