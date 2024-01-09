@@ -97,6 +97,7 @@ export { default as CalendarCheckOutlined } from './CalendarCheckOutlined';
 export { default as CalendarClockOutlined } from './CalendarClockOutlined';
 export { default as CalendarOutlined } from './CalendarOutlined';
 export { default as CallVideoFilled } from './CallVideoFilled';
+export { default as CallVideoOutlined } from './CallVideoOutlined';
 export { default as CameraFilled } from './CameraFilled';
 export { default as CameraFlipFilled } from './CameraFlipFilled';
 export { default as CameraFlipOutlined } from './CameraFlipOutlined';
