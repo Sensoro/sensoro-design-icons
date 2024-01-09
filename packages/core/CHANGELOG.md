@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.36.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.35.0...@sensoro-design/icons-svg@2.36.0) (2024-01-09)
+
+
+### Features
+
+* add CallVideoOutlined ([45cc92b](https://github.com/sensoro-design/sensoro-design-icons/commit/45cc92bfed8fc70affa039adf76ccfb45a81fa8c))
+
+
+
+
+
 # [2.35.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.34.0...@sensoro-design/icons-svg@2.35.0) (2024-01-04)
 
 
