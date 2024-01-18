@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.29.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.28.0...@sensoro-design/icons@2.29.0) (2024-01-18)
+
+
+### Features
+
+* add PeersFilled ([09894a7](https://github.com/sensoro-design/sensoro-design-icons/commit/09894a77d7a365a430d386f887877c2dbf1e4405))
+
+
+
+
+
 # [2.28.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.27.0...@sensoro-design/icons@2.28.0) (2024-01-09)
 
 
