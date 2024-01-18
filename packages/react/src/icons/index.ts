@@ -571,6 +571,7 @@ export { default as PauseCircleOutlined } from './PauseCircleOutlined';
 export { default as PauseFilled } from './PauseFilled';
 export { default as PayCircleFilled } from './PayCircleFilled';
 export { default as PayCircleOutlined } from './PayCircleOutlined';
+export { default as PeersFilled } from './PeersFilled';
 export { default as PenOutlined } from './PenOutlined';
 export { default as PercentageOutlined } from './PercentageOutlined';
 export { default as PetDogFilled } from './PetDogFilled';
