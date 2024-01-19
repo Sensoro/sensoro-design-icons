@@ -207,7 +207,7 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       '@sensoro-design/icons-svg':
-        specifier: 2.35.0
+        specifier: 2.37.0
         version: link:../core
       rc-util:
         specifier: ^5.19.3
