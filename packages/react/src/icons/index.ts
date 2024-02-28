@@ -708,7 +708,6 @@ export { default as SalesCallFilled } from './SalesCallFilled';
 export { default as SatelliteOutlined } from './SatelliteOutlined';
 export { default as SaveOutlined } from './SaveOutlined';
 export { default as ScanCodeOutlined } from './ScanCodeOutlined';
-export { default as ScanOutlined } from './ScanOutlined';
 export { default as ScenicAreaFilled } from './ScenicAreaFilled';
 export { default as ScenicAreaOutlined } from './ScenicAreaOutlined';
 export { default as ScheduleOutlined } from './ScheduleOutlined';
