@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.33.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.32.0...@sensoro-design/icons@2.33.0) (2024-03-05)
+
+
+### Features
+
+* remove  ClosureMicrophoneOutlined ([1dd1cda](https://github.com/sensoro-design/sensoro-design-icons/commit/1dd1cda1efe2c73e5daaa09355563fe205478575))
+* remove ScanOutlined ([d583527](https://github.com/sensoro-design/sensoro-design-icons/commit/d58352713a440fffd93d4f0a2c43c463eac6ef6f))
+
+
+
+
+
 # [2.32.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.31.0...@sensoro-design/icons@2.32.0) (2024-02-28)
 
 
