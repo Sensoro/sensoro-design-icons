@@ -212,6 +212,7 @@ export { default as DroneFilled } from './DroneFilled';
 export { default as DroneOutlined } from './DroneOutlined';
 export { default as DroneProFilled } from './DroneProFilled';
 export { default as DroughtOutlined } from './DroughtOutlined';
+export { default as DtOutlined } from './DtOutlined';
 export { default as EditFilled } from './EditFilled';
 export { default as EditOutlined } from './EditOutlined';
 export { default as ElderFilled } from './ElderFilled';
