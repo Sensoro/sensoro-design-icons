@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.42.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.41.0...@sensoro-design/icons-svg@2.42.0) (2024-03-15)
+
+
+### Features
+
+* add DtOutlined ([0cc7f2b](https://github.com/sensoro-design/sensoro-design-icons/commit/0cc7f2bd77e13c9af2595c0ed2d39f0639874f49))
+
+
+
+
+
 # [2.41.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.40.0...@sensoro-design/icons-svg@2.41.0) (2024-03-05)
 
 
