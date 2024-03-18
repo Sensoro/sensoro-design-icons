@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.43.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.42.0...@sensoro-design/icons-svg@2.43.0) (2024-03-18)
+
+
+### Features
+
+* add ManualOutlined ([0fe20e7](https://github.com/sensoro-design/sensoro-design-icons/commit/0fe20e74f988ae3a6ca85cd9316184b5e2cf82d4))
+
+
+
+
+
 # [2.42.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.41.0...@sensoro-design/icons-svg@2.42.0) (2024-03-15)
 
 
