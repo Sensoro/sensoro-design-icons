@@ -745,6 +745,7 @@ export { default as ShoppingOutlined } from './ShoppingOutlined';
 export { default as ShutdownOutlined } from './ShutdownOutlined';
 export { default as SignalTowerFilled } from './SignalTowerFilled';
 export { default as SignalTowerOutlined } from './SignalTowerOutlined';
+export { default as SinglePlayOutlined } from './SinglePlayOutlined';
 export { default as SlashOutlined } from './SlashOutlined';
 export { default as SleepFilled } from './SleepFilled';
 export { default as SleepOutlined } from './SleepOutlined';
