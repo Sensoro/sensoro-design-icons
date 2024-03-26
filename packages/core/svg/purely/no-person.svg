@@ -113,7 +113,6 @@
   </defs>
   <g fill="none" fill-rule="evenodd">
     <g transform="translate(31 100)">
-      <use fill="#FFF" xlink:href="#no-person-a"/>
       <use fill="url(#no-person-b)" xlink:href="#no-person-a"/>
     </g>
     <g transform="translate(31 100)">

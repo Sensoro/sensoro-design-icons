@@ -63,7 +63,6 @@
   </defs>
   <g fill="none" fill-rule="evenodd">
     <g transform="translate(31 100)">
-      <use fill="#FFF" xlink:href="#no-img-a"/>
       <use fill="url(#no-img-b)" xlink:href="#no-img-a"/>
     </g>
     <g transform="translate(31 100)">

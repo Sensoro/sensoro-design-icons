@@ -145,7 +145,6 @@
   </defs>
   <g fill="none" fill-rule="evenodd">
     <g transform="translate(31 100)">
-      <use fill="#FFF" xlink:href="#no-car-a"/>
       <use fill="url(#no-car-b)" xlink:href="#no-car-a"/>
     </g>
     <g transform="translate(31 100)">

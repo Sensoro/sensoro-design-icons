@@ -127,7 +127,6 @@
   </defs>
   <g fill="none" fill-rule="evenodd">
     <g transform="translate(31 100)">
-      <use fill="#FFF" xlink:href="#no-alarm-a"/>
       <use fill="url(#no-alarm-b)" xlink:href="#no-alarm-a"/>
     </g>
     <g transform="translate(31 100)">

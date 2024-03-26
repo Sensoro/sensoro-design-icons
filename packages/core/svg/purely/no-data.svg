@@ -111,7 +111,6 @@
   </defs>
   <g fill="none" fill-rule="evenodd">
     <g transform="translate(31 100)">
-      <use fill="#FFF" xlink:href="#no-data-a"/>
       <use fill="url(#no-data-b)" xlink:href="#no-data-a"/>
     </g>
     <g transform="translate(31 100)">
