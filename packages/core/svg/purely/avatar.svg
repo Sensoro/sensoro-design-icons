@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4.数据展示/5.Avatar头像/方-图标</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40"></rect>
+        <linearGradient x1="11.71875%" y1="0%" x2="50%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M9.99999818,10.3125 C12.49375,10.3125 14.86,10.84375 17.09875,11.90625 C17.53011,12.1110752 17.8070873,12.5437613 17.8124982,13.02125 L17.8124982,15.9375 C17.8124982,16.282678 17.5326762,16.5625 17.1874979,16.5625 L2.81249818,16.5625 C2.46732022,16.5625 2.18749788,16.282678 2.18749788,15.9375 L2.18749788,13.03625 C2.18716418,12.5533337 2.46502942,12.113421 2.90125,11.90625 C5.11778385,10.8486319 7.54408788,10.3038991 9.99999818,10.3125 Z M10,2.1875 C11.2001953,2.1875 12.3092187,2.82779297 12.9092969,3.8671875 C13.5093945,4.90658203 13.5093945,6.18716797 12.9092969,7.2265625 C12.3092187,8.26595703 11.2001953,8.90625 10,8.90625 C8.14466797,8.90625 6.640625,7.40220703 6.640625,5.546875 C6.640625,3.69154297 8.14466797,2.1875 10,2.1875 Z" id="path-3"></path>
+        <filter x="-44.8%" y="-48.7%" width="189.6%" height="197.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-6" dy="-6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.42745098   0 0 0 0 0.898039216  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="2" dy="2" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.249289773 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner3"></feGaussianBlur>
+            <feOffset dx="-1" dy="-1" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.25 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="4.数据展示/5.Avatar头像/方-图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <g id="蒙版">
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                <use fill-opacity="0.08" fill="#2B6DE5" xlink:href="#path-1"></use>
+            </g>
+            <path d="M5,0 L35,40 L38,40 C39.1045695,40 40,39.1045695 40,38 L40,2 C40,0.8954305 39.1045695,-2.02906125e-16 38,0 L5,0 L5,0 Z" id="路径-2" fill="url(#linearGradient-2)"></path>
+        </g>
+        <g id="人员填充" transform="translate(10.000000, 10.000000)">
+            <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="20" height="20"></rect>
+            <g id="形状">
+                <use fill-opacity="0.25" fill="#2B6DE5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
