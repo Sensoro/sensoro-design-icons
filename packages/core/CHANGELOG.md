@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.48.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.47.0...@sensoro-design/icons-svg@2.48.0) (2024-03-27)
+
+
+### Features
+
+* add AvatarPurely、ImagePurely ([7880e5e](https://github.com/sensoro-design/sensoro-design-icons/commit/7880e5e20a4a3562e25e49e9dd9c005b4cc05ffc))
+
+
+
+
+
 # [2.47.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.46.0...@sensoro-design/icons-svg@2.47.0) (2024-03-26)
 
 
