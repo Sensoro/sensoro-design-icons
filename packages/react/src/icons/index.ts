@@ -88,6 +88,7 @@ export { default as BrainMapOutlined } from './BrainMapOutlined';
 export { default as BreatheErrorPurely } from './BreatheErrorPurely';
 export { default as BreathePurely } from './BreathePurely';
 export { default as BridgeFilled } from './BridgeFilled';
+export { default as BridgeOutlined } from './BridgeOutlined';
 export { default as BugOutlined } from './BugOutlined';
 export { default as BuildingFilled } from './BuildingFilled';
 export { default as BuildingMaterialsFilled } from './BuildingMaterialsFilled';
