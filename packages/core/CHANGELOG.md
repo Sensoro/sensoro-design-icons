@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.50.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.49.0...@sensoro-design/icons-svg@2.50.0) (2024-04-09)
+
+
+### Features
+
+* add FootTrafficOutlined ([27d229f](https://github.com/sensoro-design/sensoro-design-icons/commit/27d229f5d54085c5e5e146ff77d6d88c6f348cbd))
+
+
+
+
+
 # [2.49.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.48.0...@sensoro-design/icons-svg@2.49.0) (2024-04-08)
 
 
