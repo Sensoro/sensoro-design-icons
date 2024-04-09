@@ -339,6 +339,7 @@ export { default as FolderAddOutlined } from './FolderAddOutlined';
 export { default as FolderOpenOutlined } from './FolderOpenOutlined';
 export { default as FolderOutlined } from './FolderOutlined';
 export { default as FolderViewOutlined } from './FolderViewOutlined';
+export { default as FootTrafficOutlined } from './FootTrafficOutlined';
 export { default as ForeignVehiclePurely } from './ForeignVehiclePurely';
 export { default as ForeignWorkersPurely } from './ForeignWorkersPurely';
 export { default as ForestFireCameraFilled } from './ForestFireCameraFilled';
