@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.42.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.41.0...@sensoro-design/icons@2.42.0) (2024-04-19)
+
+
+### Features
+
+* add HorizontalBottomOutlined ([199a77c](https://github.com/sensoro-design/sensoro-design-icons/commit/199a77c96455116e5382f8844f21e185933e3f0a))
+
+
+
+
+
 # [2.41.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.40.0...@sensoro-design/icons@2.41.0) (2024-04-09)
 
 
