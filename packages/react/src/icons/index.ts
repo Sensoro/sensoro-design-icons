@@ -410,6 +410,7 @@ export { default as HolderVerticalOutlined } from './HolderVerticalOutlined';
 export { default as HomeFilled } from './HomeFilled';
 export { default as HomeIsolationOutlined } from './HomeIsolationOutlined';
 export { default as HomeOutlined } from './HomeOutlined';
+export { default as HorizontalBottomOutlined } from './HorizontalBottomOutlined';
 export { default as HospitalFilled } from './HospitalFilled';
 export { default as HospitalOutlined } from './HospitalOutlined';
 export { default as HumanTrafficVideoOutlined } from './HumanTrafficVideoOutlined';
