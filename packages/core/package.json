@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "generate": "tsx ./scripts/generate.ts",
-    "build": "redbud build"
+    "build": "father build"
   },
   "repository": {
     "type": "git",

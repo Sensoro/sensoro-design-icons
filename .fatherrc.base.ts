@@ -1,4 +1,4 @@
-import { defineConfig } from 'redbud';
+import { defineConfig } from 'father';
 
 export default defineConfig({
   esm: {
