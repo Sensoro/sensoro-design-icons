@@ -8,7 +8,9 @@ export interface Attrs {
 }
 
 function camelCase(input: string) {
-  return input.replace(/-(.)/g, (match, g) => g.toUpperCase());
+  return input.replace(/(-|:)\w/g, function (v) {
+    return v.substring(1).toUpperCase();
+  });
 }
 
 export function normalizeAttrs(attrs: Attrs = {}): Attrs {
