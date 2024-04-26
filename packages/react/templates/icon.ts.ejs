@@ -14,6 +14,6 @@ const RefIcon: React.ForwardRefExoticComponent<
   Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, SensoroIconProps>(<%= svgIdentifier %>);
 
-<%= svgIdentifier %>.displayName = '<%= svgIdentifier %>';
+RefIcon.displayName = '<%= svgIdentifier %>';
 
 export default RefIcon;
