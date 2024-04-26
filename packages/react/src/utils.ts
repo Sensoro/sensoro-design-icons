@@ -7,33 +7,26 @@ export interface Attrs {
   [key: string]: string;
 }
 
-export const toHump = (name: string) => {
-  return name.replace((/(-|:)\w/g), function(v){
-    return v.substring(1).toUpperCase()
-  })
+function camelCase(input: string) {
+  return input.replace(/-(.)/g, (match, g) => g.toUpperCase());
 }
 
 export function normalizeAttrs(attrs: Attrs = {}): Attrs {
-  return Object.keys(attrs)
-    .reduce((acc: Attrs, key: string) => {
-      const val = attrs[key];
-      switch (key) {
-        case 'class':
-          acc.className = val;
-          delete acc.class;
-          break;
-        default:
-          acc[toHump(key)] = val;
-      }
-      return acc;
-    }, {});
+  return Object.keys(attrs).reduce((acc: Attrs, key: string) => {
+    const val = attrs[key];
+    switch (key) {
+      case 'class':
+        acc.className = val;
+        delete acc.class;
+        break;
+      default:
+        acc[camelCase(key)] = val;
+    }
+    return acc;
+  }, {});
 }
 
-export function generate(
-  node: AbstractNode,
-  key: string,
-  rootProps?: { [key: string]: any } | false,
-): any {
+export function generate(node: AbstractNode, key: string, rootProps?: { [key: string]: any } | false): any {
   if (!rootProps) {
     return React.createElement(
       node.tag,
@@ -74,9 +67,7 @@ export const svgBaseProps = {
   focusable: 'false',
 };
 
-export function normalizeTwoToneColors(
-  twoToneColor: string | [string, string] | undefined,
-): string[] {
+export function normalizeTwoToneColors(twoToneColor: string | [string, string] | undefined): string[] {
   if (!twoToneColor) {
     return [];
   }

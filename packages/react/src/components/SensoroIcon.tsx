@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from '@pansy/classnames';
 
-import IconBase from './IconBase';
+import ReactIcon from './IconBase';
 import { getTwoToneColor, TwoToneColor, setTwoToneColor } from './twoTonePrimaryColor';
 import { normalizeTwoToneColors } from '../utils';
 import Context from './Context';
@@ -9,7 +9,7 @@ import Context from './Context';
 import type { IconBaseProps } from './Icon';
 import type { IconDefinition } from '@sensoro-design/icons-svg/lib/types';
 
-export interface SensoroIconProps extends Partial<Omit<IconBaseProps, 'onResize' | 'onResizeCapture'>> {
+export interface SensoroIconProps extends IconBaseProps {
   twoToneColor?: TwoToneColor;
 }
 
@@ -82,12 +82,12 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>((props, ref) 
       onClick={onClick}
       className={classString}
     >
-      <IconBase icon={icon} primaryColor={primaryColor} secondaryColor={secondaryColor} style={svgStyle} />
+      <ReactIcon icon={icon} primaryColor={primaryColor} secondaryColor={secondaryColor} style={svgStyle} />
     </span>
   );
 }) as IconBaseComponent<IconComponentProps>;
 
-Icon.displayName = 'AntdIcon';
+Icon.displayName = 'SenIcon';
 Icon.getTwoToneColor = getTwoToneColor;
 Icon.setTwoToneColor = setTwoToneColor;
 

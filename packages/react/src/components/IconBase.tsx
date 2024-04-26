@@ -1,15 +1,17 @@
 import React from 'react';
-import { AbstractNode, IconDefinition } from '@sensoro-design/icons-svg/es/types';
-
 import { useInsertStyles } from '../hooks/useInsertStyles';
 import { getSecondaryColor, isIconDefinition, generate } from '../utils';
 
-export interface IconProps extends Partial<TwoToneColorPaletteSetter> {
+import type { AbstractNode, IconDefinition } from '@sensoro-design/icons-svg/es/types';
+
+export interface IconProps {
   icon: IconDefinition;
   className?: string;
-  style?: React.CSSProperties;
-  focusable?: string;
   onClick?: React.MouseEventHandler<SVGSVGElement>;
+  style?: React.CSSProperties;
+  primaryColor?: string; // only for two-tone
+  secondaryColor?: string; // only for two-tone
+  focusable?: string;
 }
 
 export interface TwoToneColorPaletteSetter {
@@ -44,16 +46,9 @@ interface IconBaseComponent<P> extends React.FC<P> {
   setTwoToneColors: typeof setTwoToneColors;
 }
 
-const IconBase: IconBaseComponent<IconProps> = ({
-  icon,
-  className,
-  onClick,
-  style,
-  primaryColor,
-  secondaryColor,
-  ...restProps
-}) => {
-  useInsertStyles();
+const IconBase: IconBaseComponent<IconProps> = (props) => {
+  const { icon, className, onClick, style, primaryColor, secondaryColor, ...restProps } = props;
+  const svgRef = React.useRef<HTMLElement>();
 
   let colors: TwoToneColorPalette = twoToneColorPalette;
   if (primaryColor) {
@@ -63,16 +58,17 @@ const IconBase: IconBaseComponent<IconProps> = ({
     };
   }
 
+  useInsertStyles();
+
   if (!isIconDefinition(icon)) {
     return null;
   }
 
   let target = icon;
-
   if (target && typeof target.icon === 'function') {
     target = {
       ...target,
-      icon: target.icon(colors.primaryColor, colors.secondaryColor as string),
+      icon: target.icon(colors.primaryColor, colors.secondaryColor!),
     };
   }
 
@@ -86,6 +82,7 @@ const IconBase: IconBaseComponent<IconProps> = ({
     fill: 'currentColor',
     'aria-hidden': 'true',
     ...restProps,
+    ref: svgRef,
   });
 };
 
