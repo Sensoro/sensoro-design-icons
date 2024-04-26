@@ -3,10 +3,13 @@ import * as React from 'react';
 import DroneProFilledSvg from '@sensoro-design/icons-svg/es/asn/DroneProFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DroneProFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DroneProFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DroneProFilledSvg} />
-));
+);
 
-DroneProFilled.displayName = 'DroneProFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DroneProFilled);
 
-export default DroneProFilled;
+RefIcon.displayName = 'DroneProFilled';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import MoonOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MoonOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MoonOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MoonOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MoonOutlinedSvg} />
-));
+);
 
-MoonOutlined.displayName = 'MoonOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MoonOutlined);
 
-export default MoonOutlined;
+RefIcon.displayName = 'MoonOutlined';
+
+export default RefIcon;

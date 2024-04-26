@@ -3,10 +3,13 @@ import * as React from 'react';
 import InvalidContentPurelySvg from '@sensoro-design/icons-svg/es/asn/InvalidContentPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const InvalidContentPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const InvalidContentPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={InvalidContentPurelySvg} />
-));
+);
 
-InvalidContentPurely.displayName = 'InvalidContentPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(InvalidContentPurely);
 
-export default InvalidContentPurely;
+RefIcon.displayName = 'InvalidContentPurely';
+
+export default RefIcon;

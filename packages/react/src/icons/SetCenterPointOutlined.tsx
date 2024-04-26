@@ -3,10 +3,13 @@ import * as React from 'react';
 import SetCenterPointOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SetCenterPointOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SetCenterPointOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SetCenterPointOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SetCenterPointOutlinedSvg} />
-));
+);
 
-SetCenterPointOutlined.displayName = 'SetCenterPointOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SetCenterPointOutlined);
 
-export default SetCenterPointOutlined;
+RefIcon.displayName = 'SetCenterPointOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import RestFilledSvg from '@sensoro-design/icons-svg/es/asn/RestFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RestFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RestFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RestFilledSvg} />
-));
+);
 
-RestFilled.displayName = 'RestFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RestFilled);
 
-export default RestFilled;
+RefIcon.displayName = 'RestFilled';
+
+export default RefIcon;

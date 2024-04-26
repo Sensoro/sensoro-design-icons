@@ -3,10 +3,13 @@ import * as React from 'react';
 import HazeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HazeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HazeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HazeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HazeOutlinedSvg} />
-));
+);
 
-HazeOutlined.displayName = 'HazeOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HazeOutlined);
 
-export default HazeOutlined;
+RefIcon.displayName = 'HazeOutlined';
+
+export default RefIcon;

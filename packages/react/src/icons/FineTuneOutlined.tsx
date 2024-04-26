@@ -3,10 +3,13 @@ import * as React from 'react';
 import FineTuneOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FineTuneOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FineTuneOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FineTuneOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FineTuneOutlinedSvg} />
-));
+);
 
-FineTuneOutlined.displayName = 'FineTuneOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FineTuneOutlined);
 
-export default FineTuneOutlined;
+RefIcon.displayName = 'FineTuneOutlined';
+
+export default RefIcon;

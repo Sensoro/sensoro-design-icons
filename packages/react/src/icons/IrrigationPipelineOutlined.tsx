@@ -3,10 +3,13 @@ import * as React from 'react';
 import IrrigationPipelineOutlinedSvg from '@sensoro-design/icons-svg/es/asn/IrrigationPipelineOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const IrrigationPipelineOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const IrrigationPipelineOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={IrrigationPipelineOutlinedSvg} />
-));
+);
 
-IrrigationPipelineOutlined.displayName = 'IrrigationPipelineOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(IrrigationPipelineOutlined);
 
-export default IrrigationPipelineOutlined;
+RefIcon.displayName = 'IrrigationPipelineOutlined';
+
+export default RefIcon;

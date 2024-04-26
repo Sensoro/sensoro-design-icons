@@ -3,10 +3,13 @@ import * as React from 'react';
 import CheckCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CheckCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CheckCircleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CheckCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CheckCircleOutlinedSvg} />
-));
+);
 
-CheckCircleOutlined.displayName = 'CheckCircleOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CheckCircleOutlined);
 
-export default CheckCircleOutlined;
+RefIcon.displayName = 'CheckCircleOutlined';
+
+export default RefIcon;

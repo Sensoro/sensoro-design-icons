@@ -3,10 +3,13 @@ import * as React from 'react';
 import PieChartOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PieChartOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PieChartOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PieChartOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PieChartOutlinedSvg} />
-));
+);
 
-PieChartOutlined.displayName = 'PieChartOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PieChartOutlined);
 
-export default PieChartOutlined;
+RefIcon.displayName = 'PieChartOutlined';
+
+export default RefIcon;

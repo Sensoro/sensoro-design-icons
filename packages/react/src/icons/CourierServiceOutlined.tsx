@@ -3,10 +3,13 @@ import * as React from 'react';
 import CourierServiceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CourierServiceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CourierServiceOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CourierServiceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CourierServiceOutlinedSvg} />
-));
+);
 
-CourierServiceOutlined.displayName = 'CourierServiceOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CourierServiceOutlined);
 
-export default CourierServiceOutlined;
+RefIcon.displayName = 'CourierServiceOutlined';
+
+export default RefIcon;

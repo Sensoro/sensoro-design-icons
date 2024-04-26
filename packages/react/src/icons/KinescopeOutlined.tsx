@@ -3,10 +3,13 @@ import * as React from 'react';
 import KinescopeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/KinescopeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const KinescopeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const KinescopeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={KinescopeOutlinedSvg} />
-));
+);
 
-KinescopeOutlined.displayName = 'KinescopeOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(KinescopeOutlined);
 
-export default KinescopeOutlined;
+RefIcon.displayName = 'KinescopeOutlined';
+
+export default RefIcon;

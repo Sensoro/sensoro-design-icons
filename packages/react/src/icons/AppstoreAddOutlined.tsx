@@ -3,10 +3,13 @@ import * as React from 'react';
 import AppstoreAddOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AppstoreAddOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AppstoreAddOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AppstoreAddOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AppstoreAddOutlinedSvg} />
-));
+);
 
-AppstoreAddOutlined.displayName = 'AppstoreAddOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AppstoreAddOutlined);
 
-export default AppstoreAddOutlined;
+RefIcon.displayName = 'AppstoreAddOutlined';
+
+export default RefIcon;

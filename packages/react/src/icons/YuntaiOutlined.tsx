@@ -3,10 +3,13 @@ import * as React from 'react';
 import YuntaiOutlinedSvg from '@sensoro-design/icons-svg/es/asn/YuntaiOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const YuntaiOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const YuntaiOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={YuntaiOutlinedSvg} />
-));
+);
 
-YuntaiOutlined.displayName = 'YuntaiOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(YuntaiOutlined);
 
-export default YuntaiOutlined;
+RefIcon.displayName = 'YuntaiOutlined';
+
+export default RefIcon;

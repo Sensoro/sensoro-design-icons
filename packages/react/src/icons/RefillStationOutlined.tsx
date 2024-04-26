@@ -3,10 +3,13 @@ import * as React from 'react';
 import RefillStationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RefillStationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RefillStationOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RefillStationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RefillStationOutlinedSvg} />
-));
+);
 
-RefillStationOutlined.displayName = 'RefillStationOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RefillStationOutlined);
 
-export default RefillStationOutlined;
+RefIcon.displayName = 'RefillStationOutlined';
+
+export default RefIcon;

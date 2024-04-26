@@ -3,10 +3,13 @@ import * as React from 'react';
 import HydrolabOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HydrolabOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HydrolabOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HydrolabOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HydrolabOutlinedSvg} />
-));
+);
 
-HydrolabOutlined.displayName = 'HydrolabOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HydrolabOutlined);
 
-export default HydrolabOutlined;
+RefIcon.displayName = 'HydrolabOutlined';
+
+export default RefIcon;

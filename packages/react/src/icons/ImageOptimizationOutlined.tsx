@@ -3,10 +3,13 @@ import * as React from 'react';
 import ImageOptimizationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ImageOptimizationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ImageOptimizationOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ImageOptimizationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ImageOptimizationOutlinedSvg} />
-));
+);
 
-ImageOptimizationOutlined.displayName = 'ImageOptimizationOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ImageOptimizationOutlined);
 
-export default ImageOptimizationOutlined;
+RefIcon.displayName = 'ImageOptimizationOutlined';
+
+export default RefIcon;

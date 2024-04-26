@@ -3,10 +3,13 @@ import * as React from 'react';
 import CoOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CoOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CoOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CoOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CoOutlinedSvg} />
-));
+);
 
-CoOutlined.displayName = 'CoOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CoOutlined);
 
-export default CoOutlined;
+RefIcon.displayName = 'CoOutlined';
+
+export default RefIcon;

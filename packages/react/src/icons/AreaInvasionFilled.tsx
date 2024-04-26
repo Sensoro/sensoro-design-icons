@@ -3,10 +3,13 @@ import * as React from 'react';
 import AreaInvasionFilledSvg from '@sensoro-design/icons-svg/es/asn/AreaInvasionFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AreaInvasionFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AreaInvasionFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AreaInvasionFilledSvg} />
-));
+);
 
-AreaInvasionFilled.displayName = 'AreaInvasionFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AreaInvasionFilled);
 
-export default AreaInvasionFilled;
+RefIcon.displayName = 'AreaInvasionFilled';
+
+export default RefIcon;

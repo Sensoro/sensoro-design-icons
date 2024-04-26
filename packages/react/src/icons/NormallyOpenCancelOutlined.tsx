@@ -3,10 +3,13 @@ import * as React from 'react';
 import NormallyOpenCancelOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NormallyOpenCancelOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NormallyOpenCancelOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NormallyOpenCancelOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NormallyOpenCancelOutlinedSvg} />
-));
+);
 
-NormallyOpenCancelOutlined.displayName = 'NormallyOpenCancelOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NormallyOpenCancelOutlined);
 
-export default NormallyOpenCancelOutlined;
+RefIcon.displayName = 'NormallyOpenCancelOutlined';
+
+export default RefIcon;

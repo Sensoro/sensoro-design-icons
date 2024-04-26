@@ -3,10 +3,13 @@ import * as React from 'react';
 import LineChartPurelySvg from '@sensoro-design/icons-svg/es/asn/LineChartPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LineChartPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LineChartPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LineChartPurelySvg} />
-));
+);
 
-LineChartPurely.displayName = 'LineChartPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LineChartPurely);
 
-export default LineChartPurely;
+RefIcon.displayName = 'LineChartPurely';
+
+export default RefIcon;

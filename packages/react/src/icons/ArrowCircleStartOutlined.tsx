@@ -3,10 +3,13 @@ import * as React from 'react';
 import ArrowCircleStartOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ArrowCircleStartOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ArrowCircleStartOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ArrowCircleStartOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ArrowCircleStartOutlinedSvg} />
-));
+);
 
-ArrowCircleStartOutlined.displayName = 'ArrowCircleStartOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ArrowCircleStartOutlined);
 
-export default ArrowCircleStartOutlined;
+RefIcon.displayName = 'ArrowCircleStartOutlined';
+
+export default RefIcon;

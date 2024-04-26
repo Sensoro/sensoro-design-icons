@@ -3,10 +3,13 @@ import * as React from 'react';
 import ScienceMuseumOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ScienceMuseumOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ScienceMuseumOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ScienceMuseumOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ScienceMuseumOutlinedSvg} />
-));
+);
 
-ScienceMuseumOutlined.displayName = 'ScienceMuseumOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ScienceMuseumOutlined);
 
-export default ScienceMuseumOutlined;
+RefIcon.displayName = 'ScienceMuseumOutlined';
+
+export default RefIcon;

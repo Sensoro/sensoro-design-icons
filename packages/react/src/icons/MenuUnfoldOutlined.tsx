@@ -3,10 +3,13 @@ import * as React from 'react';
 import MenuUnfoldOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MenuUnfoldOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MenuUnfoldOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MenuUnfoldOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MenuUnfoldOutlinedSvg} />
-));
+);
 
-MenuUnfoldOutlined.displayName = 'MenuUnfoldOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MenuUnfoldOutlined);
 
-export default MenuUnfoldOutlined;
+RefIcon.displayName = 'MenuUnfoldOutlined';
+
+export default RefIcon;

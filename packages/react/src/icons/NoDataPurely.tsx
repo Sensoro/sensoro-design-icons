@@ -3,10 +3,13 @@ import * as React from 'react';
 import NoDataPurelySvg from '@sensoro-design/icons-svg/es/asn/NoDataPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NoDataPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NoDataPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NoDataPurelySvg} />
-));
+);
 
-NoDataPurely.displayName = 'NoDataPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NoDataPurely);
 
-export default NoDataPurely;
+RefIcon.displayName = 'NoDataPurely';
+
+export default RefIcon;

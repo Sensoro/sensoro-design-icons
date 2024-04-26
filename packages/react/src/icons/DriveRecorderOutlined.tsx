@@ -3,10 +3,13 @@ import * as React from 'react';
 import DriveRecorderOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DriveRecorderOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DriveRecorderOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DriveRecorderOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DriveRecorderOutlinedSvg} />
-));
+);
 
-DriveRecorderOutlined.displayName = 'DriveRecorderOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DriveRecorderOutlined);
 
-export default DriveRecorderOutlined;
+RefIcon.displayName = 'DriveRecorderOutlined';
+
+export default RefIcon;

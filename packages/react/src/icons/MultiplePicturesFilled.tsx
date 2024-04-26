@@ -3,10 +3,13 @@ import * as React from 'react';
 import MultiplePicturesFilledSvg from '@sensoro-design/icons-svg/es/asn/MultiplePicturesFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MultiplePicturesFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MultiplePicturesFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MultiplePicturesFilledSvg} />
-));
+);
 
-MultiplePicturesFilled.displayName = 'MultiplePicturesFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MultiplePicturesFilled);
 
-export default MultiplePicturesFilled;
+RefIcon.displayName = 'MultiplePicturesFilled';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import ElectricityMeterOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ElectricityMeterOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ElectricityMeterOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ElectricityMeterOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ElectricityMeterOutlinedSvg} />
-));
+);
 
-ElectricityMeterOutlined.displayName = 'ElectricityMeterOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ElectricityMeterOutlined);
 
-export default ElectricityMeterOutlined;
+RefIcon.displayName = 'ElectricityMeterOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import GasAlarmOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GasAlarmOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GasAlarmOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GasAlarmOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GasAlarmOutlinedSvg} />
-));
+);
 
-GasAlarmOutlined.displayName = 'GasAlarmOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GasAlarmOutlined);
 
-export default GasAlarmOutlined;
+RefIcon.displayName = 'GasAlarmOutlined';
+
+export default RefIcon;

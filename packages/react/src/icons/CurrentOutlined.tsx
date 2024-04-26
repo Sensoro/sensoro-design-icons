@@ -3,10 +3,13 @@ import * as React from 'react';
 import CurrentOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CurrentOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CurrentOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CurrentOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CurrentOutlinedSvg} />
-));
+);
 
-CurrentOutlined.displayName = 'CurrentOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CurrentOutlined);
 
-export default CurrentOutlined;
+RefIcon.displayName = 'CurrentOutlined';
+
+export default RefIcon;

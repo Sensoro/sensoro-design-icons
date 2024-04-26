@@ -3,10 +3,13 @@ import * as React from 'react';
 import HorizontalBottomOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HorizontalBottomOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HorizontalBottomOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HorizontalBottomOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HorizontalBottomOutlinedSvg} />
-));
+);
 
-HorizontalBottomOutlined.displayName = 'HorizontalBottomOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HorizontalBottomOutlined);
 
-export default HorizontalBottomOutlined;
+RefIcon.displayName = 'HorizontalBottomOutlined';
+
+export default RefIcon;

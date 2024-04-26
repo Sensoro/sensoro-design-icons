@@ -3,10 +3,13 @@ import * as React from 'react';
 import LicensePlateOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LicensePlateOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LicensePlateOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LicensePlateOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LicensePlateOutlinedSvg} />
-));
+);
 
-LicensePlateOutlined.displayName = 'LicensePlateOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LicensePlateOutlined);
 
-export default LicensePlateOutlined;
+RefIcon.displayName = 'LicensePlateOutlined';
+
+export default RefIcon;

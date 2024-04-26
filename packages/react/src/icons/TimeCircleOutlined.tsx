@@ -3,10 +3,13 @@ import * as React from 'react';
 import TimeCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TimeCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const TimeCircleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const TimeCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={TimeCircleOutlinedSvg} />
-));
+);
 
-TimeCircleOutlined.displayName = 'TimeCircleOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(TimeCircleOutlined);
 
-export default TimeCircleOutlined;
+RefIcon.displayName = 'TimeCircleOutlined';
+
+export default RefIcon;

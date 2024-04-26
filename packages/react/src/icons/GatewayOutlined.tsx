@@ -3,10 +3,13 @@ import * as React from 'react';
 import GatewayOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GatewayOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GatewayOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GatewayOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GatewayOutlinedSvg} />
-));
+);
 
-GatewayOutlined.displayName = 'GatewayOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GatewayOutlined);
 
-export default GatewayOutlined;
+RefIcon.displayName = 'GatewayOutlined';
+
+export default RefIcon;

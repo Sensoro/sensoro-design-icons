@@ -3,10 +3,13 @@ import * as React from 'react';
 import PartiallyFortifiedFilledSvg from '@sensoro-design/icons-svg/es/asn/PartiallyFortifiedFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PartiallyFortifiedFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PartiallyFortifiedFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PartiallyFortifiedFilledSvg} />
-));
+);
 
-PartiallyFortifiedFilled.displayName = 'PartiallyFortifiedFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PartiallyFortifiedFilled);
 
-export default PartiallyFortifiedFilled;
+RefIcon.displayName = 'PartiallyFortifiedFilled';
+
+export default RefIcon;

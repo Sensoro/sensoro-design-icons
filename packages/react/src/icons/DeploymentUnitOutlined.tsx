@@ -3,10 +3,13 @@ import * as React from 'react';
 import DeploymentUnitOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DeploymentUnitOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DeploymentUnitOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DeploymentUnitOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DeploymentUnitOutlinedSvg} />
-));
+);
 
-DeploymentUnitOutlined.displayName = 'DeploymentUnitOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DeploymentUnitOutlined);
 
-export default DeploymentUnitOutlined;
+RefIcon.displayName = 'DeploymentUnitOutlined';
+
+export default RefIcon;

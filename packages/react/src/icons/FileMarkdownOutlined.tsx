@@ -3,10 +3,13 @@ import * as React from 'react';
 import FileMarkdownOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FileMarkdownOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FileMarkdownOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FileMarkdownOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FileMarkdownOutlinedSvg} />
-));
+);
 
-FileMarkdownOutlined.displayName = 'FileMarkdownOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FileMarkdownOutlined);
 
-export default FileMarkdownOutlined;
+RefIcon.displayName = 'FileMarkdownOutlined';
+
+export default RefIcon;

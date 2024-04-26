@@ -3,10 +3,13 @@ import * as React from 'react';
 import ForestFireCameraFilledSvg from '@sensoro-design/icons-svg/es/asn/ForestFireCameraFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ForestFireCameraFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ForestFireCameraFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ForestFireCameraFilledSvg} />
-));
+);
 
-ForestFireCameraFilled.displayName = 'ForestFireCameraFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ForestFireCameraFilled);
 
-export default ForestFireCameraFilled;
+RefIcon.displayName = 'ForestFireCameraFilled';
+
+export default RefIcon;

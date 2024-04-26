@@ -3,10 +3,13 @@ import * as React from 'react';
 import OffDayPurelySvg from '@sensoro-design/icons-svg/es/asn/OffDayPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const OffDayPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const OffDayPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={OffDayPurelySvg} />
-));
+);
 
-OffDayPurely.displayName = 'OffDayPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(OffDayPurely);
 
-export default OffDayPurely;
+RefIcon.displayName = 'OffDayPurely';
+
+export default RefIcon;

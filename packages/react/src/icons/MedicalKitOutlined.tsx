@@ -3,10 +3,13 @@ import * as React from 'react';
 import MedicalKitOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MedicalKitOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MedicalKitOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MedicalKitOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MedicalKitOutlinedSvg} />
-));
+);
 
-MedicalKitOutlined.displayName = 'MedicalKitOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MedicalKitOutlined);
 
-export default MedicalKitOutlined;
+RefIcon.displayName = 'MedicalKitOutlined';
+
+export default RefIcon;

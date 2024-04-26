@@ -3,10 +3,13 @@ import * as React from 'react';
 import LinsAccessOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LinsAccessOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LinsAccessOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LinsAccessOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LinsAccessOutlinedSvg} />
-));
+);
 
-LinsAccessOutlined.displayName = 'LinsAccessOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LinsAccessOutlined);
 
-export default LinsAccessOutlined;
+RefIcon.displayName = 'LinsAccessOutlined';
+
+export default RefIcon;

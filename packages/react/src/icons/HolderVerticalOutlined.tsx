@@ -3,10 +3,13 @@ import * as React from 'react';
 import HolderVerticalOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HolderVerticalOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HolderVerticalOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HolderVerticalOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HolderVerticalOutlinedSvg} />
-));
+);
 
-HolderVerticalOutlined.displayName = 'HolderVerticalOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HolderVerticalOutlined);
 
-export default HolderVerticalOutlined;
+RefIcon.displayName = 'HolderVerticalOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import LessElectricityFilledSvg from '@sensoro-design/icons-svg/es/asn/LessElectricityFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LessElectricityFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LessElectricityFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LessElectricityFilledSvg} />
-));
+);
 
-LessElectricityFilled.displayName = 'LessElectricityFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LessElectricityFilled);
 
-export default LessElectricityFilled;
+RefIcon.displayName = 'LessElectricityFilled';
+
+export default RefIcon;

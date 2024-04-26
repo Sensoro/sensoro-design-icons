@@ -3,10 +3,13 @@ import * as React from 'react';
 import BorderOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BorderOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BorderOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BorderOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BorderOutlinedSvg} />
-));
+);
 
-BorderOutlined.displayName = 'BorderOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BorderOutlined);
 
-export default BorderOutlined;
+RefIcon.displayName = 'BorderOutlined';
+
+export default RefIcon;

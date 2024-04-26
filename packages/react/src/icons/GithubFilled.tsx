@@ -3,10 +3,13 @@ import * as React from 'react';
 import GithubFilledSvg from '@sensoro-design/icons-svg/es/asn/GithubFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GithubFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GithubFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GithubFilledSvg} />
-));
+);
 
-GithubFilled.displayName = 'GithubFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GithubFilled);
 
-export default GithubFilled;
+RefIcon.displayName = 'GithubFilled';
+
+export default RefIcon;

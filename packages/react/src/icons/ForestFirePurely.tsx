@@ -3,10 +3,13 @@ import * as React from 'react';
 import ForestFirePurelySvg from '@sensoro-design/icons-svg/es/asn/ForestFirePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ForestFirePurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ForestFirePurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ForestFirePurelySvg} />
-));
+);
 
-ForestFirePurely.displayName = 'ForestFirePurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ForestFirePurely);
 
-export default ForestFirePurely;
+RefIcon.displayName = 'ForestFirePurely';
+
+export default RefIcon;

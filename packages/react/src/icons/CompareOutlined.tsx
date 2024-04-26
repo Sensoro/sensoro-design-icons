@@ -3,10 +3,13 @@ import * as React from 'react';
 import CompareOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CompareOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CompareOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CompareOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CompareOutlinedSvg} />
-));
+);
 
-CompareOutlined.displayName = 'CompareOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CompareOutlined);
 
-export default CompareOutlined;
+RefIcon.displayName = 'CompareOutlined';
+
+export default RefIcon;

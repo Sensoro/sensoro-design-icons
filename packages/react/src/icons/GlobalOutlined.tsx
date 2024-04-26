@@ -3,10 +3,13 @@ import * as React from 'react';
 import GlobalOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GlobalOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GlobalOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GlobalOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GlobalOutlinedSvg} />
-));
+);
 
-GlobalOutlined.displayName = 'GlobalOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GlobalOutlined);
 
-export default GlobalOutlined;
+RefIcon.displayName = 'GlobalOutlined';
+
+export default RefIcon;

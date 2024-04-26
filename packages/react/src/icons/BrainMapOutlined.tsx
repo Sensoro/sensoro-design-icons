@@ -3,10 +3,13 @@ import * as React from 'react';
 import BrainMapOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BrainMapOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BrainMapOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BrainMapOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BrainMapOutlinedSvg} />
-));
+);
 
-BrainMapOutlined.displayName = 'BrainMapOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BrainMapOutlined);
 
-export default BrainMapOutlined;
+RefIcon.displayName = 'BrainMapOutlined';
+
+export default RefIcon;

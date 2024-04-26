@@ -3,10 +3,13 @@ import * as React from 'react';
 import NonMotorVehicleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NonMotorVehicleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NonMotorVehicleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NonMotorVehicleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NonMotorVehicleOutlinedSvg} />
-));
+);
 
-NonMotorVehicleOutlined.displayName = 'NonMotorVehicleOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NonMotorVehicleOutlined);
 
-export default NonMotorVehicleOutlined;
+RefIcon.displayName = 'NonMotorVehicleOutlined';
+
+export default RefIcon;

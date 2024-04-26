@@ -3,10 +3,13 @@ import * as React from 'react';
 import WearingMaskFilledSvg from '@sensoro-design/icons-svg/es/asn/WearingMaskFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const WearingMaskFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const WearingMaskFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={WearingMaskFilledSvg} />
-));
+);
 
-WearingMaskFilled.displayName = 'WearingMaskFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(WearingMaskFilled);
 
-export default WearingMaskFilled;
+RefIcon.displayName = 'WearingMaskFilled';
+
+export default RefIcon;

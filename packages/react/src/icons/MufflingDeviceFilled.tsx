@@ -3,10 +3,13 @@ import * as React from 'react';
 import MufflingDeviceFilledSvg from '@sensoro-design/icons-svg/es/asn/MufflingDeviceFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MufflingDeviceFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MufflingDeviceFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MufflingDeviceFilledSvg} />
-));
+);
 
-MufflingDeviceFilled.displayName = 'MufflingDeviceFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MufflingDeviceFilled);
 
-export default MufflingDeviceFilled;
+RefIcon.displayName = 'MufflingDeviceFilled';
+
+export default RefIcon;

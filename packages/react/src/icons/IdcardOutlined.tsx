@@ -3,10 +3,13 @@ import * as React from 'react';
 import IdcardOutlinedSvg from '@sensoro-design/icons-svg/es/asn/IdcardOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const IdcardOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const IdcardOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={IdcardOutlinedSvg} />
-));
+);
 
-IdcardOutlined.displayName = 'IdcardOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(IdcardOutlined);
 
-export default IdcardOutlined;
+RefIcon.displayName = 'IdcardOutlined';
+
+export default RefIcon;

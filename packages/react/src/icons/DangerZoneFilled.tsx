@@ -3,10 +3,13 @@ import * as React from 'react';
 import DangerZoneFilledSvg from '@sensoro-design/icons-svg/es/asn/DangerZoneFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DangerZoneFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DangerZoneFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DangerZoneFilledSvg} />
-));
+);
 
-DangerZoneFilled.displayName = 'DangerZoneFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DangerZoneFilled);
 
-export default DangerZoneFilled;
+RefIcon.displayName = 'DangerZoneFilled';
+
+export default RefIcon;

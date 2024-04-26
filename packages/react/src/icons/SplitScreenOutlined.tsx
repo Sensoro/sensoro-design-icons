@@ -3,10 +3,13 @@ import * as React from 'react';
 import SplitScreenOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SplitScreenOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SplitScreenOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SplitScreenOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SplitScreenOutlinedSvg} />
-));
+);
 
-SplitScreenOutlined.displayName = 'SplitScreenOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SplitScreenOutlined);
 
-export default SplitScreenOutlined;
+RefIcon.displayName = 'SplitScreenOutlined';
+
+export default RefIcon;

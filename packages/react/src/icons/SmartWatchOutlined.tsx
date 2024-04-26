@@ -3,10 +3,13 @@ import * as React from 'react';
 import SmartWatchOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SmartWatchOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SmartWatchOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SmartWatchOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SmartWatchOutlinedSvg} />
-));
+);
 
-SmartWatchOutlined.displayName = 'SmartWatchOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SmartWatchOutlined);
 
-export default SmartWatchOutlined;
+RefIcon.displayName = 'SmartWatchOutlined';
+
+export default RefIcon;

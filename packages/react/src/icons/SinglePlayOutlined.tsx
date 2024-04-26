@@ -3,10 +3,13 @@ import * as React from 'react';
 import SinglePlayOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SinglePlayOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SinglePlayOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SinglePlayOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SinglePlayOutlinedSvg} />
-));
+);
 
-SinglePlayOutlined.displayName = 'SinglePlayOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SinglePlayOutlined);
 
-export default SinglePlayOutlined;
+RefIcon.displayName = 'SinglePlayOutlined';
+
+export default RefIcon;

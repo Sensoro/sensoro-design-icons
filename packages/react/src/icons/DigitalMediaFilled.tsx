@@ -3,10 +3,13 @@ import * as React from 'react';
 import DigitalMediaFilledSvg from '@sensoro-design/icons-svg/es/asn/DigitalMediaFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DigitalMediaFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DigitalMediaFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DigitalMediaFilledSvg} />
-));
+);
 
-DigitalMediaFilled.displayName = 'DigitalMediaFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DigitalMediaFilled);
 
-export default DigitalMediaFilled;
+RefIcon.displayName = 'DigitalMediaFilled';
+
+export default RefIcon;

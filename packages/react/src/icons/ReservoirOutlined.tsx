@@ -3,10 +3,13 @@ import * as React from 'react';
 import ReservoirOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ReservoirOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ReservoirOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ReservoirOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ReservoirOutlinedSvg} />
-));
+);
 
-ReservoirOutlined.displayName = 'ReservoirOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ReservoirOutlined);
 
-export default ReservoirOutlined;
+RefIcon.displayName = 'ReservoirOutlined';
+
+export default RefIcon;

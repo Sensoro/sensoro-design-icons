@@ -3,10 +3,13 @@ import * as React from 'react';
 import ColorFilterOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ColorFilterOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ColorFilterOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ColorFilterOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ColorFilterOutlinedSvg} />
-));
+);
 
-ColorFilterOutlined.displayName = 'ColorFilterOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ColorFilterOutlined);
 
-export default ColorFilterOutlined;
+RefIcon.displayName = 'ColorFilterOutlined';
+
+export default RefIcon;

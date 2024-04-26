@@ -3,10 +3,13 @@ import * as React from 'react';
 import DelayWarningOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DelayWarningOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DelayWarningOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DelayWarningOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DelayWarningOutlinedSvg} />
-));
+);
 
-DelayWarningOutlined.displayName = 'DelayWarningOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DelayWarningOutlined);
 
-export default DelayWarningOutlined;
+RefIcon.displayName = 'DelayWarningOutlined';
+
+export default RefIcon;

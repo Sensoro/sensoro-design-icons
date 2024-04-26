@@ -3,10 +3,13 @@ import * as React from 'react';
 import CommunicationEquipmentOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CommunicationEquipmentOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CommunicationEquipmentOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CommunicationEquipmentOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CommunicationEquipmentOutlinedSvg} />
-));
+);
 
-CommunicationEquipmentOutlined.displayName = 'CommunicationEquipmentOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CommunicationEquipmentOutlined);
 
-export default CommunicationEquipmentOutlined;
+RefIcon.displayName = 'CommunicationEquipmentOutlined';
+
+export default RefIcon;

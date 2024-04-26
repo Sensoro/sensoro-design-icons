@@ -3,10 +3,13 @@ import * as React from 'react';
 import EllipsisOutlinedSvg from '@sensoro-design/icons-svg/es/asn/EllipsisOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const EllipsisOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const EllipsisOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={EllipsisOutlinedSvg} />
-));
+);
 
-EllipsisOutlined.displayName = 'EllipsisOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(EllipsisOutlined);
 
-export default EllipsisOutlined;
+RefIcon.displayName = 'EllipsisOutlined';
+
+export default RefIcon;

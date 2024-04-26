@@ -3,10 +3,13 @@ import * as React from 'react';
 import FireHydrantOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FireHydrantOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FireHydrantOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FireHydrantOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FireHydrantOutlinedSvg} />
-));
+);
 
-FireHydrantOutlined.displayName = 'FireHydrantOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FireHydrantOutlined);
 
-export default FireHydrantOutlined;
+RefIcon.displayName = 'FireHydrantOutlined';
+
+export default RefIcon;

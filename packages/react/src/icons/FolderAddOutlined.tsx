@@ -3,10 +3,13 @@ import * as React from 'react';
 import FolderAddOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FolderAddOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FolderAddOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FolderAddOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FolderAddOutlinedSvg} />
-));
+);
 
-FolderAddOutlined.displayName = 'FolderAddOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FolderAddOutlined);
 
-export default FolderAddOutlined;
+RefIcon.displayName = 'FolderAddOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import FileJpgOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FileJpgOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FileJpgOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FileJpgOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FileJpgOutlinedSvg} />
-));
+);
 
-FileJpgOutlined.displayName = 'FileJpgOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FileJpgOutlined);
 
-export default FileJpgOutlined;
+RefIcon.displayName = 'FileJpgOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import CropOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CropOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CropOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CropOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CropOutlinedSvg} />
-));
+);
 
-CropOutlined.displayName = 'CropOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CropOutlined);
 
-export default CropOutlined;
+RefIcon.displayName = 'CropOutlined';
+
+export default RefIcon;

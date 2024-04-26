@@ -3,10 +3,13 @@ import * as React from 'react';
 import IllegalFishingPurelySvg from '@sensoro-design/icons-svg/es/asn/IllegalFishingPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const IllegalFishingPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const IllegalFishingPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={IllegalFishingPurelySvg} />
-));
+);
 
-IllegalFishingPurely.displayName = 'IllegalFishingPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(IllegalFishingPurely);
 
-export default IllegalFishingPurely;
+RefIcon.displayName = 'IllegalFishingPurely';
+
+export default RefIcon;

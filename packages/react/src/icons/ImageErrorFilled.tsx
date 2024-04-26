@@ -3,10 +3,13 @@ import * as React from 'react';
 import ImageErrorFilledSvg from '@sensoro-design/icons-svg/es/asn/ImageErrorFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ImageErrorFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ImageErrorFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ImageErrorFilledSvg} />
-));
+);
 
-ImageErrorFilled.displayName = 'ImageErrorFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ImageErrorFilled);
 
-export default ImageErrorFilled;
+RefIcon.displayName = 'ImageErrorFilled';
+
+export default RefIcon;

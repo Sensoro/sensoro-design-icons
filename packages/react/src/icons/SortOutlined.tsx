@@ -3,10 +3,13 @@ import * as React from 'react';
 import SortOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SortOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SortOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SortOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SortOutlinedSvg} />
-));
+);
 
-SortOutlined.displayName = 'SortOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SortOutlined);
 
-export default SortOutlined;
+RefIcon.displayName = 'SortOutlined';
+
+export default RefIcon;

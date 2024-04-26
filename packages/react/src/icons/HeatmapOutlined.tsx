@@ -3,10 +3,13 @@ import * as React from 'react';
 import HeatmapOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HeatmapOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HeatmapOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HeatmapOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HeatmapOutlinedSvg} />
-));
+);
 
-HeatmapOutlined.displayName = 'HeatmapOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HeatmapOutlined);
 
-export default HeatmapOutlined;
+RefIcon.displayName = 'HeatmapOutlined';
+
+export default RefIcon;

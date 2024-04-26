@@ -3,10 +3,13 @@ import * as React from 'react';
 import RingLayoutOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RingLayoutOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RingLayoutOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RingLayoutOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RingLayoutOutlinedSvg} />
-));
+);
 
-RingLayoutOutlined.displayName = 'RingLayoutOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RingLayoutOutlined);
 
-export default RingLayoutOutlined;
+RefIcon.displayName = 'RingLayoutOutlined';
+
+export default RefIcon;

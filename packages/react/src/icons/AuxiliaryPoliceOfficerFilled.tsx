@@ -3,10 +3,13 @@ import * as React from 'react';
 import AuxiliaryPoliceOfficerFilledSvg from '@sensoro-design/icons-svg/es/asn/AuxiliaryPoliceOfficerFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AuxiliaryPoliceOfficerFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AuxiliaryPoliceOfficerFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AuxiliaryPoliceOfficerFilledSvg} />
-));
+);
 
-AuxiliaryPoliceOfficerFilled.displayName = 'AuxiliaryPoliceOfficerFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AuxiliaryPoliceOfficerFilled);
 
-export default AuxiliaryPoliceOfficerFilled;
+RefIcon.displayName = 'AuxiliaryPoliceOfficerFilled';
+
+export default RefIcon;

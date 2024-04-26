@@ -3,10 +3,13 @@ import * as React from 'react';
 import GenderOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GenderOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GenderOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GenderOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GenderOutlinedSvg} />
-));
+);
 
-GenderOutlined.displayName = 'GenderOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GenderOutlined);
 
-export default GenderOutlined;
+RefIcon.displayName = 'GenderOutlined';
+
+export default RefIcon;

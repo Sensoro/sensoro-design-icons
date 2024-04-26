@@ -3,10 +3,13 @@ import * as React from 'react';
 import SerialNumberOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SerialNumberOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SerialNumberOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SerialNumberOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SerialNumberOutlinedSvg} />
-));
+);
 
-SerialNumberOutlined.displayName = 'SerialNumberOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SerialNumberOutlined);
 
-export default SerialNumberOutlined;
+RefIcon.displayName = 'SerialNumberOutlined';
+
+export default RefIcon;

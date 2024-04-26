@@ -3,10 +3,13 @@ import * as React from 'react';
 import ToolFilledSvg from '@sensoro-design/icons-svg/es/asn/ToolFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ToolFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ToolFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ToolFilledSvg} />
-));
+);
 
-ToolFilled.displayName = 'ToolFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ToolFilled);
 
-export default ToolFilled;
+RefIcon.displayName = 'ToolFilled';
+
+export default RefIcon;

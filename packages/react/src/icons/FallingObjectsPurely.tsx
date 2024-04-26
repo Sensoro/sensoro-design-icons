@@ -3,10 +3,13 @@ import * as React from 'react';
 import FallingObjectsPurelySvg from '@sensoro-design/icons-svg/es/asn/FallingObjectsPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FallingObjectsPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FallingObjectsPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FallingObjectsPurelySvg} />
-));
+);
 
-FallingObjectsPurely.displayName = 'FallingObjectsPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FallingObjectsPurely);
 
-export default FallingObjectsPurely;
+RefIcon.displayName = 'FallingObjectsPurely';
+
+export default RefIcon;

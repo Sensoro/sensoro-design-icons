@@ -3,10 +3,13 @@ import * as React from 'react';
 import CompressOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CompressOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CompressOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CompressOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CompressOutlinedSvg} />
-));
+);
 
-CompressOutlined.displayName = 'CompressOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CompressOutlined);
 
-export default CompressOutlined;
+RefIcon.displayName = 'CompressOutlined';
+
+export default RefIcon;

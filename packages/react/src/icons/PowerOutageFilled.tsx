@@ -3,10 +3,13 @@ import * as React from 'react';
 import PowerOutageFilledSvg from '@sensoro-design/icons-svg/es/asn/PowerOutageFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PowerOutageFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PowerOutageFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PowerOutageFilledSvg} />
-));
+);
 
-PowerOutageFilled.displayName = 'PowerOutageFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PowerOutageFilled);
 
-export default PowerOutageFilled;
+RefIcon.displayName = 'PowerOutageFilled';
+
+export default RefIcon;

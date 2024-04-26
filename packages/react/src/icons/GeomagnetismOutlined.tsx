@@ -3,10 +3,13 @@ import * as React from 'react';
 import GeomagnetismOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GeomagnetismOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GeomagnetismOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GeomagnetismOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GeomagnetismOutlinedSvg} />
-));
+);
 
-GeomagnetismOutlined.displayName = 'GeomagnetismOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GeomagnetismOutlined);
 
-export default GeomagnetismOutlined;
+RefIcon.displayName = 'GeomagnetismOutlined';
+
+export default RefIcon;

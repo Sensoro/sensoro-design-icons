@@ -3,10 +3,13 @@ import * as React from 'react';
 import PasswordDiskFilledSvg from '@sensoro-design/icons-svg/es/asn/PasswordDiskFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PasswordDiskFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PasswordDiskFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PasswordDiskFilledSvg} />
-));
+);
 
-PasswordDiskFilled.displayName = 'PasswordDiskFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PasswordDiskFilled);
 
-export default PasswordDiskFilled;
+RefIcon.displayName = 'PasswordDiskFilled';
+
+export default RefIcon;

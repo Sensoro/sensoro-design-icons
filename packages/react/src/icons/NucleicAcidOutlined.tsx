@@ -3,10 +3,13 @@ import * as React from 'react';
 import NucleicAcidOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NucleicAcidOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NucleicAcidOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NucleicAcidOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NucleicAcidOutlinedSvg} />
-));
+);
 
-NucleicAcidOutlined.displayName = 'NucleicAcidOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NucleicAcidOutlined);
 
-export default NucleicAcidOutlined;
+RefIcon.displayName = 'NucleicAcidOutlined';
+
+export default RefIcon;

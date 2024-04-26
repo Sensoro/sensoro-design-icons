@@ -3,10 +3,13 @@ import * as React from 'react';
 import CalendarCheckFilledSvg from '@sensoro-design/icons-svg/es/asn/CalendarCheckFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CalendarCheckFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CalendarCheckFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CalendarCheckFilledSvg} />
-));
+);
 
-CalendarCheckFilled.displayName = 'CalendarCheckFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CalendarCheckFilled);
 
-export default CalendarCheckFilled;
+RefIcon.displayName = 'CalendarCheckFilled';
+
+export default RefIcon;

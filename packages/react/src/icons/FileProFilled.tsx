@@ -3,10 +3,13 @@ import * as React from 'react';
 import FileProFilledSvg from '@sensoro-design/icons-svg/es/asn/FileProFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FileProFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FileProFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FileProFilledSvg} />
-));
+);
 
-FileProFilled.displayName = 'FileProFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FileProFilled);
 
-export default FileProFilled;
+RefIcon.displayName = 'FileProFilled';
+
+export default RefIcon;

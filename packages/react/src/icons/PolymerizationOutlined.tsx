@@ -3,10 +3,13 @@ import * as React from 'react';
 import PolymerizationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PolymerizationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PolymerizationOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PolymerizationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PolymerizationOutlinedSvg} />
-));
+);
 
-PolymerizationOutlined.displayName = 'PolymerizationOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PolymerizationOutlined);
 
-export default PolymerizationOutlined;
+RefIcon.displayName = 'PolymerizationOutlined';
+
+export default RefIcon;

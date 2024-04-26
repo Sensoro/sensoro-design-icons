@@ -3,10 +3,13 @@ import * as React from 'react';
 import MufflingOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MufflingOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MufflingOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MufflingOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MufflingOutlinedSvg} />
-));
+);
 
-MufflingOutlined.displayName = 'MufflingOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MufflingOutlined);
 
-export default MufflingOutlined;
+RefIcon.displayName = 'MufflingOutlined';
+
+export default RefIcon;

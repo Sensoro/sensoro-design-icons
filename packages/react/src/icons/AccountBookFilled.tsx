@@ -3,10 +3,13 @@ import * as React from 'react';
 import AccountBookFilledSvg from '@sensoro-design/icons-svg/es/asn/AccountBookFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AccountBookFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AccountBookFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AccountBookFilledSvg} />
-));
+);
 
-AccountBookFilled.displayName = 'AccountBookFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AccountBookFilled);
 
-export default AccountBookFilled;
+RefIcon.displayName = 'AccountBookFilled';
+
+export default RefIcon;

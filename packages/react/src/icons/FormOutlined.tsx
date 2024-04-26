@@ -3,10 +3,13 @@ import * as React from 'react';
 import FormOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FormOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FormOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FormOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FormOutlinedSvg} />
-));
+);
 
-FormOutlined.displayName = 'FormOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FormOutlined);
 
-export default FormOutlined;
+RefIcon.displayName = 'FormOutlined';
+
+export default RefIcon;

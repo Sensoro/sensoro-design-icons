@@ -3,10 +3,13 @@ import * as React from 'react';
 import RulerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RulerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RulerOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RulerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RulerOutlinedSvg} />
-));
+);
 
-RulerOutlined.displayName = 'RulerOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RulerOutlined);
 
-export default RulerOutlined;
+RefIcon.displayName = 'RulerOutlined';
+
+export default RefIcon;

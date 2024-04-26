@@ -3,10 +3,13 @@ import * as React from 'react';
 import VentilationFanOutlinedSvg from '@sensoro-design/icons-svg/es/asn/VentilationFanOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const VentilationFanOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const VentilationFanOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={VentilationFanOutlinedSvg} />
-));
+);
 
-VentilationFanOutlined.displayName = 'VentilationFanOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(VentilationFanOutlined);
 
-export default VentilationFanOutlined;
+RefIcon.displayName = 'VentilationFanOutlined';
+
+export default RefIcon;

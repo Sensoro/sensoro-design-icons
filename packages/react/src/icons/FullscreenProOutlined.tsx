@@ -3,10 +3,13 @@ import * as React from 'react';
 import FullscreenProOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FullscreenProOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FullscreenProOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FullscreenProOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FullscreenProOutlinedSvg} />
-));
+);
 
-FullscreenProOutlined.displayName = 'FullscreenProOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FullscreenProOutlined);
 
-export default FullscreenProOutlined;
+RefIcon.displayName = 'FullscreenProOutlined';
+
+export default RefIcon;

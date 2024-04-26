@@ -3,10 +3,13 @@ import * as React from 'react';
 import WechatFilledSvg from '@sensoro-design/icons-svg/es/asn/WechatFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const WechatFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const WechatFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={WechatFilledSvg} />
-));
+);
 
-WechatFilled.displayName = 'WechatFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(WechatFilled);
 
-export default WechatFilled;
+RefIcon.displayName = 'WechatFilled';
+
+export default RefIcon;

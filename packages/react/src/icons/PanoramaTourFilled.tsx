@@ -3,10 +3,13 @@ import * as React from 'react';
 import PanoramaTourFilledSvg from '@sensoro-design/icons-svg/es/asn/PanoramaTourFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PanoramaTourFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PanoramaTourFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PanoramaTourFilledSvg} />
-));
+);
 
-PanoramaTourFilled.displayName = 'PanoramaTourFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PanoramaTourFilled);
 
-export default PanoramaTourFilled;
+RefIcon.displayName = 'PanoramaTourFilled';
+
+export default RefIcon;

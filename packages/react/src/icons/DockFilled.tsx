@@ -3,10 +3,13 @@ import * as React from 'react';
 import DockFilledSvg from '@sensoro-design/icons-svg/es/asn/DockFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DockFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DockFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DockFilledSvg} />
-));
+);
 
-DockFilled.displayName = 'DockFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DockFilled);
 
-export default DockFilled;
+RefIcon.displayName = 'DockFilled';
+
+export default RefIcon;

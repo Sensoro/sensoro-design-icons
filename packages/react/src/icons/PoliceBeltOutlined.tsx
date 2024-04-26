@@ -3,10 +3,13 @@ import * as React from 'react';
 import PoliceBeltOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PoliceBeltOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PoliceBeltOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PoliceBeltOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PoliceBeltOutlinedSvg} />
-));
+);
 
-PoliceBeltOutlined.displayName = 'PoliceBeltOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PoliceBeltOutlined);
 
-export default PoliceBeltOutlined;
+RefIcon.displayName = 'PoliceBeltOutlined';
+
+export default RefIcon;

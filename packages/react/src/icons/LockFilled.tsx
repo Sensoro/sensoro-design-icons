@@ -3,10 +3,13 @@ import * as React from 'react';
 import LockFilledSvg from '@sensoro-design/icons-svg/es/asn/LockFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LockFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LockFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LockFilledSvg} />
-));
+);
 
-LockFilled.displayName = 'LockFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LockFilled);
 
-export default LockFilled;
+RefIcon.displayName = 'LockFilled';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import DigitalMediaOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DigitalMediaOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DigitalMediaOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DigitalMediaOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DigitalMediaOutlinedSvg} />
-));
+);
 
-DigitalMediaOutlined.displayName = 'DigitalMediaOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DigitalMediaOutlined);
 
-export default DigitalMediaOutlined;
+RefIcon.displayName = 'DigitalMediaOutlined';
+
+export default RefIcon;

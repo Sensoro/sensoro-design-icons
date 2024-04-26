@@ -3,10 +3,13 @@ import * as React from 'react';
 import ParabolicOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ParabolicOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ParabolicOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ParabolicOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ParabolicOutlinedSvg} />
-));
+);
 
-ParabolicOutlined.displayName = 'ParabolicOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ParabolicOutlined);
 
-export default ParabolicOutlined;
+RefIcon.displayName = 'ParabolicOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import SportsFacilitiesFilledSvg from '@sensoro-design/icons-svg/es/asn/SportsFacilitiesFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SportsFacilitiesFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SportsFacilitiesFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SportsFacilitiesFilledSvg} />
-));
+);
 
-SportsFacilitiesFilled.displayName = 'SportsFacilitiesFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SportsFacilitiesFilled);
 
-export default SportsFacilitiesFilled;
+RefIcon.displayName = 'SportsFacilitiesFilled';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import GroupRentalOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GroupRentalOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GroupRentalOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GroupRentalOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GroupRentalOutlinedSvg} />
-));
+);
 
-GroupRentalOutlined.displayName = 'GroupRentalOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GroupRentalOutlined);
 
-export default GroupRentalOutlined;
+RefIcon.displayName = 'GroupRentalOutlined';
+
+export default RefIcon;

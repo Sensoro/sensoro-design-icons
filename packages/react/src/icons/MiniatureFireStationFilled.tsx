@@ -3,10 +3,13 @@ import * as React from 'react';
 import MiniatureFireStationFilledSvg from '@sensoro-design/icons-svg/es/asn/MiniatureFireStationFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MiniatureFireStationFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MiniatureFireStationFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MiniatureFireStationFilledSvg} />
-));
+);
 
-MiniatureFireStationFilled.displayName = 'MiniatureFireStationFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MiniatureFireStationFilled);
 
-export default MiniatureFireStationFilled;
+RefIcon.displayName = 'MiniatureFireStationFilled';
+
+export default RefIcon;

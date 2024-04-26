@@ -3,10 +3,13 @@ import * as React from 'react';
 import FileWordOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FileWordOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FileWordOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FileWordOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FileWordOutlinedSvg} />
-));
+);
 
-FileWordOutlined.displayName = 'FileWordOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FileWordOutlined);
 
-export default FileWordOutlined;
+RefIcon.displayName = 'FileWordOutlined';
+
+export default RefIcon;

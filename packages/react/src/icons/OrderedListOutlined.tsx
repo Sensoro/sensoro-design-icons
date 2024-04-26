@@ -3,10 +3,13 @@ import * as React from 'react';
 import OrderedListOutlinedSvg from '@sensoro-design/icons-svg/es/asn/OrderedListOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const OrderedListOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const OrderedListOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={OrderedListOutlinedSvg} />
-));
+);
 
-OrderedListOutlined.displayName = 'OrderedListOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(OrderedListOutlined);
 
-export default OrderedListOutlined;
+RefIcon.displayName = 'OrderedListOutlined';
+
+export default RefIcon;

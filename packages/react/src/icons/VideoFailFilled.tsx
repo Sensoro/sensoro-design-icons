@@ -3,10 +3,13 @@ import * as React from 'react';
 import VideoFailFilledSvg from '@sensoro-design/icons-svg/es/asn/VideoFailFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const VideoFailFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const VideoFailFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={VideoFailFilledSvg} />
-));
+);
 
-VideoFailFilled.displayName = 'VideoFailFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(VideoFailFilled);
 
-export default VideoFailFilled;
+RefIcon.displayName = 'VideoFailFilled';
+
+export default RefIcon;

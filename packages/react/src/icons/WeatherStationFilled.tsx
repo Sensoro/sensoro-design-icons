@@ -3,10 +3,13 @@ import * as React from 'react';
 import WeatherStationFilledSvg from '@sensoro-design/icons-svg/es/asn/WeatherStationFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const WeatherStationFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const WeatherStationFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={WeatherStationFilledSvg} />
-));
+);
 
-WeatherStationFilled.displayName = 'WeatherStationFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(WeatherStationFilled);
 
-export default WeatherStationFilled;
+RefIcon.displayName = 'WeatherStationFilled';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import TextAutoHeightOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TextAutoHeightOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const TextAutoHeightOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const TextAutoHeightOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={TextAutoHeightOutlinedSvg} />
-));
+);
 
-TextAutoHeightOutlined.displayName = 'TextAutoHeightOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(TextAutoHeightOutlined);
 
-export default TextAutoHeightOutlined;
+RefIcon.displayName = 'TextAutoHeightOutlined';
+
+export default RefIcon;

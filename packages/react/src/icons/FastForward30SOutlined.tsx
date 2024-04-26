@@ -3,10 +3,13 @@ import * as React from 'react';
 import FastForward30SOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FastForward30SOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FastForward30SOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FastForward30SOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FastForward30SOutlinedSvg} />
-));
+);
 
-FastForward30SOutlined.displayName = 'FastForward30SOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FastForward30SOutlined);
 
-export default FastForward30SOutlined;
+RefIcon.displayName = 'FastForward30SOutlined';
+
+export default RefIcon;

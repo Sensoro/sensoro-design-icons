@@ -3,10 +3,13 @@ import * as React from 'react';
 import AircircuitBreakerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AircircuitBreakerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AircircuitBreakerOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AircircuitBreakerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AircircuitBreakerOutlinedSvg} />
-));
+);
 
-AircircuitBreakerOutlined.displayName = 'AircircuitBreakerOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AircircuitBreakerOutlined);
 
-export default AircircuitBreakerOutlined;
+RefIcon.displayName = 'AircircuitBreakerOutlined';
+
+export default RefIcon;

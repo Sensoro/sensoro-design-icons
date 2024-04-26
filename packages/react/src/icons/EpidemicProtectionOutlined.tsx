@@ -3,10 +3,13 @@ import * as React from 'react';
 import EpidemicProtectionOutlinedSvg from '@sensoro-design/icons-svg/es/asn/EpidemicProtectionOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const EpidemicProtectionOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const EpidemicProtectionOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={EpidemicProtectionOutlinedSvg} />
-));
+);
 
-EpidemicProtectionOutlined.displayName = 'EpidemicProtectionOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(EpidemicProtectionOutlined);
 
-export default EpidemicProtectionOutlined;
+RefIcon.displayName = 'EpidemicProtectionOutlined';
+
+export default RefIcon;

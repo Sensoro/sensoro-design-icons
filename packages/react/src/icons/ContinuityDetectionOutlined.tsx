@@ -3,10 +3,13 @@ import * as React from 'react';
 import ContinuityDetectionOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ContinuityDetectionOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ContinuityDetectionOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ContinuityDetectionOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ContinuityDetectionOutlinedSvg} />
-));
+);
 
-ContinuityDetectionOutlined.displayName = 'ContinuityDetectionOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ContinuityDetectionOutlined);
 
-export default ContinuityDetectionOutlined;
+RefIcon.displayName = 'ContinuityDetectionOutlined';
+
+export default RefIcon;

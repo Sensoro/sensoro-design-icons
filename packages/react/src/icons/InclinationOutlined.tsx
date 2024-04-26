@@ -3,10 +3,13 @@ import * as React from 'react';
 import InclinationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/InclinationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const InclinationOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const InclinationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={InclinationOutlinedSvg} />
-));
+);
 
-InclinationOutlined.displayName = 'InclinationOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(InclinationOutlined);
 
-export default InclinationOutlined;
+RefIcon.displayName = 'InclinationOutlined';
+
+export default RefIcon;

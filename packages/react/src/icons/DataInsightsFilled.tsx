@@ -3,10 +3,13 @@ import * as React from 'react';
 import DataInsightsFilledSvg from '@sensoro-design/icons-svg/es/asn/DataInsightsFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DataInsightsFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DataInsightsFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DataInsightsFilledSvg} />
-));
+);
 
-DataInsightsFilled.displayName = 'DataInsightsFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DataInsightsFilled);
 
-export default DataInsightsFilled;
+RefIcon.displayName = 'DataInsightsFilled';
+
+export default RefIcon;

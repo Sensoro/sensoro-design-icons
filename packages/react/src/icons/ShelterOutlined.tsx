@@ -3,10 +3,13 @@ import * as React from 'react';
 import ShelterOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ShelterOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ShelterOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ShelterOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ShelterOutlinedSvg} />
-));
+);
 
-ShelterOutlined.displayName = 'ShelterOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ShelterOutlined);
 
-export default ShelterOutlined;
+RefIcon.displayName = 'ShelterOutlined';
+
+export default RefIcon;

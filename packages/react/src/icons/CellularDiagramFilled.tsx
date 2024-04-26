@@ -3,10 +3,13 @@ import * as React from 'react';
 import CellularDiagramFilledSvg from '@sensoro-design/icons-svg/es/asn/CellularDiagramFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CellularDiagramFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CellularDiagramFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CellularDiagramFilledSvg} />
-));
+);
 
-CellularDiagramFilled.displayName = 'CellularDiagramFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CellularDiagramFilled);
 
-export default CellularDiagramFilled;
+RefIcon.displayName = 'CellularDiagramFilled';
+
+export default RefIcon;

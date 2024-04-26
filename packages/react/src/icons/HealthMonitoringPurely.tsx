@@ -3,10 +3,13 @@ import * as React from 'react';
 import HealthMonitoringPurelySvg from '@sensoro-design/icons-svg/es/asn/HealthMonitoringPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HealthMonitoringPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HealthMonitoringPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HealthMonitoringPurelySvg} />
-));
+);
 
-HealthMonitoringPurely.displayName = 'HealthMonitoringPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HealthMonitoringPurely);
 
-export default HealthMonitoringPurely;
+RefIcon.displayName = 'HealthMonitoringPurely';
+
+export default RefIcon;

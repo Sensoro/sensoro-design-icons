@@ -3,10 +3,13 @@ import * as React from 'react';
 import WalkieTalkieFilledSvg from '@sensoro-design/icons-svg/es/asn/WalkieTalkieFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const WalkieTalkieFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const WalkieTalkieFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={WalkieTalkieFilledSvg} />
-));
+);
 
-WalkieTalkieFilled.displayName = 'WalkieTalkieFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(WalkieTalkieFilled);
 
-export default WalkieTalkieFilled;
+RefIcon.displayName = 'WalkieTalkieFilled';
+
+export default RefIcon;

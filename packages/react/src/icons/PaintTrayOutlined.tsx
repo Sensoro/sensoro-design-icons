@@ -3,10 +3,13 @@ import * as React from 'react';
 import PaintTrayOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PaintTrayOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PaintTrayOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PaintTrayOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PaintTrayOutlinedSvg} />
-));
+);
 
-PaintTrayOutlined.displayName = 'PaintTrayOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PaintTrayOutlined);
 
-export default PaintTrayOutlined;
+RefIcon.displayName = 'PaintTrayOutlined';
+
+export default RefIcon;

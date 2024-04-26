@@ -3,10 +3,13 @@ import * as React from 'react';
 import DeleteOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DeleteOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DeleteOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DeleteOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DeleteOutlinedSvg} />
-));
+);
 
-DeleteOutlined.displayName = 'DeleteOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DeleteOutlined);
 
-export default DeleteOutlined;
+RefIcon.displayName = 'DeleteOutlined';
+
+export default RefIcon;

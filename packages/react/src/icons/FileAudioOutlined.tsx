@@ -3,10 +3,13 @@ import * as React from 'react';
 import FileAudioOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FileAudioOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FileAudioOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FileAudioOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FileAudioOutlinedSvg} />
-));
+);
 
-FileAudioOutlined.displayName = 'FileAudioOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FileAudioOutlined);
 
-export default FileAudioOutlined;
+RefIcon.displayName = 'FileAudioOutlined';
+
+export default RefIcon;

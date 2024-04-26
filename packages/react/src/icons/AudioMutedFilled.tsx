@@ -3,10 +3,13 @@ import * as React from 'react';
 import AudioMutedFilledSvg from '@sensoro-design/icons-svg/es/asn/AudioMutedFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AudioMutedFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AudioMutedFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AudioMutedFilledSvg} />
-));
+);
 
-AudioMutedFilled.displayName = 'AudioMutedFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AudioMutedFilled);
 
-export default AudioMutedFilled;
+RefIcon.displayName = 'AudioMutedFilled';
+
+export default RefIcon;

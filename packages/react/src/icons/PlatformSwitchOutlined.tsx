@@ -3,10 +3,13 @@ import * as React from 'react';
 import PlatformSwitchOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PlatformSwitchOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PlatformSwitchOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PlatformSwitchOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PlatformSwitchOutlinedSvg} />
-));
+);
 
-PlatformSwitchOutlined.displayName = 'PlatformSwitchOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PlatformSwitchOutlined);
 
-export default PlatformSwitchOutlined;
+RefIcon.displayName = 'PlatformSwitchOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import NoVideoPurelySvg from '@sensoro-design/icons-svg/es/asn/NoVideoPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NoVideoPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NoVideoPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NoVideoPurelySvg} />
-));
+);
 
-NoVideoPurely.displayName = 'NoVideoPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NoVideoPurely);
 
-export default NoVideoPurely;
+RefIcon.displayName = 'NoVideoPurely';
+
+export default RefIcon;

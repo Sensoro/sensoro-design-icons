@@ -3,10 +3,13 @@ import * as React from 'react';
 import ChemicalPlantOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ChemicalPlantOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ChemicalPlantOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ChemicalPlantOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ChemicalPlantOutlinedSvg} />
-));
+);
 
-ChemicalPlantOutlined.displayName = 'ChemicalPlantOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ChemicalPlantOutlined);
 
-export default ChemicalPlantOutlined;
+RefIcon.displayName = 'ChemicalPlantOutlined';
+
+export default RefIcon;

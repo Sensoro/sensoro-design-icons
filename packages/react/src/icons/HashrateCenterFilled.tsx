@@ -3,10 +3,13 @@ import * as React from 'react';
 import HashrateCenterFilledSvg from '@sensoro-design/icons-svg/es/asn/HashrateCenterFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HashrateCenterFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HashrateCenterFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HashrateCenterFilledSvg} />
-));
+);
 
-HashrateCenterFilled.displayName = 'HashrateCenterFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HashrateCenterFilled);
 
-export default HashrateCenterFilled;
+RefIcon.displayName = 'HashrateCenterFilled';
+
+export default RefIcon;

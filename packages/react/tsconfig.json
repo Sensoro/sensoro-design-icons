@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "target": "esnext",
-    "module": "commonjs",
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "jsx": "preserve",
-    "skipLibCheck": true,
-    "declaration": true
-  }
+    "declaration": true,
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "scripts"]
 }

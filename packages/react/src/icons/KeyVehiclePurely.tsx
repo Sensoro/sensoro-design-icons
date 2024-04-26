@@ -3,10 +3,13 @@ import * as React from 'react';
 import KeyVehiclePurelySvg from '@sensoro-design/icons-svg/es/asn/KeyVehiclePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const KeyVehiclePurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const KeyVehiclePurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={KeyVehiclePurelySvg} />
-));
+);
 
-KeyVehiclePurely.displayName = 'KeyVehiclePurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(KeyVehiclePurely);
 
-export default KeyVehiclePurely;
+RefIcon.displayName = 'KeyVehiclePurely';
+
+export default RefIcon;

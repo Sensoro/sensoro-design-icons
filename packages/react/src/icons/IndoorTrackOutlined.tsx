@@ -3,10 +3,13 @@ import * as React from 'react';
 import IndoorTrackOutlinedSvg from '@sensoro-design/icons-svg/es/asn/IndoorTrackOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const IndoorTrackOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const IndoorTrackOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={IndoorTrackOutlinedSvg} />
-));
+);
 
-IndoorTrackOutlined.displayName = 'IndoorTrackOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(IndoorTrackOutlined);
 
-export default IndoorTrackOutlined;
+RefIcon.displayName = 'IndoorTrackOutlined';
+
+export default RefIcon;

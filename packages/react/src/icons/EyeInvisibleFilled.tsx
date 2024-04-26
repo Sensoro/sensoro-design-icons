@@ -3,10 +3,13 @@ import * as React from 'react';
 import EyeInvisibleFilledSvg from '@sensoro-design/icons-svg/es/asn/EyeInvisibleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const EyeInvisibleFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const EyeInvisibleFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={EyeInvisibleFilledSvg} />
-));
+);
 
-EyeInvisibleFilled.displayName = 'EyeInvisibleFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(EyeInvisibleFilled);
 
-export default EyeInvisibleFilled;
+RefIcon.displayName = 'EyeInvisibleFilled';
+
+export default RefIcon;

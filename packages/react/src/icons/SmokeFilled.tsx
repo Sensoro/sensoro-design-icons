@@ -3,10 +3,13 @@ import * as React from 'react';
 import SmokeFilledSvg from '@sensoro-design/icons-svg/es/asn/SmokeFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SmokeFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SmokeFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SmokeFilledSvg} />
-));
+);
 
-SmokeFilled.displayName = 'SmokeFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SmokeFilled);
 
-export default SmokeFilled;
+RefIcon.displayName = 'SmokeFilled';
+
+export default RefIcon;

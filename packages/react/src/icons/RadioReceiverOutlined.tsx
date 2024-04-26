@@ -3,10 +3,13 @@ import * as React from 'react';
 import RadioReceiverOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RadioReceiverOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RadioReceiverOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RadioReceiverOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RadioReceiverOutlinedSvg} />
-));
+);
 
-RadioReceiverOutlined.displayName = 'RadioReceiverOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RadioReceiverOutlined);
 
-export default RadioReceiverOutlined;
+RefIcon.displayName = 'RadioReceiverOutlined';
+
+export default RefIcon;

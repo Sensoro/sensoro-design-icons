@@ -3,10 +3,13 @@ import * as React from 'react';
 import CompassOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CompassOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CompassOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CompassOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CompassOutlinedSvg} />
-));
+);
 
-CompassOutlined.displayName = 'CompassOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CompassOutlined);
 
-export default CompassOutlined;
+RefIcon.displayName = 'CompassOutlined';
+
+export default RefIcon;

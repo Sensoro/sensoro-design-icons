@@ -3,10 +3,13 @@ import * as React from 'react';
 import IotFilledSvg from '@sensoro-design/icons-svg/es/asn/IotFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const IotFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const IotFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={IotFilledSvg} />
-));
+);
 
-IotFilled.displayName = 'IotFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(IotFilled);
 
-export default IotFilled;
+RefIcon.displayName = 'IotFilled';
+
+export default RefIcon;

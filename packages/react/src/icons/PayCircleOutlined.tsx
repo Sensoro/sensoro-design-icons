@@ -3,10 +3,13 @@ import * as React from 'react';
 import PayCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PayCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PayCircleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PayCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PayCircleOutlinedSvg} />
-));
+);
 
-PayCircleOutlined.displayName = 'PayCircleOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PayCircleOutlined);
 
-export default PayCircleOutlined;
+RefIcon.displayName = 'PayCircleOutlined';
+
+export default RefIcon;

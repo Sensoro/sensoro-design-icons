@@ -3,10 +3,13 @@ import * as React from 'react';
 import NoodleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NoodleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NoodleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NoodleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NoodleOutlinedSvg} />
-));
+);
 
-NoodleOutlined.displayName = 'NoodleOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NoodleOutlined);
 
-export default NoodleOutlined;
+RefIcon.displayName = 'NoodleOutlined';
+
+export default RefIcon;

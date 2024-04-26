@@ -3,10 +3,13 @@ import * as React from 'react';
 import HeartFilledSvg from '@sensoro-design/icons-svg/es/asn/HeartFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HeartFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HeartFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HeartFilledSvg} />
-));
+);
 
-HeartFilled.displayName = 'HeartFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HeartFilled);
 
-export default HeartFilled;
+RefIcon.displayName = 'HeartFilled';
+
+export default RefIcon;

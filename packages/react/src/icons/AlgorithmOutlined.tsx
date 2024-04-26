@@ -3,10 +3,13 @@ import * as React from 'react';
 import AlgorithmOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AlgorithmOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AlgorithmOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AlgorithmOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AlgorithmOutlinedSvg} />
-));
+);
 
-AlgorithmOutlined.displayName = 'AlgorithmOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AlgorithmOutlined);
 
-export default AlgorithmOutlined;
+RefIcon.displayName = 'AlgorithmOutlined';
+
+export default RefIcon;

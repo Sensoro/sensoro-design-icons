@@ -3,10 +3,13 @@ import * as React from 'react';
 import MenuFoldOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MenuFoldOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MenuFoldOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MenuFoldOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MenuFoldOutlinedSvg} />
-));
+);
 
-MenuFoldOutlined.displayName = 'MenuFoldOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MenuFoldOutlined);
 
-export default MenuFoldOutlined;
+RefIcon.displayName = 'MenuFoldOutlined';
+
+export default RefIcon;

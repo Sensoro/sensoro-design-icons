@@ -3,10 +3,13 @@ import * as React from 'react';
 import CaseAssistanceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CaseAssistanceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CaseAssistanceOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CaseAssistanceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CaseAssistanceOutlinedSvg} />
-));
+);
 
-CaseAssistanceOutlined.displayName = 'CaseAssistanceOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CaseAssistanceOutlined);
 
-export default CaseAssistanceOutlined;
+RefIcon.displayName = 'CaseAssistanceOutlined';
+
+export default RefIcon;

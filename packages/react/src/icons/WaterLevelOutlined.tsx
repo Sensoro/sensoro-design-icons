@@ -3,10 +3,13 @@ import * as React from 'react';
 import WaterLevelOutlinedSvg from '@sensoro-design/icons-svg/es/asn/WaterLevelOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const WaterLevelOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const WaterLevelOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={WaterLevelOutlinedSvg} />
-));
+);
 
-WaterLevelOutlined.displayName = 'WaterLevelOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(WaterLevelOutlined);
 
-export default WaterLevelOutlined;
+RefIcon.displayName = 'WaterLevelOutlined';
+
+export default RefIcon;

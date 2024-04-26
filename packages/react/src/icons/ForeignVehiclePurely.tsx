@@ -3,10 +3,13 @@ import * as React from 'react';
 import ForeignVehiclePurelySvg from '@sensoro-design/icons-svg/es/asn/ForeignVehiclePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ForeignVehiclePurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ForeignVehiclePurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ForeignVehiclePurelySvg} />
-));
+);
 
-ForeignVehiclePurely.displayName = 'ForeignVehiclePurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ForeignVehiclePurely);
 
-export default ForeignVehiclePurely;
+RefIcon.displayName = 'ForeignVehiclePurely';
+
+export default RefIcon;

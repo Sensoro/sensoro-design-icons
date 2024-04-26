@@ -3,10 +3,13 @@ import * as React from 'react';
 import BreatheErrorPurelySvg from '@sensoro-design/icons-svg/es/asn/BreatheErrorPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BreatheErrorPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BreatheErrorPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BreatheErrorPurelySvg} />
-));
+);
 
-BreatheErrorPurely.displayName = 'BreatheErrorPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BreatheErrorPurely);
 
-export default BreatheErrorPurely;
+RefIcon.displayName = 'BreatheErrorPurely';
+
+export default RefIcon;

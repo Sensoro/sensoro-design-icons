@@ -3,10 +3,13 @@ import * as React from 'react';
 import RotationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RotationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RotationOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RotationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RotationOutlinedSvg} />
-));
+);
 
-RotationOutlined.displayName = 'RotationOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RotationOutlined);
 
-export default RotationOutlined;
+RefIcon.displayName = 'RotationOutlined';
+
+export default RefIcon;

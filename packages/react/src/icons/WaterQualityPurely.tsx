@@ -3,10 +3,13 @@ import * as React from 'react';
 import WaterQualityPurelySvg from '@sensoro-design/icons-svg/es/asn/WaterQualityPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const WaterQualityPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const WaterQualityPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={WaterQualityPurelySvg} />
-));
+);
 
-WaterQualityPurely.displayName = 'WaterQualityPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(WaterQualityPurely);
 
-export default WaterQualityPurely;
+RefIcon.displayName = 'WaterQualityPurely';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import MinusCircleFilledSvg from '@sensoro-design/icons-svg/es/asn/MinusCircleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MinusCircleFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MinusCircleFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MinusCircleFilledSvg} />
-));
+);
 
-MinusCircleFilled.displayName = 'MinusCircleFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MinusCircleFilled);
 
-export default MinusCircleFilled;
+RefIcon.displayName = 'MinusCircleFilled';
+
+export default RefIcon;

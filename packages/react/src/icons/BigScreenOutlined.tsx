@@ -3,10 +3,13 @@ import * as React from 'react';
 import BigScreenOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BigScreenOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BigScreenOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BigScreenOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BigScreenOutlinedSvg} />
-));
+);
 
-BigScreenOutlined.displayName = 'BigScreenOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BigScreenOutlined);
 
-export default BigScreenOutlined;
+RefIcon.displayName = 'BigScreenOutlined';
+
+export default RefIcon;

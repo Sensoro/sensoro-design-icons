@@ -3,10 +3,13 @@ import * as React from 'react';
 import RotationFilledSvg from '@sensoro-design/icons-svg/es/asn/RotationFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RotationFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RotationFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RotationFilledSvg} />
-));
+);
 
-RotationFilled.displayName = 'RotationFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RotationFilled);
 
-export default RotationFilled;
+RefIcon.displayName = 'RotationFilled';
+
+export default RefIcon;

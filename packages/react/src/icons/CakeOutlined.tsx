@@ -3,10 +3,13 @@ import * as React from 'react';
 import CakeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CakeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CakeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CakeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CakeOutlinedSvg} />
-));
+);
 
-CakeOutlined.displayName = 'CakeOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CakeOutlined);
 
-export default CakeOutlined;
+RefIcon.displayName = 'CakeOutlined';
+
+export default RefIcon;

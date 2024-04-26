@@ -3,10 +3,13 @@ import * as React from 'react';
 import ToiletPaperOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ToiletPaperOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ToiletPaperOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ToiletPaperOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ToiletPaperOutlinedSvg} />
-));
+);
 
-ToiletPaperOutlined.displayName = 'ToiletPaperOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ToiletPaperOutlined);
 
-export default ToiletPaperOutlined;
+RefIcon.displayName = 'ToiletPaperOutlined';
+
+export default RefIcon;

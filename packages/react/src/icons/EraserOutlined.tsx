@@ -3,10 +3,13 @@ import * as React from 'react';
 import EraserOutlinedSvg from '@sensoro-design/icons-svg/es/asn/EraserOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const EraserOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const EraserOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={EraserOutlinedSvg} />
-));
+);
 
-EraserOutlined.displayName = 'EraserOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(EraserOutlined);
 
-export default EraserOutlined;
+RefIcon.displayName = 'EraserOutlined';
+
+export default RefIcon;

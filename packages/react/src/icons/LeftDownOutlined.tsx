@@ -3,10 +3,13 @@ import * as React from 'react';
 import LeftDownOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LeftDownOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LeftDownOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LeftDownOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LeftDownOutlinedSvg} />
-));
+);
 
-LeftDownOutlined.displayName = 'LeftDownOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LeftDownOutlined);
 
-export default LeftDownOutlined;
+RefIcon.displayName = 'LeftDownOutlined';
+
+export default RefIcon;

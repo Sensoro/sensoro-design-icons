@@ -3,10 +3,13 @@ import * as React from 'react';
 import Rewind30SOutlinedSvg from '@sensoro-design/icons-svg/es/asn/Rewind30SOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const Rewind30SOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const Rewind30SOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={Rewind30SOutlinedSvg} />
-));
+);
 
-Rewind30SOutlined.displayName = 'Rewind30SOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(Rewind30SOutlined);
 
-export default Rewind30SOutlined;
+RefIcon.displayName = 'Rewind30SOutlined';
+
+export default RefIcon;

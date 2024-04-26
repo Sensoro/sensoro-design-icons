@@ -3,10 +3,13 @@ import * as React from 'react';
 import UserLeaveEarlyFilledSvg from '@sensoro-design/icons-svg/es/asn/UserLeaveEarlyFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const UserLeaveEarlyFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const UserLeaveEarlyFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={UserLeaveEarlyFilledSvg} />
-));
+);
 
-UserLeaveEarlyFilled.displayName = 'UserLeaveEarlyFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(UserLeaveEarlyFilled);
 
-export default UserLeaveEarlyFilled;
+RefIcon.displayName = 'UserLeaveEarlyFilled';
+
+export default RefIcon;

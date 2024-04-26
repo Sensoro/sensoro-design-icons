@@ -3,10 +3,13 @@ import * as React from 'react';
 import MosaicOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MosaicOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MosaicOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MosaicOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MosaicOutlinedSvg} />
-));
+);
 
-MosaicOutlined.displayName = 'MosaicOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MosaicOutlined);
 
-export default MosaicOutlined;
+RefIcon.displayName = 'MosaicOutlined';
+
+export default RefIcon;

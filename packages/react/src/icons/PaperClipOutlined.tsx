@@ -3,10 +3,13 @@ import * as React from 'react';
 import PaperClipOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PaperClipOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PaperClipOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PaperClipOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PaperClipOutlinedSvg} />
-));
+);
 
-PaperClipOutlined.displayName = 'PaperClipOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PaperClipOutlined);
 
-export default PaperClipOutlined;
+RefIcon.displayName = 'PaperClipOutlined';
+
+export default RefIcon;

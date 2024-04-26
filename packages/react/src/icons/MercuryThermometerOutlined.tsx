@@ -3,10 +3,13 @@ import * as React from 'react';
 import MercuryThermometerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MercuryThermometerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MercuryThermometerOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MercuryThermometerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MercuryThermometerOutlinedSvg} />
-));
+);
 
-MercuryThermometerOutlined.displayName = 'MercuryThermometerOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MercuryThermometerOutlined);
 
-export default MercuryThermometerOutlined;
+RefIcon.displayName = 'MercuryThermometerOutlined';
+
+export default RefIcon;

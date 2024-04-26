@@ -3,10 +3,13 @@ import * as React from 'react';
 import ThreadOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ThreadOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ThreadOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ThreadOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ThreadOutlinedSvg} />
-));
+);
 
-ThreadOutlined.displayName = 'ThreadOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ThreadOutlined);
 
-export default ThreadOutlined;
+RefIcon.displayName = 'ThreadOutlined';
+
+export default RefIcon;

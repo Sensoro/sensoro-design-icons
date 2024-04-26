@@ -3,10 +3,13 @@ import * as React from 'react';
 import PeersFilledSvg from '@sensoro-design/icons-svg/es/asn/PeersFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PeersFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PeersFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PeersFilledSvg} />
-));
+);
 
-PeersFilled.displayName = 'PeersFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PeersFilled);
 
-export default PeersFilled;
+RefIcon.displayName = 'PeersFilled';
+
+export default RefIcon;

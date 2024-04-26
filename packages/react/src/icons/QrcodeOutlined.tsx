@@ -3,10 +3,13 @@ import * as React from 'react';
 import QrcodeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/QrcodeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const QrcodeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const QrcodeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={QrcodeOutlinedSvg} />
-));
+);
 
-QrcodeOutlined.displayName = 'QrcodeOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(QrcodeOutlined);
 
-export default QrcodeOutlined;
+RefIcon.displayName = 'QrcodeOutlined';
+
+export default RefIcon;

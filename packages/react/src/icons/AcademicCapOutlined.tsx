@@ -3,10 +3,13 @@ import * as React from 'react';
 import AcademicCapOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AcademicCapOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AcademicCapOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AcademicCapOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AcademicCapOutlinedSvg} />
-));
+);
 
-AcademicCapOutlined.displayName = 'AcademicCapOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AcademicCapOutlined);
 
-export default AcademicCapOutlined;
+RefIcon.displayName = 'AcademicCapOutlined';
+
+export default RefIcon;

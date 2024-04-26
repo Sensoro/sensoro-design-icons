@@ -3,10 +3,13 @@ import * as React from 'react';
 import SmartLightPoleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SmartLightPoleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SmartLightPoleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SmartLightPoleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SmartLightPoleOutlinedSvg} />
-));
+);
 
-SmartLightPoleOutlined.displayName = 'SmartLightPoleOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SmartLightPoleOutlined);
 
-export default SmartLightPoleOutlined;
+RefIcon.displayName = 'SmartLightPoleOutlined';
+
+export default RefIcon;

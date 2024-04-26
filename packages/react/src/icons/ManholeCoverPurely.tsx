@@ -3,10 +3,13 @@ import * as React from 'react';
 import ManholeCoverPurelySvg from '@sensoro-design/icons-svg/es/asn/ManholeCoverPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ManholeCoverPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ManholeCoverPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ManholeCoverPurelySvg} />
-));
+);
 
-ManholeCoverPurely.displayName = 'ManholeCoverPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ManholeCoverPurely);
 
-export default ManholeCoverPurely;
+RefIcon.displayName = 'ManholeCoverPurely';
+
+export default RefIcon;

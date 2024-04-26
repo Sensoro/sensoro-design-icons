@@ -3,10 +3,13 @@ import * as React from 'react';
 import AudibleAlarmHostOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AudibleAlarmHostOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AudibleAlarmHostOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AudibleAlarmHostOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AudibleAlarmHostOutlinedSvg} />
-));
+);
 
-AudibleAlarmHostOutlined.displayName = 'AudibleAlarmHostOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AudibleAlarmHostOutlined);
 
-export default AudibleAlarmHostOutlined;
+RefIcon.displayName = 'AudibleAlarmHostOutlined';
+
+export default RefIcon;

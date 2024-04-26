@@ -3,10 +3,13 @@ import * as React from 'react';
 import NoFishingOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NoFishingOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NoFishingOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NoFishingOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NoFishingOutlinedSvg} />
-));
+);
 
-NoFishingOutlined.displayName = 'NoFishingOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NoFishingOutlined);
 
-export default NoFishingOutlined;
+RefIcon.displayName = 'NoFishingOutlined';
+
+export default RefIcon;

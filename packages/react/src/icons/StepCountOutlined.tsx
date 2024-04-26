@@ -3,10 +3,13 @@ import * as React from 'react';
 import StepCountOutlinedSvg from '@sensoro-design/icons-svg/es/asn/StepCountOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const StepCountOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const StepCountOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={StepCountOutlinedSvg} />
-));
+);
 
-StepCountOutlined.displayName = 'StepCountOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(StepCountOutlined);
 
-export default StepCountOutlined;
+RefIcon.displayName = 'StepCountOutlined';
+
+export default RefIcon;

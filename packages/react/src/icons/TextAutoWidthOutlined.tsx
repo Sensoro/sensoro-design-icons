@@ -3,10 +3,13 @@ import * as React from 'react';
 import TextAutoWidthOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TextAutoWidthOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const TextAutoWidthOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const TextAutoWidthOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={TextAutoWidthOutlinedSvg} />
-));
+);
 
-TextAutoWidthOutlined.displayName = 'TextAutoWidthOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(TextAutoWidthOutlined);
 
-export default TextAutoWidthOutlined;
+RefIcon.displayName = 'TextAutoWidthOutlined';
+
+export default RefIcon;

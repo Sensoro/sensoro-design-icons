@@ -3,10 +3,13 @@ import * as React from 'react';
 import SyncOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SyncOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SyncOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SyncOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SyncOutlinedSvg} />
-));
+);
 
-SyncOutlined.displayName = 'SyncOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SyncOutlined);
 
-export default SyncOutlined;
+RefIcon.displayName = 'SyncOutlined';
+
+export default RefIcon;

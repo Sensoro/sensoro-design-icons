@@ -3,10 +3,13 @@ import * as React from 'react';
 import LowBatteryMutedFilledSvg from '@sensoro-design/icons-svg/es/asn/LowBatteryMutedFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LowBatteryMutedFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LowBatteryMutedFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LowBatteryMutedFilledSvg} />
-));
+);
 
-LowBatteryMutedFilled.displayName = 'LowBatteryMutedFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LowBatteryMutedFilled);
 
-export default LowBatteryMutedFilled;
+RefIcon.displayName = 'LowBatteryMutedFilled';
+
+export default RefIcon;

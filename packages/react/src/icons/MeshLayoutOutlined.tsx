@@ -3,10 +3,13 @@ import * as React from 'react';
 import MeshLayoutOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MeshLayoutOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MeshLayoutOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MeshLayoutOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MeshLayoutOutlinedSvg} />
-));
+);
 
-MeshLayoutOutlined.displayName = 'MeshLayoutOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MeshLayoutOutlined);
 
-export default MeshLayoutOutlined;
+RefIcon.displayName = 'MeshLayoutOutlined';
+
+export default RefIcon;

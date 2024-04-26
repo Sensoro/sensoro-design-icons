@@ -3,10 +3,13 @@ import * as React from 'react';
 import AtlasFilledSvg from '@sensoro-design/icons-svg/es/asn/AtlasFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AtlasFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AtlasFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AtlasFilledSvg} />
-));
+);
 
-AtlasFilled.displayName = 'AtlasFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AtlasFilled);
 
-export default AtlasFilled;
+RefIcon.displayName = 'AtlasFilled';
+
+export default RefIcon;

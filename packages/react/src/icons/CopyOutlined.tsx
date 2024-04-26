@@ -3,10 +3,13 @@ import * as React from 'react';
 import CopyOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CopyOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CopyOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CopyOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CopyOutlinedSvg} />
-));
+);
 
-CopyOutlined.displayName = 'CopyOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CopyOutlined);
 
-export default CopyOutlined;
+RefIcon.displayName = 'CopyOutlined';
+
+export default RefIcon;

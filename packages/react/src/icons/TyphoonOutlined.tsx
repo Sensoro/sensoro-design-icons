@@ -3,10 +3,13 @@ import * as React from 'react';
 import TyphoonOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TyphoonOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const TyphoonOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const TyphoonOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={TyphoonOutlinedSvg} />
-));
+);
 
-TyphoonOutlined.displayName = 'TyphoonOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(TyphoonOutlined);
 
-export default TyphoonOutlined;
+RefIcon.displayName = 'TyphoonOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import NotificationTemplateOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NotificationTemplateOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const NotificationTemplateOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const NotificationTemplateOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={NotificationTemplateOutlinedSvg} />
-));
+);
 
-NotificationTemplateOutlined.displayName = 'NotificationTemplateOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(NotificationTemplateOutlined);
 
-export default NotificationTemplateOutlined;
+RefIcon.displayName = 'NotificationTemplateOutlined';
+
+export default RefIcon;

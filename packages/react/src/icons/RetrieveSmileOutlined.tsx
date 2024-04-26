@@ -3,10 +3,13 @@ import * as React from 'react';
 import RetrieveSmileOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RetrieveSmileOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RetrieveSmileOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RetrieveSmileOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RetrieveSmileOutlinedSvg} />
-));
+);
 
-RetrieveSmileOutlined.displayName = 'RetrieveSmileOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RetrieveSmileOutlined);
 
-export default RetrieveSmileOutlined;
+RefIcon.displayName = 'RetrieveSmileOutlined';
+
+export default RefIcon;

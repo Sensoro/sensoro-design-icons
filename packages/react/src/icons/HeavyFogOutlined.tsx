@@ -3,10 +3,13 @@ import * as React from 'react';
 import HeavyFogOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HeavyFogOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HeavyFogOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HeavyFogOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HeavyFogOutlinedSvg} />
-));
+);
 
-HeavyFogOutlined.displayName = 'HeavyFogOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HeavyFogOutlined);
 
-export default HeavyFogOutlined;
+RefIcon.displayName = 'HeavyFogOutlined';
+
+export default RefIcon;

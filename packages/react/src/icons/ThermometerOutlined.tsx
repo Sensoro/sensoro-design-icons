@@ -3,10 +3,13 @@ import * as React from 'react';
 import ThermometerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ThermometerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ThermometerOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ThermometerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ThermometerOutlinedSvg} />
-));
+);
 
-ThermometerOutlined.displayName = 'ThermometerOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ThermometerOutlined);
 
-export default ThermometerOutlined;
+RefIcon.displayName = 'ThermometerOutlined';
+
+export default RefIcon;

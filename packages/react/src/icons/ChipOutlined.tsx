@@ -3,10 +3,13 @@ import * as React from 'react';
 import ChipOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ChipOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ChipOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ChipOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ChipOutlinedSvg} />
-));
+);
 
-ChipOutlined.displayName = 'ChipOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ChipOutlined);
 
-export default ChipOutlined;
+RefIcon.displayName = 'ChipOutlined';
+
+export default RefIcon;

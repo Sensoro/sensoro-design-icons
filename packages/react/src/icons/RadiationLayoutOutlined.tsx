@@ -3,10 +3,13 @@ import * as React from 'react';
 import RadiationLayoutOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RadiationLayoutOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RadiationLayoutOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RadiationLayoutOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RadiationLayoutOutlinedSvg} />
-));
+);
 
-RadiationLayoutOutlined.displayName = 'RadiationLayoutOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RadiationLayoutOutlined);
 
-export default RadiationLayoutOutlined;
+RefIcon.displayName = 'RadiationLayoutOutlined';
+
+export default RefIcon;

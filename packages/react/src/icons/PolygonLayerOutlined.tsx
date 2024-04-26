@@ -3,10 +3,13 @@ import * as React from 'react';
 import PolygonLayerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PolygonLayerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PolygonLayerOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PolygonLayerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PolygonLayerOutlinedSvg} />
-));
+);
 
-PolygonLayerOutlined.displayName = 'PolygonLayerOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PolygonLayerOutlined);
 
-export default PolygonLayerOutlined;
+RefIcon.displayName = 'PolygonLayerOutlined';
+
+export default RefIcon;

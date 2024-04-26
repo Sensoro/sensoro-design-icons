@@ -3,10 +3,13 @@ import * as React from 'react';
 import DownloadOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DownloadOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DownloadOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DownloadOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DownloadOutlinedSvg} />
-));
+);
 
-DownloadOutlined.displayName = 'DownloadOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DownloadOutlined);
 
-export default DownloadOutlined;
+RefIcon.displayName = 'DownloadOutlined';
+
+export default RefIcon;

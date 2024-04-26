@@ -3,10 +3,13 @@ import * as React from 'react';
 import VideoCameraFilledSvg from '@sensoro-design/icons-svg/es/asn/VideoCameraFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const VideoCameraFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const VideoCameraFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={VideoCameraFilledSvg} />
-));
+);
 
-VideoCameraFilled.displayName = 'VideoCameraFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(VideoCameraFilled);
 
-export default VideoCameraFilled;
+RefIcon.displayName = 'VideoCameraFilled';
+
+export default RefIcon;

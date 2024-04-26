@@ -3,10 +3,13 @@ import * as React from 'react';
 import DataAssetsFilledSvg from '@sensoro-design/icons-svg/es/asn/DataAssetsFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DataAssetsFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DataAssetsFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DataAssetsFilledSvg} />
-));
+);
 
-DataAssetsFilled.displayName = 'DataAssetsFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DataAssetsFilled);
 
-export default DataAssetsFilled;
+RefIcon.displayName = 'DataAssetsFilled';
+
+export default RefIcon;

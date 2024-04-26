@@ -3,10 +3,13 @@ import * as React from 'react';
 import DormancyOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DormancyOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DormancyOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DormancyOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DormancyOutlinedSvg} />
-));
+);
 
-DormancyOutlined.displayName = 'DormancyOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DormancyOutlined);
 
-export default DormancyOutlined;
+RefIcon.displayName = 'DormancyOutlined';
+
+export default RefIcon;

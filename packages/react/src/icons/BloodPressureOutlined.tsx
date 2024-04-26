@@ -3,10 +3,13 @@ import * as React from 'react';
 import BloodPressureOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BloodPressureOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BloodPressureOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BloodPressureOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BloodPressureOutlinedSvg} />
-));
+);
 
-BloodPressureOutlined.displayName = 'BloodPressureOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BloodPressureOutlined);
 
-export default BloodPressureOutlined;
+RefIcon.displayName = 'BloodPressureOutlined';
+
+export default RefIcon;

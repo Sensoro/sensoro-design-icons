@@ -3,10 +3,13 @@ import * as React from 'react';
 import OrganizeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/OrganizeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const OrganizeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const OrganizeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={OrganizeOutlinedSvg} />
-));
+);
 
-OrganizeOutlined.displayName = 'OrganizeOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(OrganizeOutlined);
 
-export default OrganizeOutlined;
+RefIcon.displayName = 'OrganizeOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import ZoomMinusOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ZoomMinusOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ZoomMinusOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ZoomMinusOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ZoomMinusOutlinedSvg} />
-));
+);
 
-ZoomMinusOutlined.displayName = 'ZoomMinusOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ZoomMinusOutlined);
 
-export default ZoomMinusOutlined;
+RefIcon.displayName = 'ZoomMinusOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import RemoteFireMonitoringOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RemoteFireMonitoringOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RemoteFireMonitoringOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RemoteFireMonitoringOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RemoteFireMonitoringOutlinedSvg} />
-));
+);
 
-RemoteFireMonitoringOutlined.displayName = 'RemoteFireMonitoringOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RemoteFireMonitoringOutlined);
 
-export default RemoteFireMonitoringOutlined;
+RefIcon.displayName = 'RemoteFireMonitoringOutlined';
+
+export default RefIcon;

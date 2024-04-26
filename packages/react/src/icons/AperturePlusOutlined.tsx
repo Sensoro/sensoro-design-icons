@@ -3,10 +3,13 @@ import * as React from 'react';
 import AperturePlusOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AperturePlusOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AperturePlusOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AperturePlusOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AperturePlusOutlinedSvg} />
-));
+);
 
-AperturePlusOutlined.displayName = 'AperturePlusOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AperturePlusOutlined);
 
-export default AperturePlusOutlined;
+RefIcon.displayName = 'AperturePlusOutlined';
+
+export default RefIcon;

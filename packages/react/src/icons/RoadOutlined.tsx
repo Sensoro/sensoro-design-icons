@@ -3,10 +3,13 @@ import * as React from 'react';
 import RoadOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RoadOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RoadOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RoadOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RoadOutlinedSvg} />
-));
+);
 
-RoadOutlined.displayName = 'RoadOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RoadOutlined);
 
-export default RoadOutlined;
+RefIcon.displayName = 'RoadOutlined';
+
+export default RefIcon;

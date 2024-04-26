@@ -3,10 +3,13 @@ import * as React from 'react';
 import GeologicalDisasterFilledSvg from '@sensoro-design/icons-svg/es/asn/GeologicalDisasterFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GeologicalDisasterFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GeologicalDisasterFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GeologicalDisasterFilledSvg} />
-));
+);
 
-GeologicalDisasterFilled.displayName = 'GeologicalDisasterFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GeologicalDisasterFilled);
 
-export default GeologicalDisasterFilled;
+RefIcon.displayName = 'GeologicalDisasterFilled';
+
+export default RefIcon;

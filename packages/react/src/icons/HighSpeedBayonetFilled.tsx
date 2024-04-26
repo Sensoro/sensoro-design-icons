@@ -3,10 +3,13 @@ import * as React from 'react';
 import HighSpeedBayonetFilledSvg from '@sensoro-design/icons-svg/es/asn/HighSpeedBayonetFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const HighSpeedBayonetFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const HighSpeedBayonetFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={HighSpeedBayonetFilledSvg} />
-));
+);
 
-HighSpeedBayonetFilled.displayName = 'HighSpeedBayonetFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(HighSpeedBayonetFilled);
 
-export default HighSpeedBayonetFilled;
+RefIcon.displayName = 'HighSpeedBayonetFilled';
+
+export default RefIcon;

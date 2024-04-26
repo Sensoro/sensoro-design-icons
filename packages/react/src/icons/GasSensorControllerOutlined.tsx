@@ -3,10 +3,13 @@ import * as React from 'react';
 import GasSensorControllerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GasSensorControllerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GasSensorControllerOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GasSensorControllerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GasSensorControllerOutlinedSvg} />
-));
+);
 
-GasSensorControllerOutlined.displayName = 'GasSensorControllerOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GasSensorControllerOutlined);
 
-export default GasSensorControllerOutlined;
+RefIcon.displayName = 'GasSensorControllerOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import BatteryGroupFilledSvg from '@sensoro-design/icons-svg/es/asn/BatteryGroupFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BatteryGroupFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BatteryGroupFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BatteryGroupFilledSvg} />
-));
+);
 
-BatteryGroupFilled.displayName = 'BatteryGroupFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BatteryGroupFilled);
 
-export default BatteryGroupFilled;
+RefIcon.displayName = 'BatteryGroupFilled';
+
+export default RefIcon;

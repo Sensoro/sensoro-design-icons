@@ -3,10 +3,13 @@ import * as React from 'react';
 import ProhibitFilledSvg from '@sensoro-design/icons-svg/es/asn/ProhibitFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ProhibitFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ProhibitFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ProhibitFilledSvg} />
-));
+);
 
-ProhibitFilled.displayName = 'ProhibitFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ProhibitFilled);
 
-export default ProhibitFilled;
+RefIcon.displayName = 'ProhibitFilled';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import RotateRightPurelySvg from '@sensoro-design/icons-svg/es/asn/RotateRightPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RotateRightPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RotateRightPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RotateRightPurelySvg} />
-));
+);
 
-RotateRightPurely.displayName = 'RotateRightPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RotateRightPurely);
 
-export default RotateRightPurely;
+RefIcon.displayName = 'RotateRightPurely';
+
+export default RefIcon;

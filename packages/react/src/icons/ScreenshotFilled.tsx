@@ -3,10 +3,13 @@ import * as React from 'react';
 import ScreenshotFilledSvg from '@sensoro-design/icons-svg/es/asn/ScreenshotFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ScreenshotFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ScreenshotFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ScreenshotFilledSvg} />
-));
+);
 
-ScreenshotFilled.displayName = 'ScreenshotFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ScreenshotFilled);
 
-export default ScreenshotFilled;
+RefIcon.displayName = 'ScreenshotFilled';
+
+export default RefIcon;

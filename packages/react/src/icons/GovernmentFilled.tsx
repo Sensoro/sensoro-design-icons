@@ -3,10 +3,13 @@ import * as React from 'react';
 import GovernmentFilledSvg from '@sensoro-design/icons-svg/es/asn/GovernmentFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GovernmentFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GovernmentFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GovernmentFilledSvg} />
-));
+);
 
-GovernmentFilled.displayName = 'GovernmentFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GovernmentFilled);
 
-export default GovernmentFilled;
+RefIcon.displayName = 'GovernmentFilled';
+
+export default RefIcon;

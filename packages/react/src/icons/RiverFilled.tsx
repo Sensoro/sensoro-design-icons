@@ -3,10 +3,13 @@ import * as React from 'react';
 import RiverFilledSvg from '@sensoro-design/icons-svg/es/asn/RiverFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const RiverFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const RiverFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={RiverFilledSvg} />
-));
+);
 
-RiverFilled.displayName = 'RiverFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(RiverFilled);
 
-export default RiverFilled;
+RefIcon.displayName = 'RiverFilled';
+
+export default RefIcon;

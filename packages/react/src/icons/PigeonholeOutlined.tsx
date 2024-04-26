@@ -3,10 +3,13 @@ import * as React from 'react';
 import PigeonholeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PigeonholeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PigeonholeOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PigeonholeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PigeonholeOutlinedSvg} />
-));
+);
 
-PigeonholeOutlined.displayName = 'PigeonholeOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PigeonholeOutlined);
 
-export default PigeonholeOutlined;
+RefIcon.displayName = 'PigeonholeOutlined';
+
+export default RefIcon;

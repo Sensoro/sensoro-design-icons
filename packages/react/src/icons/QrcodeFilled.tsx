@@ -3,10 +3,13 @@ import * as React from 'react';
 import QrcodeFilledSvg from '@sensoro-design/icons-svg/es/asn/QrcodeFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const QrcodeFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const QrcodeFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={QrcodeFilledSvg} />
-));
+);
 
-QrcodeFilled.displayName = 'QrcodeFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(QrcodeFilled);
 
-export default QrcodeFilled;
+RefIcon.displayName = 'QrcodeFilled';
+
+export default RefIcon;

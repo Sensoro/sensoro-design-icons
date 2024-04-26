@@ -3,10 +3,13 @@ import * as React from 'react';
 import MobileOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MobileOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MobileOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MobileOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MobileOutlinedSvg} />
-));
+);
 
-MobileOutlined.displayName = 'MobileOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MobileOutlined);
 
-export default MobileOutlined;
+RefIcon.displayName = 'MobileOutlined';
+
+export default RefIcon;

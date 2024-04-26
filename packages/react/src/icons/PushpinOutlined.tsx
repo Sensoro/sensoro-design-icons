@@ -3,10 +3,13 @@ import * as React from 'react';
 import PushpinOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PushpinOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PushpinOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PushpinOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PushpinOutlinedSvg} />
-));
+);
 
-PushpinOutlined.displayName = 'PushpinOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PushpinOutlined);
 
-export default PushpinOutlined;
+RefIcon.displayName = 'PushpinOutlined';
+
+export default RefIcon;

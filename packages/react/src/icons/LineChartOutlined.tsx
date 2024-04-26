@@ -3,10 +3,13 @@ import * as React from 'react';
 import LineChartOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LineChartOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LineChartOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LineChartOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LineChartOutlinedSvg} />
-));
+);
 
-LineChartOutlined.displayName = 'LineChartOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LineChartOutlined);
 
-export default LineChartOutlined;
+RefIcon.displayName = 'LineChartOutlined';
+
+export default RefIcon;

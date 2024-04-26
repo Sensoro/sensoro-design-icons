@@ -3,10 +3,13 @@ import * as React from 'react';
 import TakeOffOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TakeOffOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const TakeOffOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const TakeOffOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={TakeOffOutlinedSvg} />
-));
+);
 
-TakeOffOutlined.displayName = 'TakeOffOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(TakeOffOutlined);
 
-export default TakeOffOutlined;
+RefIcon.displayName = 'TakeOffOutlined';
+
+export default RefIcon;

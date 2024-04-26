@@ -3,10 +3,13 @@ import * as React from 'react';
 import PlayCircleFilledSvg from '@sensoro-design/icons-svg/es/asn/PlayCircleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PlayCircleFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PlayCircleFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PlayCircleFilledSvg} />
-));
+);
 
-PlayCircleFilled.displayName = 'PlayCircleFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PlayCircleFilled);
 
-export default PlayCircleFilled;
+RefIcon.displayName = 'PlayCircleFilled';
+
+export default RefIcon;

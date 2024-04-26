@@ -3,10 +3,13 @@ import * as React from 'react';
 import DashboardFilledSvg from '@sensoro-design/icons-svg/es/asn/DashboardFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const DashboardFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const DashboardFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={DashboardFilledSvg} />
-));
+);
 
-DashboardFilled.displayName = 'DashboardFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(DashboardFilled);
 
-export default DashboardFilled;
+RefIcon.displayName = 'DashboardFilled';
+
+export default RefIcon;

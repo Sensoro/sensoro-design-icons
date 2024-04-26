@@ -3,10 +3,13 @@ import * as React from 'react';
 import UserSafetyCertificateOutlinedSvg from '@sensoro-design/icons-svg/es/asn/UserSafetyCertificateOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const UserSafetyCertificateOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const UserSafetyCertificateOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={UserSafetyCertificateOutlinedSvg} />
-));
+);
 
-UserSafetyCertificateOutlined.displayName = 'UserSafetyCertificateOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(UserSafetyCertificateOutlined);
 
-export default UserSafetyCertificateOutlined;
+RefIcon.displayName = 'UserSafetyCertificateOutlined';
+
+export default RefIcon;

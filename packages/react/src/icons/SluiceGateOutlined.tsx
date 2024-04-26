@@ -3,10 +3,13 @@ import * as React from 'react';
 import SluiceGateOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SluiceGateOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SluiceGateOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SluiceGateOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SluiceGateOutlinedSvg} />
-));
+);
 
-SluiceGateOutlined.displayName = 'SluiceGateOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SluiceGateOutlined);
 
-export default SluiceGateOutlined;
+RefIcon.displayName = 'SluiceGateOutlined';
+
+export default RefIcon;

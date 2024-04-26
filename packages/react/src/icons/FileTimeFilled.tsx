@@ -3,10 +3,13 @@ import * as React from 'react';
 import FileTimeFilledSvg from '@sensoro-design/icons-svg/es/asn/FileTimeFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FileTimeFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FileTimeFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FileTimeFilledSvg} />
-));
+);
 
-FileTimeFilled.displayName = 'FileTimeFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FileTimeFilled);
 
-export default FileTimeFilled;
+RefIcon.displayName = 'FileTimeFilled';
+
+export default RefIcon;

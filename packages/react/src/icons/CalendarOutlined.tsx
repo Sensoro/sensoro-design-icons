@@ -3,10 +3,13 @@ import * as React from 'react';
 import CalendarOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CalendarOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CalendarOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CalendarOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CalendarOutlinedSvg} />
-));
+);
 
-CalendarOutlined.displayName = 'CalendarOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CalendarOutlined);
 
-export default CalendarOutlined;
+RefIcon.displayName = 'CalendarOutlined';
+
+export default RefIcon;

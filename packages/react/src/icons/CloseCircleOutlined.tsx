@@ -3,10 +3,13 @@ import * as React from 'react';
 import CloseCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CloseCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CloseCircleOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CloseCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CloseCircleOutlinedSvg} />
-));
+);
 
-CloseCircleOutlined.displayName = 'CloseCircleOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CloseCircleOutlined);
 
-export default CloseCircleOutlined;
+RefIcon.displayName = 'CloseCircleOutlined';
+
+export default RefIcon;

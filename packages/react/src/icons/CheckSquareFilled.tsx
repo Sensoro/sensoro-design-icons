@@ -3,10 +3,13 @@ import * as React from 'react';
 import CheckSquareFilledSvg from '@sensoro-design/icons-svg/es/asn/CheckSquareFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CheckSquareFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CheckSquareFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CheckSquareFilledSvg} />
-));
+);
 
-CheckSquareFilled.displayName = 'CheckSquareFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CheckSquareFilled);
 
-export default CheckSquareFilled;
+RefIcon.displayName = 'CheckSquareFilled';
+
+export default RefIcon;

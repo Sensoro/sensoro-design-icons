@@ -3,10 +3,13 @@ import * as React from 'react';
 import WaterAreaOutlinedSvg from '@sensoro-design/icons-svg/es/asn/WaterAreaOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const WaterAreaOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const WaterAreaOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={WaterAreaOutlinedSvg} />
-));
+);
 
-WaterAreaOutlined.displayName = 'WaterAreaOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(WaterAreaOutlined);
 
-export default WaterAreaOutlined;
+RefIcon.displayName = 'WaterAreaOutlined';
+
+export default RefIcon;

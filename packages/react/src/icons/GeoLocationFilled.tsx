@@ -3,10 +3,13 @@ import * as React from 'react';
 import GeoLocationFilledSvg from '@sensoro-design/icons-svg/es/asn/GeoLocationFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GeoLocationFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GeoLocationFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GeoLocationFilledSvg} />
-));
+);
 
-GeoLocationFilled.displayName = 'GeoLocationFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GeoLocationFilled);
 
-export default GeoLocationFilled;
+RefIcon.displayName = 'GeoLocationFilled';
+
+export default RefIcon;

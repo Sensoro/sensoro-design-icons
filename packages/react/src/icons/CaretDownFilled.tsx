@@ -3,10 +3,13 @@ import * as React from 'react';
 import CaretDownFilledSvg from '@sensoro-design/icons-svg/es/asn/CaretDownFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CaretDownFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CaretDownFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CaretDownFilledSvg} />
-));
+);
 
-CaretDownFilled.displayName = 'CaretDownFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CaretDownFilled);
 
-export default CaretDownFilled;
+RefIcon.displayName = 'CaretDownFilled';
+
+export default RefIcon;

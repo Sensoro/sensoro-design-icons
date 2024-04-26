@@ -3,10 +3,13 @@ import * as React from 'react';
 import ToTopOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ToTopOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ToTopOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ToTopOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ToTopOutlinedSvg} />
-));
+);
 
-ToTopOutlined.displayName = 'ToTopOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ToTopOutlined);
 
-export default ToTopOutlined;
+RefIcon.displayName = 'ToTopOutlined';
+
+export default RefIcon;

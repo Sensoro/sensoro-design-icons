@@ -3,10 +3,13 @@ import * as React from 'react';
 import GroupRuleFilledSvg from '@sensoro-design/icons-svg/es/asn/GroupRuleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const GroupRuleFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const GroupRuleFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={GroupRuleFilledSvg} />
-));
+);
 
-GroupRuleFilled.displayName = 'GroupRuleFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(GroupRuleFilled);
 
-export default GroupRuleFilled;
+RefIcon.displayName = 'GroupRuleFilled';
+
+export default RefIcon;

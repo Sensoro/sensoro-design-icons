@@ -3,10 +3,13 @@ import * as React from 'react';
 import SurroundingsPurelySvg from '@sensoro-design/icons-svg/es/asn/SurroundingsPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const SurroundingsPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const SurroundingsPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={SurroundingsPurelySvg} />
-));
+);
 
-SurroundingsPurely.displayName = 'SurroundingsPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(SurroundingsPurely);
 
-export default SurroundingsPurely;
+RefIcon.displayName = 'SurroundingsPurely';
+
+export default RefIcon;

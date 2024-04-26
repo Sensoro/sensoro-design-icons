@@ -3,10 +3,13 @@ import * as React from 'react';
 import LoadingPurelySvg from '@sensoro-design/icons-svg/es/asn/LoadingPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const LoadingPurely = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const LoadingPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={LoadingPurelySvg} />
-));
+);
 
-LoadingPurely.displayName = 'LoadingPurely';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(LoadingPurely);
 
-export default LoadingPurely;
+RefIcon.displayName = 'LoadingPurely';
+
+export default RefIcon;

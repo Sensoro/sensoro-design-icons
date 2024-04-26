@@ -3,10 +3,13 @@ import * as React from 'react';
 import AirPressureOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AirPressureOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const AirPressureOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const AirPressureOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={AirPressureOutlinedSvg} />
-));
+);
 
-AirPressureOutlined.displayName = 'AirPressureOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(AirPressureOutlined);
 
-export default AirPressureOutlined;
+RefIcon.displayName = 'AirPressureOutlined';
+
+export default RefIcon;

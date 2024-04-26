@@ -3,10 +3,13 @@ import * as React from 'react';
 import BellFilledSvg from '@sensoro-design/icons-svg/es/asn/BellFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BellFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BellFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BellFilledSvg} />
-));
+);
 
-BellFilled.displayName = 'BellFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BellFilled);
 
-export default BellFilled;
+RefIcon.displayName = 'BellFilled';
+
+export default RefIcon;

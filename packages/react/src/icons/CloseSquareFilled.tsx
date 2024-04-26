@@ -3,10 +3,13 @@ import * as React from 'react';
 import CloseSquareFilledSvg from '@sensoro-design/icons-svg/es/asn/CloseSquareFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CloseSquareFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CloseSquareFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CloseSquareFilledSvg} />
-));
+);
 
-CloseSquareFilled.displayName = 'CloseSquareFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CloseSquareFilled);
 
-export default CloseSquareFilled;
+RefIcon.displayName = 'CloseSquareFilled';
+
+export default RefIcon;

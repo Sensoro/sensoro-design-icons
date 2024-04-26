@@ -3,10 +3,13 @@ import * as React from 'react';
 import UserPlusCircleFilledSvg from '@sensoro-design/icons-svg/es/asn/UserPlusCircleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const UserPlusCircleFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const UserPlusCircleFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={UserPlusCircleFilledSvg} />
-));
+);
 
-UserPlusCircleFilled.displayName = 'UserPlusCircleFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(UserPlusCircleFilled);
 
-export default UserPlusCircleFilled;
+RefIcon.displayName = 'UserPlusCircleFilled';
+
+export default RefIcon;

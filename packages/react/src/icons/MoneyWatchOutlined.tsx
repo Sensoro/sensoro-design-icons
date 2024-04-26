@@ -3,10 +3,13 @@ import * as React from 'react';
 import MoneyWatchOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MoneyWatchOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const MoneyWatchOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const MoneyWatchOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={MoneyWatchOutlinedSvg} />
-));
+);
 
-MoneyWatchOutlined.displayName = 'MoneyWatchOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(MoneyWatchOutlined);
 
-export default MoneyWatchOutlined;
+RefIcon.displayName = 'MoneyWatchOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import PostOfficeFilledSvg from '@sensoro-design/icons-svg/es/asn/PostOfficeFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PostOfficeFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PostOfficeFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PostOfficeFilledSvg} />
-));
+);
 
-PostOfficeFilled.displayName = 'PostOfficeFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PostOfficeFilled);
 
-export default PostOfficeFilled;
+RefIcon.displayName = 'PostOfficeFilled';
+
+export default RefIcon;

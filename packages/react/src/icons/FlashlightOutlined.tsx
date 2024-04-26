@@ -3,10 +3,13 @@ import * as React from 'react';
 import FlashlightOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FlashlightOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const FlashlightOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const FlashlightOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={FlashlightOutlinedSvg} />
-));
+);
 
-FlashlightOutlined.displayName = 'FlashlightOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(FlashlightOutlined);
 
-export default FlashlightOutlined;
+RefIcon.displayName = 'FlashlightOutlined';
+
+export default RefIcon;

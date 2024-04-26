@@ -3,10 +3,13 @@ import * as React from 'react';
 import BloodOxygenOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BloodOxygenOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const BloodOxygenOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const BloodOxygenOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={BloodOxygenOutlinedSvg} />
-));
+);
 
-BloodOxygenOutlined.displayName = 'BloodOxygenOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(BloodOxygenOutlined);
 
-export default BloodOxygenOutlined;
+RefIcon.displayName = 'BloodOxygenOutlined';
+
+export default RefIcon;

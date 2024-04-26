@@ -3,10 +3,13 @@ import * as React from 'react';
 import TrackingDeviceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TrackingDeviceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const TrackingDeviceOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const TrackingDeviceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={TrackingDeviceOutlinedSvg} />
-));
+);
 
-TrackingDeviceOutlined.displayName = 'TrackingDeviceOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(TrackingDeviceOutlined);
 
-export default TrackingDeviceOutlined;
+RefIcon.displayName = 'TrackingDeviceOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import CloudOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CloudOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const CloudOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const CloudOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={CloudOutlinedSvg} />
-));
+);
 
-CloudOutlined.displayName = 'CloudOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(CloudOutlined);
 
-export default CloudOutlined;
+RefIcon.displayName = 'CloudOutlined';
+
+export default RefIcon;

@@ -3,10 +3,13 @@ import * as React from 'react';
 import ArrowTextEndOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ArrowTextEndOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const ArrowTextEndOutlined = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const ArrowTextEndOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={ArrowTextEndOutlinedSvg} />
-));
+);
 
-ArrowTextEndOutlined.displayName = 'ArrowTextEndOutlined';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(ArrowTextEndOutlined);
 
-export default ArrowTextEndOutlined;
+RefIcon.displayName = 'ArrowTextEndOutlined';
+
+export default RefIcon;

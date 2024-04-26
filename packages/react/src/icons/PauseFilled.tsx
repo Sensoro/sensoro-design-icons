@@ -3,10 +3,13 @@ import * as React from 'react';
 import PauseFilledSvg from '@sensoro-design/icons-svg/es/asn/PauseFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
-const PauseFilled = React.forwardRef<HTMLSpanElement, SensoroIconProps>((props, ref) => (
+const PauseFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
   <SensoroIcon {...props} ref={ref} icon={PauseFilledSvg} />
-));
+);
 
-PauseFilled.displayName = 'PauseFilled';
+const RefIcon: React.ForwardRefExoticComponent<Omit<SensoroIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>> =
+  React.forwardRef<HTMLSpanElement, SensoroIconProps>(PauseFilled);
 
-export default PauseFilled;
+RefIcon.displayName = 'PauseFilled';
+
+export default RefIcon;
