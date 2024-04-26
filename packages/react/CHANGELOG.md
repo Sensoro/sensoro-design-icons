@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.43.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.42.0...@sensoro-design/icons@2.43.0) (2024-04-26)
+
+
+### Features
+
+* 调整模版与格式化代码一致 ([96141ee](https://github.com/sensoro-design/sensoro-design-icons/commit/96141ee76ae396adebe29a2460765a89898229bf))
+* **react:** 代码优化 ([89c7b1b](https://github.com/sensoro-design/sensoro-design-icons/commit/89c7b1ba5d76738e20e1978d5ce8cabda469bb69))
+* **react:** 优化图标 ([caf9fe6](https://github.com/sensoro-design/sensoro-design-icons/commit/caf9fe67d15aac6e16ababb00f136284b2b3f6cb))
+
+
+
+
+
 # [2.42.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.41.0...@sensoro-design/icons@2.42.0) (2024-04-19)
 
 
