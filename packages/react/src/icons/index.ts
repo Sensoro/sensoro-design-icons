@@ -501,6 +501,7 @@ export { default as LinsAccessOutlined } from './LinsAccessOutlined';
 export { default as LinsOutlined } from './LinsOutlined';
 export { default as ListFilled } from './ListFilled';
 export { default as LoadingOutlined } from './LoadingOutlined';
+export { default as LoadingProPurely } from './LoadingProPurely';
 export { default as LoadingPurely } from './LoadingPurely';
 export { default as LocationFilled } from './LocationFilled';
 export { default as LocationOutlined } from './LocationOutlined';
