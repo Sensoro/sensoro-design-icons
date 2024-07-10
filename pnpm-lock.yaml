@@ -208,7 +208,7 @@ importers:
         version: 1.0.1
       '@sensoro-design/icons-svg':
         specifier: 2.54.0
-        version: 2.54.0
+        version: link:../core
       rc-util:
         specifier: ^5.19.3
         version: 5.27.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -2481,9 +2481,6 @@ packages:
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0-beta.1'
-
-  '@sensoro-design/icons-svg@2.54.0':
-    resolution: {integrity: sha512-PhpBl5LM7eJofXRbkk+PrjTvpJMPJvGxJjcprgo0svOUaYGRry3PBiIt/9lwo5heaq4ejrU9X2vS0g1SbSrTtQ==}
 
   '@sideway/address@4.1.4':
     resolution: {integrity: sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==}
@@ -14919,8 +14916,6 @@ snapshots:
       semantic-release: 20.1.1(encoding@0.1.13)
     transitivePeerDependencies:
       - supports-color
-
-  '@sensoro-design/icons-svg@2.54.0': {}
 
   '@sideway/address@4.1.4':
     dependencies:

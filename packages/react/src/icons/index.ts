@@ -541,6 +541,7 @@ export { default as MercuryThermometerOutlined } from './MercuryThermometerOutli
 export { default as MeshLayoutOutlined } from './MeshLayoutOutlined';
 export { default as MessageFilled } from './MessageFilled';
 export { default as MessageOutlined } from './MessageOutlined';
+export { default as MigrateOutlined } from './MigrateOutlined';
 export { default as MiniatureFireStationAddOutlined } from './MiniatureFireStationAddOutlined';
 export { default as MiniatureFireStationFilled } from './MiniatureFireStationFilled';
 export { default as MiniatureFireStationOutlined } from './MiniatureFireStationOutlined';
