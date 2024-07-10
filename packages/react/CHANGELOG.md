@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.47.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.46.0...@sensoro-design/icons@2.47.0) (2024-07-10)
+
+
+### Features
+
+* add MigrateOutlined ([8ee1dea](https://github.com/sensoro-design/sensoro-design-icons/commit/8ee1dea956720dd2dd0801ce18b3d8e1d6f013d4))
+
+
+
+
+
 # [2.46.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.45.0...@sensoro-design/icons@2.46.0) (2024-06-27)
 
 
