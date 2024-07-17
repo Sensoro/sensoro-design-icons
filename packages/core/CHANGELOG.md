@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.57.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.56.0...@sensoro-design/icons-svg@2.57.0) (2024-07-17)
+
+
+### Features
+
+* add OffFlashOutlined ([d8f7b13](https://github.com/sensoro-design/sensoro-design-icons/commit/d8f7b13f5def5fefaa78a944ad7fca5eacdf7a33))
+
+
+
+
+
 # [2.56.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.55.0...@sensoro-design/icons-svg@2.56.0) (2024-07-11)
 
 
