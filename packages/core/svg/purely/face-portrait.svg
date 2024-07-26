@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2B6DE5" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="50%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.25" offset="100%"></stop>
+        </linearGradient>
+        <path d="M26,16 C26,21.5228475 21.5228475,26 16,26 C10.4771525,26 6,21.5228475 6,16 C6,10.4771525 10.4771525,6 16,6 C21.5228475,6 26,10.4771525 26,16 Z" id="path-3"></path>
+        <filter x="-5.0%" y="-5.0%" width="110.0%" height="110.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,2 C14.418278,2 18,5.581722 18,10 C18,14.418278 14.418278,18 10,18 C5.581722,18 2,14.418278 2,10 C2,5.581722 5.581722,2 10,2 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+        <g>
+            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+        </g>
+        <path d="M12.8434149,17.7351613 L12.8596355,17.8401461 C13.2299442,19.2278442 14.4956034,20.25 16,20.25 C17.4494828,20.25 18.6773392,19.3011041 19.0962663,17.9906149 L19.1462732,17.8176792 C19.1485539,17.8088783 19.1529722,17.7806225 19.159528,17.7329116 C19.2172076,17.312925 19.5760712,17 20,17 C20.3796449,17 20.6874079,17.307763 20.6874079,17.6874079 L20.6842318,17.7530612 L20.6730113,17.8563481 C20.2698034,20.0709646 18.3309815,21.75 16,21.75 C13.6709315,21.75 11.7333793,20.0737194 11.3279845,17.8617995 L11.3163828,17.7514114 C11.2806385,17.3738671 11.5577086,17.0388192 11.9352514,17.0030595 L11.9675896,17.0007653 L12,17 C12.4252928,17 12.7853483,17.3138511 12.8434149,17.7351613 Z M14,13 C14,13.5522847 13.5522847,14 13,14 C12.4477153,14 12,13.5522847 12,13 C12,12.4477153 12.4477153,12 13,12 C13.5522847,12 14,12.4477153 14,13 Z M20,13 C20,13.5522847 19.5522847,14 19,14 C18.4477153,14 18,13.5522847 18,13 C18,12.4477153 18.4477153,12 19,12 C19.5522847,12 20,12.4477153 20,13 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

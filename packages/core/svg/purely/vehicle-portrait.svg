@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="16.9921875%" x2="100%" y2="83.0078125%" id="linearGradient-1">
+            <stop stop-color="#2B6DE5" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="18%" x2="50%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.25" offset="100%"></stop>
+        </linearGradient>
+        <path d="M26,9.77777778 L26,22.2222222 C26,23.2040618 25.1859723,24 24.1818182,24 L7.81818182,24 C6.81402773,24 6,23.2040618 6,22.2222222 L6,9.77777778 C6,8.79593822 6.81402773,8 7.81818182,8 L24.1818182,8 C25.1859723,8 26,8.79593822 26,9.77777778 Z" id="path-3"></path>
+        <filter x="-5.0%" y="-6.2%" width="110.0%" height="112.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18,9.54069828 L18,15 C18,15.5522847 17.5522847,16 17,16 L16,16 C15.4871642,16 15.0644928,15.6139598 15.0067277,15.1166211 L15,15 L5,15 C5,15.5522847 4.55228475,16 4,16 L3,16 C2.44771525,16 2,15.5522847 2,15 L2,9.54069828 C2,9.18658901 2.0940168,8.83882835 2.2724422,8.53295623 L4.92118286,3.99225795 C5.27960352,3.37782254 5.93740654,3 6.64874066,3 L13.3512593,3 C14.0625935,3 14.7203965,3.37782254 15.0788171,3.99225795 L17.7275578,8.53295623 C17.9059832,8.83882835 18,9.18658901 18,9.54069828 Z" id="路径" fill="url(#linearGradient-1)"></path>
+        <g>
+            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+        </g>
+        <path d="M22,13.5 C22,13.9142136 21.6642136,14.25 21.25,14.25 L16.75,14.25 C16.3357864,14.25 16,13.9142136 16,13.5 C16,13.0857864 16.3357864,12.75 16.75,12.75 L21.25,12.75 C21.6642136,12.75 22,13.0857864 22,13.5 Z M22,18.5 C22,18.9142136 21.6642136,19.25 21.25,19.25 L16.75,19.25 C16.3357864,19.25 16,18.9142136 16,18.5 C16,18.0857864 16.3357864,17.75 16.75,17.75 L21.25,17.75 C21.6642136,17.75 22,18.0857864 22,18.5 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

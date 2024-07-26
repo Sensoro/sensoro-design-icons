@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="21.875%" x2="100%" y2="78.125%" id="linearGradient-1">
+            <stop stop-color="#2B6DE5" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="18%" x2="50%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.25" offset="100%"></stop>
+        </linearGradient>
+        <path d="M26,9.77777778 L26,22.2222222 C26,23.2040618 25.1859723,24 24.1818182,24 L7.81818182,24 C6.81402773,24 6,23.2040618 6,22.2222222 L6,9.77777778 C6,8.79593822 6.81402773,8 7.81818182,8 L24.1818182,8 C25.1859723,8 26,8.79593822 26,9.77777778 Z" id="path-3"></path>
+        <filter x="-5.0%" y="-6.2%" width="110.0%" height="112.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3.77777778,4 L16.2222222,4 C17.2040618,4 18,4.76751186 18,5.71428571 L18,14.2857143 C18,15.2324881 17.2040618,16 16.2222222,16 L3.77777778,16 C2.79593822,16 2,15.2324881 2,14.2857143 L2,5.71428571 C2,4.76751186 2.79593822,4 3.77777778,4 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+        <g>
+            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+        </g>
+        <path d="M14.7928932,12.25 C14.7928932,11.9738576 14.5690356,11.75 14.2928932,11.75 C14.160285,11.75 14.033108,11.8026784 13.9393398,11.8964466 L11.6464466,14.1893398 C11.4511845,14.384602 11.4511845,14.7011845 11.6464466,14.8964466 C11.7402148,14.9902148 11.8673918,15.0428932 12,15.0428932 L20.042893,15.0428932 C20.4571066,15.0428932 20.792893,14.7071068 20.792893,14.2928932 C20.792893,13.8786797 20.4571066,13.5428932 20.042893,13.5428932 L14.7928932,13.5428932 L14.7928932,12.25 Z M12.25,17.0428932 C11.8357864,17.0428932 11.5,17.3786797 11.5,17.7928932 C11.5,18.2071068 11.8357864,18.5428932 12.25,18.5428932 L17.5,18.5428932 L17.5,19.8357864 C17.5,20.1119288 17.7238578,20.3357864 18,20.3357864 C18.1326085,20.3357864 18.2597854,20.283108 18.3535536,20.1893398 L20.6464468,17.8964466 C20.841709,17.7011845 20.841709,17.384602 20.6464468,17.1893398 C20.5526786,17.0955716 20.4255017,17.0428932 20.2928934,17.0428932 L12.25,17.0428932 Z" id="形状结合" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

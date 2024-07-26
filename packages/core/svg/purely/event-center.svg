@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="11.71875%" y1="0%" x2="88.28125%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2B6DE5" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="14.5439884%" y1="0%" x2="50%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="0%"></stop>
+            <stop stop-color="#2B6DE5" stop-opacity="0.25" offset="100%"></stop>
+        </linearGradient>
+        <path d="M16,6 C20.418278,6 24,9.581722 24,14 L24,23 C24,24.1045695 23.1045695,25 22,25 L10,25 C8.9456382,25.0002265 8.08183488,24.184359 8.00548574,23.1494996 L8.00023734,23 L8.0013228,13.8530377 C8.0796971,9.50257037 11.630814,6 16,6 Z" id="path-3"></path>
+        <filter x="-6.3%" y="-5.3%" width="112.5%" height="110.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,3 C13.8659932,3 17,6.13400675 17,10 L17,17.25 C17,18.2164983 16.2164983,19 15.25,19 L4.75,19 C3.78350169,19 3,18.2164983 3,17.25 L3,10 C3,6.13400675 6.13400675,3 10,3 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+        <g>
+            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+        </g>
+        <path d="M21,20.75 C21.4142136,20.75 21.75,21.0857864 21.75,21.5 C21.75,21.9142136 21.4142136,22.25 21,22.25 L11,22.25 C10.5857864,22.25 10.25,21.9142136 10.25,21.5 C10.25,21.0857864 10.5857864,20.75 11,20.75 L21,20.75 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
