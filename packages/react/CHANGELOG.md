@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.50.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.49.0...@sensoro-design/icons@2.50.0) (2024-07-26)
+
+
+### Features
+
+* add icons ([ddbd5d0](https://github.com/sensoro-design/sensoro-design-icons/commit/ddbd5d0f6e88aefb72c5e6e7e4d4484b6c6c1ea1))
+
+
+
+
+
 # [2.49.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons@2.48.0...@sensoro-design/icons@2.49.0) (2024-07-26)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@sensoro-design/icons-svg",
-  "version": "2.58.0",
+  "version": "2.59.0",
   "description": "sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
