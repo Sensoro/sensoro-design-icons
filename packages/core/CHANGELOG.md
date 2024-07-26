@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.60.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.59.0...@sensoro-design/icons-svg@2.60.0) (2024-07-26)
+
+
+### Features
+
+* replece LotPurely to SignalTowerPurely ([1eb5809](https://github.com/sensoro-design/sensoro-design-icons/commit/1eb58099f6fe020573668d2960509e4e01b1a974))
+
+
+
+
+
 # [2.59.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.58.0...@sensoro-design/icons-svg@2.59.0) (2024-07-26)
 
 
