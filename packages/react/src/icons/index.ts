@@ -142,6 +142,7 @@ export { default as CheckCircleOutlined } from './CheckCircleOutlined';
 export { default as CheckOutlined } from './CheckOutlined';
 export { default as CheckSquareFilled } from './CheckSquareFilled';
 export { default as CheckSquareOutlined } from './CheckSquareOutlined';
+export { default as ChefHatOutlined } from './ChefHatOutlined';
 export { default as ChemicalPlantFilled } from './ChemicalPlantFilled';
 export { default as ChemicalPlantOutlined } from './ChemicalPlantOutlined';
 export { default as ChipOutlined } from './ChipOutlined';
