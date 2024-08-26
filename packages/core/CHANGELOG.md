@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.61.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.60.0...@sensoro-design/icons-svg@2.61.0) (2024-08-26)
+
+
+### Features
+
+* add ChefHatOutlined ([ffdd2b4](https://github.com/sensoro-design/sensoro-design-icons/commit/ffdd2b4a178e52a27e9b5ce819de61c733aa3c86))
+* add icons ([1f0801d](https://github.com/sensoro-design/sensoro-design-icons/commit/1f0801d4fd9cfd4dd9d624990c2f36d8625722ee))
+
+
+
+
+
 # [2.60.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.59.0...@sensoro-design/icons-svg@2.60.0) (2024-07-26)
 
 
