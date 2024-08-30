@@ -555,6 +555,7 @@ export { default as ManualOutlined } from './ManualOutlined';
 export { default as Map2DOutlined } from './Map2DOutlined';
 export { default as Map3DOutlined } from './Map3DOutlined';
 export { default as MeansAccessOutlined } from './MeansAccessOutlined';
+export { default as MediaLibraryOutlined } from './MediaLibraryOutlined';
 export { default as MedicalFilled } from './MedicalFilled';
 export { default as MedicalKitOutlined } from './MedicalKitOutlined';
 export { default as MedicalOutlined } from './MedicalOutlined';
