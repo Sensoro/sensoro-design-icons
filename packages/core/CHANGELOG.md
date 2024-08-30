@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.63.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.62.0...@sensoro-design/icons-svg@2.63.0) (2024-08-30)
+
+
+### Features
+
+* add MediaLibraryOutlined ([16fddc3](https://github.com/sensoro-design/sensoro-design-icons/commit/16fddc3e934460153a10d46f21aa025539afc112))
+
+
+
+
+
 # [2.62.0](https://github.com/sensoro-design/sensoro-design-icons/compare/@sensoro-design/icons-svg@2.61.0...@sensoro-design/icons-svg@2.62.0) (2024-08-30)
 
 
