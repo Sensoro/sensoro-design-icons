@@ -1,3 +1,5 @@
 packages:
   - 'examples/*'
   - 'packages/*'
+catalog:
+  'zx': "^8.1.5"
