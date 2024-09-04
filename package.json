@@ -15,7 +15,8 @@
     "build:clean": "pnpm -r --workspace-concurrency=1 run build:clean",
     "build:core": "pnpm -r --filter @sensoro-design/icons-svg run build",
     "release": "walrus release",
-    "prepare": "husky install"
+    "prepare": "husky || true",
+    "preinstall": "npx only-allow pnpm"
   },
   "repository": {
     "type": "git",
@@ -52,7 +53,7 @@
     "gulp-concat": "catalog:",
     "gulp-header": "catalog:",
     "gulp-rename": "catalog:",
-    "husky": "^8.0.3",
+    "husky": "catalog:",
     "lerna": "^6.5.1",
     "lint-staged": "catalog:",
     "lodash": "catalog:",
