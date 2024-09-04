@@ -39,8 +39,6 @@ async function release() {
   }
 
   logger.log('build packages');
-  await $`pnpm bootstrap`;
-  await $`pnpm generate`;
   await $`pnpm release:build`;
 
   logger.log('bump version');
