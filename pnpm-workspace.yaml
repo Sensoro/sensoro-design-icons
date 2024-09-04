@@ -3,7 +3,7 @@ packages:
   - 'packages/*'
 catalog:
   '@pansy/shared': ^1.16.1
-  '@rgrove/parse-xml': ^4.1.0
+  '@rgrove/parse-xml': ^3.0.0
   '@types/react': ^18.3.5
   '@types/react-dom': ^18.3.0
   '@types/svgo': ^2.6.3
