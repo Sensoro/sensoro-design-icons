@@ -2,4 +2,11 @@ packages:
   - 'examples/*'
   - 'packages/*'
 catalog:
-  'zx': "^8.1.5"
+  '@pansy/shared': ^1.16.1
+  '@types/react': ^18.3.5
+  '@types/react-dom': ^18.3.0
+  antd: ^5.20.5
+  dumi: ^2.4.9
+  react: ^18.3.1
+  react-dom: ^18.3.1
+  zx: ^8.1.5
