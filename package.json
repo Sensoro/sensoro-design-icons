@@ -1,5 +1,8 @@
 {
+  "name": "root",
   "private": true,
+  "packageManager": "pnpm@9.9.0",
+  "license": "MIT",
   "scripts": {
     "bootstrap": "pnpm generate:core && pnpm build:core",
     "start": "dumi dev",
@@ -18,7 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/sensoro-design/sensoro-design-icons.git"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sensoro-design/sensoro-design-icons/issues"
   },
