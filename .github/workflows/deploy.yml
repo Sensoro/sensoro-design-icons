@@ -45,7 +45,7 @@ jobs:
         run: pnpm generate
 
       - name: Build
-        run: pnpm build
+        run: pnpm release:build
 
       - name: Site Build
         run: pnpm site
