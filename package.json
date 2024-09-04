@@ -11,6 +11,7 @@
     "clean": "rimraf ./**/node_modules",
     "generate": "pnpm -r --workspace-concurrency=1 run generate",
     "generate:core": "pnpm -r --filter @sensoro-design/icons-svg run generate",
+    "build:core": "pnpm -r --filter @sensoro-design/icons-svg run build",
     "release": "walrus release",
     "release:build": "lerna run --concurrency 8 --no-private build",
     "release:version": "lerna version --conventional-commits --no-push --yes --no-private",
