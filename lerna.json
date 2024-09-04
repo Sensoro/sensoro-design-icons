@@ -1,14 +1,11 @@
 {
-  "version": "independent",
-  "packages": [
-    "packages/*"
-  ],
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "2.66.0",
+  "npmClient": "pnpm",
   "command": {
-    "publish": {
-      "npmClient": "npm",
-      "verifyAccess": false,
-      "ignoreChanges": ["*.md", "**/test/**"],
-      "message": "chore(release): publish"
+    "version": {
+      "message": "chore(release): publish %s"
     }
-  }
+  },
+  "ignoreChanges": ["**/__fixtures__/**", "**/__tests__/**", "**/*.md"]
 }

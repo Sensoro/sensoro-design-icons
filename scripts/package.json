@@ -1,0 +1,8 @@
+{
+  "name": "walrus",
+  "version": "1.0.0",
+  "private": true,
+  "bin": {
+    "walrus": "bin/cli.mjs"
+  }
+}
