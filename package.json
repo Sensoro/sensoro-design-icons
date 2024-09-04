@@ -27,7 +27,7 @@
   "homepage": "https://sen-icons.xingkang.wang",
   "devDependencies": {
     "@pansy/shared": "catalog:",
-    "@rgrove/parse-xml": "^3.0.0",
+    "@rgrove/parse-xml": "catalog:",
     "@sensoro-design/icons": "workspace:*",
     "@sensoro-design/icons-svg": "workspace:*",
     "@types/gulp": "catalog:",
@@ -41,7 +41,7 @@
     "@types/svgo": "catalog:",
     "@types/through2": "catalog:",
     "@types/vinyl": "catalog:",
-    "@umijs/utils": "^4.0.53",
+    "@umijs/utils": "catalog:",
     "@walrus/cli": "catalog:",
     "@walrus/plugin-release": "catalog:",
     "antd": "catalog:",

@@ -3,11 +3,13 @@ packages:
   - 'packages/*'
 catalog:
   '@pansy/shared': ^1.16.1
+  '@rgrove/parse-xml': ^4.1.0
   '@types/react': ^18.3.5
   '@types/react-dom': ^18.3.0
   '@types/svgo': ^2.6.3
   '@types/through2': ^2.0.41
   '@types/vinyl': ^2.0.12
+  '@umijs/utils': ^4.3.18
   '@types/gulp': ^4.0.17
   '@types/gulp-concat': ^0.0.37
   '@types/gulp-header': ^2.0.4

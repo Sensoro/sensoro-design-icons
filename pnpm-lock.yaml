@@ -9,6 +9,9 @@ catalogs:
     '@pansy/shared':
       specifier: ^1.16.1
       version: 1.16.1
+    '@rgrove/parse-xml':
+      specifier: ^4.1.0
+      version: 4.1.0
     '@types/gulp':
       specifier: ^4.0.17
       version: 4.0.17
@@ -42,6 +45,9 @@ catalogs:
     '@types/vinyl':
       specifier: ^2.0.12
       version: 2.0.12
+    '@umijs/utils':
+      specifier: ^4.3.18
+      version: 4.3.18
     '@walrus/cli':
       specifier: ^1.3.4
       version: 1.3.4
@@ -123,8 +129,8 @@ importers:
         specifier: 'catalog:'
         version: 1.16.1
       '@rgrove/parse-xml':
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: 'catalog:'
+        version: 4.1.0
       '@sensoro-design/icons':
         specifier: workspace:*
         version: link:packages/react
@@ -165,7 +171,7 @@ importers:
         specifier: 'catalog:'
         version: 2.0.12
       '@umijs/utils':
-        specifier: ^4.0.53
+        specifier: 'catalog:'
         version: 4.3.18
       '@walrus/cli':
         specifier: 'catalog:'
@@ -2637,9 +2643,9 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
 
-  '@rgrove/parse-xml@3.0.0':
-    resolution: {integrity: sha512-GFGDywRwGbuGq9yeL8wTjjLOsZ5Ps4O5tQ71eDcAfaZrZeA7Oe8QJzrnmFgplWtnoaBIBaFBB3n5Ht9iU4jLLw==}
-    engines: {node: '>=12.0.0'}
+  '@rgrove/parse-xml@4.1.0':
+    resolution: {integrity: sha512-pBiltENdy8SfI0AeR1e5TRpS9/9Gl0eiOEt6ful2jQfzsgvZYWqsKiBWaOCLdocQuk0wS7KOHI37n0C1pnKqTw==}
+    engines: {node: '>=14.0.0'}
 
   '@rollup/rollup-android-arm-eabi@4.21.2':
     resolution: {integrity: sha512-fSuPrt0ZO8uXeS+xP3b+yYTCBUd05MoSp2N/MFOgjhhUhMmchXlpTQrTpI8T+YAwAQuK7MafsCOxW7VrPMrJcg==}
@@ -14898,7 +14904,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@rgrove/parse-xml@3.0.0': {}
+  '@rgrove/parse-xml@4.1.0': {}
 
   '@rollup/rollup-android-arm-eabi@4.21.2':
     optional: true
