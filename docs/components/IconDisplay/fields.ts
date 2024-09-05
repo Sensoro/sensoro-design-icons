@@ -26,6 +26,25 @@ const direction = [
   'CaretUp',
 ];
 
+/** 编辑类图标 */
+const edit = [
+  'Edit',
+  'OrderedList',
+  'ObliqueLine',
+  'TextAutoWidth',
+  'TextAutoHeight',
+  'Highlight',
+  'AlignCenter',
+  'AlignLeft',
+  'AlignRight',
+  'Text',
+  'ArrowTextStart',
+  'ArrowTextEnd',
+  'Eraser',
+  'OneToOne',
+  'OriginalSize',
+];
+
 /** 界面操作 */
 const operation = [
   'Upload',
@@ -554,6 +573,7 @@ const otherBusiness = [
 
 const datum = [
   ...direction,
+  ...edit,
   ...audioVideo,
   ...map,
   ...regionalManagement,
@@ -576,6 +596,7 @@ const other = all.filter((n) => !datum.includes(n));
 
 export const categories = {
   direction,
+  edit,
   operation,
   file,
   user,

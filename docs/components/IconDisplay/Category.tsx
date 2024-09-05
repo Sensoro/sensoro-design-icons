@@ -14,6 +14,7 @@ export interface CategoriesProps {
 
 const titleMap = {
   direction: '方向与提示',
+  edit: '编辑类图标',
   operation: '界面操作',
   map: '地图&位置',
   file: '文件类图标',
