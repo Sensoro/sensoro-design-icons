@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.68.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.67.0...v2.68.0) (2024-09-05)
+
+
+### Features
+
+* add ChargeOutlined ([60d0d91](https://github.com/sensoro-design/sensoro-design-icons/commit/60d0d9184d99c5fafa858c0230065e5c147ddb4b))
+
+
+
+
+
 # [2.67.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.66.1...v2.67.0) (2024-09-05)
 
 
