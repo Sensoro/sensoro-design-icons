@@ -139,6 +139,7 @@ export { default as CateringFilled } from './CateringFilled';
 export { default as CateringOutlined } from './CateringOutlined';
 export { default as CellularDiagramFilled } from './CellularDiagramFilled';
 export { default as Ch4Outlined } from './Ch4Outlined';
+export { default as ChargeOutlined } from './ChargeOutlined';
 export { default as CheckCircleFilled } from './CheckCircleFilled';
 export { default as CheckCircleOutlined } from './CheckCircleOutlined';
 export { default as CheckOutlined } from './CheckOutlined';
