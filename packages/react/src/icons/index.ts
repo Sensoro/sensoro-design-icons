@@ -850,6 +850,7 @@ export { default as SmokePurely } from './SmokePurely';
 export { default as SortOutlined } from './SortOutlined';
 export { default as SoundOutlined } from './SoundOutlined';
 export { default as SoundSmallOutlined } from './SoundSmallOutlined';
+export { default as SpaceOutlined } from './SpaceOutlined';
 export { default as SpecialGroupsFilled } from './SpecialGroupsFilled';
 export { default as SpecialPopulationsPurely } from './SpecialPopulationsPurely';
 export { default as SpecialVehiclesPurely } from './SpecialVehiclesPurely';
