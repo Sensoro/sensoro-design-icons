@@ -30,6 +30,7 @@ const direction = [
 const edit = [
   'Edit',
   'OrderedList',
+  'UnorderedList',
   'ObliqueLine',
   'TextAutoWidth',
   'TextAutoHeight',
@@ -209,6 +210,23 @@ const file = [
   'FilePen',
   'FileSearch',
   'FileReport',
+  'FileAdd',
+  'FileAudio',
+  'FileExcel',
+  'FileExclamation',
+  'FileGif',
+  'FileImage',
+  'FileInfoCircle',
+  'FileMarkdown',
+  'FilePdf',
+  'FilePpt',
+  'FileProtect',
+  'FileSync',
+  'FileTemp',
+  'FileUnknown',
+  'FileVideo',
+  'FileWord',
+  'FileZip',
 ];
 
 const user = [
