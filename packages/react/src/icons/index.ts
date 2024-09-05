@@ -327,6 +327,7 @@ export { default as FileZipOutlined } from './FileZipOutlined';
 export { default as FilterFilled } from './FilterFilled';
 export { default as FilterOutlined } from './FilterOutlined';
 export { default as FineTuneOutlined } from './FineTuneOutlined';
+export { default as FineTuningOutlined } from './FineTuningOutlined';
 export { default as FireBreakerFilled } from './FireBreakerFilled';
 export { default as FireBrigadeFilled } from './FireBrigadeFilled';
 export { default as FireBrigadeOutlined } from './FireBrigadeOutlined';
