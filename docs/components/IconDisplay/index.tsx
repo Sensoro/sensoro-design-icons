@@ -57,7 +57,7 @@ export const IconDisplay: React.FC = () => {
 
   return (
     <>
-      <Affix offsetTop={100}>
+      <Affix offsetTop={80}>
         <Radio.Group value={theme} onChange={handleChangeTheme}>
           <Radio.Button value={ThemeType.Outlined}>
             <Icon component={OutlinedIcon as IconComponentProps['component']} /> 线框风格
