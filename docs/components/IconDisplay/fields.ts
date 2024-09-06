@@ -199,6 +199,7 @@ const gallery = [
 const file = [
   'FolderOpen',
   'FileUser',
+  'FileWarning',
   'File',
   'FilePng',
   'FileJpg',
