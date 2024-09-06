@@ -655,6 +655,7 @@ export { default as OverviewFilled } from './OverviewFilled';
 export { default as OverviewOutlined } from './OverviewOutlined';
 export { default as PaintTrayOutlined } from './PaintTrayOutlined';
 export { default as PanoramaMapOutlined } from './PanoramaMapOutlined';
+export { default as PanoramaMapSettingOutlined } from './PanoramaMapSettingOutlined';
 export { default as PanoramaTourFilled } from './PanoramaTourFilled';
 export { default as PanoramaTourOutlined } from './PanoramaTourOutlined';
 export { default as PaperClipOutlined } from './PaperClipOutlined';
