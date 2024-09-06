@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.70.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.69.1...v2.70.0) (2024-09-06)
+
+
+### Features
+
+* 添加工单类图标 ([4c61273](https://github.com/sensoro-design/sensoro-design-icons/commit/4c61273736276452097a30da92b2d2423a60539c))
+* add PanoramaMapSettingOutlined ([cb98cb8](https://github.com/sensoro-design/sensoro-design-icons/commit/cb98cb826ab6e73140582b0d91efed8da353ec68))
+
+
+
+
+
 ## [2.69.1](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.69.0...v2.69.1) (2024-09-05)
 
 
