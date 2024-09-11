@@ -983,6 +983,7 @@ export { default as VideoFailFilled } from './VideoFailFilled';
 export { default as VideoFilled } from './VideoFilled';
 export { default as VideoMonitorPurely } from './VideoMonitorPurely';
 export { default as VideoOutlined } from './VideoOutlined';
+export { default as VideoTimeOutlined } from './VideoTimeOutlined';
 export { default as ViewOutlined } from './ViewOutlined';
 export { default as VillageOutlined } from './VillageOutlined';
 export { default as VirtualCameraOutlined } from './VirtualCameraOutlined';
