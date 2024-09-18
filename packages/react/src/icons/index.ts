@@ -641,6 +641,7 @@ export { default as OfflineOutlined } from './OfflineOutlined';
 export { default as OneToOneOutlined } from './OneToOneOutlined';
 export { default as OperateFilled } from './OperateFilled';
 export { default as OperateOutlined } from './OperateOutlined';
+export { default as OrbitOutlined } from './OrbitOutlined';
 export { default as OrbitalFlightOutlined } from './OrbitalFlightOutlined';
 export { default as OrderListFilled } from './OrderListFilled';
 export { default as OrderedListOutlined } from './OrderedListOutlined';
