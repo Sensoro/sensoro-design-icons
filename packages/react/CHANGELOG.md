@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.71.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.70.1...v2.71.0) (2024-09-18)
+
+
+### Features
+
+* add OrbitOutlined ([a6d2156](https://github.com/sensoro-design/sensoro-design-icons/commit/a6d2156cdfb7fc07adcb25f28f1a7ed47ecf7d1f))
+
+
+
+
+
 ## [2.70.1](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.70.0...v2.70.1) (2024-09-11)
 
 **Note:** Version bump only for package @sensoro-design/icons
