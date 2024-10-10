@@ -170,6 +170,7 @@ export { default as CompareOutlined } from './CompareOutlined';
 export { default as CompassOutlined } from './CompassOutlined';
 export { default as CompassPurely } from './CompassPurely';
 export { default as CompressOutlined } from './CompressOutlined';
+export { default as ComputerOutlined } from './ComputerOutlined';
 export { default as ComputingCenterPurely } from './ComputingCenterPurely';
 export { default as ContinuityDetectionOutlined } from './ContinuityDetectionOutlined';
 export { default as ControllerOutlined } from './ControllerOutlined';
