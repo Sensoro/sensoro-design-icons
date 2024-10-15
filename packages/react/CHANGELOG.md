@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.72.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.71.0...v2.72.0) (2024-10-15)
+
+
+### Features
+
+* add ComputerOutlined ([3d86d60](https://github.com/sensoro-design/sensoro-design-icons/commit/3d86d607a93b5fdfc4ff4bf5c125da7ee66b2677))
+
+
+
+
+
 # [2.71.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.70.1...v2.71.0) (2024-09-18)
 
 
