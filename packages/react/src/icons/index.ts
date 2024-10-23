@@ -415,6 +415,7 @@ export { default as GlobalFilled } from './GlobalFilled';
 export { default as GlobalOutlined } from './GlobalOutlined';
 export { default as GovernmentFilled } from './GovernmentFilled';
 export { default as GovernmentOutlined } from './GovernmentOutlined';
+export { default as GridOutlined } from './GridOutlined';
 export { default as GroupRentalOutlined } from './GroupRentalOutlined';
 export { default as GroupRuleFilled } from './GroupRuleFilled';
 export { default as GroupRuleOutlined } from './GroupRuleOutlined';
