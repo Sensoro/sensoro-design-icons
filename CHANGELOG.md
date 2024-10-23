@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.73.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.72.0...v2.73.0) (2024-10-23)
+
+
+### Features
+
+* add GridOutlined ([00c5ebd](https://github.com/sensoro-design/sensoro-design-icons/commit/00c5ebd3ad597fe794b85940c500d2601d178b03))
+
+
+
+
+
 # [2.72.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.71.0...v2.72.0) (2024-10-15)
 
 
