@@ -24,10 +24,14 @@ export { default as AlgorithmSupermarketPurely } from './AlgorithmSupermarketPur
 export { default as AlignCenterOutlined } from './AlignCenterOutlined';
 export { default as AlignLeftOutlined } from './AlignLeftOutlined';
 export { default as AlignRightOutlined } from './AlignRightOutlined';
+export { default as AndroidFilled } from './AndroidFilled';
+export { default as AndroidOutlined } from './AndroidOutlined';
 export { default as AnimalHospitalFilled } from './AnimalHospitalFilled';
 export { default as AnimalHospitalOutlined } from './AnimalHospitalOutlined';
 export { default as ApertureMinusOutlined } from './ApertureMinusOutlined';
 export { default as AperturePlusOutlined } from './AperturePlusOutlined';
+export { default as AppleFilled } from './AppleFilled';
+export { default as AppleOutlined } from './AppleOutlined';
 export { default as AppletsOutlined } from './AppletsOutlined';
 export { default as ApplicationFilled } from './ApplicationFilled';
 export { default as AppstoreAddOutlined } from './AppstoreAddOutlined';
