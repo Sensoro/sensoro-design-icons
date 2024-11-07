@@ -1,8 +1,8 @@
 {
   "assets": {
     "umi.css": "/sensoro-design-icons/umi.0be76cec.css",
-    "umi.js": "/sensoro-design-icons/umi.a3b78c3d.js",
-    "meta__docs.js": "/sensoro-design-icons/meta__docs.2f496ec2.async.js",
+    "umi.js": "/sensoro-design-icons/umi.649a4e2e.js",
+    "meta__docs.js": "/sensoro-design-icons/meta__docs.93ec15a6.async.js",
     "nm__dumi__dist__client__pages__404.js": "/sensoro-design-icons/nm__dumi__dist__client__pages__404.dcf727ce.async.js",
     "dumi__tmp-production__dumi__theme__ContextWrapper.js": "/sensoro-design-icons/dumi__tmp-production__dumi__theme__ContextWrapper.1ecec788.async.js",
     "nm__dumi__theme-default__layouts__DocLayout__index.js": "/sensoro-design-icons/nm__dumi__theme-default__layouts__DocLayout__index.bcef4935.async.js",
@@ -11,6 +11,6 @@
     "docs__icons.md.js": "/sensoro-design-icons/docs__icons.md.696ca7c2.async.js",
     "docs__index.md.js": "/sensoro-design-icons/docs__index.md.57936f69.async.js",
     "nm__dumi__dist__client__pages__Demo__index.js": "/sensoro-design-icons/nm__dumi__dist__client__pages__Demo__index.cbaa66b5.async.js",
-    "demos.js": "/sensoro-design-icons/demos.fb6780c9.async.js"
+    "demos.js": "/sensoro-design-icons/demos.9f1d2a9c.async.js"
   }
 }
