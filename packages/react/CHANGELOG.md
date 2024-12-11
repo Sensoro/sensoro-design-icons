@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.74.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.73.1...v2.74.0) (2024-12-11)
+
+
+### Features
+
+* add ClosureOutlined、DroneAirportOpenOutlined ([8b3d2b8](https://github.com/sensoro-design/sensoro-design-icons/commit/8b3d2b8aed248a7d5962dec2cb0e01f4b08e1ee1))
+
+
+
+
+
 ## [2.73.1](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.73.0...v2.73.1) (2024-11-07)
 
 **Note:** Version bump only for package @sensoro-design/icons
