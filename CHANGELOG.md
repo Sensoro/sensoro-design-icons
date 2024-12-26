@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.75.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.74.0...v2.75.0) (2024-12-26)
+
+
+### Features
+
+* 添加交通类图标 ([1505b52](https://github.com/sensoro-design/sensoro-design-icons/commit/1505b529231d93822fd5537dc051061159e68a50))
+
+
+
+
+
 # [2.74.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.73.1...v2.74.0) (2024-12-11)
 
 
