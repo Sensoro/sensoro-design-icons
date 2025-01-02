@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.76.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.75.0...v2.76.0) (2025-01-02)
+
+
+### Features
+
+* add HighAltitudeCruiseOutlined ([17ec3b9](https://github.com/sensoro-design/sensoro-design-icons/commit/17ec3b9ef428d33a8d7eedc0af98db8d913ffc19))
+
+
+
+
+
 # [2.75.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.74.0...v2.75.0) (2024-12-26)
 
 
