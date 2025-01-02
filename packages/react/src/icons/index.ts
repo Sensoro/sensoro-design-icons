@@ -446,6 +446,7 @@ export { default as HeavyFogOutlined } from './HeavyFogOutlined';
 export { default as HelmetFilled } from './HelmetFilled';
 export { default as HelmetOutlined } from './HelmetOutlined';
 export { default as HiddenDangerFilled } from './HiddenDangerFilled';
+export { default as HighAltitudeCruiseOutlined } from './HighAltitudeCruiseOutlined';
 export { default as HighSpeedBayonetFilled } from './HighSpeedBayonetFilled';
 export { default as HighSpeedBayonetOutlined } from './HighSpeedBayonetOutlined';
 export { default as HighlightOutlined } from './HighlightOutlined';
