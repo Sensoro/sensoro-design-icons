@@ -803,6 +803,7 @@ export { default as SafetyRopeOutlined } from './SafetyRopeOutlined';
 export { default as SafetySearchFilled } from './SafetySearchFilled';
 export { default as SafetySearchOutlined } from './SafetySearchOutlined';
 export { default as SalesCallFilled } from './SalesCallFilled';
+export { default as SatelliteFilled } from './SatelliteFilled';
 export { default as SatelliteOutlined } from './SatelliteOutlined';
 export { default as SaveOutlined } from './SaveOutlined';
 export { default as ScanCodeOutlined } from './ScanCodeOutlined';
