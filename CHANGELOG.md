@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.77.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.76.0...v2.77.0) (2025-02-17)
+
+
+### Features
+
+* add SatelliteFilled ([d01cbbd](https://github.com/sensoro-design/sensoro-design-icons/commit/d01cbbd5e39c2aafd895876b2d2b7eb78e8b3439))
+
+
+
+
+
 # [2.76.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.75.0...v2.76.0) (2025-01-02)
 
 
