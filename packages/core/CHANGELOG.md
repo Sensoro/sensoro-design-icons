@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.80.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.79.0...v2.80.0) (2025-03-03)
+
+
+### Features
+
+* 替换 FastBackwardFilled、FastForwardFilled ([94fe69a](https://github.com/sensoro-design/sensoro-design-icons/commit/94fe69a4b6b4397dfa27a02a1740eb50416a0f04))
+
+
+
+
+
 # [2.79.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.78.0...v2.79.0) (2025-02-28)
 
 
