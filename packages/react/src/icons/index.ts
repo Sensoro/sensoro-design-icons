@@ -830,6 +830,7 @@ export { default as SearchProOutlined } from './SearchProOutlined';
 export { default as SecurityCenterOutlined } from './SecurityCenterOutlined';
 export { default as SecurityGuardOutlined } from './SecurityGuardOutlined';
 export { default as SemanticSearchOutlined } from './SemanticSearchOutlined';
+export { default as SendFilled } from './SendFilled';
 export { default as SerialNumberOutlined } from './SerialNumberOutlined';
 export { default as Service24HourOutlined } from './Service24HourOutlined';
 export { default as ServiceCardFilled } from './ServiceCardFilled';
