@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.82.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.81.0...v2.82.0) (2025-03-14)
+
+
+### Features
+
+* add SendFilled ([fd7bde8](https://github.com/sensoro-design/sensoro-design-icons/commit/fd7bde854866821bd8da5f2a0e8778d92aa46b7c))
+
+
+
+
+
 # [2.81.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.80.0...v2.81.0) (2025-03-07)
 
 
