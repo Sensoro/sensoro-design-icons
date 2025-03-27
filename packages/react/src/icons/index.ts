@@ -451,6 +451,7 @@ export { default as HeatmapOutlined } from './HeatmapOutlined';
 export { default as HeavyFogOutlined } from './HeavyFogOutlined';
 export { default as HelmetFilled } from './HelmetFilled';
 export { default as HelmetOutlined } from './HelmetOutlined';
+export { default as HexagonOutlined } from './HexagonOutlined';
 export { default as HiddenDangerFilled } from './HiddenDangerFilled';
 export { default as HighAltitudeCruiseOutlined } from './HighAltitudeCruiseOutlined';
 export { default as HighSpeedBayonetFilled } from './HighSpeedBayonetFilled';
