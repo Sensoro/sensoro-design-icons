@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.83.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.82.0...v2.83.0) (2025-03-27)
+
+
+### Features
+
+* add HexagonOutlined ([af8dd13](https://github.com/sensoro-design/sensoro-design-icons/commit/af8dd1355d3c991c62d5ecedd88130fdda8636c5))
+
+
+
+
+
 # [2.82.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.81.0...v2.82.0) (2025-03-14)
 
 
