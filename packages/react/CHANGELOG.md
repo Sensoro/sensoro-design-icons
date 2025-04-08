@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.84.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.83.0...v2.84.0) (2025-04-08)
+
+
+### Features
+
+* add RetrieveNonMotorVehicleFilled、RetrieveSmileFilled ([528d728](https://github.com/sensoro-design/sensoro-design-icons/commit/528d728cf5e9e4de62cd0ffebf45d809087be54b))
+
+
+
+
+
 # [2.83.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.82.0...v2.83.0) (2025-03-27)
 
 
