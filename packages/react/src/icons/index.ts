@@ -792,6 +792,7 @@ export { default as RoadNetworkFilled } from './RoadNetworkFilled';
 export { default as RoadOutlined } from './RoadOutlined';
 export { default as RobotOutlined } from './RobotOutlined';
 export { default as RocketOutlined } from './RocketOutlined';
+export { default as RollbackOutlined } from './RollbackOutlined';
 export { default as RoomFilled } from './RoomFilled';
 export { default as RoomOutlined } from './RoomOutlined';
 export { default as RotateLeftOutlined } from './RotateLeftOutlined';
