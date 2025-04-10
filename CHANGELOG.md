@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.85.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.84.0...v2.85.0) (2025-04-10)
+
+
+### Features
+
+* add RollbackOutlined ([bafbe8c](https://github.com/sensoro-design/sensoro-design-icons/commit/bafbe8c7ab0cd5426ca7762f46dcfa92356e989c))
+
+
+
+
+
 # [2.84.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.83.0...v2.84.0) (2025-04-08)
 
 
