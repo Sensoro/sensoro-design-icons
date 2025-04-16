@@ -820,6 +820,7 @@ export { default as SatelliteFilled } from './SatelliteFilled';
 export { default as SatelliteOutlined } from './SatelliteOutlined';
 export { default as SaveOutlined } from './SaveOutlined';
 export { default as ScanCodeOutlined } from './ScanCodeOutlined';
+export { default as ScatterPlotOutlined } from './ScatterPlotOutlined';
 export { default as ScenicAreaFilled } from './ScenicAreaFilled';
 export { default as ScenicAreaOutlined } from './ScenicAreaOutlined';
 export { default as ScheduleOutlined } from './ScheduleOutlined';
