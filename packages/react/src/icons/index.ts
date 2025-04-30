@@ -24,6 +24,7 @@ export { default as AlgorithmSupermarketPurely } from './AlgorithmSupermarketPur
 export { default as AlignCenterOutlined } from './AlignCenterOutlined';
 export { default as AlignLeftOutlined } from './AlignLeftOutlined';
 export { default as AlignRightOutlined } from './AlignRightOutlined';
+export { default as AmapFilled } from './AmapFilled';
 export { default as AndroidFilled } from './AndroidFilled';
 export { default as AndroidOutlined } from './AndroidOutlined';
 export { default as AnimalHospitalFilled } from './AnimalHospitalFilled';
@@ -882,6 +883,8 @@ export { default as SmileOutlined } from './SmileOutlined';
 export { default as SmokeFilled } from './SmokeFilled';
 export { default as SmokeOutlined } from './SmokeOutlined';
 export { default as SmokePurely } from './SmokePurely';
+export { default as SocialNetworkFilled } from './SocialNetworkFilled';
+export { default as SocialNetworkOutlined } from './SocialNetworkOutlined';
 export { default as SortOutlined } from './SortOutlined';
 export { default as SoundOutlined } from './SoundOutlined';
 export { default as SoundSmallOutlined } from './SoundSmallOutlined';
