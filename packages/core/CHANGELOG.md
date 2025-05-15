@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.88.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.87.0...v2.88.0) (2025-05-15)
+
+
+### Features
+
+* repalce SwapLeftOutlined、SwapRightOutlined ([5c1fb88](https://github.com/sensoro-design/sensoro-design-icons/commit/5c1fb889ca4ca4870ac8bf52057ab5e8e6ec5c0f))
+
+
+
+
+
 # [2.87.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.86.0...v2.87.0) (2025-04-30)
 
 

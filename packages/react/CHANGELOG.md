@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.88.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.87.0...v2.88.0) (2025-05-15)
+
+**Note:** Version bump only for package @sensoro-design/icons
+
+
+
+
+
 # [2.87.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.86.0...v2.87.0) (2025-04-30)
 
 
