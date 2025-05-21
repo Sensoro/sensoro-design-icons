@@ -8,6 +8,7 @@ export { default as AccountBookOutlined } from './AccountBookOutlined';
 export { default as AccountBookTwoTone } from './AccountBookTwoTone';
 export { default as AccountOutlined } from './AccountOutlined';
 export { default as AddressOutlined } from './AddressOutlined';
+export { default as AiOutlined } from './AiOutlined';
 export { default as AimFilled } from './AimFilled';
 export { default as AimOutlined } from './AimOutlined';
 export { default as AirPressureOutlined } from './AirPressureOutlined';
