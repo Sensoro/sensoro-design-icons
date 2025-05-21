@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.89.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.88.0...v2.89.0) (2025-05-21)
+
+
+### Features
+
+* add AiOutlined ([0c53329](https://github.com/sensoro-design/sensoro-design-icons/commit/0c5332964bfd3b3eddd116f21fb585455a3b4b9d))
+
+
+
+
+
 # [2.88.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.87.0...v2.88.0) (2025-05-15)
 
 **Note:** Version bump only for package @sensoro-design/icons
