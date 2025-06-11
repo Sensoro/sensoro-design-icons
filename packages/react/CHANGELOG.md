@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.90.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.89.0...v2.90.0) (2025-06-11)
+
+
+### Features
+
+* add RangeHoodOutlined ([629be13](https://github.com/sensoro-design/sensoro-design-icons/commit/629be13aea261084dc99758d05b33a2b506bc4db))
+
+
+
+
+
 # [2.89.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.88.0...v2.89.0) (2025-05-21)
 
 
