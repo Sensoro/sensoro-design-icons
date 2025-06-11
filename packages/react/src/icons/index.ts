@@ -753,6 +753,7 @@ export { default as RadioReceiverOutlined } from './RadioReceiverOutlined';
 export { default as RailwayStationFilled } from './RailwayStationFilled';
 export { default as RainfallOutlined } from './RainfallOutlined';
 export { default as RainstormOutlined } from './RainstormOutlined';
+export { default as RangeHoodOutlined } from './RangeHoodOutlined';
 export { default as ReasoningFilled } from './ReasoningFilled';
 export { default as ReasoningOutlined } from './ReasoningOutlined';
 export { default as RecreationFilled } from './RecreationFilled';
