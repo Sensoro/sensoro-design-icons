@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.92.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.91.0...v2.92.0) (2025-06-26)
+
+
+### Features
+
+* add SquareFilled ([8044888](https://github.com/sensoro-design/sensoro-design-icons/commit/804488886c0197ae2a03fc9822e1e368bdc1d345))
+
+
+
+
+
 # [2.91.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.90.0...v2.91.0) (2025-06-26)
 
 
