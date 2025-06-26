@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.91.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.90.0...v2.91.0) (2025-06-26)
+
+
+### Features
+
+* add ApiOutlined ([0856f90](https://github.com/sensoro-design/sensoro-design-icons/commit/0856f90cfb084e3835cd4b7ad1ffcec6a2ea9026))
+
+
+
+
+
 # [2.90.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.89.0...v2.90.0) (2025-06-11)
 
 
