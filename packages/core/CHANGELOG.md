@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.93.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.92.0...v2.93.0) (2025-06-28)
+
+
+### Features
+
+* add HangUpFilled、HangUpOutlined、MaximizeOutlined、MinimizeOutlined ([028ad6e](https://github.com/sensoro-design/sensoro-design-icons/commit/028ad6e6cf735ddb293660895d8c7de880c73564))
+
+
+
+
+
 # [2.92.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.91.0...v2.92.0) (2025-06-26)
 
 
