@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.94.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.93.0...v2.94.0) (2025-07-16)
+
+
+### Features
+
+* add CallBackOutlined ([f95ebff](https://github.com/sensoro-design/sensoro-design-icons/commit/f95ebff978f28e9bf2a2c91712d83518d4464cd8))
+
+
+
+
+
 # [2.93.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.92.0...v2.93.0) (2025-06-28)
 
 
