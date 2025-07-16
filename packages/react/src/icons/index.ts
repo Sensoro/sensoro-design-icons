@@ -123,6 +123,7 @@ export { default as CalendarCheckFilled } from './CalendarCheckFilled';
 export { default as CalendarCheckOutlined } from './CalendarCheckOutlined';
 export { default as CalendarClockOutlined } from './CalendarClockOutlined';
 export { default as CalendarOutlined } from './CalendarOutlined';
+export { default as CallBackOutlined } from './CallBackOutlined';
 export { default as CallVideoFilled } from './CallVideoFilled';
 export { default as CallVideoOutlined } from './CallVideoOutlined';
 export { default as CameraFilled } from './CameraFilled';
