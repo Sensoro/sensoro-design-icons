@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.95.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.94.0...v2.95.0) (2025-08-04)
+
+
+### Features
+
+* add AiSearchOutlined、SankeyOutlined ([5bdaa67](https://github.com/sensoro-design/sensoro-design-icons/commit/5bdaa6747ed989ac3c63263ff106ec7d90ba0a1a))
+
+
+
+
+
 # [2.94.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.93.0...v2.94.0) (2025-07-16)
 
 
