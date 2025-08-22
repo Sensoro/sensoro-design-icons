@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.96.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.95.0...v2.96.0) (2025-08-22)
+
+
+### Features
+
+* add AiConfigOutlined、DislikeOutlined; repalce LikeOutlined ([be99893](https://github.com/sensoro-design/sensoro-design-icons/commit/be99893fa33e2b2c380e37bed8f73eb0208decaa))
+
+
+
+
+
 # [2.95.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.94.0...v2.95.0) (2025-08-04)
 
 
