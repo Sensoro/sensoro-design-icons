@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.97.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.96.0...v2.97.0) (2025-09-23)
+
+
+### Features
+
+* add LayoutDownOutlined、LayoutRightOutlined ([9d76bff](https://github.com/sensoro-design/sensoro-design-icons/commit/9d76bff0f3f4589866506ea1dfb482b99f6c9d9f))
+
+
+
+
+
 # [2.96.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.95.0...v2.96.0) (2025-08-22)
 
 
