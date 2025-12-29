@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.98.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.97.0...v2.98.0) (2025-12-29)
+
+
+### Features
+
+* add DispatchingOutlined ([e3dc0c3](https://github.com/sensoro-design/sensoro-design-icons/commit/e3dc0c34e766b07a360dbaf17e773493989fc794))
+
+
+
+
+
 # [2.97.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.96.0...v2.97.0) (2025-09-23)
 
 
