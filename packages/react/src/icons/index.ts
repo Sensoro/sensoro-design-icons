@@ -226,6 +226,7 @@ export { default as DigitalMediaFilled } from './DigitalMediaFilled';
 export { default as DigitalMediaOutlined } from './DigitalMediaOutlined';
 export { default as DirectedFlightOutlined } from './DirectedFlightOutlined';
 export { default as DislikeOutlined } from './DislikeOutlined';
+export { default as DispatchingOutlined } from './DispatchingOutlined';
 export { default as DistanceOutlined } from './DistanceOutlined';
 export { default as DockFilled } from './DockFilled';
 export { default as DockOutlined } from './DockOutlined';
