@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.99.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.98.0...v2.99.0) (2026-02-03)
+
+
+### Features
+
+* 增加无人机相关icon ([e9eb591](https://github.com/sensoro-design/sensoro-design-icons/commit/e9eb5912f7d42799704c58438b2f05c41b4a89da))
+
+
+
+
+
 # [2.98.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.97.0...v2.98.0) (2025-12-29)
 
 
