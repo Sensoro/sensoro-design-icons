@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.100.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.99.0...v2.100.0) (2026-02-04)
+
+
+### Features
+
+* 增加温度相关icon ([21d338b](https://github.com/sensoro-design/sensoro-design-icons/commit/21d338b9abcb05befb8096ba80045fd749b4f6ab))
+* 增加温度相关icon ([a04ec78](https://github.com/sensoro-design/sensoro-design-icons/commit/a04ec78f72d4328c5f4426f2cbcb31d930451bf0))
+
+
+
+
+
 # [2.99.0](https://github.com/sensoro-design/sensoro-design-icons/compare/v2.98.0...v2.99.0) (2026-02-03)
 
 
