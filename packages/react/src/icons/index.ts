@@ -596,6 +596,7 @@ export { default as ManualAlarmCircleOutlined } from './ManualAlarmCircleOutline
 export { default as ManualOutlined } from './ManualOutlined';
 export { default as Map2DOutlined } from './Map2DOutlined';
 export { default as Map3DOutlined } from './Map3DOutlined';
+export { default as MaxTemperatureOutlined } from './MaxTemperatureOutlined';
 export { default as MaximizeOutlined } from './MaximizeOutlined';
 export { default as MeansAccessOutlined } from './MeansAccessOutlined';
 export { default as MedalsFilled } from './MedalsFilled';
@@ -615,6 +616,7 @@ export { default as MeshLayoutOutlined } from './MeshLayoutOutlined';
 export { default as MessageFilled } from './MessageFilled';
 export { default as MessageOutlined } from './MessageOutlined';
 export { default as MigrateOutlined } from './MigrateOutlined';
+export { default as MinTemperatureOutlined } from './MinTemperatureOutlined';
 export { default as MiniatureFireStationAddOutlined } from './MiniatureFireStationAddOutlined';
 export { default as MiniatureFireStationFilled } from './MiniatureFireStationFilled';
 export { default as MiniatureFireStationOutlined } from './MiniatureFireStationOutlined';
