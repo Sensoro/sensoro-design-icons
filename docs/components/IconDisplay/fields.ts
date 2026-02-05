@@ -20,6 +20,13 @@ const direction = [
   'InfoCircle',
   'ExclamationCircle',
   'CheckCircle',
+  'DownCircle',
+  'UpCircle',
+  'PlusCircle',
+  'MinusCircle',
+  'LeftCircle',
+  'RightCircle',
+  'QuestionCircle',
   'CaretDown',
   'CaretLeft',
   'CaretRight',
@@ -120,6 +127,8 @@ const weather = [
   'IcyRoad',
   'O3',
   'Visibility',
+  'Cloud',
+  'PartlyCloudy',
 ];
 
 const regionalManagement = [
@@ -143,6 +152,8 @@ const audioVideo = [
   'Expand',
   'FullscreenPro',
   'FullscreenExitPro',
+  'Fullscreen',
+  'FullscreenExit',
   'ZoomIn',
   'ZoomOut',
   'Mute',
@@ -176,6 +187,8 @@ const audioVideo = [
   'FastForward',
   'Play',
   'Pause',
+  'StepBackward',
+  'StepForward',
 ];
 
 const gallery = [
@@ -402,6 +415,29 @@ const map = [
   'GeologicalDisaster',
   'Fireworks',
   'Application',
+  'SharpLeftTurn',
+  'SharpRightTurn',
+  'SlightlyTurnLeft',
+  'SlightlyTurnRight',
+  'StayLeft',
+  'StayRight',
+  'SwapLeft',
+  'SwapRight',
+  'TurnLeft',
+  'TurnRight',
+  'TurnAround',
+  'GoStraight',
+  'Zoo',
+  'Woodland',
+  'Wc',
+  'Village',
+  'ToiletPaper',
+  'TimingPoint',
+  'Theater',
+  'Temple',
+  'SupplyPoint',
+  'SubwayStation',
+  'RightTurn',
 ];
 
 const firefighting = [
@@ -516,6 +552,30 @@ const dataAssets = [
   'CarSpecial',
 ];
 
+// 无人机相关
+const drones = [
+  'TwoSplitScreen',
+  'Keyboard',
+  'LaserRangefinder',
+  'NightModeAuto',
+  'NightModeOff',
+  'NightModeOn',
+  'GimbalDirectionControl',
+  'MaxTemperature',
+  'MinTemperature',
+];
+
+// 灵犀线样式图例
+const lineLegend = [
+  'LegendArrow',
+  'LegendArrowBold',
+  'LegendArrowThick',
+  'LegendDashedArrowBold',
+  'LegendDashedArrowThick',
+  'LegendDashedArrow',
+  'LegendDashedLine',
+  'LegendLine',
+];
 const otherBusiness = [
   'Layout',
   'Focus',
@@ -608,6 +668,8 @@ const datum = [
   ...navigation,
   ...universal,
   ...dataAssets,
+  ...drones,
+  ...lineLegend,
   ...otherBusiness,
 ];
 
@@ -631,6 +693,8 @@ export const categories = {
   empty,
   universal,
   dataAssets,
+  drones,
+  lineLegend,
   otherBusiness,
   other,
 };

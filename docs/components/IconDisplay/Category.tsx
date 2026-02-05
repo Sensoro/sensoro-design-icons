@@ -29,8 +29,10 @@ const titleMap = {
   weather: '天气',
   empty: '空状态',
   firefighting: '消防类',
-  navigation: '导航',
+  navigation: '网站导航',
   dataAssets: '数据资产',
+  drones: '无人机',
+  lineLegend: '线形图例',
   otherBusiness: '其他业务',
 };
 
